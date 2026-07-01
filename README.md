@@ -21,6 +21,7 @@ No Figma file or slide deck was provided for this project.
 
 ## Index
 
+- `index.html` — browsable overview page linking every card/UI kit below (open this first when browsing the repo outside the design tool, e.g. on GitHub Pages)
 - `styles.css` — root stylesheet entry point (imports only)
 - `tokens/` — `colors.css`, `typography.css`, `spacing.css`, `fonts.css` (self-hosted Inter)
 - `assets/` — `logos/` (league + PWA icons), `teams/` (14 club crests), `fonts/` (Inter woff2, latin+cyrillic)
