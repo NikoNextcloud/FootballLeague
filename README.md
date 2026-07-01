@@ -21,7 +21,9 @@ No Figma file or slide deck was provided for this project.
 
 ## Index
 
-- `index.html` — browsable overview page linking every card/UI kit below (open this first when browsing the repo outside the design tool, e.g. on GitHub Pages)
+- `index.html` — redirects to the standalone app demo (works both on GitHub Pages and opened locally via file://)
+- `ui_kits/a-grupa/index.standalone.html` — fully self-contained bundle of the app demo (all CSS/JS/fonts inlined) — open this directly by double-click if the linked/relative-path version doesn't render locally
+- `ui_kits/a-grupa/index.html` — source version of the app demo (relative paths — needs a real server or GitHub Pages, not a plain file:// double-click, to resolve `_ds_bundle.js` reliably in all browsers)
 - `styles.css` — root stylesheet entry point (imports only)
 - `tokens/` — `colors.css`, `typography.css`, `spacing.css`, `fonts.css` (self-hosted Inter)
 - `assets/` — `logos/` (league + PWA icons), `teams/` (14 club crests), `fonts/` (Inter woff2, latin+cyrillic)
