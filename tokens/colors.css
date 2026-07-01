@@ -1,0 +1,42 @@
+/* tokens/colors.css — А Група color system
+   Base values sourced verbatim from src/index.css :root in the attached codebase,
+   plus semantic aliases layered on top for clearer usage in new work. */
+
+:root {
+  /* ---- Base palette ---- */
+  --c-bg: #0b0f16;
+  --c-bg-elev: #131a24;
+  --c-card: rgba(255, 255, 255, 0.045);
+  --c-card-border: rgba(255, 255, 255, 0.08);
+  --c-card-border-hover: rgba(255, 255, 255, 0.18);
+  --c-text: #eef1f6;
+  --c-text-dim: #9aa6b8;
+  --c-accent: #22c55e;   /* green — primary brand accent, "live"/positive */
+  --c-accent-2: #3b82f6; /* blue — links, Europe zone */
+  --c-danger: #ef4444;   /* red — relegation zone, negative stats */
+  --c-gold: #f5b942;     /* gold — champion zone, scorer highlights */
+
+  /* Glow washes used behind the page background (radial gradients) */
+  --c-glow-blue: rgba(59, 130, 246, 0.18);
+  --c-glow-green: rgba(34, 197, 94, 0.14);
+
+  /* ---- Semantic aliases ---- */
+  --surface-page: var(--c-bg);
+  --surface-elevated: var(--c-bg-elev);
+  --surface-card: var(--c-card);
+  --surface-card-border: var(--c-card-border);
+
+  --text-primary: var(--c-text);
+  --text-secondary: var(--c-text-dim);
+  --text-on-accent: #04121a; /* dark text on top of the bright green accent */
+
+  --accent-primary: var(--c-accent);
+  --accent-link: var(--c-accent-2);
+  --status-danger: var(--c-danger);
+  --status-highlight: var(--c-gold);
+
+  /* Standings table zone indicators */
+  --zone-title: var(--c-gold);
+  --zone-europe: var(--c-accent-2);
+  --zone-relegation: var(--c-danger);
+}

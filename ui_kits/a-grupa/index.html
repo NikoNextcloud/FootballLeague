@@ -1,0 +1,75 @@
+<!-- @dsCard group="А Група App" viewport="960x760" name="Fan App" subtitle="Interactive click-through — Home, Standings, Matches, Teams, Scorers, Archive" -->
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8" />
+<title>А Група — UI Kit</title>
+<link rel="stylesheet" href="../../styles.css" />
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<script src="./mockData.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(1200px 600px at 10% -10%, var(--c-glow-blue), transparent 60%),
+      radial-gradient(900px 500px at 100% 0%, var(--c-glow-green), transparent 55%),
+      var(--surface-page);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  #root { height: 100%; }
+  .app-frame { max-width: 960px; height: 760px; margin: 0 auto; overflow-y: auto; position: relative; border-left: 1px solid var(--surface-card-border); border-right: 1px solid var(--surface-card-border); }
+  .content { max-width: 720px; margin: 0 auto; padding: 16px 16px 40px; }
+  .site-footer { text-align: center; padding: 20px; color: var(--text-secondary); font-size: 12px; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel" src="./Screens.jsx"></script>
+<script type="text/babel" src="./Screens2.jsx"></script>
+<script type="text/babel">
+const { Header, BottomNav } = window.DesignSystem_2890b2;
+const { Home, StandingsScreen, ScorersScreen } = window.UIKitScreens;
+const { MatchesScreen, TeamsScreen, TeamDetailScreen, ArchiveScreen } = window.UIKitScreens2;
+const data = window.MOCK;
+
+const ROUTES = { "": "/", "klasirane": "/klasirane", "machove": "/machove", "golmaistori": "/golmaistori", "otbori": "/otbori", "arhiv": "/arhiv" };
+
+function App() {
+  const [route, setRoute] = React.useState("");
+  const navigate = (r) => setRoute(r);
+
+  let activePath = "/";
+  let body;
+  if (route === "" ) { activePath = "/"; body = <Home data={data} navigate={navigate} />; }
+  else if (route === "klasirane") { activePath = "/klasirane"; body = <StandingsScreen data={data} />; }
+  else if (route === "machove") { activePath = "/machove"; body = <MatchesScreen data={data} />; }
+  else if (route === "golmaistori") { activePath = "/golmaistori"; body = <ScorersScreen data={data} />; }
+  else if (route === "otbori") { activePath = "/otbori"; body = <TeamsScreen data={data} navigate={navigate} />; }
+  else if (route.startsWith("otbori/")) { activePath = "/otbori"; body = <TeamDetailScreen data={data} teamId={route.split("/")[1]} navigate={navigate} />; }
+  else if (route === "arhiv") { activePath = "/arhiv"; body = <ArchiveScreen data={data} />; }
+
+  const onNavigate = (path) => {
+    const key = path === "/" ? "" : path.replace(/^\//, "");
+    navigate(key);
+  };
+
+  return (
+    <div className="app-frame">
+      <Header activePath={activePath} onNavigate={onNavigate} logoSrc="../../assets/logos/logo-square.png" />
+      <main className="content">{body}</main>
+      <BottomNav activePath={activePath} onNavigate={onNavigate} />
+      <footer className="site-footer">А Група — фен сайт с автоматично обновявани данни от TheSportsDB (демонстрационни данни в тази витрина)</footer>
+    </div>
+  );
+}
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>
