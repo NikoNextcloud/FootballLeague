@@ -319,12 +319,21 @@ function checkMatchNotifications() {
   const now = Date.now();
   state.data.events.filter(e => !played(e)).forEach(e => {
     const start = new Date(`${e.dateEvent}T${e.strTime || "00:00"}`).getTime();
-    if (start >= now - 60_000 && start <= now + 60_000 && !sent.has(e.idEvent)) {
-      new Notification(`${e.strHomeTeam} – ${e.strAwayTeam}`, { body:"Мачът започва сега.", icon:"assets/logos/icon-192.png" });
+    if (start >= now - 5 * 60_000 && start <= now + 60_000 && !sent.has(e.idEvent)) {
+      sendMatchNotification(`${e.strHomeTeam} – ${e.strAwayTeam}`, { body:"Мачът започва сега.", tag:`match-start-${e.idEvent}` });
       sent.add(e.idEvent);
     }
   });
   localStorage.setItem("a-grupa-notified", JSON.stringify([...sent]));
+}
+
+async function sendMatchNotification(title, options={}) {
+  const config={...options,icon:"assets/logos/desktop-192.png",badge:"assets/logos/favicon-32.png",data:{url:"./"}};
+  if ("serviceWorker" in navigator) {
+    const registration=await navigator.serviceWorker.ready;
+    return registration.showNotification(title,config);
+  }
+  return new Notification(title,config);
 }
 
 document.querySelectorAll(".nav-item").forEach(el => el.addEventListener("click", () => { state.page=el.dataset.page; scrollTo(0,0); render(); }));
@@ -332,9 +341,17 @@ $("#refresh").addEventListener("click", () => loadData(true));
 $("#notify")?.addEventListener("click", async () => {
   if (!("Notification" in window)) return alert("Този браузър не поддържа известия.");
   const permission = await Notification.requestPermission();
-  if (permission === "granted") new Notification("А Група", { body:"Известията за начало на мач са включени.", icon:"assets/logos/icon-192.png" });
+  if (permission === "granted") {
+    await sendMatchNotification("А Група", { body:"Известията за начало на мач са включени.",tag:"notifications-enabled" });
+    $("#notify").classList.add("enabled");
+    $("#notify").title="Известията са включени";
+  }
 });
 loadData();
+if ("Notification" in window && Notification.permission === "granted") {
+  $("#notify")?.classList.add("enabled");
+  $("#notify").title="Известията са включени";
+}
 setInterval(checkMatchNotifications, 60_000);
 setInterval(()=>{if(state.page==="europe") refreshEurope();},60_000);
 if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("service-worker.js");
