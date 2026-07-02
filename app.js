@@ -22,7 +22,18 @@ const officialUpcoming = [
 
 const clubStadiums={"Лудогорец":"Хювефарма Арена","Левски":"Георги Аспарухов","ЦСКА":"Васил Левски","Черно море":"Тича","Арда":"Арена Арда","Ботев Пловдив":"Христо Ботев","Локомотив Пловдив":"Локомотив","ЦСКА 1948":"Витоша","Славия":"Александър Шаламанов","Локомотив София":"Локомотив","Ботев Враца":"Христо Ботев","Спартак Варна":"Спартак","Септември София":"Драгалевци","Дунав Русе":"Градски стадион Русе"};
 
-const state = { page: "home", filter: "all", team: "all", season: SEASON, selectedTeam: null, data: null, loading: true };
+const europeFixtures=[
+  {id:"ucl-1",competition:"Шампионска лига",round:"I квалификационен кръг",dateEvent:"2026-07-08",strTime:"",home:"Левски",away:"Борац Баня Лука"},
+  {id:"ucl-2",competition:"Шампионска лига",round:"I квалификационен кръг · реванш",dateEvent:"2026-07-15",strTime:"",home:"Борац Баня Лука",away:"Левски"},
+  {id:"uel-1",competition:"Лига Европа",round:"I квалификационен кръг",dateEvent:"2026-07-09",strTime:"",home:"ЦСКА",away:"Дери Сити"},
+  {id:"uel-2",competition:"Лига Европа",round:"I квалификационен кръг · реванш",dateEvent:"2026-07-16",strTime:"",home:"Дери Сити",away:"ЦСКА"},
+  {id:"uecl-1",competition:"Лига на конференциите",round:"II квалификационен кръг",dateEvent:"2026-07-23",strTime:"",home:"Апоел Тел Авив",away:"Лудогорец"},
+  {id:"uecl-2",competition:"Лига на конференциите",round:"II квалификационен кръг · реванш",dateEvent:"2026-07-30",strTime:"",home:"Лудогорец",away:"Апоел Тел Авив"},
+  {id:"uecl-3",competition:"Лига на конференциите",round:"II квалификационен кръг",dateEvent:"2026-07-23",strTime:"",home:"Спартак Търнава",away:"ЦСКА 1948"},
+  {id:"uecl-4",competition:"Лига на конференциите",round:"II квалификационен кръг · реванш",dateEvent:"2026-07-30",strTime:"",home:"ЦСКА 1948",away:"Спартак Търнава"}
+];
+
+const state = { page: "home", filter: "all", team: "all", season: SEASON, selectedTeam: null, europeUpdated:null, data: null, loading: true };
 const $ = (s) => document.querySelector(s);
 const escapeHtml = (v = "") => String(v).replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
 const num = v => Number(v ?? 0);
@@ -155,14 +166,28 @@ function home() {
   const results = data.events.filter(played).slice(-4).reverse();
   const currentMatches = upcoming.length ? upcoming : results;
   const leader = data.table[0];
-  return `<section class="hero">
+  const liveDomestic = data.events.find(isDomesticMatchLive);
+  const hero = liveDomestic ? aiscoreLiveHero(liveDomestic) : `<section class="hero">
     <div class="hero-copy"><span class="eyebrow"><i></i> Сезон 2026/27</span><h1>Всичко важно от<br><em>българския елитен футбол</em></h1></div>
     <div class="hero-stat"><small>Лидер</small>${leader ? `${teamLogo(leader.strTeam,leader.strBadge)}<b>${escapeHtml(leader.strTeam)}</b><strong>${leader.intPoints} т.</strong>` : `<b>Очакваме данни</b>`}</div>
-  </section>
+  </section>`;
+  return `${hero}
   ${teamsMarquee(data.teams)}
   <section>${sectionTitle("НА ФОКУС", "Предстоящи мачове", `<button data-page="matches" class="text-btn">Всички →</button>`)}<div class="match-grid">${upcoming.length ? upcoming.map(matchCard).join("") : empty("Програмата за следващия сезон още не е публикувана в API.")}</div></section>
   <section class="split"><div>${sectionTitle("ПОДРЕЖДАНЕ", "Класиране", `<button data-page="standings" class="text-btn">Пълно →</button>`)}${standings(data.table)}</div>
   <div>${sectionTitle("ПОСЛЕДНО", "Резултати", `<button data-page="matches" class="text-btn">Още →</button>`)}<div class="results-list">${results.length ? results.map(matchCard).join("") : empty("Няма налични резултати.")}</div></div></section>`;
+}
+
+function isDomesticMatchLive(event) {
+  if (new URLSearchParams(location.search).has("live-preview")) return event===state.data.events.find(e=>!played(e));
+  if (!event?.dateEvent || !event?.strTime || played(event)) return false;
+  const start=new Date(`${event.dateEvent}T${event.strTime}`).getTime();
+  const now=Date.now();
+  return now>=start-5*60_000 && now<=start+165*60_000;
+}
+
+function aiscoreLiveHero(event) {
+  return `<section class="live-hero"><div class="live-hero-head"><div><span class="live-dot"></span><b>НА ЖИВО · efbet Лига</b><small>${escapeHtml(event.strHomeTeam)} – ${escapeHtml(event.strAwayTeam)}</small></div><a href="https://www.aiscore.com/tournament-bulgarian-first-league/w34kgmiolt1ko92" target="_blank" rel="noopener">Отвори в AiScore ↗</a></div><div id="aiscore-live"><iframe src="https://www.aiscore.com/tournament-bulgarian-first-league/w34kgmiolt1ko92?width=1200&theme=blue" title="Bulgarian First League резултати на живо" width="100%" height="620" loading="eager" scrolling="auto" frameborder="0" allow="fullscreen"></iframe></div></section>`;
 }
 
 function teamsMarquee(teams) {
@@ -184,6 +209,33 @@ function matches() {
 function teams() {
   return `<section class="page-intro"><span class="eyebrow">КЛУБОВЕТЕ</span><h1>Отбори</h1><p>${state.data.teams.length} отбора в българския футболен елит.</p></section>
   <div class="teams-grid">${state.data.teams.map(t => `<button class="team-card" data-team="${escapeHtml(t.idTeam)}">${teamLogo(t.strTeam,t.strBadge)}<div><b>${escapeHtml(t.strTeam)}</b><small>${escapeHtml(t.strStadium || "България")}</small><span>Виж профила →</span></div></button>`).join("")}</div>`;
+}
+
+function euroTeam(name) {
+  const club=fallbackTeams.find(t=>t.strTeam===name);
+  return club ? `${teamLogo(name,club.strBadge)}<b>${escapeHtml(name)}</b>` : `<span class="opponent-mark">${escapeHtml(name.split(/\s+/).map(x=>x[0]).slice(0,2).join(""))}</span><b>${escapeHtml(name)}</b>`;
+}
+
+function europeCard(e) {
+  const start=new Date(`${e.dateEvent}T${e.strTime}`).getTime(), now=Date.now();
+  const live=Boolean(e.strTime) && now>=start && now<=start+2.5*60*60*1000;
+  const finished=e.homeScore!==undefined && e.awayScore!==undefined;
+  const middle=finished ? `<strong class="score">${e.homeScore}<span>:</span>${e.awayScore}</strong>` : live ? `<strong class="live-pill">НА ЖИВО</strong>` : `<strong class="kickoff">${formatTime({strTime:e.strTime})}</strong>`;
+  const competitionClass=e.competition.includes("Шампионска")?"ucl":e.competition==="Лига Европа"?"uel":"uecl";
+  return `<article class="europe-card"><div class="euro-meta"><span class="competition ${competitionClass}">${e.competition}</span><span>${e.round}</span></div><time>${formatDate(e)}</time><div class="euro-teams"><div>${euroTeam(e.home)}</div>${middle}<div>${euroTeam(e.away)}</div></div>${live&&!finished?`<small class="waiting-live">Изчакваме резултат от безплатния източник…</small>`:""}</article>`;
+}
+
+function europe() {
+  const groups=["Шампионска лига","Лига Европа","Лига на конференциите"];
+  return `<section class="page-intro europe-intro"><span class="eyebrow">БЪЛГАРИЯ В ЕВРОПА</span><h1>Евротурнири</h1><p>Програма и резултати на Левски, ЦСКА, Лудогорец и ЦСКА 1948.</p><div class="live-status"><i></i> Автоматично опресняване на 60 секунди${state.europeUpdated?` · ${new Date(state.europeUpdated).toLocaleTimeString("bg-BG",{hour:"2-digit",minute:"2-digit"})}`:""}</div></section>${groups.map(g=>`<section class="euro-section">${sectionTitle("UEFA",g)}<div class="europe-grid">${europeFixtures.filter(e=>e.competition===g).map(europeCard).join("")}</div></section>`).join("")}`;
+}
+
+async function refreshEurope() {
+  try {
+    const checks=await Promise.all(europeFixtures.map(e=>getJson(`searchevents.php?e=${encodeURIComponent(`${e.home} vs ${e.away}`)}`).catch(()=>({event:null}))));
+    checks.forEach((result,i)=>{const found=result.event?.find(x=>x.dateEvent===europeFixtures[i].dateEvent)||result.event?.[0];if(!found)return;europeFixtures[i].dateEvent=found.dateEvent||europeFixtures[i].dateEvent;europeFixtures[i].strTime=found.strTime||europeFixtures[i].strTime;if(played(found)){europeFixtures[i].homeScore=found.intHomeScore;europeFixtures[i].awayScore=found.intAwayScore;}});
+    state.europeUpdated=new Date().toISOString(); if(state.page==="europe") render();
+  } catch {}
 }
 
 const clubDescriptions={
@@ -237,6 +289,7 @@ function content() {
   if (state.page === "matches") return matches();
   if (state.page === "teams") return teams();
   if (state.page === "team-detail") return teamProfile();
+  if (state.page === "europe") return europe();
   if (state.page === "scorers") return scorers();
   if (state.page === "archive") return archive();
   return home();
@@ -244,7 +297,7 @@ function content() {
 
 function render() {
   $("#app").innerHTML = content();
-  document.querySelectorAll("[data-page]").forEach(el => el.addEventListener("click", () => { state.page=el.dataset.page; scrollTo(0,0); render(); }));
+  document.querySelectorAll("[data-page]").forEach(el => el.addEventListener("click", () => { state.page=el.dataset.page; scrollTo(0,0); render(); if(state.page==="europe") refreshEurope(); }));
   document.querySelectorAll("[data-team]").forEach(el => el.addEventListener("click", () => { state.selectedTeam=el.dataset.team; state.page="team-detail"; scrollTo(0,0); render(); }));
   document.querySelectorAll("[data-filter]").forEach(el => el.addEventListener("click", () => { state.filter=el.dataset.filter; render(); }));
   $("#team-filter")?.addEventListener("change", e => { state.team=e.target.value; render(); });
@@ -283,4 +336,5 @@ $("#notify")?.addEventListener("click", async () => {
 });
 loadData();
 setInterval(checkMatchNotifications, 60_000);
+setInterval(()=>{if(state.page==="europe") refreshEurope();},60_000);
 if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("service-worker.js");
