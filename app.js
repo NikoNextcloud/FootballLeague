@@ -308,7 +308,7 @@ function render() {
     }
     render();
   }));
-  document.querySelectorAll(".nav-item").forEach(el => el.classList.toggle("active", el.dataset.page === state.page));
+  document.querySelectorAll(".nav-item[data-page]").forEach(el => el.classList.toggle("active", el.dataset.page === state.page));
   const status = $("#data-status");
   if (status && state.data) status.innerHTML = `<i class="${state.data.live ? "" : "offline"}"></i>${state.data.live ? "Данните са актуални" : "Показваме запазени данни"}`;
 }
@@ -336,7 +336,7 @@ async function sendMatchNotification(title, options={}) {
   return new Notification(title,config);
 }
 
-document.querySelectorAll(".nav-item").forEach(el => el.addEventListener("click", () => { state.page=el.dataset.page; scrollTo(0,0); render(); }));
+document.querySelectorAll(".nav-item[data-page]").forEach(el => el.addEventListener("click", () => { state.page=el.dataset.page; scrollTo(0,0); render(); }));
 $("#refresh").addEventListener("click", () => loadData(true));
 $("#notify")?.addEventListener("click", async () => {
   if (!("Notification" in window)) return alert("Този браузър не поддържа известия.");
