@@ -227,15 +227,24 @@ function europeCard(e) {
 
 function europe() {
   const groups=["Шампионска лига","Лига Европа","Лига на конференциите"];
-  return `<section class="page-intro europe-intro"><span class="eyebrow">БЪЛГАРИЯ В ЕВРОПА</span><h1>Евротурнири</h1><p>Програма и резултати на Левски, ЦСКА, Лудогорец и ЦСКА 1948.</p><div class="live-status"><i></i> Автоматично опресняване на 60 секунди${state.europeUpdated?` · ${new Date(state.europeUpdated).toLocaleTimeString("bg-BG",{hour:"2-digit",minute:"2-digit"})}`:""}</div></section>${groups.map(g=>`<section class="euro-section">${sectionTitle("UEFA",g)}<div class="europe-grid">${europeFixtures.filter(e=>e.competition===g).map(europeCard).join("")}</div></section>`).join("")}`;
+  return `<section class="page-intro europe-intro"><span class="eyebrow">БЪЛГАРИЯ В ЕВРОПА</span><h1>Евротурнири</h1><p>Мачове на българските отбори в Шампионска лига, Лига Европа и Лига на конференциите — с live панел от AiScore.</p><div class="live-status"><i></i> Live панелът се опреснява от AiScore${state.europeUpdated?` · отворено ${new Date(state.europeUpdated).toLocaleTimeString("bg-BG",{hour:"2-digit",minute:"2-digit"})}`:""}</div></section>
+  <section class="euro-live-panel">
+    <div class="live-hero-head">
+      <div><span class="live-dot"></span><b>НА ЖИВО · UEFA мачове</b><small>Шампионска лига, Лига Европа и Лига на конференциите</small></div>
+      <a href="https://www.aiscore.com/football" target="_blank" rel="noopener">Отвори AiScore ↗</a>
+    </div>
+    <iframe src="https://www.aiscore.com/football?width=1200&theme=blue" title="LiveScore Football UEFA мачове" width="100%" height="680" loading="eager" scrolling="auto" frameborder="0" allow="fullscreen"></iframe>
+  </section>
+  <section class="euro-shortcuts">
+    <a href="https://www.uefa.com/uefachampionsleague/fixtures-results/" target="_blank" rel="noopener"><span class="competition ucl">UCL</span><b>Шампионска лига</b><small>Програма и резултати ↗</small></a>
+    <a href="https://www.uefa.com/uefaeuropaleague/fixtures-results/" target="_blank" rel="noopener"><span class="competition uel">UEL</span><b>Лига Европа</b><small>Програма и резултати ↗</small></a>
+    <a href="https://www.uefa.com/uefaconferenceleague/fixtures-results/" target="_blank" rel="noopener"><span class="competition uecl">UECL</span><b>Лига на конференциите</b><small>Програма и резултати ↗</small></a>
+  </section>
+  ${groups.map(g=>`<section class="euro-section euro-fallback">${sectionTitle("Резервен списък",g)}<div class="europe-grid">${europeFixtures.filter(e=>e.competition===g).map(europeCard).join("")}</div></section>`).join("")}`;
 }
 
 async function refreshEurope() {
-  try {
-    const checks=await Promise.all(europeFixtures.map(e=>getJson(`searchevents.php?e=${encodeURIComponent(`${e.home} vs ${e.away}`)}`).catch(()=>({event:null}))));
-    checks.forEach((result,i)=>{const found=result.event?.find(x=>x.dateEvent===europeFixtures[i].dateEvent)||result.event?.[0];if(!found)return;europeFixtures[i].dateEvent=found.dateEvent||europeFixtures[i].dateEvent;europeFixtures[i].strTime=found.strTime||europeFixtures[i].strTime;if(played(found)){europeFixtures[i].homeScore=found.intHomeScore;europeFixtures[i].awayScore=found.intAwayScore;}});
-    state.europeUpdated=new Date().toISOString(); if(state.page==="europe") render();
-  } catch {}
+  state.europeUpdated=new Date().toISOString();
 }
 
 const clubDescriptions={
