@@ -232,14 +232,7 @@ function europeCard(e) {
 }
 
 function europe() {
-  return `<section class="page-intro europe-intro"><span class="eyebrow">БЪЛГАРИЯ В ЕВРОПА</span><h1>Евротурнири</h1><p>Мачове на българските отбори в Шампионска лига, Лига Европа и Лига на конференциите — с live панел от AiScore.</p><div class="live-status"><i></i> Live панелът се опреснява от AiScore${state.europeUpdated?` · отворено ${new Date(state.europeUpdated).toLocaleTimeString("bg-BG",{hour:"2-digit",minute:"2-digit"})}`:""}</div></section>
-  <section class="euro-live-panel">
-    <div class="live-hero-head">
-      <div><span class="live-dot"></span><b>НА ЖИВО · UEFA мачове</b><small>Шампионска лига, Лига Европа и Лига на конференциите</small></div>
-      <a href="https://www.aiscore.com/football" target="_blank" rel="noopener">Отвори AiScore ↗</a>
-    </div>
-    <iframe src="https://www.aiscore.com/football?width=1200&theme=blue" title="LiveScore Football UEFA мачове" width="100%" height="680" loading="eager" scrolling="auto" frameborder="0" allow="fullscreen"></iframe>
-  </section>
+  return `<section class="page-intro europe-intro"><span class="eyebrow">БЪЛГАРИЯ В ЕВРОПА</span><h1>Евротурнири</h1><p>Мачове и резултати на българските отбори в Шампионска лига, Лига Европа и Лига на конференциите.</p><div class="live-status"><i></i> Резултатите се проверяват автоматично${state.europeUpdated?` · ${new Date(state.europeUpdated).toLocaleTimeString("bg-BG",{hour:"2-digit",minute:"2-digit"})}`:""}</div></section>
   <section class="euro-shortcuts">
     <a href="https://www.uefa.com/uefachampionsleague/fixtures-results/" target="_blank" rel="noopener"><span class="competition ucl">UCL</span><b>Шампионска лига</b><small>Програма и резултати ↗</small></a>
     <a href="https://www.uefa.com/uefaeuropaleague/fixtures-results/" target="_blank" rel="noopener"><span class="competition uel">UEL</span><b>Лига Европа</b><small>Програма и резултати ↗</small></a>
