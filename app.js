@@ -2,6 +2,7 @@ const API = "https://www.thesportsdb.com/api/v1/json/123";
 const LEAGUE_ID = "4626";
 const SEASON = "2026-2027";
 const CACHE_KEY = "a-grupa-data-v7";
+const EUROPE_CACHE_KEY = "a-grupa-europe-v1";
 
 const fallbackTeams = [
   ["Ludogorets", "Лудогорец", "ludogorets.png"], ["Levski Sofia", "Левски", "levski.png"],
@@ -23,17 +24,17 @@ const officialUpcoming = [
 const clubStadiums={"Лудогорец":"Хювефарма Арена","Левски":"Георги Аспарухов","ЦСКА":"Васил Левски","Черно море":"Тича","Арда":"Арена Арда","Ботев Пловдив":"Христо Ботев","Локомотив Пловдив":"Локомотив","ЦСКА 1948":"Витоша","Славия":"Александър Шаламанов","Локомотив София":"Локомотив","Ботев Враца":"Христо Ботев","Спартак Варна":"Спартак","Септември София":"Драгалевци","Дунав Русе":"Градски стадион Русе"};
 
 const europeFixtures=[
-  {id:"ucl-1",competition:"Шампионска лига",round:"I квалификационен кръг",dateEvent:"2026-07-08",strTime:"",home:"Левски",away:"Борац Баня Лука"},
-  {id:"ucl-2",competition:"Шампионска лига",round:"I квалификационен кръг · реванш",dateEvent:"2026-07-15",strTime:"",home:"Борац Баня Лука",away:"Левски"},
-  {id:"uel-1",competition:"Лига Европа",round:"I квалификационен кръг",dateEvent:"2026-07-09",strTime:"",home:"ЦСКА",away:"Дери Сити"},
-  {id:"uel-2",competition:"Лига Европа",round:"I квалификационен кръг · реванш",dateEvent:"2026-07-16",strTime:"",home:"Дери Сити",away:"ЦСКА"},
-  {id:"uecl-1",competition:"Лига на конференциите",round:"II квалификационен кръг",dateEvent:"2026-07-23",strTime:"",home:"Апоел Тел Авив",away:"Лудогорец"},
-  {id:"uecl-2",competition:"Лига на конференциите",round:"II квалификационен кръг · реванш",dateEvent:"2026-07-30",strTime:"",home:"Лудогорец",away:"Апоел Тел Авив"},
-  {id:"uecl-3",competition:"Лига на конференциите",round:"II квалификационен кръг",dateEvent:"2026-07-23",strTime:"",home:"Спартак Търнава",away:"ЦСКА 1948"},
-  {id:"uecl-4",competition:"Лига на конференциите",round:"II квалификационен кръг · реванш",dateEvent:"2026-07-30",strTime:"",home:"ЦСКА 1948",away:"Спартак Търнава"}
+  {id:"ucl-1",competition:"Шампионска лига",round:"I квалификационен кръг",dateEvent:"2026-07-08",strTime:"",home:"Левски",away:"Борац Баня Лука",search:["Levski Sofia vs Borac Banja Luka","Levski vs Borac Banja Luka","PFC Levski Sofia vs FK Borac Banja Luka"]},
+  {id:"ucl-2",competition:"Шампионска лига",round:"I квалификационен кръг · реванш",dateEvent:"2026-07-15",strTime:"",home:"Борац Баня Лука",away:"Левски",search:["Borac Banja Luka vs Levski Sofia","Borac Banja Luka vs Levski","FK Borac Banja Luka vs PFC Levski Sofia"]},
+  {id:"uel-1",competition:"Лига Европа",round:"I квалификационен кръг",dateEvent:"2026-07-09",strTime:"",home:"ЦСКА",away:"Дери Сити",search:["CSKA Sofia vs Derry City","PFC CSKA Sofia vs Derry City","CSKA vs Derry City"]},
+  {id:"uel-2",competition:"Лига Европа",round:"I квалификационен кръг · реванш",dateEvent:"2026-07-16",strTime:"",home:"Дери Сити",away:"ЦСКА",search:["Derry City vs CSKA Sofia","Derry City vs PFC CSKA Sofia","Derry City vs CSKA"]},
+  {id:"uecl-1",competition:"Лига на конференциите",round:"II квалификационен кръг",dateEvent:"2026-07-23",strTime:"",home:"Апоел Тел Авив",away:"Лудогорец",search:["Hapoel Tel Aviv vs Ludogorets","Hapoel Tel Aviv vs Ludogorets Razgrad"]},
+  {id:"uecl-2",competition:"Лига на конференциите",round:"II квалификационен кръг · реванш",dateEvent:"2026-07-30",strTime:"",home:"Лудогорец",away:"Апоел Тел Авив",search:["Ludogorets vs Hapoel Tel Aviv","Ludogorets Razgrad vs Hapoel Tel Aviv"]},
+  {id:"uecl-3",competition:"Лига на конференциите",round:"II квалификационен кръг",dateEvent:"2026-07-23",strTime:"",home:"Спартак Търнава",away:"ЦСКА 1948",search:["Spartak Trnava vs CSKA 1948","FC Spartak Trnava vs CSKA 1948"]},
+  {id:"uecl-4",competition:"Лига на конференциите",round:"II квалификационен кръг · реванш",dateEvent:"2026-07-30",strTime:"",home:"ЦСКА 1948",away:"Спартак Търнава",search:["CSKA 1948 vs Spartak Trnava","CSKA 1948 Sofia vs FC Spartak Trnava"]}
 ];
 
-const state = { page: "home", filter: "all", team: "all", season: SEASON, selectedTeam: null, europeUpdated:null, data: null, loading: true };
+const state = { page: "home", filter: "all", team: "all", season: SEASON, selectedTeam: null, europeUpdated:null, europeFixtures:[...europeFixtures], data: null, loading: true };
 const $ = (s) => document.querySelector(s);
 const escapeHtml = (v = "") => String(v).replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
 const num = v => Number(v ?? 0);
@@ -216,6 +217,11 @@ function euroTeam(name) {
   return club ? `${teamLogo(name,club.strBadge)}<b>${escapeHtml(name)}</b>` : `<span class="opponent-mark">${escapeHtml(name.split(/\s+/).map(x=>x[0]).slice(0,2).join(""))}</span><b>${escapeHtml(name)}</b>`;
 }
 
+function europeFallbackHtml() {
+  const groups=["Шампионска лига","Лига Европа","Лига на конференциите"];
+  return groups.map(g=>`<section class="euro-section euro-fallback">${sectionTitle("Автоматични резултати",g)}<div class="europe-grid">${state.europeFixtures.filter(e=>e.competition===g).map(europeCard).join("")}</div></section>`).join("");
+}
+
 function europeCard(e) {
   const start=new Date(`${e.dateEvent}T${e.strTime}`).getTime(), now=Date.now();
   const live=Boolean(e.strTime) && now>=start && now<=start+2.5*60*60*1000;
@@ -226,7 +232,6 @@ function europeCard(e) {
 }
 
 function europe() {
-  const groups=["Шампионска лига","Лига Европа","Лига на конференциите"];
   return `<section class="page-intro europe-intro"><span class="eyebrow">БЪЛГАРИЯ В ЕВРОПА</span><h1>Евротурнири</h1><p>Мачове на българските отбори в Шампионска лига, Лига Европа и Лига на конференциите — с live панел от AiScore.</p><div class="live-status"><i></i> Live панелът се опреснява от AiScore${state.europeUpdated?` · отворено ${new Date(state.europeUpdated).toLocaleTimeString("bg-BG",{hour:"2-digit",minute:"2-digit"})}`:""}</div></section>
   <section class="euro-live-panel">
     <div class="live-hero-head">
@@ -240,11 +245,46 @@ function europe() {
     <a href="https://www.uefa.com/uefaeuropaleague/fixtures-results/" target="_blank" rel="noopener"><span class="competition uel">UEL</span><b>Лига Европа</b><small>Програма и резултати ↗</small></a>
     <a href="https://www.uefa.com/uefaconferenceleague/fixtures-results/" target="_blank" rel="noopener"><span class="competition uecl">UECL</span><b>Лига на конференциите</b><small>Програма и резултати ↗</small></a>
   </section>
-  ${groups.map(g=>`<section class="euro-section euro-fallback">${sectionTitle("Резервен списък",g)}<div class="europe-grid">${europeFixtures.filter(e=>e.competition===g).map(europeCard).join("")}</div></section>`).join("")}`;
+  <div id="europe-results">${europeFallbackHtml()}</div>`;
 }
 
 async function refreshEurope() {
+  const byId=new Map(state.europeFixtures.map(e=>[e.id,e]));
+  try {
+    const stored=JSON.parse(localStorage.getItem(EUROPE_CACHE_KEY)||"null");
+    if(stored?.fixtures) stored.fixtures.forEach(e=>byId.has(e.id)&&Object.assign(byId.get(e.id),e));
+  } catch {}
+  try {
+    const response=await fetch(`data/europe.json?ts=${Date.now()}`,{cache:"no-store"});
+    if(response.ok) {
+      const local=await response.json();
+      (local.fixtures||[]).forEach(e=>byId.has(e.id)&&Object.assign(byId.get(e.id),e));
+    }
+  } catch {}
+  await Promise.all(state.europeFixtures.map(async fixture=>{
+    if(fixture.homeScore!==undefined && fixture.awayScore!==undefined) return;
+    for(const q of fixture.search||[]) {
+      try {
+        const result=await getJson(`searchevents.php?e=${encodeURIComponent(q)}`);
+        const found=(result.event||[]).find(x=>x.dateEvent===fixture.dateEvent)||result.event?.[0];
+        if(!found) continue;
+        fixture.dateEvent=found.dateEvent||fixture.dateEvent;
+        fixture.strTime=found.strTime||fixture.strTime;
+        if(played(found)) {
+          fixture.homeScore=found.intHomeScore;
+          fixture.awayScore=found.intAwayScore;
+        }
+        break;
+      } catch {}
+    }
+  }));
+  state.europeFixtures=[...byId.values()];
   state.europeUpdated=new Date().toISOString();
+  localStorage.setItem(EUROPE_CACHE_KEY,JSON.stringify({updatedAt:state.europeUpdated,fixtures:state.europeFixtures}));
+  const box=document.querySelector("#europe-results");
+  if(box) box.innerHTML=europeFallbackHtml();
+  const status=document.querySelector(".europe-intro .live-status");
+  if(status) status.innerHTML=`<i></i> Резултатите са проверени автоматично · ${new Date(state.europeUpdated).toLocaleTimeString("bg-BG",{hour:"2-digit",minute:"2-digit"})}`;
 }
 
 const clubDescriptions={
