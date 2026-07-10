@@ -1,26 +1,28 @@
 {
-  "updatedAt": "2026-07-09T00:00:00.000Z",
-  "source": "TheSportsDB client refresh + manual fallback",
+  "updatedAt": "2026-07-10T00:00:00.000Z",
+  "source": "TheSportsDB verified fallback",
   "fixtures": [
     {
       "id": "ucl-1",
       "competition": "Шампионска лига",
       "round": "I квалификационен кръг",
-      "dateEvent": "2026-07-08",
+      "dateEvent": "2026-07-07",
       "strTime": "",
-      "home": "Левски",
-      "away": "Борац Баня Лука",
-      "search": ["Levski Sofia vs Borac Banja Luka", "Levski vs Borac Banja Luka", "PFC Levski Sofia vs FK Borac Banja Luka"]
+      "home": "Борац Баня Лука",
+      "away": "Левски",
+      "homeScore": "1",
+      "awayScore": "1",
+      "search": ["Borac Banja Luka vs Levski Sofia", "Borac Banja Luka vs Levski", "FK Borac Banja Luka vs PFC Levski Sofia"]
     },
     {
       "id": "ucl-2",
       "competition": "Шампионска лига",
       "round": "I квалификационен кръг · реванш",
-      "dateEvent": "2026-07-15",
+      "dateEvent": "2026-07-14",
       "strTime": "",
-      "home": "Борац Баня Лука",
-      "away": "Левски",
-      "search": ["Borac Banja Luka vs Levski Sofia", "Borac Banja Luka vs Levski", "FK Borac Banja Luka vs PFC Levski Sofia"]
+      "home": "Левски",
+      "away": "Борац Баня Лука",
+      "search": ["Levski Sofia vs Borac Banja Luka", "Levski vs Borac Banja Luka", "PFC Levski Sofia vs FK Borac Banja Luka"]
     },
     {
       "id": "uel-1",
@@ -30,6 +32,8 @@
       "strTime": "",
       "home": "ЦСКА",
       "away": "Дери Сити",
+      "homeScore": "3",
+      "awayScore": "2",
       "search": ["CSKA Sofia vs Derry City", "PFC CSKA Sofia vs Derry City", "CSKA vs Derry City"]
     },
     {
