@@ -2,7 +2,7 @@ const API = "https://www.thesportsdb.com/api/v1/json/123";
 const LEAGUE_ID = "4626";
 const SEASON = "2026-2027";
 const CACHE_KEY = "a-grupa-data-v7";
-const EUROPE_CACHE_KEY = "a-grupa-europe-v1";
+const EUROPE_CACHE_KEY = "a-grupa-europe-v2";
 
 const fallbackTeams = [
   ["Ludogorets", "Лудогорец", "ludogorets.png"], ["Levski Sofia", "Левски", "levski.png"],
@@ -246,24 +246,35 @@ function europe() {
 function pickEuropeEvent(events=[], fixture) {
   if (!events.length) return null;
   const target=new Date(`${fixture.dateEvent}T12:00:00`).getTime();
+  const fixtureIsFuture=new Date(`${fixture.dateEvent}T23:59:59`).getTime()>Date.now();
   const withDistance=events.map(event=>({...event,_distance:Math.abs(new Date(`${event.dateEvent}T12:00:00`).getTime()-target)}));
-  return withDistance.find(event=>event.dateEvent===fixture.dateEvent && played(event)) ||
-    withDistance.find(event=>event.dateEvent===fixture.dateEvent) ||
-    withDistance.filter(played).sort((a,b)=>a._distance-b._distance)[0] ||
+  const exact=withDistance.find(event=>event.dateEvent===fixture.dateEvent && played(event)) ||
+    withDistance.find(event=>event.dateEvent===fixture.dateEvent);
+  if (exact || fixtureIsFuture) return exact || null;
+  return withDistance.filter(played).sort((a,b)=>a._distance-b._distance)[0] ||
     withDistance.sort((a,b)=>a._distance-b._distance)[0];
+}
+
+function mergeEuropeFixture(target, incoming) {
+  Object.assign(target,incoming);
+  if (incoming.homeScore===undefined || incoming.awayScore===undefined || incoming.homeScore==="" || incoming.awayScore==="") {
+    delete target.homeScore;
+    delete target.awayScore;
+  }
+  return target;
 }
 
 async function refreshEurope() {
   const byId=new Map(state.europeFixtures.map(e=>[e.id,e]));
   try {
     const stored=JSON.parse(localStorage.getItem(EUROPE_CACHE_KEY)||"null");
-    if(stored?.fixtures) stored.fixtures.forEach(e=>byId.has(e.id)&&Object.assign(byId.get(e.id),e));
+    if(stored?.fixtures) stored.fixtures.forEach(e=>byId.has(e.id)&&mergeEuropeFixture(byId.get(e.id),e));
   } catch {}
   try {
     const response=await fetch(`data/europe.json?ts=${Date.now()}`,{cache:"no-store"});
     if(response.ok) {
       const local=await response.json();
-      (local.fixtures||[]).forEach(e=>byId.has(e.id)&&Object.assign(byId.get(e.id),e));
+      (local.fixtures||[]).forEach(e=>byId.has(e.id)&&mergeEuropeFixture(byId.get(e.id),e));
     }
   } catch {}
   await Promise.all(state.europeFixtures.map(async fixture=>{
