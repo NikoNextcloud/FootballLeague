@@ -1,7 +1,7 @@
 {
   "leagueId": "4626",
   "season": "2026-2027",
-  "updatedAt": "2026-07-18T06:21:59.208Z",
+  "updatedAt": "2026-07-19T06:44:28.482Z",
   "table": [
     {
       "idStanding": "9765596",
@@ -193,8 +193,8 @@
       "idHomeTeam": "133981",
       "idAwayTeam": "134092",
       "intRound": "1",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
       "strTimestamp": "2026-07-18T18:15:00",
       "dateEvent": "2026-07-18",
       "dateEventLocal": "2026-07-18",
@@ -209,7 +209,7 @@
       "strVideo": "",
       "strPostponed": "no",
       "strFilename": "Bulgarian First League 2026-07-18 Ludogorets Razgrad vs Lokomotiv Plovdiv",
-      "strStatus": "NS"
+      "strStatus": "FT"
     },
     {
       "idEvent": "2487274",
@@ -225,8 +225,8 @@
       "idHomeTeam": "140036",
       "idAwayTeam": "137916",
       "intRound": "1",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
       "strTimestamp": "2026-07-18T16:00:00",
       "dateEvent": "2026-07-18",
       "dateEventLocal": "2026-07-18",
@@ -241,7 +241,7 @@
       "strVideo": "",
       "strPostponed": "no",
       "strFilename": "Bulgarian First League 2026-07-18 Septemvri Sofia vs Arda Kardzhali",
-      "strStatus": "NS"
+      "strStatus": "FT"
     },
     {
       "idEvent": "2487275",
@@ -357,16 +357,16 @@
       "intAwayScore": null,
       "strTimestamp": "2026-07-24T18:15:00",
       "dateEvent": "2026-07-24",
-      "dateEventLocal": null,
+      "dateEventLocal": "2026-07-24",
       "strTime": "18:15:00",
-      "strTimeLocal": null,
+      "strTimeLocal": "21:15:00",
       "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/cd9dbr1753610663.png",
       "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/g3sbd81579033347.png",
       "strVenue": "Arena Arda",
       "strCountry": "Bulgaria",
       "strThumb": "https://r2.thesportsdb.com/images/media/event/thumb/hec1zc1758272166.jpg",
       "strPoster": "",
-      "strVideo": null,
+      "strVideo": "",
       "strPostponed": "no",
       "strFilename": "Bulgarian First League 2026-07-24 Arda Kardzhali vs Slavia Sofia",
       "strStatus": "NS"
