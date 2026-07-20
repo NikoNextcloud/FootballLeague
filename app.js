@@ -1,7 +1,7 @@
 const API = "https://www.thesportsdb.com/api/v1/json/123";
 const LEAGUE_ID = "4626";
 const SEASON = "2026-2027";
-const CACHE_KEY = "a-grupa-data-v7";
+const CACHE_KEY = "a-grupa-data-v8";
 const EUROPE_CACHE_KEY = "a-grupa-europe-v2";
 
 const fallbackTeams = [
@@ -112,12 +112,24 @@ async function loadData(force = false) {
     ]);
     const knownIds = new Set((events.events || []).map(e => e.idEvent));
     (nextEvents.events || []).forEach(e => { if (!knownIds.has(e.idEvent)) (events.events ||= []).push(e); });
-    events.events = (events.events || []).filter(e => !officialUpcoming.some(o => o.strHomeTeam===localName(e.strHomeTeam) && o.strAwayTeam===localName(e.strAwayTeam)));
-    events.events.push(...officialUpcoming);
+    // Реалните API мачове (с резултати) са с приоритет; хардкоднатите фикстури
+    // се добавят САМО ако същата двойка отбори липсва в API-то.
+    events.events ||= [];
+    const covered = new Set(events.events.map(e => `${localName(e.strHomeTeam)}|${localName(e.strAwayTeam)}`));
+    officialUpcoming.forEach(o => { if (!covered.has(`${o.strHomeTeam}|${o.strAwayTeam}`)) events.events.push(o); });
     state.data = normalize(table, events, teams);
     localStorage.setItem(CACHE_KEY, JSON.stringify(state.data));
   } catch (error) {
-    state.data = cached || { table: [], events: [], teams: fallbackTeams, updatedAt: new Date().toISOString(), live: false };
+    // API недостъпен → опитваме локалния файл от fetch-data.mjs, после кеша
+    let localData = null;
+    try {
+      const r = await fetch(`data/${SEASON}.json?ts=${Date.now()}`, { cache: "no-store" });
+      if (r.ok) {
+        const d = await r.json();
+        localData = normalize({ table: d.table }, { events: d.events }, { teams: d.teams });
+      }
+    } catch {}
+    state.data = localData || cached || { table: [], events: [], teams: fallbackTeams, updatedAt: new Date().toISOString(), live: false };
     state.data.live = false;
   }
   state.loading = false; render();
