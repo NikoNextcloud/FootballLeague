@@ -55,6 +55,24 @@ function parseTimeline(timeline = [], event = {}) {
   return { goals, cards };
 }
 
+// ---- Резервен разбор от текстовите полета на мача ----
+function parseDetailString(str) {
+  return String(str || "").split(";").map(s => s.trim()).filter(Boolean).map(s => {
+    const m = s.match(/(\d+)['’]?\s*[:.\-]?\s*(.*)$/);
+    return { minute: m ? m[1] : "", player: (m ? m[2] : s).trim() };
+  }).filter(x => x.player);
+}
+function parseEventDetails(ev = {}) {
+  const goals = [], cards = [];
+  parseDetailString(ev.strHomeGoalDetails).forEach(g => goals.push({ side: "H", player: g.player, minute: g.minute, penalty: /pen/i.test(g.player), own: /o\.?g|own/i.test(g.player) }));
+  parseDetailString(ev.strAwayGoalDetails).forEach(g => goals.push({ side: "A", player: g.player, minute: g.minute, penalty: /pen/i.test(g.player), own: /o\.?g|own/i.test(g.player) }));
+  parseDetailString(ev.strHomeRedCards).forEach(c => cards.push({ side: "H", player: c.player, minute: c.minute, red: true }));
+  parseDetailString(ev.strAwayRedCards).forEach(c => cards.push({ side: "A", player: c.player, minute: c.minute, red: true }));
+  parseDetailString(ev.strHomeYellowCards).forEach(c => cards.push({ side: "H", player: c.player, minute: c.minute, red: false }));
+  parseDetailString(ev.strAwayYellowCards).forEach(c => cards.push({ side: "A", player: c.player, minute: c.minute, red: false }));
+  return { goals, cards };
+}
+
 // ---- Основни данни на първенството ----
 const [tableResult, eventResult, teamResult, nextResult] = await Promise.all([
   tryGet(`lookuptable.php?l=${LEAGUE_ID}&s=${season}`),
@@ -75,7 +93,13 @@ if (withDetails) {
   console.log(`Fetching timelines for ${finished.length} finished matches…`);
   for (const event of finished) {
     const result = await tryGet(`lookuptimeline.php?id=${event.idEvent}`);
-    const { goals, cards } = parseTimeline(result?.timeline || [], event);
+    let { goals, cards } = parseTimeline(result?.timeline || [], event);
+    // Ако таймлайнът е празен, пробваме текстовите полета на мача.
+    if (!goals.length && !cards.length) {
+      const full = await tryGet(`lookupevent.php?id=${event.idEvent}`);
+      const ev = full?.events?.[0];
+      if (ev) ({ goals, cards } = parseEventDetails(ev));
+    }
     if (goals.length) event.goals = goals;
     if (cards.length) event.cards = cards;
     for (const goal of goals) {

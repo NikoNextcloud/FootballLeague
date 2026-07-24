@@ -183,16 +183,41 @@ function parseTimeline(timeline = [], event = {}) {
   return { goals, cards };
 }
 
-// Ленив зареждач – дърпа таймлайна при отваряне на мач, ако липсва във файла.
+// Резервен разбор от текстовите полета на мача (strHomeGoalDetails и т.н.).
+function parseDetailString(str) {
+  return String(str || "").split(";").map(s => s.trim()).filter(Boolean).map(s => {
+    const m = s.match(/(\d+)['’]?\s*[:.\-]?\s*(.*)$/);
+    return { minute: m ? m[1] : "", player: (m ? m[2] : s).trim() };
+  }).filter(x => x.player);
+}
+function parseEventDetails(ev = {}) {
+  const goals = [], cards = [];
+  parseDetailString(ev.strHomeGoalDetails).forEach(g => goals.push({ side: "H", player: g.player, minute: g.minute, penalty: /pen/i.test(g.player), own: /o\.?g|own/i.test(g.player) }));
+  parseDetailString(ev.strAwayGoalDetails).forEach(g => goals.push({ side: "A", player: g.player, minute: g.minute, penalty: /pen/i.test(g.player), own: /o\.?g|own/i.test(g.player) }));
+  parseDetailString(ev.strHomeRedCards).forEach(c => cards.push({ side: "H", player: c.player, minute: c.minute, red: true }));
+  parseDetailString(ev.strAwayRedCards).forEach(c => cards.push({ side: "A", player: c.player, minute: c.minute, red: true }));
+  parseDetailString(ev.strHomeYellowCards).forEach(c => cards.push({ side: "H", player: c.player, minute: c.minute, red: false }));
+  parseDetailString(ev.strAwayYellowCards).forEach(c => cards.push({ side: "A", player: c.player, minute: c.minute, red: false }));
+  return { goals, cards };
+}
+
+// Ленив зареждач – при отваряне на мач дърпа таймлайна, после (ако е празен)
+// пробва пълните данни на мача. Кешира резултата върху събитието.
 async function loadMatchDetail(idEvent) {
   const ev = state.data.events.find(x => x.idEvent === idEvent);
   if (!ev || ev._detailLoaded) return;
   ev._detailLoaded = true;
+  ev.goals = ev.goals || []; ev.cards = ev.cards || [];
   try {
     const res = await getJson(`lookuptimeline.php?id=${idEvent}`);
-    const { goals, cards } = parseTimeline(res.timeline || [], ev);
-    ev.goals = goals; ev.cards = cards;
-  } catch { ev.goals = ev.goals || []; ev.cards = ev.cards || []; }
+    const t = parseTimeline(res.timeline || [], ev);
+    if (t.goals.length || t.cards.length) { ev.goals = t.goals; ev.cards = t.cards; return; }
+  } catch {}
+  try {
+    const res = await getJson(`lookupevent.php?id=${idEvent}`);
+    const full = (res.events || [])[0];
+    if (full) { const d = parseEventDetails(full); ev.goals = d.goals; ev.cards = d.cards; }
+  } catch {}
 }
 
 function matchDetailHtml(e) {
@@ -382,9 +407,10 @@ function europeCard(e) {
   const startExact = new Date(`${e.dateEvent}T${e.strTime || "00:00:00"}`).getTime();
   const live = !finished && Boolean(e.strTime) && now >= startExact && now <= startExact + 2.5*60*60*1000;
   const future = kickoff >= now;
-  const waitingText = future ? (e.strTime ? formatTime({strTime:e.strTime}) : "Предстои") : "Очаква";
   const middle = finished ? `<strong class="score">${escapeHtml(e.homeScore)}<span>:</span>${escapeHtml(e.awayScore)}</strong>`
-    : live ? `<strong class="live-pill">НА ЖИВО</strong>` : `<strong class="kickoff">${waitingText}</strong>`;
+    : live ? `<strong class="live-pill">НА ЖИВО</strong>`
+    : future ? `<strong class="kickoff">${e.strTime ? formatTime({strTime:e.strTime}) : "Предстои"}</strong>`
+    : `<strong class="kickoff euro-na">—</strong>`;
   const meta = euroCompetitionMeta(e);
   return `<article class="europe-card"><div class="euro-meta"><span class="competition ${meta.cls}">${escapeHtml(meta.name)}</span><span>${escapeHtml(e.round || "")}</span></div><time>${formatDate(e)}</time><div class="euro-teams"><div>${euroTeam(e.home)}</div>${middle}<div>${euroTeam(e.away)}</div></div></article>`;
 }
@@ -433,7 +459,12 @@ async function fetchLiveEurope() {
     try { const r = await getJson(`eventsseason.php?id=${lid}&s=${SEASON}`); return (r.events || []).filter(isOurs); }
     catch { return []; }
   });
-  const lists = await Promise.all([...perTeam, ...perLeague]);
+  // Допълнителни безплатни league-wide endpoints (последни + предстоящи в турнира).
+  const perLeagueWide = Object.keys(EURO_LEAGUE_IDS).flatMap(lid => [
+    (async () => { try { const r = await getJson(`eventspastleague.php?id=${lid}`); return (r.events || []).filter(isOurs); } catch { return []; } })(),
+    (async () => { try { const r = await getJson(`eventsnextleague.php?id=${lid}`); return (r.events || []).filter(isOurs); } catch { return []; } })()
+  ]);
+  const lists = await Promise.all([...perTeam, ...perLeague, ...perLeagueWide]);
   const seen = new Set(), out = [];
   for (const evs of lists) for (const ev of evs) {
     if (!ev || ev.idLeague === LEAGUE_ID) continue;
@@ -458,6 +489,28 @@ function renderEuropeResults() {
   if (status) status.innerHTML = `<i></i> Резултатите се обновяват автоматично${state.europeUpdated ? ` · ${new Date(state.europeUpdated).toLocaleTimeString("bg-BG",{hour:"2-digit",minute:"2-digit"})}` : ""}`;
 }
 
+// Кой е българският отбор в двойката (за сливане на живо + файл без дубли).
+function ourTeamOf(fx) {
+  const h = localName(fx.home || ""), a = localName(fx.away || "");
+  if (fallbackTeams.some(t => t.strTeam === h)) return h;
+  if (fallbackTeams.some(t => t.strTeam === a)) return a;
+  return "";
+}
+function euroHasScore(fx) { return fx.homeScore !== undefined && fx.awayScore !== undefined && fx.homeScore !== "" && fx.awayScore !== ""; }
+function euroKey(fx) { return `${fx.dateEvent || ""}|${ourTeamOf(fx) || fx.home || fx.id}`; }
+function mergeEuroFixtures(...lists) {
+  const map = new Map();
+  for (const list of lists) for (const fx of list || []) {
+    const k = euroKey(fx), cur = map.get(k);
+    if (!cur) { map.set(k, { ...fx }); continue; }
+    const merged = { ...cur, ...fx };
+    // Никога не заменяме съществуващ резултат с празен.
+    if (euroHasScore(cur) && !euroHasScore(fx)) { merged.homeScore = cur.homeScore; merged.awayScore = cur.awayScore; }
+    map.set(k, merged);
+  }
+  return [...map.values()];
+}
+
 async function refreshEurope(force = false) {
   const now = Date.now();
   if (!force && state.europe.length && state.europeUpdated && now - new Date(state.europeUpdated).getTime() < 5*60_000) {
@@ -467,15 +520,16 @@ async function refreshEurope(force = false) {
   if (!state.europe.length) {
     try { const s = JSON.parse(localStorage.getItem(EUROPE_CACHE_KEY) || "null"); if (s?.fixtures?.length) { state.europe = s.fixtures; renderEuropeResults(); } } catch {}
   }
-  let list = await fetchLiveEurope();
-  if (!list.length) {
-    // Резервно: генерирания от fetch-data.mjs файл (при офлайн или лимит на API).
-    try { const r = await fetch(`data/europe.json?ts=${now}`, { cache:"no-store" }); if (r.ok) { const d = await r.json(); list = d.fixtures || []; } } catch {}
-  }
-  if (list.length) {
-    state.europe = list;
+  // Генерирания файл (от Action) + на живо (браузър) → сливаме, за да имаме
+  // и пълния списък, и пресните резултати. Резултат никога не се губи.
+  let fileList = [];
+  try { const r = await fetch(`data/europe.json?ts=${now}`, { cache: "no-store" }); if (r.ok) { const d = await r.json(); fileList = d.fixtures || []; } } catch {}
+  const liveList = await fetchLiveEurope();
+  const merged = mergeEuroFixtures(fileList, liveList);
+  if (merged.length) {
+    state.europe = merged;
     state.europeUpdated = new Date().toISOString();
-    localStorage.setItem(EUROPE_CACHE_KEY, JSON.stringify({ updatedAt: state.europeUpdated, fixtures: list }));
+    localStorage.setItem(EUROPE_CACHE_KEY, JSON.stringify({ updatedAt: state.europeUpdated, fixtures: merged }));
   }
   renderEuropeResults();
 }
@@ -504,13 +558,26 @@ function teamProfile() {
   </section>`;
 }
 
-// Вградено класиране на живо от Livescore.
+// Livescore забранява вграждане в чужд сайт, затова показваме пълна
+// таблица от нашите данни + бутон към официалния Livescore.
 const LIVESCORE_URL = "https://www.livescore.com/en/football/bulgaria/parva-liga/standings/";
+function fullStandings(rows) {
+  if (!rows.length) return empty("Класирането още не е налично.");
+  return `<div class="table-wrap"><table class="full-table"><thead><tr><th>#</th><th>Отбор</th>
+    <th title="Изиграни мачове">И</th><th title="Победи">П</th><th title="Равни">Р</th><th title="Загуби">З</th>
+    <th title="Вкарани голове">ВГ</th><th title="Допуснати голове">ДГ</th><th title="Голова разлика">ГР</th><th title="Точки">Т</th></tr></thead>
+    <tbody>${rows.map(r => `<tr>
+    <td><span class="rank rank-${r.intRank}">${r.intRank}</span></td>
+    <td><div class="table-team">${teamLogo(r.strTeam, r.strBadge)}<span>${escapeHtml(r.strTeam)}</span></div></td>
+    <td>${num(r.intPlayed)}</td><td>${num(r.intWin)}</td><td>${num(r.intDraw)}</td><td>${num(r.intLoss)}</td>
+    <td>${num(r.intGoalsFor)}</td><td>${num(r.intGoalsAgainst)}</td>
+    <td>${num(r.intGoalDifference) > 0 ? "+" : ""}${num(r.intGoalDifference)}</td><td><b>${num(r.intPoints)}</b></td></tr>`).join("")}</tbody></table></div>`;
+}
 function livescore() {
-  return `<section class="page-intro"><span class="eyebrow">LIVESCORE</span><h1>Класиране на живо</h1><p>Официалното класиране на Първа лига директно от Livescore.</p>
-  <a class="ls-open" href="${LIVESCORE_URL}" target="_blank" rel="noopener noreferrer">Отвори в Livescore ↗</a></section>
-  <div class="ls-frame"><iframe src="${LIVESCORE_URL}" title="Livescore — класиране на Първа лига" loading="lazy" referrerpolicy="no-referrer" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe></div>
-  <p class="data-note">Ако таблицата остане празна, Livescore не разрешава вграждане в чужд сайт — използвай бутона „Отвори в Livescore ↗", за да я видиш в нов раздел.</p>`;
+  return `<section class="page-intro"><span class="eyebrow">LIVESCORE</span><h1>Класиране на живо</h1><p>Пълната таблица на Първа лига, изчислена от изиграните мачове. За официалния източник виж Livescore.</p>
+  <a class="ls-open" href="${LIVESCORE_URL}" target="_blank" rel="noopener noreferrer">Виж в Livescore ↗</a></section>
+  ${fullStandings(state.data?.table || [])}
+  <p class="data-note">Livescore не разрешава директно вграждане в чужд сайт, затова показваме собствената таблица. Бутонът „Виж в Livescore ↗" отваря официалната страница.</p>`;
 }
 
 function archive() {
