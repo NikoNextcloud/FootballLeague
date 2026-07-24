@@ -7,7 +7,7 @@ on:
         required: true
         default: 2026-2027
       full_scorers:
-        description: Build scorers from every match timeline
+        description: Fetch goals, cards and scorers from every match timeline
         type: boolean
         default: true
   schedule:
@@ -22,9 +22,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Fetch standings, matches and scorers
+      - name: Fetch standings, matches, scorers and European fixtures
         env:
-          FULL_SCORERS: ${{ github.event_name == 'schedule' && '0' || (inputs.full_scorers && '1' || '0') }}
+          # По подразбиране дърпаме голове/картони (DETAILS) и евротурнирите (EUROPE).
+          # Ръчното пускане може да изключи детайлите чрез отметката full_scorers.
+          DETAILS: ${{ (github.event_name != 'workflow_dispatch' || inputs.full_scorers) && '1' || '0' }}
+          EUROPE: '1'
         run: node fetch-data.mjs "${{ inputs.season || '2026-2027' }}"
       - name: Commit refreshed data
         run: |
