@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-24T15:04:09.036323+00:00",
+  "updatedAt": "2026-07-24T16:54:32.565947+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "8f45f34723b53398e4a807a08bd668c325f2ab40b820dbb03f7bd53a0d2d2851"
+      "sha256": "b7bc202a14487d77cfbe357064ce964ef138f3096d71d7ad034f70db0beaac9c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "9bf4c00a0b9e6c231dcec93895ee24a6951bb7a82282a03e1aba077fb3542c5a"
+      "sha256": "5edfa26484219aa0f1c92013542ac38516edb62567103b00669cb01bd398efb3"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "10c798f87177f19e1ea4b67ac66bd0486c3404161bdb28b7ffca7c0429ee2f1c"
+      "sha256": "1bc20522ef13c56bee973ca83483d0b8d845fe5ff88f1640c534e2606ae53ccd"
     }
   },
   "table": [
@@ -529,8 +529,9 @@
       "strHomeTeam": "Банско тийм",
       "strAwayTeam": "Левски II (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -541,6 +542,20 @@
       "roundLabel": "Приятелски срещи: Лято-есен",
       "strHomeTeam": "Беласица",
       "strAwayTeam": "Беласица",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "1:0",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-aa9229c47656",
+      "dateEvent": "2026-07-24",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Гигант",
+      "strAwayTeam": "ЦСКА III (София)",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
