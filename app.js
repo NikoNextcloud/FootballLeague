@@ -110,11 +110,74 @@ function normalize(tableData, eventData, teamData) {
 
 // Генерираният от fetch-data.mjs файл (голове, картони, голмайстори).
 async function loadLocalFile() {
+  let seasonFile = null, bfFile = null;
   try {
     const r = await fetch(`data/${SEASON}.json?ts=${Date.now()}`, { cache: "no-store" });
-    if (r.ok) return await r.json();
+    if (r.ok) seasonFile = await r.json();
   } catch {}
-  return null;
+  try {
+    const r = await fetch(`data/bulgarian-football.json?ts=${Date.now()}`, { cache: "no-store" });
+    if (r.ok) bfFile = await r.json();
+  } catch {}
+  return mergeLocalSources(seasonFile, bfFile);
+}
+
+function mergeLocalSources(seasonFile, bfFile) {
+  if (!bfFile?.table?.length && !bfFile?.events?.length) return seasonFile;
+  const converted = convertBulgarianFootballFile(bfFile, seasonFile);
+  if (!seasonFile) return converted;
+  const seen = new Set(converted.events.map(eventKey));
+  const mergedEvents = [
+    ...converted.events,
+    ...(seasonFile.events || []).filter(e => !seen.has(eventKey(e)))
+  ].sort((a,b) => `${a.dateEvent}${a.strTime || ""}`.localeCompare(`${b.dateEvent}${b.strTime || ""}`));
+  return {
+    ...seasonFile,
+    ...converted,
+    events: mergedEvents,
+    teams: seasonFile.teams || converted.teams,
+    source: "bulgarian-football.com + local season file"
+  };
+}
+
+function eventKey(e = {}) {
+  return `${e.dateEvent || ""}|${localName(e.strHomeTeam || "")}|${localName(e.strAwayTeam || "")}`;
+}
+
+function convertBulgarianFootballFile(file, seasonFile = {}) {
+  const teams = seasonFile.teams || fallbackTeams;
+  const table = (file.table || []).map((row, index) => ({
+    ...row,
+    idTeam: teams.find(t => localName(t.strTeam) === localName(row.strTeam))?.idTeam || `bf-${index}`,
+    strTeam: localName(row.strTeam),
+    strBadge: localBadge(row.strTeam)
+  }));
+  const events = (file.events || []).map(e => ({
+    ...e,
+    idEvent: e.id || e.idEvent,
+    strHomeTeam: localName(e.strHomeTeam),
+    strAwayTeam: localName(e.strAwayTeam),
+    strHomeTeamBadge: localBadge(e.strHomeTeam),
+    strAwayTeamBadge: localBadge(e.strAwayTeam),
+    intRound: e.intRound || "",
+    intHomeScore: e.intHomeScore ?? null,
+    intAwayScore: e.intAwayScore ?? null
+  }));
+  const scorers = (file.scorers || []).map((s, i) => ({
+    id: `bf-scorer-${i}`,
+    player: s.player,
+    team: localName(s.team),
+    goals: num(s.goals)
+  }));
+  return {
+    table,
+    events,
+    teams,
+    scorers,
+    updatedAt: file.updatedAt,
+    live: true,
+    source: file.source || "bulgarian-football.com"
+  };
 }
 
 // Прикача подробности (голове/картони) и голмайстори от файла към живите данни.

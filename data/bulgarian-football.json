@@ -1,0 +1,746 @@
+{
+  "schemaVersion": 1,
+  "source": "bulgarian-football.com",
+  "updatedAt": "2026-07-24T08:52:17.369155+00:00",
+  "pages": {
+    "parva_liga": {
+      "url": "https://bulgarian-football.com/parva-liga.html",
+      "sha256": "7f1c784c33c12c2bf9d98de6f8a0cdfd96f137ebbb3899a6264dddfdf398d06c"
+    },
+    "europe": {
+      "url": "https://bulgarian-football.com/evroturniri.html",
+      "sha256": "540bf393d5295a113a9734770413ed8be8cbf40caab245cd7c60b67bf818572e"
+    },
+    "today": {
+      "url": "https://bulgarian-football.com/machovete-dnes.html",
+      "sha256": "8e44579f4fcab2453cf35e7d33f09304c7db3df5c63bd12425f20cc63568058c"
+    }
+  },
+  "table": [
+    {
+      "intRank": 1,
+      "strTeam": "Левски",
+      "intPlayed": 1,
+      "intWin": 1,
+      "intDraw": 0,
+      "intLoss": 0,
+      "intGoalsFor": 2,
+      "intGoalsAgainst": 1,
+      "intGoalDifference": 1,
+      "intPoints": 3
+    },
+    {
+      "intRank": 2,
+      "strTeam": "Лудогорец",
+      "intPlayed": 1,
+      "intWin": 1,
+      "intDraw": 0,
+      "intLoss": 0,
+      "intGoalsFor": 1,
+      "intGoalsAgainst": 0,
+      "intGoalDifference": 1,
+      "intPoints": 3
+    },
+    {
+      "intRank": 3,
+      "strTeam": "Спартак Варна",
+      "intPlayed": 1,
+      "intWin": 0,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 2,
+      "intGoalsAgainst": 2,
+      "intGoalDifference": 0,
+      "intPoints": 1
+    },
+    {
+      "intRank": 3,
+      "strTeam": "ЦСКА 1948",
+      "intPlayed": 1,
+      "intWin": 0,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 2,
+      "intGoalsAgainst": 2,
+      "intGoalDifference": 0,
+      "intPoints": 1
+    },
+    {
+      "intRank": 5,
+      "strTeam": "Арда",
+      "intPlayed": 1,
+      "intWin": 0,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 1,
+      "intGoalsAgainst": 1,
+      "intGoalDifference": 0,
+      "intPoints": 1
+    },
+    {
+      "intRank": 5,
+      "strTeam": "Ботев Враца",
+      "intPlayed": 1,
+      "intWin": 0,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 1,
+      "intGoalsAgainst": 1,
+      "intGoalDifference": 0,
+      "intPoints": 1
+    },
+    {
+      "intRank": 5,
+      "strTeam": "Ботев Пловдив",
+      "intPlayed": 1,
+      "intWin": 0,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 1,
+      "intGoalsAgainst": 1,
+      "intGoalDifference": 0,
+      "intPoints": 1
+    },
+    {
+      "intRank": 5,
+      "strTeam": "Локомотив София",
+      "intPlayed": 1,
+      "intWin": 0,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 1,
+      "intGoalsAgainst": 1,
+      "intGoalDifference": 0,
+      "intPoints": 1
+    },
+    {
+      "intRank": 5,
+      "strTeam": "Септември София",
+      "intPlayed": 1,
+      "intWin": 0,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 1,
+      "intGoalsAgainst": 1,
+      "intGoalDifference": 0,
+      "intPoints": 1
+    },
+    {
+      "intRank": 5,
+      "strTeam": "Черно море",
+      "intPlayed": 1,
+      "intWin": 0,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 1,
+      "intGoalsAgainst": 1,
+      "intGoalDifference": 0,
+      "intPoints": 1
+    },
+    {
+      "intRank": 11,
+      "strTeam": "Славия",
+      "intPlayed": 1,
+      "intWin": 0,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 0,
+      "intGoalsAgainst": 0,
+      "intGoalDifference": 0,
+      "intPoints": 1
+    },
+    {
+      "intRank": 11,
+      "strTeam": "ЦСКА",
+      "intPlayed": 1,
+      "intWin": 0,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 0,
+      "intGoalsAgainst": 0,
+      "intGoalDifference": 0,
+      "intPoints": 1
+    },
+    {
+      "intRank": 13,
+      "strTeam": "Дунав Русе",
+      "intPlayed": 1,
+      "intWin": 0,
+      "intDraw": 0,
+      "intLoss": 1,
+      "intGoalsFor": 1,
+      "intGoalsAgainst": 2,
+      "intGoalDifference": -1,
+      "intPoints": 0
+    },
+    {
+      "intRank": 14,
+      "strTeam": "Локомотив Пловдив",
+      "intPlayed": 1,
+      "intWin": 0,
+      "intDraw": 0,
+      "intLoss": 1,
+      "intGoalsFor": 0,
+      "intGoalsAgainst": 1,
+      "intGoalDifference": -1,
+      "intPoints": 0
+    }
+  ],
+  "events": [
+    {
+      "id": "bf-bf1794109ee0",
+      "dateEvent": "2026-07-17",
+      "strTime": "19:00:00",
+      "intRound": "1",
+      "roundLabel": "I кръг",
+      "strHomeTeam": "Спартак Варна",
+      "strAwayTeam": "ЦСКА 1948",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "2:0"
+    },
+    {
+      "id": "bf-6a674714317b",
+      "dateEvent": "2026-07-17",
+      "strTime": "21:15:00",
+      "intRound": "1",
+      "roundLabel": "I кръг",
+      "strHomeTeam": "Левски",
+      "strAwayTeam": "Дунав Русе",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:0"
+    },
+    {
+      "id": "bf-6056a687ed31",
+      "dateEvent": "2026-07-18",
+      "strTime": "19:00:00",
+      "intRound": "1",
+      "roundLabel": "I кръг",
+      "strHomeTeam": "Септември София",
+      "strAwayTeam": "Арда",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:1"
+    },
+    {
+      "id": "bf-aebae31e5a14",
+      "dateEvent": "2026-07-18",
+      "strTime": "21:15:00",
+      "intRound": "1",
+      "roundLabel": "I кръг",
+      "strHomeTeam": "Лудогорец",
+      "strAwayTeam": "Локомотив Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0"
+    },
+    {
+      "id": "bf-56648c8c772b",
+      "dateEvent": "2026-07-19",
+      "strTime": "19:30:00",
+      "intRound": "1",
+      "roundLabel": "I кръг",
+      "strHomeTeam": "Ботев Враца",
+      "strAwayTeam": "Черно море",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0"
+    },
+    {
+      "id": "bf-13418686fdac",
+      "dateEvent": "2026-07-20",
+      "strTime": "19:15:00",
+      "intRound": "1",
+      "roundLabel": "I кръг",
+      "strHomeTeam": "Славия",
+      "strAwayTeam": "ЦСКА",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": ""
+    },
+    {
+      "id": "bf-51dfbf008154",
+      "dateEvent": "2026-07-21",
+      "strTime": "21:30:00",
+      "intRound": "1",
+      "roundLabel": "I кръг",
+      "strHomeTeam": "Ботев Пловдив",
+      "strAwayTeam": "Локомотив София",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0"
+    },
+    {
+      "id": "bf-68aa1b7908a0",
+      "dateEvent": "2026-07-24",
+      "strTime": "21:15:00",
+      "intRound": "2",
+      "roundLabel": "II кръг",
+      "strHomeTeam": "Арда",
+      "strAwayTeam": "Славия",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-60b27f63d29c",
+      "dateEvent": "2026-07-25",
+      "strTime": "19:00:00",
+      "intRound": "2",
+      "roundLabel": "II кръг",
+      "strHomeTeam": "ЦСКА 1948",
+      "strAwayTeam": "Ботев Враца",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-86913bea66a6",
+      "dateEvent": "2026-07-25",
+      "strTime": "21:15:00",
+      "intRound": "2",
+      "roundLabel": "II кръг",
+      "strHomeTeam": "Локомотив София",
+      "strAwayTeam": "Левски",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-ae877b0d13d8",
+      "dateEvent": "2026-07-26",
+      "strTime": "19:00:00",
+      "intRound": "2",
+      "roundLabel": "II кръг",
+      "strHomeTeam": "Черно море",
+      "strAwayTeam": "Спартак Варна",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-90f77ed332dd",
+      "dateEvent": "2026-07-26",
+      "strTime": "21:15:00",
+      "intRound": "2",
+      "roundLabel": "II кръг",
+      "strHomeTeam": "Локомотив Пловдив",
+      "strAwayTeam": "Септември София",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-b93033e6d604",
+      "dateEvent": "2026-07-27",
+      "strTime": "19:00:00",
+      "intRound": "2",
+      "roundLabel": "II кръг",
+      "strHomeTeam": "Дунав Русе",
+      "strAwayTeam": "Лудогорец",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-f4e3c3b6069c",
+      "dateEvent": "2026-07-27",
+      "strTime": "21:15:00",
+      "intRound": "2",
+      "roundLabel": "II кръг",
+      "strHomeTeam": "ЦСКА",
+      "strAwayTeam": "Ботев Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-93e38a46d695",
+      "dateEvent": "2026-07-31",
+      "strTime": "19:00:00",
+      "intRound": "3",
+      "roundLabel": "III кръг",
+      "strHomeTeam": "Славия",
+      "strAwayTeam": "Локомотив София",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-53756d0bb083",
+      "dateEvent": "2026-07-31",
+      "strTime": "21:15:00",
+      "intRound": "3",
+      "roundLabel": "III кръг",
+      "strHomeTeam": "ЦСКА 1948",
+      "strAwayTeam": "Арда",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-e913ee50265d",
+      "dateEvent": "2026-08-01",
+      "strTime": "19:00:00",
+      "intRound": "3",
+      "roundLabel": "III кръг",
+      "strHomeTeam": "Левски",
+      "strAwayTeam": "Септември София",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-60f36737a486",
+      "dateEvent": "2026-08-01",
+      "strTime": "21:15:00",
+      "intRound": "3",
+      "roundLabel": "III кръг",
+      "strHomeTeam": "Ботев Пловдив",
+      "strAwayTeam": "Черно море",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-daf19788b702",
+      "dateEvent": "2026-08-02",
+      "strTime": "19:00:00",
+      "intRound": "3",
+      "roundLabel": "III кръг",
+      "strHomeTeam": "Лудогорец",
+      "strAwayTeam": "Ботев Враца",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-aa785d404c30",
+      "dateEvent": "2026-08-02",
+      "strTime": "21:15:00",
+      "intRound": "3",
+      "roundLabel": "III кръг",
+      "strHomeTeam": "ЦСКА",
+      "strAwayTeam": "Дунав Русе",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-ad59915f831a",
+      "dateEvent": "2026-08-03",
+      "strTime": "21:15:00",
+      "intRound": "3",
+      "roundLabel": "III кръг",
+      "strHomeTeam": "Спартак Варна",
+      "strAwayTeam": "Локомотив Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    }
+  ],
+  "scorers": [
+    {
+      "player": "Фредерик Масиел",
+      "team": "ЦСКА 1948",
+      "goals": 1
+    },
+    {
+      "player": "Мамаду Диало",
+      "team": "ЦСКА 1948",
+      "goals": 1
+    },
+    {
+      "player": "Джойс Читоку",
+      "team": "Спартак Варна",
+      "goals": 1
+    },
+    {
+      "player": "Георг Стояновски",
+      "team": "Спартак Варна",
+      "goals": 1
+    },
+    {
+      "player": "Денислав Минчев",
+      "team": "Дунав Русе",
+      "goals": 1
+    },
+    {
+      "player": "Акрам Бурас",
+      "team": "Левски",
+      "goals": 1
+    },
+    {
+      "player": "Кристиан Димитров",
+      "team": "Левски",
+      "goals": 1
+    },
+    {
+      "player": "Себастиан Уейд",
+      "team": "Септември София",
+      "goals": 1
+    },
+    {
+      "player": "Бирсент Карагарен",
+      "team": "Арда",
+      "goals": 1
+    },
+    {
+      "player": "Ивайло Чочев",
+      "team": "Лудогорец",
+      "goals": 1
+    },
+    {
+      "player": "Мартин Петков",
+      "team": "Ботев Враца",
+      "goals": 1
+    },
+    {
+      "player": "Васил Панайотов",
+      "team": "Черно море",
+      "goals": 1
+    },
+    {
+      "player": "Карлос Меоти",
+      "team": "Ботев Пловдив",
+      "goals": 1
+    },
+    {
+      "player": "Димитър Костадинов",
+      "team": "Локомотив София",
+      "goals": 1
+    }
+  ],
+  "today": [
+    {
+      "id": "bf-858468db9560",
+      "dateEvent": "2026-07-24",
+      "strTime": "17:30:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Банско тийм",
+      "strAwayTeam": "Левски II (София)",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-4e9bdbf857e0",
+      "dateEvent": "2026-07-24",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Беласица",
+      "strAwayTeam": "Беласица",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-53a1e091c63d",
+      "dateEvent": "2026-07-24",
+      "strTime": "18:45:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Берое",
+      "strAwayTeam": "Хебър 1918",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-71fd922639bf",
+      "dateEvent": "2026-07-24",
+      "strTime": "21:15:00",
+      "intRound": "",
+      "roundLabel": "« Мачовете днес (4 мача) »",
+      "strHomeTeam": "Арда",
+      "strAwayTeam": "Славия",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "« Мачовете днес (4 мача) »"
+    }
+  ],
+  "europe": {
+    "participants": [],
+    "events": [
+      {
+        "id": "bf-8f3e26570424",
+        "dateEvent": "2026-07-07",
+        "strTime": "21:30:00",
+        "intRound": "",
+        "roundLabel": "",
+        "strHomeTeam": "Борац",
+        "strAwayTeam": "Левски",
+        "source": "bulgarian-football.com",
+        "intHomeScore": "1",
+        "intAwayScore": "1",
+        "halftime": "1:0",
+        "competition": "Шампионска лига"
+      },
+      {
+        "id": "bf-6355e2121097",
+        "dateEvent": "2026-07-09",
+        "strTime": "21:00:00",
+        "intRound": "",
+        "roundLabel": "",
+        "strHomeTeam": "ЦСКА",
+        "strAwayTeam": "Дери Сити",
+        "source": "bulgarian-football.com",
+        "intHomeScore": "3",
+        "intAwayScore": "2",
+        "halftime": "2:1",
+        "competition": "Лига Европа"
+      },
+      {
+        "id": "bf-63d70536119f",
+        "dateEvent": "2026-07-14",
+        "strTime": "20:30:00",
+        "intRound": "",
+        "roundLabel": "",
+        "strHomeTeam": "Левски",
+        "strAwayTeam": "Борац",
+        "source": "bulgarian-football.com",
+        "intHomeScore": "4",
+        "intAwayScore": "0",
+        "halftime": "0:0",
+        "competition": "Евротурнири"
+      },
+      {
+        "id": "bf-23222f5d42fb",
+        "dateEvent": "2026-07-16",
+        "strTime": "20:30:00",
+        "intRound": "",
+        "roundLabel": "",
+        "strHomeTeam": "Дери Сити",
+        "strAwayTeam": "ЦСКА",
+        "source": "bulgarian-football.com",
+        "intHomeScore": "1",
+        "intAwayScore": "2",
+        "halftime": "0:0",
+        "competition": "Евротурнири"
+      },
+      {
+        "id": "bf-6e0b27bbe8e7",
+        "dateEvent": "2026-07-22",
+        "strTime": "20:30:00",
+        "intRound": "",
+        "roundLabel": "",
+        "strHomeTeam": "Левски",
+        "strAwayTeam": "Университатя",
+        "source": "bulgarian-football.com",
+        "intHomeScore": "1",
+        "intAwayScore": "0",
+        "halftime": "1:0",
+        "competition": "Евротурнири"
+      },
+      {
+        "id": "bf-d4bf9fde2ded",
+        "dateEvent": "2026-07-22",
+        "strTime": "21:30:00",
+        "intRound": "",
+        "roundLabel": "",
+        "strHomeTeam": "Спартак",
+        "strAwayTeam": "ЦСКА 1948",
+        "source": "bulgarian-football.com",
+        "intHomeScore": "0",
+        "intAwayScore": "0",
+        "halftime": "",
+        "competition": "Лига на конференциите"
+      },
+      {
+        "id": "bf-5a31542df4b0",
+        "dateEvent": "2026-07-23",
+        "strTime": "19:00:00",
+        "intRound": "",
+        "roundLabel": "",
+        "strHomeTeam": "Карабах",
+        "strAwayTeam": "ЦСКА",
+        "source": "bulgarian-football.com",
+        "intHomeScore": "0",
+        "intAwayScore": "0",
+        "halftime": "",
+        "competition": "Евротурнири"
+      },
+      {
+        "id": "bf-06f2ae5abfb3",
+        "dateEvent": "2026-07-23",
+        "strTime": "21:30:00",
+        "intRound": "",
+        "roundLabel": "",
+        "strHomeTeam": "Апоел",
+        "strAwayTeam": "Лудогорец",
+        "source": "bulgarian-football.com",
+        "intHomeScore": "2",
+        "intAwayScore": "0",
+        "halftime": "1:0",
+        "competition": "Евротурнири"
+      },
+      {
+        "id": "bf-bde09e774a00",
+        "dateEvent": "2026-07-28",
+        "strTime": "20:30:00",
+        "intRound": "",
+        "roundLabel": "",
+        "strHomeTeam": "ЦСКА 1948",
+        "strAwayTeam": "Спартак",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Евротурнири"
+      },
+      {
+        "id": "bf-ed537d77e93a",
+        "dateEvent": "2026-07-29",
+        "strTime": "20:30:00",
+        "intRound": "",
+        "roundLabel": "",
+        "strHomeTeam": "Университатя",
+        "strAwayTeam": "Левски",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Евротурнири"
+      },
+      {
+        "id": "bf-ebff3f03a4e7",
+        "dateEvent": "2026-07-30",
+        "strTime": "21:00:00",
+        "intRound": "",
+        "roundLabel": "",
+        "strHomeTeam": "Лудогорец",
+        "strAwayTeam": "Апоел",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Евротурнири"
+      },
+      {
+        "id": "bf-4503a9da1b09",
+        "dateEvent": "2026-07-30",
+        "strTime": "21:00:00",
+        "intRound": "",
+        "roundLabel": "",
+        "strHomeTeam": "ЦСКА",
+        "strAwayTeam": "Карабах",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Евротурнири"
+      }
+    ]
+  },
+  "warnings": []
+}
