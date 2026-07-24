@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-24T18:17:29.031018+00:00",
+  "updatedAt": "2026-07-24T19:51:27.935073+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "1a117bae7e6bbdacfafc64b582160b0d2f636c9a165c8d6717311fcf287de87f"
+      "sha256": "4d17de56df92e72a09c9b3c37cc7a3f5f8f86ea0d5281334a95c6c92c9f930c7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "93a3575ef7b0ca1429204b4d9acf8a7c975d9945ee72be917bd9ed9548f36172"
+      "sha256": "268a39ef5819955bf94d48df52f105c9d27657821371c60d0bcc81cfb4a0cf6d"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "ed42ac4928c7564855f31bcd3a07654d891c38e9dda25153ecd1b6e5a7db6a90"
+      "sha256": "fd532cc265b0dbbe9639002a6b28d0045069ed2dffc1e281654747d95f15f9bb"
     }
   },
   "table": [
@@ -560,6 +560,33 @@
       "intHomeScore": "2",
       "intAwayScore": "2",
       "halftime": "1:1",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-26de011c4704",
+      "dateEvent": "2026-07-24",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Черноломец 1919",
+      "strAwayTeam": "Етър ВТ II",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "5",
+      "intAwayScore": "1",
+      "halftime": "2:1",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-fcbf8e19a1ee",
+      "dateEvent": "2026-07-24",
+      "strTime": "18:30:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Етрополе",
+      "strAwayTeam": "Кафър Касим",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
