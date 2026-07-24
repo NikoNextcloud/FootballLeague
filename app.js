@@ -2,7 +2,9 @@ const API = "https://www.thesportsdb.com/api/v1/json/123";
 const LEAGUE_ID = "4626";
 const SEASON = "2026-2027";
 const CACHE_KEY = "a-grupa-data-v8";
-const EUROPE_CACHE_KEY = "a-grupa-europe-v3";
+const EUROPE_CACHE_KEY = "a-grupa-europe-api-football-v1";
+const API_FOOTBALL_BASE = `${location.origin}/api-football`;
+const API_FOOTBALL_SEASON = Number(SEASON.slice(0, 4));
 
 const fallbackTeams = [
   ["Ludogorets", "Лудогорец", "ludogorets.png"], ["Levski Sofia", "Левски", "levski.png"],
@@ -33,7 +35,7 @@ const EUROPE_LEAGUES = [
 const euroCompetition = strLeague => EUROPE_LEAGUES.find(c => c.test.test(strLeague || "")) || null;
 
 const state = { page: "home", filter: "all", team: "all", season: SEASON, selectedTeam: null, round: null,
-  europeUpdated:null, europe:[], openMatches:new Set(), loadingDetail:null, data: null, loading: true };
+  europeUpdated:null, europe:[], europeLoaded:false, openMatches:new Set(), loadingDetail:null, data: null, loading: true };
 const $ = (s) => document.querySelector(s);
 const escapeHtml = (v = "") => String(v).replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
 const num = v => Number(v ?? 0);
@@ -382,6 +384,13 @@ function euroTeam(name) {
     : `<span class="opponent-mark">${escapeHtml(name.split(/\s+/).map(x=>x[0]).slice(0,2).join(""))}</span><b>${escapeHtml(name)}</b>`;
 }
 
+function euroTeamWithLogo(name, logo = "") {
+  const local = localName(name);
+  const club = fallbackTeams.find(t => t.strTeam === local);
+  const src = club?.strBadge || logo;
+  return src ? `${teamLogo(local || name, src)}<b>${escapeHtml(local || name)}</b>` : euroTeam(name);
+}
+
 // Определя турнира (клас + име) от фикстура – работи и с новите (cls), и със стари данни.
 function euroCompetitionMeta(fixture) {
   if (fixture.cls) return { cls: fixture.cls, name: fixture.competition };
@@ -405,18 +414,18 @@ function europeCard(e) {
   const kickoff = new Date(`${e.dateEvent}T${e.strTime || "23:59:59"}`).getTime(), now = Date.now();
   const finished = e.homeScore !== undefined && e.awayScore !== undefined && e.homeScore !== "" && e.awayScore !== "";
   const startExact = new Date(`${e.dateEvent}T${e.strTime || "00:00:00"}`).getTime();
-  const live = !finished && Boolean(e.strTime) && now >= startExact && now <= startExact + 2.5*60*60*1000;
+  const live = ["1H", "HT", "2H", "ET", "BT", "P", "LIVE", "INT"].includes(e.status) || (!finished && Boolean(e.strTime) && now >= startExact && now <= startExact + 2.5*60*60*1000);
   const future = kickoff >= now;
   const middle = finished ? `<strong class="score">${escapeHtml(e.homeScore)}<span>:</span>${escapeHtml(e.awayScore)}</strong>`
-    : live ? `<strong class="live-pill">НА ЖИВО</strong>`
+    : live ? `<strong class="live-pill">НА ЖИВО${e.elapsed ? ` ${escapeHtml(e.elapsed)}′` : ""}</strong>`
     : future ? `<strong class="kickoff">${e.strTime ? formatTime({strTime:e.strTime}) : "Предстои"}</strong>`
     : `<strong class="kickoff euro-na">—</strong>`;
   const meta = euroCompetitionMeta(e);
-  return `<article class="europe-card"><div class="euro-meta"><span class="competition ${meta.cls}">${escapeHtml(meta.name)}</span><span>${escapeHtml(e.round || "")}</span></div><time>${formatDate(e)}</time><div class="euro-teams"><div>${euroTeam(e.home)}</div>${middle}<div>${euroTeam(e.away)}</div></div></article>`;
+  return `<article class="europe-card"><div class="euro-meta"><span class="competition ${meta.cls}">${escapeHtml(meta.name)}</span><span>${escapeHtml(e.round || "")}</span></div><time>${formatDate(e)}</time><div class="euro-teams"><div>${euroTeamWithLogo(e.home, e.homeLogo)}</div>${middle}<div>${euroTeamWithLogo(e.away, e.awayLogo)}</div></div></article>`;
 }
 
 function europeGroupsHtml() {
-  if (!state.europe.length) return `<div class="empty"><span>⚽</span><b>Зареждаме евротурнирите…</b><small>Издърпваме мачовете на българските отбори автоматично.</small></div>`;
+  if (!state.europe.length && !state.europeLoaded) return `<div class="empty"><span>⚽</span><b>Зареждаме евротурнирите…</b><small>Издърпваме мачовете на българските отбори автоматично.</small></div>`;
   const html = EUROPE_LEAGUES.map(g => {
     const list = state.europe.filter(e => euroCompetitionMeta(e).cls === g.cls)
       .sort((a,b) => `${a.dateEvent}${a.strTime||""}`.localeCompare(`${b.dateEvent}${b.strTime||""}`));
@@ -436,57 +445,83 @@ function europe() {
   <div id="europe-results">${europeGroupsHtml()}</div>`;
 }
 
-// Издърпва европейските мачове на българските отбори (предстоящи + изиграни).
-const EURO_LEAGUE_IDS = { "4480": { name:"Шампионска лига", cls:"ucl" }, "4481": { name:"Лига Европа", cls:"uel" }, "4482": { name:"Лига на конференциите", cls:"uecl" } };
-function euroCompetitionOf(ev) {
-  return euroCompetition(ev.strLeague) || EURO_LEAGUE_IDS[ev.idLeague] || null;
+// API-Football v3: европейските турнири са отделни лиги и така избягваме смесването от стария източник.
+const API_FOOTBALL_EURO_LEAGUES = {
+  2: { name:"Шампионска лига", cls:"ucl" },
+  3: { name:"Лига Европа", cls:"uel" },
+  848: { name:"Лига на конференциите", cls:"uecl" }
+};
+const EUROPE_TEAM_SEARCHES = ["Ludogorets", "Levski Sofia", "CSKA Sofia", "CSKA 1948", "Arda Kardzhali", "Cherno More Varna", "Botev Plovdiv"];
+const apiFootballHeaders = { Accept: "application/json" };
+
+async function apiFootballJson(path, params = {}) {
+  const url = new URL(`${API_FOOTBALL_BASE}/${path}`);
+  Object.entries(params).forEach(([key, value]) => {
+    if (value !== undefined && value !== null && value !== "") url.searchParams.set(key, value);
+  });
+  const response = await fetch(url, { headers: apiFootballHeaders, cache: "no-store" });
+  if (!response.ok) throw new Error(`API-Football ${response.status}`);
+  const data = await response.json();
+  const errors = data.errors && (Array.isArray(data.errors) ? data.errors : Object.values(data.errors));
+  if (errors?.length) throw new Error(`API-Football: ${errors.join(", ")}`);
+  return data.response || [];
 }
-async function fetchLiveEurope() {
-  const teams = (state.data?.teams || []).filter(t => /^\d+$/.test(String(t.idTeam)));
-  if (!teams.length) return [];
-  const ourIds = new Set(teams.map(t => String(t.idTeam)));
-  const ourNames = new Set(teams.map(t => (t.strTeam || "").toLowerCase()));
-  const isOurs = ev => ourIds.has(String(ev.idHomeTeam)) || ourIds.has(String(ev.idAwayTeam))
-    || ourNames.has((ev.strHomeTeam || "").toLowerCase()) || ourNames.has((ev.strAwayTeam || "").toLowerCase());
-  // Метод 1: по отбор (хваща квалификациите). Метод 2: по евролига (резервен).
-  const perTeam = teams.map(async t => {
-    try {
-      const [nx, ls] = await Promise.all([getJson(`eventsnext.php?id=${t.idTeam}`), getJson(`eventslast.php?id=${t.idTeam}`)]);
-      return [...(nx.events || []), ...(ls.results || ls.events || [])];
-    } catch { return []; }
-  });
-  const perLeague = Object.keys(EURO_LEAGUE_IDS).map(async lid => {
-    try { const r = await getJson(`eventsseason.php?id=${lid}&s=${SEASON}`); return (r.events || []).filter(isOurs); }
-    catch { return []; }
-  });
-  // Допълнителни безплатни league-wide endpoints (последни + предстоящи в турнира).
-  const perLeagueWide = Object.keys(EURO_LEAGUE_IDS).flatMap(lid => [
-    (async () => { try { const r = await getJson(`eventspastleague.php?id=${lid}`); return (r.events || []).filter(isOurs); } catch { return []; } })(),
-    (async () => { try { const r = await getJson(`eventsnextleague.php?id=${lid}`); return (r.events || []).filter(isOurs); } catch { return []; } })()
-  ]);
-  const lists = await Promise.all([...perTeam, ...perLeague, ...perLeagueWide]);
-  const seen = new Set(), out = [];
-  for (const evs of lists) for (const ev of evs) {
-    if (!ev || ev.idLeague === LEAGUE_ID) continue;
-    const comp = euroCompetitionOf(ev);
-    if (!comp) continue;
-    const id = `ev-${ev.idEvent}`;
-    if (seen.has(id)) continue;
-    seen.add(id);
-    out.push({ id, competition: comp.name, cls: comp.cls, round: euroRoundClient(ev),
-      dateEvent: ev.dateEvent, strTime: (ev.strTime || "").slice(0,8),
-      home: ev.strHomeTeam, away: ev.strAwayTeam,
-      homeScore: played(ev) ? ev.intHomeScore : undefined,
-      awayScore: played(ev) ? ev.intAwayScore : undefined });
+
+function apiDateParts(value) {
+  const d = new Date(value);
+  const pad = n => String(n).padStart(2, "0");
+  return { date:`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`, time:`${pad(d.getHours())}:${pad(d.getMinutes())}:00` };
+}
+
+function apiFootballRound(text = "") {
+  return String(text).replace(/^.*?-\s*/, "").replace(/_/g, " ").trim() || "Европейски турнир";
+}
+
+function apiFootballFixtureToEuro(item) {
+  const comp = API_FOOTBALL_EURO_LEAGUES[item.league?.id];
+  if (!comp || !item.fixture || !item.teams) return null;
+  const when = apiDateParts(item.fixture.date);
+  const status = item.fixture.status?.short || "";
+  const finished = ["FT", "AET", "PEN"].includes(status);
+  const live = ["1H", "HT", "2H", "ET", "BT", "P", "LIVE", "INT"].includes(status);
+  return {
+    id: `api-${item.fixture.id}`,
+    competition: comp.name,
+    cls: comp.cls,
+    round: apiFootballRound(item.league.round || ""),
+    dateEvent: when.date,
+    strTime: when.time,
+    home: item.teams.home?.name || "",
+    away: item.teams.away?.name || "",
+    homeLogo: item.teams.home?.logo || "",
+    awayLogo: item.teams.away?.logo || "",
+    homeScore: (finished || live) ? item.goals?.home : undefined,
+    awayScore: (finished || live) ? item.goals?.away : undefined,
+    status,
+    elapsed: item.fixture.status?.elapsed || null
+  };
+}
+
+async function fetchApiFootballTeamIds() {
+  const lists = await Promise.all(EUROPE_TEAM_SEARCHES.map(async search => {
+    try { return await apiFootballJson("teams", { search }); } catch { return []; }
+  }));
+  const ids = new Set();
+  for (const list of lists) for (const item of list) {
+    if (item.team?.id && item.team?.country === "Bulgaria") ids.add(item.team.id);
   }
-  return out;
+  return [...ids];
+}
+
+async function fetchLiveEurope() {
+  return apiFootballJson("europe");
 }
 
 function renderEuropeResults() {
   const box = document.querySelector("#europe-results");
   if (box) box.innerHTML = europeGroupsHtml();
   const status = document.querySelector(".europe-intro .live-status");
-  if (status) status.innerHTML = `<i></i> Резултатите се обновяват автоматично${state.europeUpdated ? ` · ${new Date(state.europeUpdated).toLocaleTimeString("bg-BG",{hour:"2-digit",minute:"2-digit"})}` : ""}`;
+  if (status) status.innerHTML = `<i></i> Данните идват от API-Football${state.europeUpdated ? ` · ${new Date(state.europeUpdated).toLocaleTimeString("bg-BG",{hour:"2-digit",minute:"2-digit"})}` : ""}`;
 }
 
 // Кой е българският отбор в двойката (за сливане на живо + файл без дубли).
@@ -518,14 +553,14 @@ async function refreshEurope(force = false) {
   }
   // Моментално показваме запазените данни, докато дърпаме свежи.
   if (!state.europe.length) {
-    try { const s = JSON.parse(localStorage.getItem(EUROPE_CACHE_KEY) || "null"); if (s?.fixtures?.length) { state.europe = s.fixtures; renderEuropeResults(); } } catch {}
+    try { const s = JSON.parse(localStorage.getItem(EUROPE_CACHE_KEY) || "null"); if (s?.fixtures?.length) { state.europe = s.fixtures; state.europeLoaded = true; renderEuropeResults(); } } catch {}
   }
   // Генерирания файл (от Action) + на живо (браузър) → сливаме, за да имаме
   // и пълния списък, и пресните резултати. Резултат никога не се губи.
-  let fileList = [];
-  try { const r = await fetch(`data/europe.json?ts=${now}`, { cache: "no-store" }); if (r.ok) { const d = await r.json(); fileList = d.fixtures || []; } } catch {}
-  const liveList = await fetchLiveEurope();
-  const merged = mergeEuroFixtures(fileList, liveList);
+  let liveList = [];
+  try { liveList = await fetchLiveEurope(); } catch {}
+  const merged = mergeEuroFixtures(liveList);
+  state.europeLoaded = true;
   if (merged.length) {
     state.europe = merged;
     state.europeUpdated = new Date().toISOString();
@@ -574,7 +609,7 @@ function fullStandings(rows) {
     <td>${num(r.intGoalDifference) > 0 ? "+" : ""}${num(r.intGoalDifference)}</td><td><b>${num(r.intPoints)}</b></td></tr>`).join("")}</tbody></table></div>`;
 }
 function livescore() {
-  return `<section class="page-intro"><span class="eyebrow">LIVESCORE</span><h1>Класиране на живо</h1><p>Пълната таблица на Първа лига, изчислена от изиграните мачове. За официалния източник виж Livescore.</p>
+  return `<section class="page-intro"><span class="eyebrow">LIVESCORE</span><h1>Класиране</h1><p>Пълната таблица на Първа лига, изчислена от изиграните мачове. За официалния източник виж Livescore.</p>
   <a class="ls-open" href="${LIVESCORE_URL}" target="_blank" rel="noopener noreferrer">Виж в Livescore ↗</a></section>
   ${fullStandings(state.data?.table || [])}
   <p class="data-note">Livescore не разрешава директно вграждане в чужд сайт, затова показваме собствената таблица. Бутонът „Виж в Livescore ↗" отваря официалната страница.</p>`;
@@ -589,12 +624,11 @@ function archive() {
 
 function content() {
   if (state.loading && !state.data) return `<div class="loader"><span></span><b>Зареждаме първенството…</b></div>`;
-  if (state.page === "standings") return `<section class="page-intro"><span class="eyebrow">СЕЗОН 2026/27</span><h1>Класиране</h1><p>Актуално подреждане, точки и голова разлика.</p></section>${standings(state.data.table)}`;
+  if (state.page === "standings") return livescore();
   if (state.page === "matches") return matches();
   if (state.page === "teams") return teams();
   if (state.page === "team-detail") return teamProfile();
   if (state.page === "europe") return europe();
-  if (state.page === "livescore") return livescore();
   if (state.page === "archive") return archive();
   return home();
 }
