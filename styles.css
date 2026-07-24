@@ -70,3 +70,15 @@ html{background:#040a11}body{position:relative;isolation:isolate;min-height:100v
 .full-table .table-team .team-logo{width:26px;height:26px}
 @media(max-width:800px){.full-table th,.full-table td{padding:8px 4px;font-size:12px}.full-table .table-team span{max-width:96px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
 .euro-na{opacity:.5}
+.euro-participants{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.participant-card{display:flex;align-items:center;gap:14px;background:rgba(10,19,27,.9);border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:16px}
+.participant-card .team-logo{width:54px;height:54px}
+.participant-card div{display:grid;gap:6px}
+.participant-card b{font-size:18px}
+.participant-card small,.participant-card p{color:#94aaa1}
+.participant-card p{margin:0;font-size:12px;line-height:1.45}
+.api-widget-section{margin-bottom:36px}
+.api-widget-wrap{background:rgba(10,19,27,.9);border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:12px;overflow:hidden}
+api-sports-widget{display:block;width:100%}
+api-sports-widget[data-type="config"]{display:none}
+@media(max-width:800px){.euro-participants{grid-template-columns:1fr}.participant-card{padding:14px}.participant-card .team-logo{width:48px;height:48px}.api-widget-wrap{padding:8px}}

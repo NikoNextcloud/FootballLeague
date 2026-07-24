@@ -33,6 +33,12 @@ const EUROPE_LEAGUES = [
   { test:/europa/i, name:"Лига Европа", cls:"uel" }
 ];
 const euroCompetition = strLeague => EUROPE_LEAGUES.find(c => c.test.test(strLeague || "")) || null;
+const EUROPE_PARTICIPANTS = [
+  { team:"Левски", competition:"Шампионска лига", cls:"ucl", round:"II квалификационен кръг", note:"след победа с общ резултат 5:1 срещу Борац Баня Лука" },
+  { team:"ЦСКА", competition:"Лига Европа", cls:"uel", round:"II квалификационен кръг", note:"след победа с общ резултат 5:3 срещу Дери Сити" },
+  { team:"Лудогорец", competition:"Лига на конференциите", cls:"uecl", round:"II квалификационен кръг", note:"срещу Апоел Тел Авив" },
+  { team:"ЦСКА 1948", competition:"Лига на конференциите", cls:"uecl", round:"II квалификационен кръг", note:"срещу Спартак Търнава" }
+];
 
 const state = { page: "home", filter: "all", team: "all", season: SEASON, selectedTeam: null, round: null,
   europeUpdated:null, europe:[], europeLoaded:false, openMatches:new Set(), loadingDetail:null, data: null, loading: true };
@@ -435,8 +441,26 @@ function europeGroupsHtml() {
   return html || `<div class="empty"><span>⚽</span><b>Няма намерени европейски мачове.</b><small>Българските отбори нямат предстоящи или скорошни мачове в Европа.</small></div>`;
 }
 
+function europeParticipantsHtml() {
+  return `<section class="euro-section">${sectionTitle("Български отбори", "Участници в Европа")}
+    <div class="euro-participants">${EUROPE_PARTICIPANTS.map(item => {
+      const club = fallbackTeams.find(t => t.strTeam === item.team);
+      return `<article class="participant-card">${teamLogo(item.team, club?.strBadge)}<div><span class="competition ${item.cls}">${item.competition}</span><b>${escapeHtml(item.team)}</b><small>${escapeHtml(item.round)}</small><p>${escapeHtml(item.note)}</p></div></article>`;
+    }).join("")}</div></section>`;
+}
+
+function apiSportsGamesWidgetHtml() {
+  return `<section class="api-widget-section">${sectionTitle("API-SPORTS", "Мачове")}
+    <div class="api-widget-wrap">
+      <api-sports-widget data-type="games" data-country="Bulgaria" data-refresh="30" data-show-toolbar="true" data-games-style="2" data-target-game="modal"></api-sports-widget>
+    </div>
+  </section>`;
+}
+
 function europe() {
   return `<section class="page-intro europe-intro"><span class="eyebrow">БЪЛГАРИЯ В ЕВРОПА</span><h1>Евротурнири</h1><p>Мачове и резултати на българските отбори в Шампионска лига, Лига Европа и Лига на конференциите.</p><div class="live-status"><i></i> Резултатите се обновяват автоматично${state.europeUpdated?` · ${new Date(state.europeUpdated).toLocaleTimeString("bg-BG",{hour:"2-digit",minute:"2-digit"})}`:""}</div></section>
+  ${europeParticipantsHtml()}
+  ${apiSportsGamesWidgetHtml()}
   <section class="euro-shortcuts">
     <a href="https://www.uefa.com/uefachampionsleague/fixtures-results/" target="_blank" rel="noopener"><span class="competition ucl">UCL</span><b>Шампионска лига</b><small>Програма и резултати ↗</small></a>
     <a href="https://www.uefa.com/uefaeuropaleague/fixtures-results/" target="_blank" rel="noopener"><span class="competition uel">UEL</span><b>Лига Европа</b><small>Програма и резултати ↗</small></a>
