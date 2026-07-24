@@ -30,3 +30,33 @@ html{background:#040a11}body{position:relative;isolation:isolate;min-height:100v
 .md-list em{color:var(--muted);font-style:normal;font-size:11px}
 .md-empty{color:var(--muted);font-size:12px;margin:2px 0;text-align:center}
 .md-grid .md-empty{grid-column:1/-1}
+/* Мачове по кръгове */
+.round-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;background:rgba(10,19,27,.88);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:10px 14px;margin:0 0 14px}
+.round-arrow{width:40px;height:40px;flex:0 0 auto;border-radius:12px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);color:#edf8f3;font-size:22px;line-height:1;cursor:pointer;font-family:inherit}
+.round-arrow:hover:not([disabled]){background:var(--green);border-color:var(--green);color:#04120c}
+.round-arrow[disabled]{opacity:.3;cursor:default}
+.round-head{text-align:center;display:grid;gap:2px}
+.round-head b{font-size:16px;font-weight:800}
+.round-head small{color:var(--muted);font-size:12px}
+.round-list{display:grid;gap:8px}
+.rr-wrap{background:rgba(10,19,27,.88);border:1px solid rgba(255,255,255,.1);border-radius:14px;overflow:hidden}
+.round-row{display:grid;grid-template-columns:44px 1fr auto 1fr;align-items:center;gap:10px;padding:12px 14px}
+.round-row.rr-clickable{cursor:pointer;transition:.15s}
+.round-row.rr-clickable:hover{background:rgba(255,255,255,.04)}
+.rr-date{font-size:11px;color:var(--muted);font-weight:700}
+.rr-team{display:flex;align-items:center;gap:9px;font-size:13px;min-width:0}
+.rr-team b{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rr-home{justify-content:flex-end;text-align:right}
+.rr-away{justify-content:flex-start}
+.rr-team .team-logo{width:28px;height:28px;flex:0 0 auto}
+.rr-score{font-size:17px;font-weight:800;background:var(--dark);color:#fff;border-radius:9px;padding:5px 10px;white-space:nowrap}
+.rr-score span{color:var(--lime);padding:0 3px}
+.rr-time{font-size:15px;color:#12aa6d;font-weight:700;white-space:nowrap}
+.rr-detail{border-top:1px solid rgba(130,150,140,.22);padding:12px 14px;margin:0}
+@media(max-width:800px){.round-row{grid-template-columns:38px 1fr auto 1fr;gap:7px;padding:11px 10px}.rr-team{font-size:12px;gap:6px}.rr-team .team-logo{width:24px;height:24px}}
+/* Livescore рамка */
+.ls-open{display:inline-block;margin-top:12px;padding:10px 16px;border-radius:12px;background:var(--green);color:#04120c;font-weight:700;text-decoration:none}
+.ls-open:hover{background:var(--lime)}
+.ls-frame{margin:4px 0 12px;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.1);background:rgba(10,19,27,.6)}
+.ls-frame iframe{display:block;width:100%;height:720px;border:0}
+@media(max-width:800px){.ls-frame iframe{height:560px}}

@@ -32,7 +32,7 @@ const EUROPE_LEAGUES = [
 ];
 const euroCompetition = strLeague => EUROPE_LEAGUES.find(c => c.test.test(strLeague || "")) || null;
 
-const state = { page: "home", filter: "all", team: "all", season: SEASON, selectedTeam: null,
+const state = { page: "home", filter: "all", team: "all", season: SEASON, selectedTeam: null, round: null,
   europeUpdated:null, europe:[], openMatches:new Set(), loadingDetail:null, data: null, loading: true };
 const $ = (s) => document.querySelector(s);
 const escapeHtml = (v = "") => String(v).replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
@@ -87,11 +87,15 @@ function normalize(tableData, eventData, teamData) {
     return { ...club, ...api, idTeam: api?.idTeam || club.idTeam || `f${index}`, strTeam: club.strTeam,
       strBadge: localBadge(club.aliases, api?.strBadge), strStadium: api?.strStadium || clubStadiums[club.strTeam] || "България" };
   });
-  if (table.length < teams.length) {
-    const official = new Map(table.map(r => [r.strTeam,r]));
-    table = calculateStandings(events, teams).map(r => official.has(r.strTeam) ? {...r,...official.get(r.strTeam)} : r)
-      .sort((a,b)=>num(b.intPoints)-num(a.intPoints) || num(b.intGoalDifference)-num(a.intGoalDifference))
-      .map((r,i)=>({...r,intRank:i+1}));
+  // Класирането се смята от реалните резултати (самосъгласувано с мачовете),
+  // а само баджът/името се допълват от API таблицата. Така подредбата винаги
+  // отговаря на изиграните мачове.
+  if (events.length) {
+    const official = new Map(table.map(r => [r.strTeam, r]));
+    table = calculateStandings(events, teams)
+      .map(r => ({ ...(official.get(r.strTeam) || {}), ...r }))
+      .sort((a,b) => num(b.intPoints)-num(a.intPoints) || num(b.intGoalDifference)-num(a.intGoalDifference) || num(b.intGoalsFor)-num(a.intGoalsFor))
+      .map((r,i) => ({ ...r, intRank: i+1 }));
   }
   return { table, events, teams, updatedAt: new Date().toISOString(), live: true };
 }
@@ -278,15 +282,67 @@ function teamsMarquee(teams) {
   return `<div class="crest-marquee" aria-label="Отбори в А Група"><div class="crest-track">${items}</div></div>`;
 }
 
+function formatDayShort(e) {
+  if (!e.dateEvent) return "";
+  const [, m, d] = e.dateEvent.split("-");
+  return `${d}.${m}`;
+}
+
+function roundDateRange(roundEvents) {
+  const dates = roundEvents.map(e => e.dateEvent).filter(Boolean).sort();
+  if (!dates.length) return "";
+  const fmt = ds => new Intl.DateTimeFormat("bg-BG", { day: "numeric", month: "short" }).format(new Date(`${ds}T12:00`));
+  return dates[0] === dates[dates.length - 1] ? fmt(dates[0]) : `${fmt(dates[0])} – ${fmt(dates[dates.length - 1])}`;
+}
+
+function defaultRound(events, rounds) {
+  const upcoming = events.filter(e => !played(e) && num(e.intRound) > 0)
+    .sort((a, b) => `${a.dateEvent}`.localeCompare(`${b.dateEvent}`));
+  if (upcoming.length) return num(upcoming[0].intRound);
+  const playedRounds = events.filter(played).map(e => num(e.intRound)).filter(Boolean);
+  return playedRounds.length ? Math.max(...playedRounds) : rounds[0];
+}
+
+// Един ред за мач (като на efbet): дата · домакин · резултат/час · гост.
+function roundRow(e) {
+  const isPlayed = played(e);
+  const mid = isPlayed
+    ? `<strong class="rr-score">${escapeHtml(e.intHomeScore)}<span>:</span>${escapeHtml(e.intAwayScore)}</strong>`
+    : `<strong class="rr-time">${formatTime(e)}</strong>`;
+  const open = isPlayed && state.openMatches.has(e.idEvent);
+  const row = `<div class="round-row${isPlayed ? " rr-clickable" : ""}${open ? " open" : ""}"${isPlayed ? ` data-detail="${escapeHtml(e.idEvent)}"` : ""}>
+    <span class="rr-date">${escapeHtml(formatDayShort(e))}</span>
+    <div class="rr-team rr-home"><b>${escapeHtml(e.strHomeTeam)}</b>${teamLogo(e.strHomeTeam, e.strHomeTeamBadge)}</div>
+    ${mid}
+    <div class="rr-team rr-away">${teamLogo(e.strAwayTeam, e.strAwayTeamBadge)}<b>${escapeHtml(e.strAwayTeam)}</b></div>
+  </div>`;
+  const detail = open ? `<div class="match-detail rr-detail">${matchDetailHtml(e)}</div>` : "";
+  return `<div class="rr-wrap">${row}${detail}</div>`;
+}
+
 function matches() {
-  let events = state.data.events;
-  if (state.filter === "upcoming") events = events.filter(e => !played(e));
-  if (state.filter === "results") events = events.filter(played).reverse();
-  if (state.team !== "all") events = events.filter(e => e.idHomeTeam === state.team || e.idAwayTeam === state.team);
-  return `<section class="page-intro"><span class="eyebrow">ПРОГРАМА И РЕЗУЛТАТИ</span><h1>Мачове</h1><p>Избери период или любим отбор.</p></section>
-  <div class="filters"><div class="chips">${[["all","Всички"],["upcoming","Предстоящи"],["results","Резултати"]].map(([v,l]) => `<button class="chip ${state.filter===v?"active":""}" data-filter="${v}">${l}</button>`).join("")}</div>
-  <select id="team-filter"><option value="all">Всички отбори</option>${state.data.teams.map(t => `<option value="${t.idTeam}" ${state.team===t.idTeam?"selected":""}>${escapeHtml(t.strTeam)}</option>`).join("")}</select></div>
-  <div class="match-grid page-grid">${events.length ? events.map(matchCard).join("") : empty("Няма мачове за този избор.")}</div>`;
+  const events = state.data.events || [];
+  const rounds = [...new Set(events.map(e => num(e.intRound)).filter(n => n > 0))].sort((a, b) => a - b);
+  if (!rounds.length) {
+    return `<section class="page-intro"><span class="eyebrow">ПРОГРАМА И РЕЗУЛТАТИ</span><h1>Мачове</h1></section>
+    <div class="match-grid page-grid">${events.length ? events.map(matchCard).join("") : empty("Няма мачове.")}</div>`;
+  }
+  const totalRounds = rounds[rounds.length - 1];
+  if (state.round == null || !rounds.includes(state.round)) state.round = defaultRound(events, rounds);
+  const cur = state.round;
+  const roundEvents = events.filter(e => num(e.intRound) === cur)
+    .sort((a, b) => `${a.dateEvent}${a.strTime || ""}`.localeCompare(`${b.dateEvent}${b.strTime || ""}`));
+  const idx = rounds.indexOf(cur);
+  const prev = idx > 0 ? rounds[idx - 1] : null;
+  const next = idx < rounds.length - 1 ? rounds[idx + 1] : null;
+  const range = roundDateRange(roundEvents);
+  return `<section class="page-intro"><span class="eyebrow">ПРОГРАМА И РЕЗУЛТАТИ</span><h1>Мачове</h1><p>Разгледай мачовете по кръгове. Кликни изигран мач за голове и картони.</p></section>
+  <div class="round-nav">
+    <button class="round-arrow"${prev == null ? " disabled" : ` data-round="${prev}"`}>‹</button>
+    <div class="round-head"><b>Кръг ${cur} от ${totalRounds}</b>${range ? `<small>${range}</small>` : ""}</div>
+    <button class="round-arrow"${next == null ? " disabled" : ` data-round="${next}"`}>›</button>
+  </div>
+  <div class="round-list">${roundEvents.length ? roundEvents.map(roundRow).join("") : empty("Няма мачове за този кръг.")}</div>`;
 }
 
 function teams() {
@@ -448,25 +504,13 @@ function teamProfile() {
   </section>`;
 }
 
-const scorersData = [
-  ["Ивайло Чочев","Лудогорец",12,2],["Евертон Бала","Левски",12,4],["Сантиаго Годой","ЦСКА",9,2],
-  ["Мамаду Диало","ЦСКА 1948",9,3],["Квадво Дуа","Лудогорец",8,1],["Бирсент Карагарен","Арда",7,0],
-  ["Георг Стояновски","Спартак Варна",7,0],["Анте Аралица","Локомотив София",7,0],
-  ["Франклин Маскоте","Ботев Пловдив",7,0],["Петър Станич","Лудогорец",7,1],
-  ["Мустафа Сангаре","Левски",7,3],["Бертран Фурие","Септември София",7,3]
-];
-
-function scorers() {
-  // Реални голмайстори от текущия сезон (от fetch-data.mjs), иначе миналия сезон.
-  const live = state.data?.scorers || [];
-  const rows = live.length
-    ? live.map(s => [s.player, localName(s.team), num(s.goals), num(s.penalties)])
-    : scorersData;
-  const kicker = live.length ? "СЕЗОН 2026/27" : "ПОСЛЕДЕН ЗАВЪРШЕН СЕЗОН";
-  const intro = live.length ? "Голове и отбелязани дузпи през текущия сезон." : "Голове и отбелязани дузпи през сезон 2025/26.";
-  return `<section class="page-intro"><span class="eyebrow">${kicker}</span><h1>Голмайстори</h1><p>${intro}</p></section>
-  <div class="scorers-list">${rows.map((s,i) => `<article class="scorer-card"><span class="scorer-rank">${i+1}</span>${teamLogo(s[1])}<div><b>${escapeHtml(s[0])}</b><small>${escapeHtml(s[1])}</small></div><strong>${s[2]}<small> гола</small></strong><span class="penalties">${s[3]} дузпи</span></article>`).join("")}</div>
-  <p class="data-note">Статистиката се обновява автоматично чрез <code>fetch-data.mjs</code> от таймлайна на изиграните мачове.</p>`;
+// Вградено класиране на живо от Livescore.
+const LIVESCORE_URL = "https://www.livescore.com/en/football/bulgaria/parva-liga/standings/";
+function livescore() {
+  return `<section class="page-intro"><span class="eyebrow">LIVESCORE</span><h1>Класиране на живо</h1><p>Официалното класиране на Първа лига директно от Livescore.</p>
+  <a class="ls-open" href="${LIVESCORE_URL}" target="_blank" rel="noopener noreferrer">Отвори в Livescore ↗</a></section>
+  <div class="ls-frame"><iframe src="${LIVESCORE_URL}" title="Livescore — класиране на Първа лига" loading="lazy" referrerpolicy="no-referrer" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe></div>
+  <p class="data-note">Ако таблицата остане празна, Livescore не разрешава вграждане в чужд сайт — използвай бутона „Отвори в Livescore ↗", за да я видиш в нов раздел.</p>`;
 }
 
 function archive() {
@@ -483,7 +527,7 @@ function content() {
   if (state.page === "teams") return teams();
   if (state.page === "team-detail") return teamProfile();
   if (state.page === "europe") return europe();
-  if (state.page === "scorers") return scorers();
+  if (state.page === "livescore") return livescore();
   if (state.page === "archive") return archive();
   return home();
 }
@@ -505,6 +549,7 @@ function render() {
     render();
   }));
   document.querySelectorAll("[data-filter]").forEach(el => el.addEventListener("click", () => { state.filter=el.dataset.filter; render(); }));
+  document.querySelectorAll("[data-round]").forEach(el => el.addEventListener("click", () => { state.round=num(el.dataset.round); scrollTo(0,0); render(); }));
   $("#team-filter")?.addEventListener("change", e => { state.team=e.target.value; render(); });
   document.querySelectorAll("[data-season]").forEach(el => el.addEventListener("click", async () => {
     state.season=el.dataset.season;

@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, writeFile, readFile } from "node:fs/promises";
 
 const API = "https://www.thesportsdb.com/api/v1/json/123";
 const LEAGUE_ID = "4626";
@@ -161,12 +161,31 @@ if (withEurope) {
   console.log(`Saved data/europe.json: ${europeFixtures.length} European fixtures.`);
 }
 
+// ---- Сливане със стария файл: старите (изиграни) мачове никога не се губят ----
+const seasonUrl = new URL(`./data/${season}.json`, import.meta.url);
+let previous = null;
+try { previous = JSON.parse(await readFile(seasonUrl, "utf8")); } catch {}
+let mergedEvents = events;
+if (previous?.events?.length) {
+  const byId = new Map(previous.events.map(e => [e.idEvent, e]));
+  for (const event of events) {
+    const old = byId.get(event.idEvent);
+    // Запазваме вече изчислените голове/картони, ако този път не са дошли.
+    if (old?.goals && !event.goals) event.goals = old.goals;
+    if (old?.cards && !event.cards) event.cards = old.cards;
+    byId.set(event.idEvent, event);
+  }
+  mergedEvents = [...byId.values()].sort((a, b) =>
+    `${a.dateEvent || ""}${a.strTime || ""}`.localeCompare(`${b.dateEvent || ""}${b.strTime || ""}`));
+}
+
 // ---- Запис на сезонния файл ----
 const payload = {
   leagueId: LEAGUE_ID, season, updatedAt: new Date().toISOString(),
-  table: tableResult?.table || [], events, teams: teamResult?.teams || [],
-  scorers: [...scorers.values()].sort((a, b) => b.goals - a.goals)
+  table: tableResult?.table || previous?.table || [], events: mergedEvents,
+  teams: teamResult?.teams || previous?.teams || [],
+  scorers: scorers.size ? [...scorers.values()].sort((a, b) => b.goals - a.goals) : (previous?.scorers || [])
 };
 await mkdir(new URL("./data/", import.meta.url), { recursive: true });
-await writeFile(new URL(`./data/${season}.json`, import.meta.url), JSON.stringify(payload, null, 2));
-console.log(`Saved ${season}: ${payload.table.length} teams, ${events.length} matches, ${payload.scorers.length} scorers.`);
+await writeFile(seasonUrl, JSON.stringify(payload, null, 2));
+console.log(`Saved ${season}: ${payload.table.length} teams, ${mergedEvents.length} matches, ${payload.scorers.length} scorers.`);
