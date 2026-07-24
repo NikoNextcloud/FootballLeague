@@ -1,0 +1,38 @@
+name: Update league data
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: Season, for example 2025-2026
+        required: true
+        default: 2026-2027
+      full_scorers:
+        description: Fetch goals, cards and scorers from every match timeline
+        type: boolean
+        default: true
+  schedule:
+    - cron: "20 4 * * *"
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch standings, matches, scorers and European fixtures
+        env:
+          # По подразбиране дърпаме голове/картони (DETAILS) и евротурнирите (EUROPE).
+          # Ръчното пускане може да изключи детайлите чрез отметката full_scorers.
+          DETAILS: ${{ (github.event_name != 'workflow_dispatch' || inputs.full_scorers) && '1' || '0' }}
+          EUROPE: '1'
+        run: node fetch-data.mjs "${{ inputs.season || '2026-2027' }}"
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Update league data"
+          git push

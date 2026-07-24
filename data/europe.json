@@ -1,0 +1,90 @@
+{
+  "updatedAt": "2026-07-10T00:00:00.000Z",
+  "source": "TheSportsDB verified fallback",
+  "fixtures": [
+    {
+      "id": "ucl-1",
+      "competition": "Шампионска лига",
+      "round": "I квалификационен кръг",
+      "dateEvent": "2026-07-07",
+      "strTime": "",
+      "home": "Борац Баня Лука",
+      "away": "Левски",
+      "homeScore": "1",
+      "awayScore": "1",
+      "search": ["Borac Banja Luka vs Levski Sofia", "Borac Banja Luka vs Levski", "FK Borac Banja Luka vs PFC Levski Sofia"]
+    },
+    {
+      "id": "ucl-2",
+      "competition": "Шампионска лига",
+      "round": "I квалификационен кръг · реванш",
+      "dateEvent": "2026-07-14",
+      "strTime": "",
+      "home": "Левски",
+      "away": "Борац Баня Лука",
+      "search": ["Levski Sofia vs Borac Banja Luka", "Levski vs Borac Banja Luka", "PFC Levski Sofia vs FK Borac Banja Luka"]
+    },
+    {
+      "id": "uel-1",
+      "competition": "Лига Европа",
+      "round": "I квалификационен кръг",
+      "dateEvent": "2026-07-09",
+      "strTime": "",
+      "home": "ЦСКА",
+      "away": "Дери Сити",
+      "homeScore": "3",
+      "awayScore": "2",
+      "search": ["CSKA Sofia vs Derry City", "PFC CSKA Sofia vs Derry City", "CSKA vs Derry City"]
+    },
+    {
+      "id": "uel-2",
+      "competition": "Лига Европа",
+      "round": "I квалификационен кръг · реванш",
+      "dateEvent": "2026-07-16",
+      "strTime": "",
+      "home": "Дери Сити",
+      "away": "ЦСКА",
+      "search": ["Derry City vs CSKA Sofia", "Derry City vs PFC CSKA Sofia", "Derry City vs CSKA"]
+    },
+    {
+      "id": "uecl-1",
+      "competition": "Лига на конференциите",
+      "round": "II квалификационен кръг",
+      "dateEvent": "2026-07-23",
+      "strTime": "",
+      "home": "Апоел Тел Авив",
+      "away": "Лудогорец",
+      "search": ["Hapoel Tel Aviv vs Ludogorets", "Hapoel Tel Aviv vs Ludogorets Razgrad"]
+    },
+    {
+      "id": "uecl-2",
+      "competition": "Лига на конференциите",
+      "round": "II квалификационен кръг · реванш",
+      "dateEvent": "2026-07-30",
+      "strTime": "",
+      "home": "Лудогорец",
+      "away": "Апоел Тел Авив",
+      "search": ["Ludogorets vs Hapoel Tel Aviv", "Ludogorets Razgrad vs Hapoel Tel Aviv"]
+    },
+    {
+      "id": "uecl-3",
+      "competition": "Лига на конференциите",
+      "round": "II квалификационен кръг",
+      "dateEvent": "2026-07-23",
+      "strTime": "",
+      "home": "Спартак Търнава",
+      "away": "ЦСКА 1948",
+      "search": ["Spartak Trnava vs CSKA 1948", "FC Spartak Trnava vs CSKA 1948"]
+    },
+    {
+      "id": "uecl-4",
+      "competition": "Лига на конференциите",
+      "round": "II квалификационен кръг · реванш",
+      "dateEvent": "2026-07-30",
+      "strTime": "",
+      "home": "ЦСКА 1948",
+      "away": "Спартак Търнава",
+      "search": ["CSKA 1948 vs Spartak Trnava", "CSKA 1948 Sofia vs FC Spartak Trnava"]
+    }
+  ]
+}
