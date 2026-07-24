@@ -2,8 +2,7 @@
 """Fetch bulgarian-football.com and export normalized local football data.
 
 The app should not scrape websites from the browser. This bot fetches a small
-set of source pages, parses them defensively, writes JSON for the frontend, and
-optionally stores snapshots in PostgreSQL when DATABASE_URL is configured.
+set of source pages, parses them defensively, and writes JSON for the frontend.
 """
 
 from __future__ import annotations
@@ -13,7 +12,6 @@ import datetime as dt
 import hashlib
 import html
 import json
-import os
 import re
 import sys
 import time
@@ -308,18 +306,35 @@ def parse_europe(lines: list[str]) -> dict[str, Any]:
     participants = []
     events = []
     current_date = current_time = current_round = ""
+    current_competition = ""
+    current_leg = ""
+    competitions = {"Шампионска лига", "Лига Европа", "Лига на конференциите", "Юношеска лига"}
     for line in lines:
-        if any(token in line for token in ["Шампионска лига", "Лига Европа", "Лига на конференциите"]):
+        if line in competitions:
+            current_competition = line
+            current_round = ""
+            current_leg = ""
+            continue
+        if "квалификационен кръг" in line.lower() or line in {"Плейоф", "Групова фаза"}:
+            current_round = line
+            continue
+        if line in {"Първа среща", "Реванш"}:
+            current_leg = line
+            continue
+        if current_competition:
             for team in ["Левски", "ЦСКА", "Лудогорец", "ЦСКА 1948", "Арда", "Черно море"]:
                 if team in line and not any(p["team"] == team for p in participants):
-                    participants.append({"team": team, "line": line})
+                    participants.append({"team": team, "competition": current_competition, "line": line})
         parsed_date = parse_bg_date(line)
         if parsed_date:
-            current_date, current_time, current_round = parsed_date
+            current_date, current_time, parsed_round = parsed_date
+            if parsed_round:
+                current_round = parsed_round
             continue
         event = parse_match_line(line, current_date, current_time, current_round)
         if event:
-            event["competition"] = infer_competition(lines, line)
+            event["competition"] = current_competition or infer_competition(lines, line)
+            event["roundLabel"] = " · ".join([x for x in [current_round, current_leg] if x])
             events.append(event)
     return {"participants": participants, "events": dedupe_events(events)}
 
@@ -364,52 +379,15 @@ def write_json(payload: dict[str, Any], path: Path) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def sync_postgres(payload: dict[str, Any], database_url: str) -> None:
-    try:
-        import psycopg
-    except ImportError as exc:
-        raise RuntimeError("DATABASE_URL is set, but psycopg is not installed.") from exc
-
-    schema = Path("scripts/schema.sql").read_text(encoding="utf-8")
-    with psycopg.connect(database_url) as conn:
-        with conn.cursor() as cur:
-            cur.execute(schema)
-            cur.execute(
-                "insert into bf_snapshots(source, payload) values (%s, %s::jsonb)",
-                (payload["source"], json.dumps(payload, ensure_ascii=False)),
-            )
-            for row in payload["table"]:
-                cur.execute(
-                    """
-                    insert into bf_standings_snapshot(snapshot_at, team, rank, played, wins, draws, losses, goals_for, goals_against, points)
-                    values (now(), %s, %s, %s, %s, %s, %s, %s, %s, %s)
-                    """,
-                    (row["strTeam"], row["intRank"], row["intPlayed"], row["intWin"], row["intDraw"], row["intLoss"], row["intGoalsFor"], row["intGoalsAgainst"], row["intPoints"]),
-                )
-            for event in payload["events"]:
-                cur.execute(
-                    """
-                    insert into bf_matches(match_uid, payload, updated_at)
-                    values (%s, %s::jsonb, now())
-                    on conflict (match_uid) do update set payload = excluded.payload, updated_at = now()
-                    """,
-                    (event["id"], json.dumps(event, ensure_ascii=False)),
-                )
-
 
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--out", default=str(OUT_PATH), help="JSON output path")
-    parser.add_argument("--no-db", action="store_true", help="Skip PostgreSQL even when DATABASE_URL exists")
     args = parser.parse_args()
 
     pages = fetch_pages()
     payload = build_payload(pages)
     write_json(payload, Path(args.out))
-
-    database_url = os.getenv("DATABASE_URL")
-    if database_url and not args.no_db:
-        sync_postgres(payload, database_url)
 
     print(json.dumps({
         "updatedAt": payload["updatedAt"],

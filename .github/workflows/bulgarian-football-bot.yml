@@ -21,15 +21,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Fetch Bulgarian football data
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
-        run: |
-          if [ -n "$DATABASE_URL" ]; then
-            python -m pip install "psycopg[binary]>=3.2"
-            python scripts/bulgarian_football_bot.py
-          else
-            python scripts/bulgarian_football_bot.py --no-db
-          fi
+        run: python scripts/bulgarian_football_bot.py
       - name: Commit refreshed Bulgarian football data
         run: |
           git config user.name "github-actions[bot]"

@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-24T08:52:17.369155+00:00",
+  "updatedAt": "2026-07-24T10:09:02.793025+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "7f1c784c33c12c2bf9d98de6f8a0cdfd96f137ebbb3899a6264dddfdf398d06c"
+      "sha256": "d0ed2f62c3720b9c73ff3052752de94a7006f48b54c72c3c095cba47cfc1bb30"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "540bf393d5295a113a9734770413ed8be8cbf40caab245cd7c60b67bf818572e"
+      "sha256": "4cd68d39b335deed6a10ae9a4a88f997161280924bf213da7c136e43151e6e9e"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "8e44579f4fcab2453cf35e7d33f09304c7db3df5c63bd12425f20cc63568058c"
+      "sha256": "46680e82b692d1a182b548996ffd2b0954204bc7e05c45859c93e7ba7384e7bf"
     }
   },
   "table": [
@@ -560,28 +560,49 @@
       "competition": "Втора професионална лига"
     },
     {
-      "id": "bf-71fd922639bf",
+      "id": "bf-774ea90d49b4",
       "dateEvent": "2026-07-24",
       "strTime": "21:15:00",
       "intRound": "",
-      "roundLabel": "« Мачовете днес (4 мача) »",
+      "roundLabel": "Първа професионална лига - Първа фаза",
       "strHomeTeam": "Арда",
       "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "« Мачовете днес (4 мача) »"
+      "competition": "Първа професионална лига - Първа фаза"
     }
   ],
   "europe": {
-    "participants": [],
+    "participants": [
+      {
+        "team": "Левски",
+        "competition": "Шампионска лига",
+        "line": "Борац (Баня Лука, БиХ) - Левски (София) 1:1 (1:0) /пряко по Диема спорт/ stats"
+      },
+      {
+        "team": "ЦСКА",
+        "competition": "Лига Европа",
+        "line": "ЦСКА (София) - Дери Сити (Лондондери, Ирл, 1) 3:2 (2:1) /пряко по Диема спорт/ stats"
+      },
+      {
+        "team": "ЦСКА 1948",
+        "competition": "Лига на конференциите",
+        "line": "Спартак (Търнава, Свк, 1) - ФК ЦСКА 1948 (София) 0:0 /пряко по bTV/ stats"
+      },
+      {
+        "team": "Лудогорец",
+        "competition": "Лига на конференциите",
+        "line": "Апоел (Тел Авив, Изр, 1) - Лудогорец 1945 (Разград) 2:0 (1:0) /пряко по Диема спорт/ stats"
+      }
+    ],
     "events": [
       {
-        "id": "bf-8f3e26570424",
+        "id": "bf-650ab813b23e",
         "dateEvent": "2026-07-07",
         "strTime": "21:30:00",
         "intRound": "",
-        "roundLabel": "",
+        "roundLabel": "Първи квалификационен кръг · Първа среща",
         "strHomeTeam": "Борац",
         "strAwayTeam": "Левски",
         "source": "bulgarian-football.com",
@@ -591,11 +612,11 @@
         "competition": "Шампионска лига"
       },
       {
-        "id": "bf-6355e2121097",
+        "id": "bf-f969dcf66cc1",
         "dateEvent": "2026-07-09",
         "strTime": "21:00:00",
         "intRound": "",
-        "roundLabel": "",
+        "roundLabel": "Първи квалификационен кръг · Първа среща",
         "strHomeTeam": "ЦСКА",
         "strAwayTeam": "Дери Сити",
         "source": "bulgarian-football.com",
@@ -605,53 +626,53 @@
         "competition": "Лига Европа"
       },
       {
-        "id": "bf-63d70536119f",
+        "id": "bf-1af935fa2280",
         "dateEvent": "2026-07-14",
         "strTime": "20:30:00",
         "intRound": "",
-        "roundLabel": "",
+        "roundLabel": "Първи квалификационен кръг · Реванш",
         "strHomeTeam": "Левски",
         "strAwayTeam": "Борац",
         "source": "bulgarian-football.com",
         "intHomeScore": "4",
         "intAwayScore": "0",
         "halftime": "0:0",
-        "competition": "Евротурнири"
+        "competition": "Шампионска лига"
       },
       {
-        "id": "bf-23222f5d42fb",
+        "id": "bf-dab19675dc4f",
         "dateEvent": "2026-07-16",
         "strTime": "20:30:00",
         "intRound": "",
-        "roundLabel": "",
+        "roundLabel": "Първи квалификационен кръг · Реванш",
         "strHomeTeam": "Дери Сити",
         "strAwayTeam": "ЦСКА",
         "source": "bulgarian-football.com",
         "intHomeScore": "1",
         "intAwayScore": "2",
         "halftime": "0:0",
-        "competition": "Евротурнири"
+        "competition": "Лига Европа"
       },
       {
-        "id": "bf-6e0b27bbe8e7",
+        "id": "bf-e85be3bc58e3",
         "dateEvent": "2026-07-22",
         "strTime": "20:30:00",
         "intRound": "",
-        "roundLabel": "",
+        "roundLabel": "Втори квалификационен кръг · Първа среща",
         "strHomeTeam": "Левски",
         "strAwayTeam": "Университатя",
         "source": "bulgarian-football.com",
         "intHomeScore": "1",
         "intAwayScore": "0",
         "halftime": "1:0",
-        "competition": "Евротурнири"
+        "competition": "Шампионска лига"
       },
       {
-        "id": "bf-d4bf9fde2ded",
+        "id": "bf-9f7f1700e0b6",
         "dateEvent": "2026-07-22",
         "strTime": "21:30:00",
         "intRound": "",
-        "roundLabel": "",
+        "roundLabel": "Втори квалификационен кръг",
         "strHomeTeam": "Спартак",
         "strAwayTeam": "ЦСКА 1948",
         "source": "bulgarian-football.com",
@@ -661,84 +682,84 @@
         "competition": "Лига на конференциите"
       },
       {
-        "id": "bf-5a31542df4b0",
+        "id": "bf-ef70f10a41dd",
         "dateEvent": "2026-07-23",
         "strTime": "19:00:00",
         "intRound": "",
-        "roundLabel": "",
+        "roundLabel": "Втори квалификационен кръг · Първа среща",
         "strHomeTeam": "Карабах",
         "strAwayTeam": "ЦСКА",
         "source": "bulgarian-football.com",
         "intHomeScore": "0",
         "intAwayScore": "0",
         "halftime": "",
-        "competition": "Евротурнири"
+        "competition": "Лига Европа"
       },
       {
-        "id": "bf-06f2ae5abfb3",
+        "id": "bf-61ebc20bcac8",
         "dateEvent": "2026-07-23",
         "strTime": "21:30:00",
         "intRound": "",
-        "roundLabel": "",
+        "roundLabel": "Втори квалификационен кръг",
         "strHomeTeam": "Апоел",
         "strAwayTeam": "Лудогорец",
         "source": "bulgarian-football.com",
         "intHomeScore": "2",
         "intAwayScore": "0",
         "halftime": "1:0",
-        "competition": "Евротурнири"
+        "competition": "Лига на конференциите"
       },
       {
-        "id": "bf-bde09e774a00",
+        "id": "bf-424594a76c1b",
         "dateEvent": "2026-07-28",
         "strTime": "20:30:00",
         "intRound": "",
-        "roundLabel": "",
+        "roundLabel": "Втори квалификационен кръг",
         "strHomeTeam": "ЦСКА 1948",
         "strAwayTeam": "Спартак",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
         "intAwayScore": null,
-        "competition": "Евротурнири"
+        "competition": "Лига на конференциите"
       },
       {
-        "id": "bf-ed537d77e93a",
+        "id": "bf-0f7efe9fb402",
         "dateEvent": "2026-07-29",
         "strTime": "20:30:00",
         "intRound": "",
-        "roundLabel": "",
+        "roundLabel": "Втори квалификационен кръг · Реванш",
         "strHomeTeam": "Университатя",
         "strAwayTeam": "Левски",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
         "intAwayScore": null,
-        "competition": "Евротурнири"
+        "competition": "Шампионска лига"
       },
       {
-        "id": "bf-ebff3f03a4e7",
+        "id": "bf-f030519ce99a",
         "dateEvent": "2026-07-30",
         "strTime": "21:00:00",
         "intRound": "",
-        "roundLabel": "",
+        "roundLabel": "Втори квалификационен кръг",
         "strHomeTeam": "Лудогорец",
         "strAwayTeam": "Апоел",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
         "intAwayScore": null,
-        "competition": "Евротурнири"
+        "competition": "Лига на конференциите"
       },
       {
-        "id": "bf-4503a9da1b09",
+        "id": "bf-83126398ea0d",
         "dateEvent": "2026-07-30",
         "strTime": "21:00:00",
         "intRound": "",
-        "roundLabel": "",
+        "roundLabel": "Втори квалификационен кръг · Реванш",
         "strHomeTeam": "ЦСКА",
         "strAwayTeam": "Карабах",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
         "intAwayScore": null,
-        "competition": "Евротурнири"
+        "competition": "Лига Европа"
       }
     ]
   },
