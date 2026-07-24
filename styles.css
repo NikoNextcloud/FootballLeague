@@ -30,6 +30,15 @@ html{background:#040a11}body{position:relative;isolation:isolate;min-height:100v
 .md-list em{color:var(--muted);font-style:normal;font-size:11px}
 .md-empty{color:var(--muted);font-size:12px;margin:2px 0;text-align:center}
 .md-grid .md-empty{grid-column:1/-1}
+.live-match-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.live-match-card{background:rgba(10,19,27,.9);border:1px solid rgba(242,56,72,.22);border-radius:var(--radius);padding:18px;display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:center;box-shadow:0 16px 45px rgba(0,0,0,.22)}
+.md-meta{margin-bottom:10px;color:#94aaa1;font-size:12px;text-align:center}
+.md-stats{display:grid;gap:6px;margin-top:12px}
+.md-stats div{display:grid;grid-template-columns:64px 1fr 64px;align-items:center;gap:8px;padding:7px 9px;border-radius:10px;background:rgba(255,255,255,.04);font-size:12px}
+.md-stats span:first-child{text-align:left;font-weight:800}.md-stats span:last-child{text-align:right;font-weight:800}.md-stats b{text-align:center;color:#94aaa1;font-size:11px}
+.md-videos{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.md-videos a{padding:8px 10px;border-radius:10px;background:rgba(39,213,130,.12);color:#78e6af;text-decoration:none;font-size:12px;font-weight:800}
+@media(max-width:800px){.live-match-grid{grid-template-columns:1fr}.live-match-card{gap:10px;padding:15px}.md-stats div{grid-template-columns:44px 1fr 44px}}
 /* Мачове по кръгове */
 .round-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;background:rgba(10,19,27,.88);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:10px 14px;margin:0 0 14px}
 .round-arrow{width:40px;height:40px;flex:0 0 auto;border-radius:12px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);color:#edf8f3;font-size:22px;line-height:1;cursor:pointer;font-family:inherit}
