@@ -41,8 +41,7 @@ const EUROPE_PARTICIPANTS = [
 ];
 
 const state = { page: "home", filter: "all", team: "all", season: SEASON, selectedTeam: null, round: null,
-  europeUpdated:null, europe:[], europeLoaded:false, allSportsLive:[], allSportsLiveUpdated:null, allSportsLiveLoading:false,
-  openMatches:new Set(), loadingDetail:null, data: null, loading: true };
+  europeUpdated:null, europe:[], europeLoaded:false, openMatches:new Set(), loadingDetail:null, data: null, loading: true };
 const $ = (s) => document.querySelector(s);
 const escapeHtml = (v = "") => String(v).replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
 const num = v => Number(v ?? 0);
@@ -60,12 +59,6 @@ function localBadge(name = "", remote = "") {
 async function getJson(path) {
   const response = await fetch(`${API}/${path}`, { headers: { Accept: "application/json" } });
   if (!response.ok) throw new Error(`API ${response.status}`);
-  return response.json();
-}
-
-async function getLocalJson(path) {
-  const response = await fetch(path, { cache: "no-store" });
-  if (!response.ok) throw new Error(`Local API ${response.status}`);
   return response.json();
 }
 
@@ -216,57 +209,6 @@ function parseEventDetails(ev = {}) {
   return { goals, cards };
 }
 
-function parseAllSportsEvents(match = {}) {
-  const goals = [], cards = [];
-  const add = (side, item = {}) => {
-    const type = `${item.type || ""}`.toLowerCase();
-    const player = item.player || item.player_name || item.event_player || "";
-    const minute = `${item.time || item.minute || item.event_time || ""}`.replace(/[^0-9+]/g, "");
-    if (type.includes("goal")) goals.push({ side, player, minute, penalty:/pen/i.test(type), own:/own/i.test(type) });
-    if (type.includes("card")) cards.push({ side, player, minute, red:type.includes("red") });
-  };
-  (match.goalscorers || []).forEach(g => {
-    if (g.home_scorer) goals.push({ side:"H", player:g.home_scorer, minute:g.time || "", penalty:/pen/i.test(g.info || ""), own:/own/i.test(g.info || "") });
-    if (g.away_scorer) goals.push({ side:"A", player:g.away_scorer, minute:g.time || "", penalty:/pen/i.test(g.info || ""), own:/own/i.test(g.info || "") });
-  });
-  (match.cards || []).forEach(c => {
-    if (c.home_fault) cards.push({ side:"H", player:c.home_fault, minute:c.time || "", red:/red/i.test(c.card || "") });
-    if (c.away_fault) cards.push({ side:"A", player:c.away_fault, minute:c.time || "", red:/red/i.test(c.card || "") });
-  });
-  (match.event || match.events || []).forEach(item => add(item.home_scorer || item.home_fault ? "H" : "A", item));
-  return { goals, cards };
-}
-
-function mapAllSportsStats(match = {}) {
-  const stats = match.statistics || match.stats || [];
-  return Array.isArray(stats) ? stats.map(s => ({
-    type: s.type || s.stat_type || "",
-    home: s.home ?? s.home_stat ?? "",
-    away: s.away ?? s.away_stat ?? ""
-  })).filter(s => s.type) : [];
-}
-
-async function loadAllSportsDetail(ev) {
-  if (!ev || ev._allSportsLoaded) return;
-  ev._allSportsLoaded = true;
-  try {
-    const params = new URLSearchParams({ date:ev.dateEvent || "", home:ev.strHomeTeam || "", away:ev.strAwayTeam || "" });
-    const data = await getLocalJson(`/allsports/match?${params}`);
-    const match = data.match || {};
-    const parsed = parseAllSportsEvents(match);
-    if (parsed.goals.length && !(ev.goals || []).length) ev.goals = parsed.goals;
-    if (parsed.cards.length && !(ev.cards || []).length) ev.cards = parsed.cards;
-    ev.allSportsStats = mapAllSportsStats(match);
-    ev.allSportsVideos = (data.videos || []).map(v => ({ title:v.video_title_full || v.video_title || "Видео", url:v.video_url })).filter(v => v.url);
-    ev.allSportsMeta = {
-      stadium: match.event_stadium || "",
-      referee: match.event_referee || "",
-      status: match.event_status || "",
-      league: match.league_name || ""
-    };
-  } catch {}
-}
-
 // Ленив зареждач – при отваряне на мач дърпа таймлайна, после (ако е празен)
 // пробва пълните данни на мача. Кешира резултата върху събитието.
 async function loadMatchDetail(idEvent) {
@@ -277,20 +219,19 @@ async function loadMatchDetail(idEvent) {
   try {
     const res = await getJson(`lookuptimeline.php?id=${idEvent}`);
     const t = parseTimeline(res.timeline || [], ev);
-    if (t.goals.length || t.cards.length) { ev.goals = t.goals; ev.cards = t.cards; }
+    if (t.goals.length || t.cards.length) { ev.goals = t.goals; ev.cards = t.cards; return; }
   } catch {}
-  if (!(ev.goals || []).length && !(ev.cards || []).length) try {
+  try {
     const res = await getJson(`lookupevent.php?id=${idEvent}`);
     const full = (res.events || [])[0];
     if (full) { const d = parseEventDetails(full); ev.goals = d.goals; ev.cards = d.cards; }
   } catch {}
-  await loadAllSportsDetail(ev);
 }
 
 function matchDetailHtml(e) {
-  if (state.loadingDetail === e.idEvent && !e.goals && !e.cards && !e.allSportsStats) return `<p class="md-empty">Зареждаме статистиката…</p>`;
+  if (state.loadingDetail === e.idEvent && !e.goals && !e.cards) return `<p class="md-empty">Зареждаме статистиката…</p>`;
   const goals = e.goals || [], cards = e.cards || [];
-  const stats = e.allSportsStats || [], videos = e.allSportsVideos || [];
+  if (!goals.length && !cards.length) return `<p class="md-empty">Няма подробна статистика за този мач в безплатния източник.</p>`;
   const side = s => {
     const g = goals.filter(x => x.side === s).map(x =>
       `<li class="md-goal"><b>${escapeHtml(x.minute ? x.minute + "'" : "")}</b><span>⚽</span><span>${escapeHtml(x.player || "Гол")}${x.penalty ? " <em>(дузпа)</em>" : x.own ? " <em>(авт.)</em>" : ""}</span></li>`).join("");
@@ -298,13 +239,7 @@ function matchDetailHtml(e) {
       `<li class="md-card"><b>${escapeHtml(x.minute ? x.minute + "'" : "")}</b><span>${x.red ? "🟥" : "🟨"}</span><span>${escapeHtml(x.player || "")}</span></li>`).join("");
     return `<ul class="md-list">${g}${c || (g ? "" : "<li class='md-empty'>—</li>")}</ul>`;
   };
-  const timeline = (goals.length || cards.length) ? `<div class="md-grid"><div class="md-col">${side("H")}</div><div class="md-col md-away">${side("A")}</div></div>` : `<p class="md-empty">Няма голове или картони от източника.</p>`;
-  const statsHtml = stats.length ? `<div class="md-stats">${stats.slice(0,10).map(s => `<div><span>${escapeHtml(s.home)}</span><b>${escapeHtml(s.type)}</b><span>${escapeHtml(s.away)}</span></div>`).join("")}</div>` : "";
-  const videoHtml = videos.length ? `<div class="md-videos">${videos.slice(0,4).map(v => `<a href="${escapeHtml(v.url)}" target="_blank" rel="noopener">${escapeHtml(v.title)} ↗</a>`).join("")}</div>` : "";
-  const meta = e.allSportsMeta;
-  const metaHtml = meta && (meta.stadium || meta.referee || meta.status) ? `<div class="md-meta">${[meta.status, meta.stadium, meta.referee].filter(Boolean).map(escapeHtml).join(" · ")}</div>` : "";
-  if (!goals.length && !cards.length && !stats.length && !videos.length && !metaHtml) return `<p class="md-empty">Няма подробна статистика за този мач в наличните източници.</p>`;
-  return `${metaHtml}${timeline}${statsHtml}${videoHtml}`;
+  return `<div class="md-grid"><div class="md-col">${side("H")}</div><div class="md-col md-away">${side("A")}</div></div>`;
 }
 
 function matchCard(e) {
@@ -345,39 +280,6 @@ function teamTrend(row) {
 function empty(text) { return `<div class="empty"><span>⚽</span><b>${escapeHtml(text)}</b><small>Опитай отново след малко.</small></div>`; }
 function sectionTitle(kicker, title, action = "") { return `<div class="section-head"><div><small>${kicker}</small><h2>${title}</h2></div>${action}</div>`; }
 
-async function refreshAllSportsLive(force = false) {
-  const now = Date.now();
-  if (state.allSportsLiveLoading) return;
-  if (!force && state.allSportsLiveUpdated && now - new Date(state.allSportsLiveUpdated).getTime() < 45_000) return;
-  state.allSportsLiveLoading = true;
-  try {
-    const data = await getLocalJson("/allsports/live");
-    state.allSportsLive = data.response || [];
-    state.allSportsLiveUpdated = new Date().toISOString();
-  } catch {
-    state.allSportsLive = state.allSportsLive || [];
-  }
-  state.allSportsLiveLoading = false;
-  if (state.page === "home") render();
-}
-
-function allSportsLiveCard(match) {
-  const score = match.score ? `<strong class="score">${escapeHtml(match.score.replace(" - ", ":"))}</strong>` : `<strong class="live-pill">НА ЖИВО</strong>`;
-  return `<article class="live-match-card">
-    <div class="match-meta"><span>${escapeHtml(match.league || match.country || "Live")}</span><time>${escapeHtml(match.status || match.strTime || "")}</time></div>
-    <div class="match-team home"><b>${escapeHtml(match.home)}</b>${teamLogo(match.home, match.homeLogo)}</div>
-    ${score}
-    <div class="match-team away">${teamLogo(match.away, match.awayLogo)}<b>${escapeHtml(match.away)}</b></div>
-  </article>`;
-}
-
-function allSportsLiveSection() {
-  const updated = state.allSportsLiveUpdated ? ` · ${new Date(state.allSportsLiveUpdated).toLocaleTimeString("bg-BG",{hour:"2-digit",minute:"2-digit"})}` : "";
-  const action = `<button class="text-btn" id="refresh-live">Обнови${updated}</button>`;
-  if (state.allSportsLiveLoading && !state.allSportsLive.length) return `<section>${sectionTitle("ALLSPORTSAPI", "Live мачове", action)}${empty("Проверяваме мачовете на живо.")}</section>`;
-  return `<section>${sectionTitle("ALLSPORTSAPI", "Live мачове", action)}<div class="live-match-grid">${state.allSportsLive.length ? state.allSportsLive.map(allSportsLiveCard).join("") : empty("В момента няма live мачове за българските отбори в AllSportsAPI.")}</div></section>`;
-}
-
 function home() {
   const data = state.data; const now = new Date();
   const upcoming = data.events.filter(e => !played(e) && new Date(e.dateEvent) >= new Date(now.toDateString())).slice(0,4);
@@ -391,7 +293,6 @@ function home() {
   </section>`;
   return `${hero}
   ${teamsMarquee(data.teams)}
-  ${allSportsLiveSection()}
   <section>${sectionTitle("НА ФОКУС", "Предстоящи мачове", `<button data-page="matches" class="text-btn">Всички →</button>`)}<div class="match-grid">${upcoming.length ? upcoming.map(matchCard).join("") : empty("Програмата за следващия сезон още не е публикувана в API.")}</div></section>
   <section class="split"><div>${sectionTitle("ПОДРЕЖДАНЕ", "Класиране", `<button data-page="standings" class="text-btn">Пълно →</button>`)}${standings(data.table)}</div>
   <div>${sectionTitle("ПОСЛЕДНО", "Резултати", `<button data-page="matches" class="text-btn">Още →</button>`)}<div class="results-list">${results.length ? results.map(matchCard).join("") : empty("Няма налични резултати.")}</div></div></section>`;
@@ -640,30 +541,6 @@ async function fetchLiveEurope() {
   return apiFootballJson("europe");
 }
 
-async function fetchAllSportsEurope() {
-  const data = await getLocalJson("/allsports/europe");
-  return (data.response || []).map(item => {
-    const compName = item.league || "";
-    const meta = euroCompetition(compName) || EUROPE_LEAGUES.find(g => g.name === item.league) || { name:compName || "Европа", cls:"uecl" };
-    const [homeScore, awayScore] = String(item.score || "").split(/\s*-\s*|\s*:\s*/);
-    return {
-      id: `allsports-${item.id}`,
-      competition: meta.name,
-      cls: meta.cls,
-      round: item.round || "",
-      dateEvent: item.dateEvent,
-      strTime: item.strTime ? `${item.strTime}:00`.slice(0,8) : "",
-      home: item.home,
-      away: item.away,
-      homeLogo: item.homeLogo,
-      awayLogo: item.awayLogo,
-      homeScore: homeScore !== undefined && homeScore !== "" ? homeScore : undefined,
-      awayScore: awayScore !== undefined && awayScore !== "" ? awayScore : undefined,
-      status: item.live ? "LIVE" : item.status
-    };
-  });
-}
-
 function renderEuropeResults() {
   const box = document.querySelector("#europe-results");
   if (box) box.innerHTML = europeGroupsHtml();
@@ -706,9 +583,7 @@ async function refreshEurope(force = false) {
   // и пълния списък, и пресните резултати. Резултат никога не се губи.
   let liveList = [];
   try { liveList = await fetchLiveEurope(); } catch {}
-  let allSportsList = [];
-  try { allSportsList = await fetchAllSportsEurope(); } catch {}
-  const merged = mergeEuroFixtures(liveList, allSportsList);
+  const merged = mergeEuroFixtures(liveList);
   state.europeLoaded = true;
   if (merged.length) {
     state.europe = merged;
@@ -801,7 +676,6 @@ function render() {
   document.querySelectorAll("[data-filter]").forEach(el => el.addEventListener("click", () => { state.filter=el.dataset.filter; render(); }));
   document.querySelectorAll("[data-round]").forEach(el => el.addEventListener("click", () => { state.round=num(el.dataset.round); scrollTo(0,0); render(); }));
   $("#team-filter")?.addEventListener("change", e => { state.team=e.target.value; render(); });
-  $("#refresh-live")?.addEventListener("click", () => refreshAllSportsLive(true));
   document.querySelectorAll("[data-season]").forEach(el => el.addEventListener("click", async () => {
     state.season=el.dataset.season;
     if (state.season !== SEASON) {
@@ -812,7 +686,6 @@ function render() {
   document.querySelectorAll(".nav-item[data-page]").forEach(el => el.classList.toggle("active", el.dataset.page === state.page));
   const status = $("#data-status");
   if (status && state.data) status.innerHTML = `<i class="${state.data.live ? "" : "offline"}"></i>${state.data.live ? "Данните са актуални" : "Показваме запазени данни"}`;
-  if (state.page === "home") refreshAllSportsLive();
 }
 
 function checkMatchNotifications() {
