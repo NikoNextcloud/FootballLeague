@@ -1,24 +1,36 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-25T19:52:15.683240+00:00",
+  "updatedAt": "2026-07-25T20:42:32.690462+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "5fd38e195d1a1e5651feed36465b2680d08748cc784e8a266a0f26fabd935df3"
+      "sha256": "34b5f3c93d5a3fdc41beac8e4646afba7ed2ecc99f91a31f7bf78e5470e5143c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "34375ab87b3f4e340c7c291f880207a567f47d82788f1080b7669ae652041290"
+      "sha256": "5dc538c7178a8c40f8db22ac964289818dac91121f256c3db58258bd8592685e"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "1a1a66a4ffe78805136eafb22216501b22d42dd6210a41d8d12700b1fa895111"
+      "sha256": "28cf7d55fa3cf43e30a9b5a054c9d7bd470480bdff6e5fa6379c965f536c4a2b"
     }
   },
   "table": [
     {
       "intRank": 1,
+      "strTeam": "Левски",
+      "intPlayed": 2,
+      "intWin": 2,
+      "intDraw": 0,
+      "intLoss": 0,
+      "intGoalsFor": 4,
+      "intGoalsAgainst": 2,
+      "intGoalDifference": 2,
+      "intPoints": 6
+    },
+    {
+      "intRank": 2,
       "strTeam": "ЦСКА 1948",
       "intPlayed": 2,
       "intWin": 1,
@@ -30,7 +42,7 @@
       "intPoints": 4
     },
     {
-      "intRank": 2,
+      "intRank": 3,
       "strTeam": "Арда",
       "intPlayed": 2,
       "intWin": 1,
@@ -40,18 +52,6 @@
       "intGoalsAgainst": 1,
       "intGoalDifference": 1,
       "intPoints": 4
-    },
-    {
-      "intRank": 3,
-      "strTeam": "Левски",
-      "intPlayed": 1,
-      "intWin": 1,
-      "intDraw": 0,
-      "intLoss": 0,
-      "intGoalsFor": 2,
-      "intGoalsAgainst": 1,
-      "intGoalDifference": 1,
-      "intPoints": 3
     },
     {
       "intRank": 4,
@@ -79,18 +79,6 @@
     },
     {
       "intRank": 5,
-      "strTeam": "Локомотив София",
-      "intPlayed": 1,
-      "intWin": 0,
-      "intDraw": 1,
-      "intLoss": 0,
-      "intGoalsFor": 1,
-      "intGoalsAgainst": 1,
-      "intGoalDifference": 0,
-      "intPoints": 1
-    },
-    {
-      "intRank": 5,
       "strTeam": "Черно море",
       "intPlayed": 1,
       "intWin": 0,
@@ -102,8 +90,20 @@
       "intPoints": 1
     },
     {
-      "intRank": 8,
+      "intRank": 7,
       "strTeam": "Ботев Враца",
+      "intPlayed": 2,
+      "intWin": 0,
+      "intDraw": 1,
+      "intLoss": 1,
+      "intGoalsFor": 2,
+      "intGoalsAgainst": 3,
+      "intGoalDifference": -1,
+      "intPoints": 1
+    },
+    {
+      "intRank": 7,
+      "strTeam": "Локомотив София",
       "intPlayed": 2,
       "intWin": 0,
       "intDraw": 1,
@@ -313,8 +313,9 @@
       "strHomeTeam": "Локомотив София",
       "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:0"
     },
     {
       "id": "bf-ae877b0d13d8",
@@ -534,6 +535,21 @@
       "player": "Флориан Кребс",
       "team": "ЦСКА 1948",
       "goals": 1
+    },
+    {
+      "player": "Сержиньо Араужо",
+      "team": "Левски",
+      "goals": 1
+    },
+    {
+      "player": "Рейналдо Саторно",
+      "team": "Левски",
+      "goals": 1
+    },
+    {
+      "player": "Спас Делев",
+      "team": "Локомотив София",
+      "goals": 1
     }
   ],
   "today": [
@@ -546,8 +562,9 @@
       "strHomeTeam": "Атлетик",
       "strAwayTeam": "Марица 1921",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -573,8 +590,9 @@
       "strHomeTeam": "Секирово",
       "strAwayTeam": "Ботев II",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "0:2",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -736,6 +754,20 @@
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
+      "id": "bf-742c04665ff7",
+      "dateEvent": "2026-07-25",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "ОФК Костинброд 2012",
+      "strAwayTeam": "Национал (София)",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "3:0",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
       "id": "bf-507185dcd4ea",
       "dateEvent": "2026-07-25",
       "strTime": "18:00:00",
@@ -785,6 +817,20 @@
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-f283c76f2806",
+      "dateEvent": "2026-07-25",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Янтра",
+      "strAwayTeam": "Академик",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "1:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -907,8 +953,9 @@
       "strHomeTeam": "Локомотив София",
       "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:0",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
