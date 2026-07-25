@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-25T08:22:38.358997+00:00",
+  "updatedAt": "2026-07-25T10:06:26.256148+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "4fd7ca52f2018129c553f66d1b427ebf58bcd46ca208049e9c5c0f47cf5aa326"
+      "sha256": "acb92a37b6d3a7120a0004b949f307b5f7788514bb29cf58517760215464c2fd"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "25a8706ea67792e3451849e632670a9ecbbe94c80fe008efecab9c065e72780c"
+      "sha256": "b083651e9f53cd656049ab1b72cb9849b2ee8a85d25d46ea2b80a18a7d014b66"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "baf4708ea5e762b73040b8862a3a0c7c4c893ce978dd1dfa9dc5d181ea2ddfd0"
+      "sha256": "0e109335096baf579871b0acad60c685842322be73a6e8df685533503f214e53"
     }
   },
   "table": [
@@ -540,6 +540,19 @@
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
+      "id": "bf-11eb7571d298",
+      "dateEvent": "2026-07-25",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Димитровград 1947",
+      "strAwayTeam": "Локомотив Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
       "id": "bf-054a757d9baf",
       "dateEvent": "2026-07-25",
       "strTime": "10:00:00",
@@ -553,16 +566,17 @@
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
-      "id": "bf-11eb7571d298",
+      "id": "bf-1228bf92a540",
       "dateEvent": "2026-07-25",
-      "strTime": "10:30:00",
+      "strTime": "10:00:00",
       "intRound": "",
       "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "Димитровград 1947",
-      "strAwayTeam": "Локомотив Пловдив",
+      "strHomeTeam": "Славия",
+      "strAwayTeam": "Балкан 1929",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "0:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
