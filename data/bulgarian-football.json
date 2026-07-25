@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-25T18:35:21.456143+00:00",
+  "updatedAt": "2026-07-25T19:52:15.683240+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "b7253b8451ecbdb0602e748d2db03d54460179b8856752220d0cfa7e8a64b45b"
+      "sha256": "5fd38e195d1a1e5651feed36465b2680d08748cc784e8a266a0f26fabd935df3"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "0a4502787bbddce8177bb1951fb19f59d069db329e37a2c53d176b460e5942dd"
+      "sha256": "34375ab87b3f4e340c7c291f880207a567f47d82788f1080b7669ae652041290"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "7438348654e288f1202789b8dbe6e230b052a5d509618c1e25f460f2c5a1da52"
+      "sha256": "1a1a66a4ffe78805136eafb22216501b22d42dd6210a41d8d12700b1fa895111"
     }
   },
   "table": [
@@ -851,8 +851,9 @@
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Черноморец 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -864,8 +865,9 @@
       "strHomeTeam": "Фратрия",
       "strAwayTeam": "Марек 1915",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "0:1",
       "competition": "Втора професионална лига"
     },
     {
@@ -877,21 +879,23 @@
       "strHomeTeam": "Янтра 2019",
       "strAwayTeam": "Спартак",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
-      "id": "bf-2fa82610a82e",
+      "id": "bf-e1c065f4c2f4",
       "dateEvent": "2026-07-25",
       "strTime": "21:00:00",
       "intRound": "",
       "roundLabel": "Шампионска лига за жени - Първи квалификационен кръг, група 2, Финал",
-      "strHomeTeam": "Лудогорец",
-      "strAwayTeam": "Митровица",
+      "strHomeTeam": "Митровица",
+      "strAwayTeam": "Лудогорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Шампионска лига за жени - Първи квалификационен кръг, група 2, Финал"
     },
     {
