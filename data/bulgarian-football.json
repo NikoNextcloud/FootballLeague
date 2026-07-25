@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-25T12:36:28.362142+00:00",
+  "updatedAt": "2026-07-25T14:16:13.620971+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "4643582c3bb0e8e333a57555adff18d33f018b53c1afd5a93b3f12fd4a23933f"
+      "sha256": "1b9c830064cbc86fb590a7ead0c8fc17dad3b21e8d272dc677a5c54b98910829"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "1d59f66b0b455fda745c06c67a659b369208b8d6e111fc7fd820400b318a7042"
+      "sha256": "0c6e34cd8e372a3dd4ccc0307ef2f950109607fb8544fb292ac0e10b83e5b2f3"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "40bb9b7a7b464314b4412eb33a0edf30ba6926b1753f9e348ae929a94896121b"
+      "sha256": "08a4e91fc47b178c630a58c743516f75410486b54dfd21cd99153f2d8344c5a6"
     }
   },
   "table": [
@@ -548,8 +548,9 @@
       "strHomeTeam": "Димитровград 1947",
       "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "2:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -678,6 +679,19 @@
       "roundLabel": "Приятелски срещи: Лято-есен",
       "strHomeTeam": "Аксаково",
       "strAwayTeam": "Черноморец",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-dc160cce2b53",
+      "dateEvent": "2026-07-25",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Вииторул",
+      "strAwayTeam": "Бдин 1923",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
