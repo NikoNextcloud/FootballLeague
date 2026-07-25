@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-25T15:32:27.598265+00:00",
+  "updatedAt": "2026-07-25T16:29:19.558668+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "975fb076f08f85673aef1049a2aae28f875c2ad37b24ce9f465edbb29dd7e1ad"
+      "sha256": "89f22084ac418a83ea15d778078fae90e6bf44afe2bc10f10383c7146de5feb9"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "678ec8095bd0bf7b78126d502a5000ba6c9bc5c1f103d86b21bdb945b67cb4e7"
+      "sha256": "0fe0934a7202cdf80a84670a8aca8a0586d0d9562a3fcec79d42a5f62cdd8c20"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "d38dbc18610b4348cc1189e5f65c7c938e0d3fa1a55a0f767554134a93c15b7d"
+      "sha256": "d49341ab451641573e5c79ed91bc07bd3dd3c8cd96a7d8b68de32844cd8ceca2"
     }
   },
   "table": [
@@ -667,8 +667,9 @@
       "strHomeTeam": "КИ",
       "strAwayTeam": "Зимбру",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "0:1",
       "competition": "Шампионска лига за жени - Първи квалификационен кръг, група 2, За 3-4 място"
     },
     {
