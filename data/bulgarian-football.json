@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-26T19:51:40.587143+00:00",
+  "updatedAt": "2026-07-26T20:47:41.464442+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "a5be41c60dc7eceab98b2d25ad6f8069c1ca67f0a897d26cce783e2e9ba2fcdb"
+      "sha256": "4c8e4d48e16355e6693f6406b5a0e2fb27a4f20944e0fe9c97f1d41dc3d00532"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "0843b88988b9c3504982981c595d387c9c2c440f8ee7269cb40593da90d2153e"
+      "sha256": "a416ca9dbaa8468e0b7c8ea19b0b94999d8f5c9e4629c515200c4a837e24cbbd"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "3ae61cf2e4885ee559ae319a1e13fb2d69df05d24dbb09fc1113ebde4288a0f2"
+      "sha256": "7bdd68c42da7bdb88f90dc46754872718a1bcacd49f9ca93c38077570da2762b"
     }
   },
   "table": [
@@ -79,6 +79,18 @@
     },
     {
       "intRank": 6,
+      "strTeam": "Локомотив Пловдив",
+      "intPlayed": 2,
+      "intWin": 1,
+      "intDraw": 0,
+      "intLoss": 1,
+      "intGoalsFor": 2,
+      "intGoalsAgainst": 2,
+      "intGoalDifference": 0,
+      "intPoints": 3
+    },
+    {
+      "intRank": 7,
       "strTeam": "Ботев Пловдив",
       "intPlayed": 1,
       "intWin": 0,
@@ -90,7 +102,7 @@
       "intPoints": 1
     },
     {
-      "intRank": 7,
+      "intRank": 8,
       "strTeam": "Ботев Враца",
       "intPlayed": 2,
       "intWin": 0,
@@ -102,7 +114,7 @@
       "intPoints": 1
     },
     {
-      "intRank": 7,
+      "intRank": 8,
       "strTeam": "Локомотив София",
       "intPlayed": 2,
       "intWin": 0,
@@ -114,7 +126,7 @@
       "intPoints": 1
     },
     {
-      "intRank": 9,
+      "intRank": 10,
       "strTeam": "Черно море",
       "intPlayed": 2,
       "intWin": 0,
@@ -126,7 +138,7 @@
       "intPoints": 1
     },
     {
-      "intRank": 10,
+      "intRank": 11,
       "strTeam": "ЦСКА",
       "intPlayed": 1,
       "intWin": 0,
@@ -138,7 +150,7 @@
       "intPoints": 1
     },
     {
-      "intRank": 11,
+      "intRank": 12,
       "strTeam": "Славия",
       "intPlayed": 2,
       "intWin": 0,
@@ -150,19 +162,19 @@
       "intPoints": 1
     },
     {
-      "intRank": 12,
+      "intRank": 13,
       "strTeam": "Септември София",
-      "intPlayed": 1,
+      "intPlayed": 2,
       "intWin": 0,
       "intDraw": 1,
-      "intLoss": 0,
-      "intGoalsFor": 1,
-      "intGoalsAgainst": 1,
-      "intGoalDifference": 0,
+      "intLoss": 1,
+      "intGoalsFor": 2,
+      "intGoalsAgainst": 3,
+      "intGoalDifference": -1,
       "intPoints": 1
     },
     {
-      "intRank": 13,
+      "intRank": 14,
       "strTeam": "Дунав Русе",
       "intPlayed": 1,
       "intWin": 0,
@@ -170,18 +182,6 @@
       "intLoss": 1,
       "intGoalsFor": 1,
       "intGoalsAgainst": 2,
-      "intGoalDifference": -1,
-      "intPoints": 0
-    },
-    {
-      "intRank": 14,
-      "strTeam": "Локомотив Пловдив",
-      "intPlayed": 1,
-      "intWin": 0,
-      "intDraw": 0,
-      "intLoss": 1,
-      "intGoalsFor": 0,
-      "intGoalsAgainst": 1,
       "intGoalDifference": -1,
       "intPoints": 0
     }
@@ -339,8 +339,9 @@
       "strHomeTeam": "Локомотив Пловдив",
       "strAwayTeam": "Септември София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:1"
     },
     {
       "id": "bf-b93033e6d604",
@@ -561,6 +562,16 @@
       "player": "Ангел Грънчов",
       "team": "Спартак Варна",
       "goals": 1
+    },
+    {
+      "player": "Александър Джамов",
+      "team": "Септември София",
+      "goals": 1
+    },
+    {
+      "player": "Жулиан Лами",
+      "team": "Локомотив Пловдив",
+      "goals": 1
     }
   ],
   "today": [
@@ -629,8 +640,9 @@
       "strHomeTeam": "Локомотив Пловдив",
       "strAwayTeam": "Септември София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
