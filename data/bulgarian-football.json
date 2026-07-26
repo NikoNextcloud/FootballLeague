@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-26T17:29:32.554476+00:00",
+  "updatedAt": "2026-07-26T18:36:44.848931+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "5ce1980eb1217fe82aa8f870eedb18b261ce6ddb4a1bd523778c34b0f6efcd4e"
+      "sha256": "32f10c3d47f2b6c6c0a00f6935ecb3d503af3806be269d64b37da8cbd35cf40c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "2439805665ad35c01dcc7ab71731dbfe441bff1eabf0a2ae6bc8c1e3c8a6942c"
+      "sha256": "944326da59039545c8339409f2c05eb1ad90b77184bd58ccf7c3b5b744c6e164"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "9d399d6448035a1cc1a126f9af9550721dd9e90dd8430ecd17155f95f541c140"
+      "sha256": "bb9af59096a582c90f0f3d908b690a28b2024222ac854e5a0bcb175f06e068bc"
     }
   },
   "table": [
@@ -31,6 +31,18 @@
     },
     {
       "intRank": 2,
+      "strTeam": "Спартак Варна",
+      "intPlayed": 2,
+      "intWin": 1,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 5,
+      "intGoalsAgainst": 2,
+      "intGoalDifference": 3,
+      "intPoints": 4
+    },
+    {
+      "intRank": 3,
       "strTeam": "ЦСКА 1948",
       "intPlayed": 2,
       "intWin": 1,
@@ -42,7 +54,7 @@
       "intPoints": 4
     },
     {
-      "intRank": 3,
+      "intRank": 4,
       "strTeam": "Арда",
       "intPlayed": 2,
       "intWin": 1,
@@ -54,7 +66,7 @@
       "intPoints": 4
     },
     {
-      "intRank": 4,
+      "intRank": 5,
       "strTeam": "Лудогорец",
       "intPlayed": 1,
       "intWin": 1,
@@ -66,20 +78,8 @@
       "intPoints": 3
     },
     {
-      "intRank": 5,
+      "intRank": 6,
       "strTeam": "Ботев Пловдив",
-      "intPlayed": 1,
-      "intWin": 0,
-      "intDraw": 1,
-      "intLoss": 0,
-      "intGoalsFor": 1,
-      "intGoalsAgainst": 1,
-      "intGoalDifference": 0,
-      "intPoints": 1
-    },
-    {
-      "intRank": 5,
-      "strTeam": "Черно море",
       "intPlayed": 1,
       "intWin": 0,
       "intDraw": 1,
@@ -115,6 +115,18 @@
     },
     {
       "intRank": 9,
+      "strTeam": "Черно море",
+      "intPlayed": 2,
+      "intWin": 0,
+      "intDraw": 1,
+      "intLoss": 1,
+      "intGoalsFor": 1,
+      "intGoalsAgainst": 4,
+      "intGoalDifference": -3,
+      "intPoints": 1
+    },
+    {
+      "intRank": 10,
       "strTeam": "ЦСКА",
       "intPlayed": 1,
       "intWin": 0,
@@ -126,7 +138,7 @@
       "intPoints": 1
     },
     {
-      "intRank": 10,
+      "intRank": 11,
       "strTeam": "Славия",
       "intPlayed": 2,
       "intWin": 0,
@@ -135,18 +147,6 @@
       "intGoalsFor": 0,
       "intGoalsAgainst": 1,
       "intGoalDifference": -1,
-      "intPoints": 1
-    },
-    {
-      "intRank": 11,
-      "strTeam": "Спартак Варна",
-      "intPlayed": 1,
-      "intWin": 0,
-      "intDraw": 1,
-      "intLoss": 0,
-      "intGoalsFor": 2,
-      "intGoalsAgainst": 2,
-      "intGoalDifference": 0,
       "intPoints": 1
     },
     {
@@ -326,8 +326,9 @@
       "strHomeTeam": "Черно море",
       "strAwayTeam": "Спартак Варна",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "0:1"
     },
     {
       "id": "bf-90f77ed332dd",
@@ -457,6 +458,11 @@
       "goals": 2
     },
     {
+      "player": "Георг Стояновски",
+      "team": "Спартак Варна",
+      "goals": 2
+    },
+    {
       "player": "Фредерик Масиел",
       "team": "ЦСКА 1948",
       "goals": 1
@@ -468,11 +474,6 @@
     },
     {
       "player": "Джойс Читоку",
-      "team": "Спартак Варна",
-      "goals": 1
-    },
-    {
-      "player": "Георг Стояновски",
       "team": "Спартак Варна",
       "goals": 1
     },
@@ -550,6 +551,16 @@
       "player": "Спас Делев",
       "team": "Локомотив София",
       "goals": 1
+    },
+    {
+      "player": "Рикардо Соуза",
+      "team": "Спартак Варна",
+      "goals": 1
+    },
+    {
+      "player": "Ангел Грънчов",
+      "team": "Спартак Варна",
+      "goals": 1
     }
   ],
   "today": [
@@ -576,8 +587,9 @@
       "strHomeTeam": "ФК Троян 2025",
       "strAwayTeam": "Партизан",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "6",
+      "intAwayScore": "3",
+      "halftime": "4:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -589,8 +601,9 @@
       "strHomeTeam": "Крумовград",
       "strAwayTeam": "Вора",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "0:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -602,8 +615,9 @@
       "strHomeTeam": "Черно море",
       "strAwayTeam": "Спартак Варна",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "0:1",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
