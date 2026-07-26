@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-26T15:16:17.816912+00:00",
+  "updatedAt": "2026-07-26T16:17:26.267963+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "b1c91884ee18510023cc3fc8fa8cd85a5383e5a84ee2139564dd3ff26cb3ee59"
+      "sha256": "c37118bbd477ce26d5450dd6042540cdd5f1bdcf82ce7e94117f6cf913de1afb"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "4e22fd2ae853e1ba45571726153c99473b4ef316075a9aac196c6f64bc0b55f7"
+      "sha256": "7718f140a2fd9960f3d3d387b90ab6fdd5e90b592ff22092b9fd99f6596dc3d9"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "4ffac83a784748bc788583ad427020651b0fa5292366463570d64cbb30a6a3a3"
+      "sha256": "32b10adfa6d28cf52726d4abfd86702965af51e305732609769c5063d7bc9d00"
     }
   },
   "table": [
@@ -562,8 +562,9 @@
       "strHomeTeam": "Ботев 1937",
       "strAwayTeam": "Прищина е Ре",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
