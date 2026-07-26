@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-26T20:47:41.464442+00:00",
+  "updatedAt": "2026-07-26T21:43:59.572379+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "4c8e4d48e16355e6693f6406b5a0e2fb27a4f20944e0fe9c97f1d41dc3d00532"
+      "sha256": "e725a151a89c1c55ad38110551a2a5ad6c226f86249ddb931e8f49965201c457"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "a416ca9dbaa8468e0b7c8ea19b0b94999d8f5c9e4629c515200c4a837e24cbbd"
+      "sha256": "31accafa3cacc7a6e47a50100d2caf176ba90b34b56539122bbdecc4005f9845"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "7bdd68c42da7bdb88f90dc46754872718a1bcacd49f9ca93c38077570da2762b"
+      "sha256": "cac6815e9c2d0e50d03697d01525123497e1e243579d1fec56ae78d7fdd1e28a"
     }
   },
   "table": [
@@ -576,73 +576,29 @@
   ],
   "today": [
     {
-      "id": "bf-4e00d6b5a5de",
-      "dateEvent": "2026-07-26",
-      "strTime": "11:00:00",
-      "intRound": "",
-      "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "Ботев 1937",
-      "strAwayTeam": "Прищина е Ре",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "2",
-      "intAwayScore": "2",
-      "halftime": "",
-      "competition": "Приятелски срещи: Лято-есен"
-    },
-    {
-      "id": "bf-2345a801a6f4",
-      "dateEvent": "2026-07-26",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "ФК Троян 2025",
-      "strAwayTeam": "Партизан",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "6",
-      "intAwayScore": "3",
-      "halftime": "4:1",
-      "competition": "Приятелски срещи: Лято-есен"
-    },
-    {
-      "id": "bf-a746434c0a6a",
-      "dateEvent": "2026-07-26",
-      "strTime": "18:30:00",
-      "intRound": "",
-      "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "Крумовград",
-      "strAwayTeam": "Вора",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "3",
-      "halftime": "0:1",
-      "competition": "Приятелски срещи: Лято-есен"
-    },
-    {
-      "id": "bf-7005f7ebd262",
-      "dateEvent": "2026-07-26",
+      "id": "bf-2c394b23ea5c",
+      "dateEvent": "2026-07-27",
       "strTime": "19:00:00",
       "intRound": "",
       "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "Черно море",
-      "strAwayTeam": "Спартак Варна",
+      "strHomeTeam": "Дунав Русе",
+      "strAwayTeam": "Лудогорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "3",
-      "halftime": "0:1",
+      "intHomeScore": null,
+      "intAwayScore": null,
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
-      "id": "bf-7079c3958aaf",
-      "dateEvent": "2026-07-26",
+      "id": "bf-e3cf5bb36344",
+      "dateEvent": "2026-07-27",
       "strTime": "21:15:00",
       "intRound": "",
       "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "Локомотив Пловдив",
-      "strAwayTeam": "Септември София",
+      "strHomeTeam": "ЦСКА",
+      "strAwayTeam": "Ботев Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": "2",
-      "intAwayScore": "1",
-      "halftime": "1:1",
+      "intHomeScore": null,
+      "intAwayScore": null,
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
