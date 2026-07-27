@@ -1,24 +1,36 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-27T17:06:41.797757+00:00",
+  "updatedAt": "2026-07-27T18:45:08.037358+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "d31fb3e185520cbc407674727e0d1c39804b67c504f5d1bfacaf6fb7a0a6ecf7"
+      "sha256": "b9231cd06bb8d343cd90ee365537e1f78c4b3719f1880981c4cb0dc98ee47034"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "f47cc45c8fd3384b4accb2afc300ae16490c70c936f5ae6aad85551e9f965e16"
+      "sha256": "6fe73fce794d2840783895943cb6cdaab1205f95a713c6bc4964b11ba3e500c7"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "2e4c1a63145225911a0fc4d2538f3da7b9076c67ce7edf1003f4f63620701723"
+      "sha256": "22e8be9d7b6496a98e5b1c1a7c08701ea12581f7646361f279200492e0948790"
     }
   },
   "table": [
     {
       "intRank": 1,
+      "strTeam": "Лудогорец",
+      "intPlayed": 2,
+      "intWin": 2,
+      "intDraw": 0,
+      "intLoss": 0,
+      "intGoalsFor": 3,
+      "intGoalsAgainst": 0,
+      "intGoalDifference": 3,
+      "intPoints": 6
+    },
+    {
+      "intRank": 2,
       "strTeam": "Левски",
       "intPlayed": 2,
       "intWin": 2,
@@ -30,7 +42,7 @@
       "intPoints": 6
     },
     {
-      "intRank": 2,
+      "intRank": 3,
       "strTeam": "Спартак Варна",
       "intPlayed": 2,
       "intWin": 1,
@@ -42,7 +54,7 @@
       "intPoints": 4
     },
     {
-      "intRank": 3,
+      "intRank": 4,
       "strTeam": "ЦСКА 1948",
       "intPlayed": 2,
       "intWin": 1,
@@ -54,7 +66,7 @@
       "intPoints": 4
     },
     {
-      "intRank": 4,
+      "intRank": 5,
       "strTeam": "Арда",
       "intPlayed": 2,
       "intWin": 1,
@@ -64,18 +76,6 @@
       "intGoalsAgainst": 1,
       "intGoalDifference": 1,
       "intPoints": 4
-    },
-    {
-      "intRank": 5,
-      "strTeam": "Лудогорец",
-      "intPlayed": 1,
-      "intWin": 1,
-      "intDraw": 0,
-      "intLoss": 0,
-      "intGoalsFor": 1,
-      "intGoalsAgainst": 0,
-      "intGoalDifference": 1,
-      "intPoints": 3
     },
     {
       "intRank": 6,
@@ -176,13 +176,13 @@
     {
       "intRank": 14,
       "strTeam": "Дунав Русе",
-      "intPlayed": 1,
+      "intPlayed": 2,
       "intWin": 0,
       "intDraw": 0,
-      "intLoss": 1,
+      "intLoss": 2,
       "intGoalsFor": 1,
-      "intGoalsAgainst": 2,
-      "intGoalDifference": -1,
+      "intGoalsAgainst": 4,
+      "intGoalDifference": -3,
       "intPoints": 0
     }
   ],
@@ -352,8 +352,9 @@
       "strHomeTeam": "Дунав Русе",
       "strAwayTeam": "Лудогорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:1"
     },
     {
       "id": "bf-f4e3c3b6069c",
@@ -740,6 +741,16 @@
       "player": "Жулиан Лами",
       "team": "Локомотив Пловдив",
       "goals": 1
+    },
+    {
+      "player": "Руан Круз",
+      "team": "Лудогорец",
+      "goals": 1
+    },
+    {
+      "player": "Бърнард Текпетей",
+      "team": "Лудогорец",
+      "goals": 1
     }
   ],
   "today": [
@@ -752,8 +763,9 @@
       "strHomeTeam": "Дунав Русе",
       "strAwayTeam": "Лудогорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:1",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
