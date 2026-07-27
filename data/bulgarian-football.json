@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-27T20:10:44.343299+00:00",
+  "updatedAt": "2026-07-27T21:30:25.248090+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "a7e485b54ac4d6350361c3911572c1e872166793d2478e524d12b257b14f3b08"
+      "sha256": "add7ab321b433a52797cc70327cca9d8997ce678f7259c8e342cea478b5e1f2f"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "1ba841157c1afe08a5c19fd9e8f0a4048bca9cb1c1cc4da0303618892660e135"
+      "sha256": "3ead1b127d953ecfd7782a46fe0967e0c9d5b7c9ef8c4370cf9c3df46e1df7d3"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "bc3addebdede0ce0fdc493061ed8ec04b2de451682178b5824e390ce398f3cd1"
+      "sha256": "17412097c55f380e2cdeaab331fb6b850a1e0bd8e7c251b5808b50a118f5f612"
     }
   },
   "table": [
@@ -776,32 +776,69 @@
   ],
   "today": [
     {
-      "id": "bf-2c394b23ea5c",
-      "dateEvent": "2026-07-27",
-      "strTime": "19:00:00",
+      "id": "bf-3632cce72013",
+      "dateEvent": "2026-07-28",
+      "strTime": "18:30:00",
       "intRound": "",
-      "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "Дунав Русе",
-      "strAwayTeam": "Лудогорец",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Вихрен",
+      "strAwayTeam": "ЦСКА II (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "2",
-      "halftime": "0:1",
-      "competition": "Първа професионална лига - Първа фаза"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
     },
     {
-      "id": "bf-e3cf5bb36344",
-      "dateEvent": "2026-07-27",
-      "strTime": "21:15:00",
+      "id": "bf-a8a553bc7008",
+      "dateEvent": "2026-07-28",
+      "strTime": "18:30:00",
       "intRound": "",
-      "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "ЦСКА",
-      "strAwayTeam": "Ботев Пловдив",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Добруджа 1919",
+      "strAwayTeam": "Пирин 22",
       "source": "bulgarian-football.com",
-      "intHomeScore": "3",
-      "intAwayScore": "2",
-      "halftime": "1:1",
-      "competition": "Първа професионална лига - Първа фаза"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-09257667282e",
+      "dateEvent": "2026-07-28",
+      "strTime": "18:30:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "ОФК Хасково",
+      "strAwayTeam": "Пантракикос",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-715845ec3707",
+      "dateEvent": "2026-07-28",
+      "strTime": "18:30:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Рилски спортист 2011",
+      "strAwayTeam": "Лудогорец",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-7b88f45b57b9",
+      "dateEvent": "2026-07-28",
+      "strTime": "20:30:00",
+      "intRound": "",
+      "roundLabel": "Лига на конференциите - Втори квалификационен кръг",
+      "strHomeTeam": "ЦСКА 1948",
+      "strAwayTeam": "Спартак",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Лига на конференциите - Втори квалификационен кръг"
     }
   ],
   "europe": {
