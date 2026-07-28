@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-28T18:59:39.444378+00:00",
+  "updatedAt": "2026-07-28T20:22:00.902411+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "ca0103fb7639a6cdf7a48b44ee3b573cd0b64c5c83d48d1dda29895fbe22efb2"
+      "sha256": "4f680d27d36bd18cd658df2c0ef911a594c2f023f6f2f044118cb199a9ace9a7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "63f29f6a8bf0bdc19969a995fde97cebb2c1908321cf718bef28c3df2408cba3"
+      "sha256": "aaad7480a0df597b43e01247b41eec222fe95da4a46fdba57777445210aba23a"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "9872e1d8354c6fbec7b334f23a552d53efa1da5a945f4a180d14c0a8bfb6d4c2"
+      "sha256": "0460d130b956f9d54102c8ff5010328328439c390af2bb8e07f62848be61f417"
     }
   },
   "table": [
@@ -840,8 +840,9 @@
       "strHomeTeam": "ЦСКА 1948",
       "strAwayTeam": "Спартак",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": "0:0, 0:0",
       "competition": "Лига на конференциите - Втори квалификационен кръг"
     }
   ],
@@ -982,6 +983,19 @@
         "competition": "Лига на конференциите"
       },
       {
+        "id": "bf-6ff7335a20c4",
+        "dateEvent": "2026-07-28",
+        "strTime": "20:30:00",
+        "intRound": "",
+        "roundLabel": "Втори квалификационен кръг",
+        "strHomeTeam": ".спк: Марин Лаушич",
+        "strAwayTeam": "Петър Маринов спасява",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Лига на конференциите"
+      },
+      {
         "id": "bf-424594a76c1b",
         "dateEvent": "2026-07-28",
         "strTime": "20:30:00",
@@ -990,8 +1004,9 @@
         "strHomeTeam": "ЦСКА 1948",
         "strAwayTeam": "Спартак",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "0",
+        "intAwayScore": "0",
+        "halftime": "0:0, 0:0",
         "competition": "Лига на конференциите"
       },
       {
