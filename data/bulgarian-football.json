@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-28T20:22:00.902411+00:00",
+  "updatedAt": "2026-07-28T21:36:28.385392+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "4f680d27d36bd18cd658df2c0ef911a594c2f023f6f2f044118cb199a9ace9a7"
+      "sha256": "84578175fe01507a52d517ce0c5103875ddd2ae5167fd81b37801fea10ce67a2"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "aaad7480a0df597b43e01247b41eec222fe95da4a46fdba57777445210aba23a"
+      "sha256": "5351d07aa8422d844b64860060cf227fb6689a015a45d5cd202054ca15df2b94"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "0460d130b956f9d54102c8ff5010328328439c390af2bb8e07f62848be61f417"
+      "sha256": "7805bb7c4935e6878d5b135e90eb391d85eb8f24c840c18c3797de6f0dc34499"
     }
   },
   "table": [
@@ -776,74 +776,56 @@
   ],
   "today": [
     {
-      "id": "bf-3632cce72013",
-      "dateEvent": "2026-07-28",
-      "strTime": "18:30:00",
-      "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Вихрен",
-      "strAwayTeam": "ЦСКА II (София)",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "1",
-      "intAwayScore": "1",
-      "halftime": "0:0",
-      "competition": "Втора професионална лига"
-    },
-    {
-      "id": "bf-a8a553bc7008",
-      "dateEvent": "2026-07-28",
-      "strTime": "18:30:00",
-      "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Добруджа 1919",
-      "strAwayTeam": "Пирин 22",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "5",
-      "intAwayScore": "1",
-      "halftime": "2:0",
-      "competition": "Втора професионална лига"
-    },
-    {
-      "id": "bf-09257667282e",
-      "dateEvent": "2026-07-28",
-      "strTime": "18:30:00",
+      "id": "bf-a59177e2e43f",
+      "dateEvent": "2026-07-29",
+      "strTime": "18:00:00",
       "intRound": "",
       "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "ОФК Хасково",
-      "strAwayTeam": "Пантракикос",
+      "strHomeTeam": "Загорец",
+      "strAwayTeam": "ФК Ямбол 1915",
       "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "2",
-      "halftime": "0:2",
+      "intHomeScore": null,
+      "intAwayScore": null,
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
-      "id": "bf-715845ec3707",
-      "dateEvent": "2026-07-28",
+      "id": "bf-f8a39d6d716e",
+      "dateEvent": "2026-07-29",
       "strTime": "18:30:00",
       "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Рилски спортист 2011",
-      "strAwayTeam": "Лудогорец",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Волов Шумен 2007",
+      "strAwayTeam": "СФК Светкавица 2014",
       "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "1",
-      "halftime": "0:0",
-      "competition": "Втора професионална лига"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
     },
     {
-      "id": "bf-7b88f45b57b9",
-      "dateEvent": "2026-07-28",
+      "id": "bf-4f74da11b012",
+      "dateEvent": "2026-07-29",
+      "strTime": "18:30:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Рилци",
+      "strAwayTeam": "Черноморец",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-e5fd8ce83426",
+      "dateEvent": "2026-07-29",
       "strTime": "20:30:00",
       "intRound": "",
-      "roundLabel": "Лига на конференциите - Втори квалификационен кръг",
-      "strHomeTeam": "ЦСКА 1948",
-      "strAwayTeam": "Спартак",
+      "roundLabel": "Шампионска лига - Втори квалификационен кръг",
+      "strHomeTeam": "Университатя",
+      "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "0",
-      "halftime": "0:0, 0:0",
-      "competition": "Лига на конференциите - Втори квалификационен кръг"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Шампионска лига - Втори квалификационен кръг"
     }
   ],
   "europe": {
