@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-29T12:20:22.519136+00:00",
+  "updatedAt": "2026-07-29T14:37:02.907813+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "af1d2e4756180b40b22a0461eff1ea12fcd9cacc851c04f913164f9c355e8079"
+      "sha256": "ba0860b290e0f17384325b978e45ec3508fd99659ac0242cd45f98f798236a12"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "4f8a99a5a78a8f1f63bf4666d793edb17a64ef8e10e02a9c120ceb95cc74f1bf"
+      "sha256": "5d317bcbd801e7397f6e86fc2e1d761e7d756629ef13055681509c43ac4210db"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "3df50ca6ebe1e0f27a217be25a31ca63f3eb65086eefcc68ca0327411ad64873"
+      "sha256": "cfffbb53b96fd73164387d6211306832b36949aba35adb9b8618ba6f4f2e01a1"
     }
   },
   "table": [
@@ -783,6 +783,19 @@
       "roundLabel": "Приятелски срещи: Лято-есен",
       "strHomeTeam": "Загорец",
       "strAwayTeam": "ФК Ямбол 1915",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-160e3337c43b",
+      "dateEvent": "2026-07-29",
+      "strTime": "18:30:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Ботев II",
+      "strAwayTeam": "Прищина е Ре",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
