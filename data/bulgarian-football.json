@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-29T17:38:26.925088+00:00",
+  "updatedAt": "2026-07-29T18:41:19.417544+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "c2e2a671e8346dda6be119e038819aefde1bd781923c53329ae57856bd8f8ca6"
+      "sha256": "21a2567a74671321837729867b3bc7ac400fb75208298bd853555903282f3b9a"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "c6310ced68b71666d31f52a89537a43d46ec498b3410d7fb1af77dfe7c139663"
+      "sha256": "9804deffe3e93b6b8c0f382e9babda7425d6ee45ef592b544e2ac0655f1b7ed3"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "340efdeb3da107541fc5d74051d909f8d05c0a97a7d28ab714b685f9ef84872d"
+      "sha256": "d7a1958f427cc201b3dd6dd535b260753d25844d6db2a373959ae3af1be24e6a"
     }
   },
   "table": [
@@ -784,8 +784,9 @@
       "strHomeTeam": "Загорец",
       "strAwayTeam": "ФК Ямбол 1915",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "0:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
