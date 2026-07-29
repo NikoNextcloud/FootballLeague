@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-29T18:41:19.417544+00:00",
+  "updatedAt": "2026-07-29T20:02:15.536177+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "21a2567a74671321837729867b3bc7ac400fb75208298bd853555903282f3b9a"
+      "sha256": "8b2c530184758806d5e2980243d13fdc3e70be7f83cb5cdb917a4fa44f30d78e"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "9804deffe3e93b6b8c0f382e9babda7425d6ee45ef592b544e2ac0655f1b7ed3"
+      "sha256": "6611485829d990e33406b590cb75ee858c31f46a3356e37f4b49fe8f6416086f"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "d7a1958f427cc201b3dd6dd535b260753d25844d6db2a373959ae3af1be24e6a"
+      "sha256": "39f9a5f6d38a5458476f333b440789970ca313325dea86823e453b42a601bea6"
     }
   },
   "table": [
@@ -790,6 +790,20 @@
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
+      "id": "bf-a97fbc459922",
+      "dateEvent": "2026-07-29",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Янтра",
+      "strAwayTeam": "Павликени",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "1:1",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
       "id": "bf-160e3337c43b",
       "dateEvent": "2026-07-29",
       "strTime": "18:30:00",
@@ -798,8 +812,9 @@
       "strHomeTeam": "Ботев II",
       "strAwayTeam": "Прищина е Ре",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "4",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -811,8 +826,9 @@
       "strHomeTeam": "Волов Шумен 2007",
       "strAwayTeam": "СФК Светкавица 2014",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -824,8 +840,9 @@
       "strHomeTeam": "Рилци",
       "strAwayTeam": "Черноморец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "0:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -837,8 +854,9 @@
       "strHomeTeam": "Университатя",
       "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "1:2",
       "competition": "Шампионска лига - Втори квалификационен кръг"
     }
   ],
@@ -1006,6 +1024,32 @@
         "competition": "Лига на конференциите"
       },
       {
+        "id": "bf-99afd4e0c224",
+        "dateEvent": "2026-07-29",
+        "strTime": "20:30:00",
+        "intRound": "",
+        "roundLabel": "Трети квалификационен кръг · Реванш",
+        "strHomeTeam": "Кайрат",
+        "strAwayTeam": "Левски",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Шампионска лига"
+      },
+      {
+        "id": "bf-2bb51e9757c7",
+        "dateEvent": "2026-07-29",
+        "strTime": "20:30:00",
+        "intRound": "",
+        "roundLabel": "Трети квалификационен кръг · Първа среща",
+        "strHomeTeam": "Левски",
+        "strAwayTeam": "Кайрат",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Шампионска лига"
+      },
+      {
         "id": "bf-0f7efe9fb402",
         "dateEvent": "2026-07-29",
         "strTime": "20:30:00",
@@ -1014,8 +1058,9 @@
         "strHomeTeam": "Университатя",
         "strAwayTeam": "Левски",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "2",
+        "intAwayScore": "2",
+        "halftime": "1:2",
         "competition": "Шампионска лига"
       },
       {
