@@ -78,3 +78,24 @@ html{background:#040a11}body{position:relative;isolation:isolate;min-height:100v
 .participant-card small,.participant-card p{color:#94aaa1}
 .participant-card p{margin:0;font-size:12px;line-height:1.45}
 @media(max-width:800px){.euro-participants{grid-template-columns:1fr}.participant-card{padding:14px}.participant-card .team-logo{width:48px;height:48px}}
+.live-page-intro{margin-bottom:24px}
+.live-manager{display:grid;grid-template-columns:360px 1fr;gap:22px;align-items:start}
+.live-form,.live-card{background:rgba(10,19,27,.9);border:1px solid rgba(255,255,255,.1);border-radius:22px;box-shadow:0 16px 40px rgba(0,0,0,.22)}
+.live-form{position:sticky;top:128px;padding:20px;display:grid;gap:14px}
+.form-head{display:grid;gap:5px;margin-bottom:2px}
+.form-head small,.live-card small{color:var(--green);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1px}
+.form-head b{font-size:21px;letter-spacing:-.4px}
+.live-form label{display:grid;gap:7px;color:#b7c7c0;font-size:12px;font-weight:700}
+.live-form input,.live-form textarea{width:100%;border:1px solid #2a373e;background:#101b23;color:#edf5f2;border-radius:12px;padding:12px 13px;font:inherit;font-size:14px;outline:none}
+.live-form textarea{resize:vertical;min-height:92px}
+.live-form input:focus,.live-form textarea:focus{border-color:var(--green);box-shadow:0 0 0 4px rgba(0,168,107,.12)}
+.live-form-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.live-library{min-width:0}
+.live-links-grid{display:grid;gap:14px}
+.live-card{padding:18px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}
+.live-card h2{margin:6px 0 8px;font-size:22px;letter-spacing:-.7px}
+.live-card p{margin:0 0 11px;color:#94aaa1;line-height:1.5;font-size:13px}
+.live-card a{display:block;max-width:640px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#78e6af;text-decoration:none;font-size:12px;font-weight:700}
+.live-card-actions{display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
+.chip.danger{color:#ff8e98;border-color:rgba(242,56,72,.34);background:rgba(242,56,72,.08)}
+@media(max-width:900px){.live-manager{grid-template-columns:1fr}.live-form{position:static}.live-card{grid-template-columns:1fr}.live-card-actions{justify-content:flex-start}.live-card a{max-width:100%}}

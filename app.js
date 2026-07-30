@@ -1,5 +1,6 @@
 const SEASON = "2026-2027";
 const CACHE_KEY = "a-grupa-data-v10";
+const LIVE_LINKS_KEY = "a-grupa-live-links-v1";
 
 const fallbackTeams = [
   ["Ludogorets", "Лудогорец", "ludogorets.png"], ["Levski Sofia", "Левски", "levski.png"],
@@ -34,7 +35,7 @@ const EUROPE_PARTICIPANTS = [
   { team:"ЦСКА 1948", competition:"Лига на конференциите", cls:"uecl", round:"II квалификационен кръг", note:"срещу Спартак Търнава" }
 ];
 
-const state = { page: "home", filter: "all", team: "all", season: SEASON, selectedTeam: null, round: null,
+const state = { page: "home", filter: "all", team: "all", season: SEASON, selectedTeam: null, round: null, editingLiveLink: null,
   europeUpdated:null, europe:[], europeLoaded:false, openMatches:new Set(), loadingDetail:null, data: null, loading: true };
 const $ = (s) => document.querySelector(s);
 const escapeHtml = (v = "") => String(v).replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
@@ -532,6 +533,66 @@ function livescore() {
   <p class="data-note">Livescore не разрешава директно вграждане в чужд сайт, затова показваме собствената таблица. Бутонът „Виж в Livescore ↗" отваря официалната страница.</p>`;
 }
 
+const defaultLiveLinks = [
+  { id:"default-tv", title:"Основен live портал", url:"https://tvip-7itn.onrender.com/", category:"Футбол", description:"Запазеният досегашен линк от бутона „На живо“." }
+];
+
+function readLiveLinks() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(LIVE_LINKS_KEY) || "null");
+    if (Array.isArray(saved)) return saved;
+  } catch {}
+  return defaultLiveLinks;
+}
+
+function writeLiveLinks(links) {
+  localStorage.setItem(LIVE_LINKS_KEY, JSON.stringify(links));
+}
+
+function normalizeLiveUrl(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return "";
+  try {
+    return new URL(raw.includes("://") ? raw : `https://${raw}`).href;
+  } catch {
+    return "";
+  }
+}
+
+function createLiveLinkId() {
+  return globalThis.crypto?.randomUUID?.() || `live-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+}
+
+function liveLinksPage() {
+  const links = readLiveLinks();
+  const editing = links.find(link => link.id === state.editingLiveLink);
+  return `<section class="page-intro live-page-intro"><span class="eyebrow">LIVE TV</span><h1>На живо</h1><p>Добавяй линкове за гледане на мачове, канали или стриймове. Те се пазят в този браузър и са достъпни веднага от приложението.</p></section>
+  <section class="live-manager">
+    <form id="live-link-form" class="live-form">
+      <div class="form-head"><small>${editing ? "Редакция" : "Нов линк"}</small><b>${editing ? "Промени live линка" : "Добави live линк"}</b></div>
+      <label>Име на линка<input name="title" required maxlength="80" placeholder="Например: Левски - Лудогорец" value="${escapeHtml(editing?.title || "")}"></label>
+      <label>URL адрес<input name="url" required type="text" inputmode="url" placeholder="https://..." value="${escapeHtml(editing?.url || "")}"></label>
+      <label>Категория<input name="category" maxlength="40" placeholder="efbet Лига, БНТ, Diema..." value="${escapeHtml(editing?.category || "")}"></label>
+      <label>Описание<textarea name="description" maxlength="180" rows="3" placeholder="Кратка бележка за линка">${escapeHtml(editing?.description || "")}</textarea></label>
+      <div class="live-form-actions">
+        <button class="ls-open" type="submit">${editing ? "Запази промените" : "Добави линк"}</button>
+        ${editing ? `<button class="text-btn" id="cancel-live-edit" type="button">Откажи</button>` : ""}
+      </div>
+    </form>
+    <div class="live-library">
+      ${sectionTitle("Твоите линкове", "Гледане на живо")}
+      <div class="live-links-grid">${links.length ? links.map(link => `<article class="live-card">
+        <div><small>${escapeHtml(link.category || "Live")}</small><h2>${escapeHtml(link.title || "Live линк")}</h2><p>${escapeHtml(link.description || "Няма добавено описание.")}</p><a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(link.url)}</a></div>
+        <div class="live-card-actions">
+          <button class="ls-open" data-live-open="${escapeHtml(link.url)}" type="button">Отвори</button>
+          <button class="chip" data-live-edit="${escapeHtml(link.id)}" type="button">Редакция</button>
+          <button class="chip danger" data-live-delete="${escapeHtml(link.id)}" type="button">Изтрий</button>
+        </div>
+      </article>`).join("") : empty("Все още няма добавени live линкове.")}</div>
+    </div>
+  </section>`;
+}
+
 function archive() {
   const seasons = ["2026-2027","2025-2026","2024-2025","2023-2024"];
   return `<section class="page-intro"><span class="eyebrow">ИСТОРИЯ</span><h1>Архив</h1><p>Класиране и мачове от предходни сезони.</p></section>
@@ -546,6 +607,7 @@ function content() {
   if (state.page === "teams") return teams();
   if (state.page === "team-detail") return teamProfile();
   if (state.page === "europe") return europe();
+  if (state.page === "live") return liveLinksPage();
   if (state.page === "archive") return archive();
   return home();
 }
@@ -569,6 +631,35 @@ function render() {
   document.querySelectorAll("[data-filter]").forEach(el => el.addEventListener("click", () => { state.filter=el.dataset.filter; render(); }));
   document.querySelectorAll("[data-round]").forEach(el => el.addEventListener("click", () => { state.round=num(el.dataset.round); scrollTo(0,0); render(); }));
   $("#team-filter")?.addEventListener("change", e => { state.team=e.target.value; render(); });
+  $("#live-link-form")?.addEventListener("submit", e => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const data = new FormData(form);
+    const url = normalizeLiveUrl(data.get("url"));
+    if (!url) return alert("Въведи валиден live линк.");
+    const links = readLiveLinks();
+    const payload = {
+      id: state.editingLiveLink || createLiveLinkId(),
+      title: String(data.get("title") || "").trim() || "Live линк",
+      url,
+      category: String(data.get("category") || "").trim(),
+      description: String(data.get("description") || "").trim(),
+      updatedAt: new Date().toISOString()
+    };
+    const next = state.editingLiveLink ? links.map(link => link.id === state.editingLiveLink ? payload : link) : [payload, ...links];
+    writeLiveLinks(next);
+    state.editingLiveLink = null;
+    render();
+  });
+  $("#cancel-live-edit")?.addEventListener("click", () => { state.editingLiveLink = null; render(); });
+  document.querySelectorAll("[data-live-open]").forEach(el => el.addEventListener("click", () => window.open(el.dataset.liveOpen, "_blank", "noopener,noreferrer")));
+  document.querySelectorAll("[data-live-edit]").forEach(el => el.addEventListener("click", () => { state.editingLiveLink = el.dataset.liveEdit; scrollTo(0,0); render(); }));
+  document.querySelectorAll("[data-live-delete]").forEach(el => el.addEventListener("click", () => {
+    if (!confirm("Да изтрия ли този live линк?")) return;
+    writeLiveLinks(readLiveLinks().filter(link => link.id !== el.dataset.liveDelete));
+    if (state.editingLiveLink === el.dataset.liveDelete) state.editingLiveLink = null;
+    render();
+  }));
   document.querySelectorAll("[data-season]").forEach(el => el.addEventListener("click", async () => {
     state.season=el.dataset.season;
     if (state.season !== SEASON) {
