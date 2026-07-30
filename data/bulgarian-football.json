@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-30T21:15:53.210137+00:00",
+  "updatedAt": "2026-07-30T22:30:29.743041+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "446dbad8c0323110a229fcdd58abaf5391d349e184c4481ea40fc8467b1aa1ee"
+      "sha256": "4de3644e63c9f787e233dbb879ef45a41bb3df7153b8909dee3078b4cc9a2ef2"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "c85647d114990f5a53076a77c904fe84d324cf0cd802e64a4011c13b252fb0a6"
+      "sha256": "d1e5cdb105adf09fec12fe49aac28764cde0cab1d7f105e0d459668c3a7c673c"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "a8917e4d32b7577bc46d91d998343fc9bc3c8168fab1cd95e03e4ad34cde769d"
+      "sha256": "cc266a09a0a3f8585f19b81a6ca63b7b51ca4c00e7c501b63e2dd4c79a8b17fa"
     }
   },
   "table": [
@@ -1007,6 +1007,32 @@
         "competition": "Лига на конференциите"
       },
       {
+        "id": "bf-ac8dcc8371cb",
+        "dateEvent": "2026-07-30",
+        "strTime": "21:00:00",
+        "intRound": "",
+        "roundLabel": "Трети квалификационен кръг · Първа среща",
+        "strHomeTeam": "Макаби",
+        "strAwayTeam": "ЦСКА",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Лига Европа"
+      },
+      {
+        "id": "bf-9cdd668b28dd",
+        "dateEvent": "2026-07-30",
+        "strTime": "21:00:00",
+        "intRound": "",
+        "roundLabel": "Трети квалификационен кръг · Първа среща",
+        "strHomeTeam": "Панатинайкос",
+        "strAwayTeam": "ЦСКА 1948",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Лига на конференциите"
+      },
+      {
         "id": "bf-83126398ea0d",
         "dateEvent": "2026-07-30",
         "strTime": "21:00:00",
@@ -1019,6 +1045,32 @@
         "intAwayScore": "0",
         "halftime": "0:0, 0:0",
         "competition": "Лига Европа"
+      },
+      {
+        "id": "bf-13025ceb6431",
+        "dateEvent": "2026-07-30",
+        "strTime": "21:00:00",
+        "intRound": "",
+        "roundLabel": "Трети квалификационен кръг · Реванш",
+        "strHomeTeam": "ЦСКА",
+        "strAwayTeam": "Макаби",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Лига Европа"
+      },
+      {
+        "id": "bf-ee405ee14ce2",
+        "dateEvent": "2026-07-30",
+        "strTime": "21:00:00",
+        "intRound": "",
+        "roundLabel": "Трети квалификационен кръг · Реванш",
+        "strHomeTeam": "ЦСКА 1948",
+        "strAwayTeam": "Панатинайкос",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Лига на конференциите"
       },
       {
         "id": "bf-368681f22f63",
