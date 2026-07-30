@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-30T09:04:25.243005+00:00",
+  "updatedAt": "2026-07-30T11:18:13.702429+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "73c861f02bba8f578897a3d7a79456eb7e91e287ad5ffefb19ecde7c64d70365"
+      "sha256": "5bce970b33e18bda66db9196bbadea45b140148e2aa711a4a7bef6ac0e633d7e"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "adbf29253fbb9666022e45e2601d8a091705feae82a8afa6906c4819096d7146"
+      "sha256": "e576e5862a7185ce3cf5f34792a2a2a27bae7ef73d1b36b515e0383f58c73fd5"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "c7c448915d9388f5cc93dedba448ad9e4eb18f8e21c0221fc433bf3f4d23659e"
+      "sha256": "4dab6c8a0931e5a2ec0685b57cd7cac24b805efeaa0141ca0d5e3054658debed"
     }
   },
   "table": [
@@ -1006,19 +1006,6 @@
         "competition": "Лига Европа"
       },
       {
-        "id": "bf-8bab43219090",
-        "dateEvent": "2026-08-04",
-        "strTime": "20:30:00",
-        "intRound": "",
-        "roundLabel": "Трети квалификационен кръг · Реванш",
-        "strHomeTeam": "Кайрат",
-        "strAwayTeam": "Левски",
-        "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
-        "competition": "Шампионска лига"
-      },
-      {
         "id": "bf-368681f22f63",
         "dateEvent": "2026-08-04",
         "strTime": "20:30:00",
@@ -1026,6 +1013,19 @@
         "roundLabel": "Трети квалификационен кръг · Първа среща",
         "strHomeTeam": "Левски",
         "strAwayTeam": "Кайрат",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Шампионска лига"
+      },
+      {
+        "id": "bf-21555722eddb",
+        "dateEvent": "2026-08-11",
+        "strTime": "18:00:00",
+        "intRound": "",
+        "roundLabel": "Трети квалификационен кръг · Реванш",
+        "strHomeTeam": "Кайрат",
+        "strAwayTeam": "Левски",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
         "intAwayScore": null,
