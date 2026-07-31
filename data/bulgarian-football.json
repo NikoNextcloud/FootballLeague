@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-31T07:37:31.288187+00:00",
+  "updatedAt": "2026-07-31T10:15:33.804511+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "518ca615da31b54b2e84e653d8e5ffe9d1adfecc96d5bdabd5e225ec17225b41"
+      "sha256": "87f159d9ad3cb722d56a12ac9784f9403b3d1578b445069727d707b6fd3b1c04"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "f31b5855608a15e29f326827a12d7d0068b371680fc25095cb7da2f5e360c921"
+      "sha256": "c6316ae7bda2f93caf43fba4042f29dc1ec8e57faff2984de1d615143024686d"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "351caecc4aac677564cfe18dcbe464e5589478282948549f65d1a444f9623416"
+      "sha256": "1bc1facb37a421b8b637b6a2247d78f2464959cefba089eb667ca24c02deebf6"
     }
   },
   "table": [
@@ -456,7 +456,7 @@
     {
       "id": "bf-c1e9d55c1a6e",
       "dateEvent": "2026-08-07",
-      "strTime": "20:30:00",
+      "strTime": "21:15:00",
       "intRound": "4",
       "roundLabel": "IV кръг",
       "strHomeTeam": "Левски",
