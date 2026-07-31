@@ -1,24 +1,36 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-07-31T19:49:23.475595+00:00",
+  "updatedAt": "2026-07-31T20:48:33.140021+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "2852bc8cbcafa208c87172032b8285f8914c0df8e6b3492b4d38efd455c62c9d"
+      "sha256": "1d500f543cf7229ec93de6319948b08bf54403d8db399fb6e63bd45252df648b"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "2ae3202ef8a4233c1f947441c0634fdc2018c6ad4a5f5037c4b1a7da722d1c7c"
+      "sha256": "c73a5f234ea10bc640f4fdf782d86dceb92e35b1f30b20d0ee0ac76acc881b83"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "9ced8ce667265a3bcc748851e4836da79a4ad410b5fd0c4f7add18d969fbdb8f"
+      "sha256": "e9927f37711e91e0fec728eb9b1d297c46dd3fb9d7fa47de2fb99c8b8cb0e13b"
     }
   },
   "table": [
     {
       "intRank": 1,
+      "strTeam": "ЦСКА 1948",
+      "intPlayed": 3,
+      "intWin": 2,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 6,
+      "intGoalsAgainst": 4,
+      "intGoalDifference": 2,
+      "intPoints": 7
+    },
+    {
+      "intRank": 2,
       "strTeam": "Лудогорец",
       "intPlayed": 2,
       "intWin": 2,
@@ -30,7 +42,7 @@
       "intPoints": 6
     },
     {
-      "intRank": 2,
+      "intRank": 3,
       "strTeam": "Левски",
       "intPlayed": 2,
       "intWin": 2,
@@ -42,7 +54,7 @@
       "intPoints": 6
     },
     {
-      "intRank": 3,
+      "intRank": 4,
       "strTeam": "Спартак Варна",
       "intPlayed": 2,
       "intWin": 1,
@@ -51,18 +63,6 @@
       "intGoalsFor": 5,
       "intGoalsAgainst": 2,
       "intGoalDifference": 3,
-      "intPoints": 4
-    },
-    {
-      "intRank": 4,
-      "strTeam": "ЦСКА 1948",
-      "intPlayed": 2,
-      "intWin": 1,
-      "intDraw": 1,
-      "intLoss": 0,
-      "intGoalsFor": 4,
-      "intGoalsAgainst": 3,
-      "intGoalDifference": 1,
       "intPoints": 4
     },
     {
@@ -80,13 +80,13 @@
     {
       "intRank": 6,
       "strTeam": "Арда",
-      "intPlayed": 2,
+      "intPlayed": 3,
       "intWin": 1,
       "intDraw": 1,
-      "intLoss": 0,
-      "intGoalsFor": 2,
-      "intGoalsAgainst": 1,
-      "intGoalDifference": 1,
+      "intLoss": 1,
+      "intGoalsFor": 3,
+      "intGoalsAgainst": 3,
+      "intGoalDifference": 0,
       "intPoints": 4
     },
     {
@@ -391,8 +391,9 @@
       "strHomeTeam": "ЦСКА 1948",
       "strAwayTeam": "Арда",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:1"
     },
     {
       "id": "bf-e913ee50265d",
@@ -625,6 +626,11 @@
   ],
   "scorers": [
     {
+      "player": "Мамаду Диало",
+      "team": "ЦСКА 1948",
+      "goals": 3
+    },
+    {
       "player": "Мартин Петков",
       "team": "Ботев Враца",
       "goals": 2
@@ -640,12 +646,12 @@
       "goals": 2
     },
     {
-      "player": "Фредерик Масиел",
-      "team": "ЦСКА 1948",
-      "goals": 1
+      "player": "Бирсент Карагарен",
+      "team": "Арда",
+      "goals": 2
     },
     {
-      "player": "Мамаду Диало",
+      "player": "Фредерик Масиел",
       "team": "ЦСКА 1948",
       "goals": 1
     },
@@ -672,11 +678,6 @@
     {
       "player": "Себастиан Уейд",
       "team": "Септември София",
-      "goals": 1
-    },
-    {
-      "player": "Бирсент Карагарен",
-      "team": "Арда",
       "goals": 1
     },
     {
@@ -787,6 +788,20 @@
   ],
   "today": [
     {
+      "id": "bf-ab9db0e674c4",
+      "dateEvent": "2026-07-31",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Марица",
+      "strAwayTeam": "Локомотив Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:0",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
       "id": "bf-e17f34e9c937",
       "dateEvent": "2026-07-31",
       "strTime": "18:30:00",
@@ -795,8 +810,37 @@
       "strHomeTeam": "Гигант",
       "strAwayTeam": "Крумовград",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "0:1",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-390f80e81f5e",
+      "dateEvent": "2026-07-31",
+      "strTime": "18:30:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Монтана 1921",
+      "strAwayTeam": "Ком",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "2:0",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-593c258794ba",
+      "dateEvent": "2026-07-31",
+      "strTime": "18:30:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Спартак 1947",
+      "strAwayTeam": "Прищина е Ре",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -822,8 +866,9 @@
       "strHomeTeam": "ЦСКА 1948",
       "strAwayTeam": "Арда",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
