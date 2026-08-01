@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-01T16:32:16.933332+00:00",
+  "updatedAt": "2026-08-01T17:37:36.255622+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "3d2b10c37f513af349452ee3455c393cae94e64aaa6d690982c260afc7ccb7b9"
+      "sha256": "62cb3d9b6c4437ab24ba2412156d14d12a83d3c20b387c52cc3e61e7d3aac389"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "4809d62991a755ae86bfa82f117a3a594e58b6495369e7c4815c011c65784da7"
+      "sha256": "b6ed661798782e87c4c996a358d7faf77ce3fee81d7fc69ec76eeec505d0fe2e"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "6e4b9eaf8692aa3f1dd00fb27b733986c81d72ad16fccc1f4176b361339d61c6"
+      "sha256": "a75c1b1068aef8f114535f1e507e5047f488b9585d570f71e5949bf0f1f8cff6"
     }
   },
   "table": [
@@ -935,8 +935,9 @@
       "strHomeTeam": "Банско тийм",
       "strAwayTeam": "Етрополе",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -961,8 +962,9 @@
       "strHomeTeam": "Кюстендил",
       "strAwayTeam": "Сливнишки герой",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -974,8 +976,9 @@
       "strHomeTeam": "Миньор",
       "strAwayTeam": "Национал (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -987,8 +990,9 @@
       "strHomeTeam": "Оборище",
       "strAwayTeam": "ЦСКА III (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -1026,8 +1030,9 @@
       "strHomeTeam": "Септември",
       "strAwayTeam": "ОФК Костинброд 2012",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -1078,8 +1083,9 @@
       "strHomeTeam": "Черноморец 1919",
       "strAwayTeam": "Берое",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Втора професионална лига"
     },
     {
