@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-01T18:39:39.826006+00:00",
+  "updatedAt": "2026-08-01T19:55:36.595258+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "fad3574e827ce48f2b3e9e83a3408164b89a943741f15b76bdf3c54172de69c9"
+      "sha256": "67c00b8fc622a4d0361b3bc60d6c8ab2e5e19781b5b80a3dc52ce9e0beb68570"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "7770b93adec187107b4e6a4ec9a245dc569d7dad45ce0ae6ba6b7849b9e18d3a"
+      "sha256": "17a1c56192de2a1feaec7868129067c590eff198ece0cbbc2db676d747e2bc42"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "6097a7d64e4f670eb0d80b3b3b26263cf0722278131d7ae7941c53e6709e853e"
+      "sha256": "40b080333d4ef3ff9458c96e31cba95177a8df5bba9ff6bf97f30a976d52c81c"
     }
   },
   "table": [
@@ -955,8 +955,9 @@
       "strHomeTeam": "Карнобат",
       "strAwayTeam": "Созопол",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "4",
+      "halftime": "0:2",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -1024,8 +1025,9 @@
       "strHomeTeam": "Родопа Смолян",
       "strAwayTeam": "Свобода 2011",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "6",
+      "intAwayScore": "2",
+      "halftime": "4:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -1053,7 +1055,7 @@
       "source": "bulgarian-football.com",
       "intHomeScore": "1",
       "intAwayScore": "0",
-      "halftime": "",
+      "halftime": "1:0",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -1079,8 +1081,9 @@
       "strHomeTeam": "Устрем Д",
       "strAwayTeam": "Септември",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "2:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -1106,8 +1109,9 @@
       "strHomeTeam": "Девня 2005",
       "strAwayTeam": "Бенковски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -1133,8 +1137,9 @@
       "strHomeTeam": "Спартак",
       "strAwayTeam": "Марек 1915",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1146,8 +1151,9 @@
       "strHomeTeam": "Фратрия",
       "strAwayTeam": "Рилски спортист 2011",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Втора професионална лига"
     },
     {
