@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-01T08:37:06.315320+00:00",
+  "updatedAt": "2026-08-01T10:21:01.957733+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "1fda7a2f820e636ddeea163aa2e2a6e2fc48519ff69b95148804f36db3416256"
+      "sha256": "a6825d405ab237786ca25ff638623ee98079b0fd8805f203d461c5f1c9954b45"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "5a5ad55a2cda16e3f173fe9d49598ea220f6a62ddd586b922942389908dc6cae"
+      "sha256": "54d32edae05aa0155a52d799462086351c67fe38383d544eb68db90a8c1ea0d9"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "94029ddf5bc80548ebc2986e6d03d0430591f177666ff98000c0c2d122a5a7a1"
+      "sha256": "7c57c28e9de6d0d7af41adb92f8323cb581610aa7c9e035fec06e84c1c587149"
     }
   },
   "table": [
@@ -788,6 +788,61 @@
   ],
   "today": [
     {
+      "id": "bf-1ce323a49365",
+      "dateEvent": "2026-08-01",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Атлетик",
+      "strAwayTeam": "Ботев II",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "0:0",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-397b10067d53",
+      "dateEvent": "2026-08-01",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Левски",
+      "strAwayTeam": "Марица 1921",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-7887e21d6b42",
+      "dateEvent": "2026-08-01",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "ОФК Хасково",
+      "strAwayTeam": "Розова долина",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "0:3",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-b435dc930643",
+      "dateEvent": "2026-08-01",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Севлиево",
+      "strAwayTeam": "Етър ВТ II",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "2:1",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
       "id": "bf-2166dbf8c41c",
       "dateEvent": "2026-08-01",
       "strTime": "10:00:00",
@@ -798,6 +853,20 @@
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-88e0b028d928",
+      "dateEvent": "2026-08-01",
+      "strTime": "10:30:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Загорец",
+      "strAwayTeam": "Нефтохимик 1962",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -812,6 +881,19 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Югозападна Трета лига"
+    },
+    {
+      "id": "bf-7913bd2cf483",
+      "dateEvent": "2026-08-01",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Карнобат",
+      "strAwayTeam": "Созопол",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
     },
     {
       "id": "bf-89b4f39295c1",
@@ -877,6 +959,19 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Югозападна Трета лига"
+    },
+    {
+      "id": "bf-9555b2512feb",
+      "dateEvent": "2026-08-01",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Родопа Смолян",
+      "strAwayTeam": "Свобода 2011",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
     },
     {
       "id": "bf-e8574f97d4dc",
