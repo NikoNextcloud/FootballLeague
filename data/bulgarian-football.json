@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-02T16:31:55.223865+00:00",
+  "updatedAt": "2026-08-02T17:39:04.495104+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "4a4ca173e995b7bbdaaeee679b03331e4908adc53cc916472a4fab6e0c74452b"
+      "sha256": "2c365743089e9ab707a076d5f3ca1a9cf14222f5ed84b0fdc6464d8ee6480d22"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "063e5e55c54cfc789a06a10fde52c2ef8882d80a0d56c98e6e9ec154aa1287be"
+      "sha256": "d28fa9bfafac1382cbe90b8cf2e16862a6186f8aa1e5b8afc023cb6f81cf2dda"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "e6d21900f42d1167d6bc6597f79d0050f75157e242c4cb4bba128db084fe3ec7"
+      "sha256": "0c39391204ce55d256ccf4ae87787edd642f77acc1bfa0ae76d8462e8b3078fe"
     }
   },
   "table": [
@@ -803,8 +803,9 @@
       "strHomeTeam": "Ботев 1937",
       "strAwayTeam": "Септември II (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:1",
       "competition": "Югозападна Трета лига"
     },
     {
