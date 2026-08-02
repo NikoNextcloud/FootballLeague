@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-02T18:41:39.389086+00:00",
+  "updatedAt": "2026-08-02T19:56:43.257919+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "3b194c4d719c36db8c54cef7b4419def4a39b8ed9cde6d1fd08a7c654ae35cfd"
+      "sha256": "5ec59c5934856b7a8f8a39f3a9ffb66bb64d73d2057bffdff1c504b230ff4d44"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "8ed4b3f580ae68b8479c8f655fca242ece5033e4c1fda134151788976cbb7d37"
+      "sha256": "9a92d85df1a676955afb8463978b2632280c5cceb3512a35df41728c49149429"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "9b24e772fbd7927043bf3d555d42e630552930e5cd68a7dfdf5db3ab97c6fe84"
+      "sha256": "8302348f55865763090367895c0fbdb38148f5b730643ccfa940c05e92515074"
     }
   },
   "table": [
@@ -837,8 +837,9 @@
       "strHomeTeam": "Добруджа 1919",
       "strAwayTeam": "Спортист 2009",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Втора професионална лига"
     },
     {
@@ -850,8 +851,9 @@
       "strHomeTeam": "Хебър 1918",
       "strAwayTeam": "Вихрен",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "0:1",
       "competition": "Втора професионална лига"
     },
     {
