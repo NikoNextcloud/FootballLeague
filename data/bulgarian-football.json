@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-02T17:39:04.495104+00:00",
+  "updatedAt": "2026-08-02T18:41:39.389086+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "2c365743089e9ab707a076d5f3ca1a9cf14222f5ed84b0fdc6464d8ee6480d22"
+      "sha256": "3b194c4d719c36db8c54cef7b4419def4a39b8ed9cde6d1fd08a7c654ae35cfd"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "d28fa9bfafac1382cbe90b8cf2e16862a6186f8aa1e5b8afc023cb6f81cf2dda"
+      "sha256": "8ed4b3f580ae68b8479c8f655fca242ece5033e4c1fda134151788976cbb7d37"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "0c39391204ce55d256ccf4ae87787edd642f77acc1bfa0ae76d8462e8b3078fe"
+      "sha256": "9b24e772fbd7927043bf3d555d42e630552930e5cd68a7dfdf5db3ab97c6fe84"
     }
   },
   "table": [
@@ -31,6 +31,18 @@
     },
     {
       "intRank": 2,
+      "strTeam": "Лудогорец",
+      "intPlayed": 3,
+      "intWin": 3,
+      "intDraw": 0,
+      "intLoss": 0,
+      "intGoalsFor": 5,
+      "intGoalsAgainst": 1,
+      "intGoalDifference": 4,
+      "intPoints": 9
+    },
+    {
+      "intRank": 3,
       "strTeam": "ЦСКА 1948",
       "intPlayed": 3,
       "intWin": 2,
@@ -40,18 +52,6 @@
       "intGoalsAgainst": 4,
       "intGoalDifference": 2,
       "intPoints": 7
-    },
-    {
-      "intRank": 3,
-      "strTeam": "Лудогорец",
-      "intPlayed": 2,
-      "intWin": 2,
-      "intDraw": 0,
-      "intLoss": 0,
-      "intGoalsFor": 3,
-      "intGoalsAgainst": 0,
-      "intGoalDifference": 3,
-      "intPoints": 6
     },
     {
       "intRank": 4,
@@ -140,13 +140,13 @@
     {
       "intRank": 11,
       "strTeam": "Ботев Враца",
-      "intPlayed": 2,
+      "intPlayed": 3,
       "intWin": 0,
       "intDraw": 1,
-      "intLoss": 1,
-      "intGoalsFor": 2,
-      "intGoalsAgainst": 3,
-      "intGoalDifference": -1,
+      "intLoss": 2,
+      "intGoalsFor": 3,
+      "intGoalsAgainst": 5,
+      "intGoalDifference": -2,
       "intPoints": 1
     },
     {
@@ -430,8 +430,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Ботев Враца",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "2:0"
     },
     {
       "id": "bf-aa785d404c30",
@@ -668,6 +669,16 @@
       "goals": 2
     },
     {
+      "player": "Руан Круз",
+      "team": "Лудогорец",
+      "goals": 2
+    },
+    {
+      "player": "Бърнард Текпетей",
+      "team": "Лудогорец",
+      "goals": 2
+    },
+    {
       "player": "Фредерик Масиел",
       "team": "ЦСКА 1948",
       "goals": 1
@@ -758,16 +769,6 @@
       "goals": 1
     },
     {
-      "player": "Руан Круз",
-      "team": "Лудогорец",
-      "goals": 1
-    },
-    {
-      "player": "Бърнард Текпетей",
-      "team": "Лудогорец",
-      "goals": 1
-    },
-    {
       "player": "Йоанис Питас",
       "team": "ЦСКА",
       "goals": 1
@@ -790,6 +791,11 @@
     {
       "player": "Армстронг Око-Флекс",
       "team": "Левски",
+      "goals": 1
+    },
+    {
+      "player": "Преслав Боруков",
+      "team": "Ботев Враца",
       "goals": 1
     }
   ],
@@ -817,8 +823,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Ботев Враца",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "2:0",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
