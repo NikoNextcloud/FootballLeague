@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-03T18:04:38.696454+00:00",
+  "updatedAt": "2026-08-03T19:53:41.135350+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "6ce572ae72dcbee0c3d07046752f6a2f32a092041c36e30fc1038935b59afd1f"
+      "sha256": "a820add944dcab435961e0ad2e283b24637786a7e5bb53370cb9389043adba35"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "089401eb86cadc19adf30f7833b350f75b16387a11b7dee98e8d6c335fa2dbd7"
+      "sha256": "b52df0a498b0a6ef405d5667abc42fb5cb15b6548d3fe7292dc6ae5ec74229b0"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "17bfb5915a7664d660223e444b2ae1a33e7b46574c6fbbca34696e3a7db515ef"
+      "sha256": "10762bfb511023e557baff3ff9312f62726e23ea2cec2b264f13861f4066c342"
     }
   },
   "table": [
@@ -834,8 +834,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Локомотив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "2:1",
       "competition": "Втора професионална лига"
     },
     {
@@ -847,8 +848,9 @@
       "strHomeTeam": "Пирин 22",
       "strAwayTeam": "ЦСКА II (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
