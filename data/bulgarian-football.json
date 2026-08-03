@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-03T19:53:41.135350+00:00",
+  "updatedAt": "2026-08-03T20:59:59.489352+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "a820add944dcab435961e0ad2e283b24637786a7e5bb53370cb9389043adba35"
+      "sha256": "7cb1873fde1c90c3b78d36c693ea316e1a6b65a26246fbf204e9eda6c1297e1c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "b52df0a498b0a6ef405d5667abc42fb5cb15b6548d3fe7292dc6ae5ec74229b0"
+      "sha256": "c807010b16c0e6c54e7dfab0f590d854a4b0df02a5db5a2750e34d8a1ec29f75"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "10762bfb511023e557baff3ff9312f62726e23ea2cec2b264f13861f4066c342"
+      "sha256": "058e3862770820140f72dbd21505c1eaac84c34174e6cf687c8e1f07d4096452"
     }
   },
   "table": [
@@ -43,6 +43,18 @@
     },
     {
       "intRank": 3,
+      "strTeam": "Спартак Варна",
+      "intPlayed": 3,
+      "intWin": 2,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 6,
+      "intGoalsAgainst": 2,
+      "intGoalDifference": 4,
+      "intPoints": 7
+    },
+    {
+      "intRank": 4,
       "strTeam": "ЦСКА 1948",
       "intPlayed": 3,
       "intWin": 2,
@@ -54,7 +66,7 @@
       "intPoints": 7
     },
     {
-      "intRank": 4,
+      "intRank": 5,
       "strTeam": "ЦСКА",
       "intPlayed": 3,
       "intWin": 2,
@@ -64,18 +76,6 @@
       "intGoalsAgainst": 3,
       "intGoalDifference": 2,
       "intPoints": 7
-    },
-    {
-      "intRank": 5,
-      "strTeam": "Спартак Варна",
-      "intPlayed": 2,
-      "intWin": 1,
-      "intDraw": 1,
-      "intLoss": 0,
-      "intGoalsFor": 5,
-      "intGoalsAgainst": 2,
-      "intGoalDifference": 3,
-      "intPoints": 4
     },
     {
       "intRank": 6,
@@ -104,13 +104,13 @@
     {
       "intRank": 8,
       "strTeam": "Локомотив Пловдив",
-      "intPlayed": 2,
+      "intPlayed": 3,
       "intWin": 1,
       "intDraw": 0,
-      "intLoss": 1,
+      "intLoss": 2,
       "intGoalsFor": 2,
-      "intGoalsAgainst": 2,
-      "intGoalDifference": 0,
+      "intGoalsAgainst": 3,
+      "intGoalDifference": -1,
       "intPoints": 3
     },
     {
@@ -456,8 +456,9 @@
       "strHomeTeam": "Спартак Варна",
       "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0"
     },
     {
       "id": "bf-c1e9d55c1a6e",
@@ -808,6 +809,11 @@
       "player": "Радослав Апостолов",
       "team": "Дунав Русе",
       "goals": 1
+    },
+    {
+      "player": "Давид Валверде",
+      "team": "Спартак Варна",
+      "goals": 1
     }
   ],
   "today": [
@@ -862,8 +868,9 @@
       "strHomeTeam": "Спартак Варна",
       "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
