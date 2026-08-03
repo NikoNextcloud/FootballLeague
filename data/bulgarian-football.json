@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-03T16:09:17.535126+00:00",
+  "updatedAt": "2026-08-03T18:04:38.696454+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "bf798436c651b98a8307a3c7735ddf6bd1bf26ff12200c346463ac865e5e134e"
+      "sha256": "6ce572ae72dcbee0c3d07046752f6a2f32a092041c36e30fc1038935b59afd1f"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "2f218eb1b77aed80a41cafbdebf78c9f5d57f582ce058d722dce49e553a54a8a"
+      "sha256": "089401eb86cadc19adf30f7833b350f75b16387a11b7dee98e8d6c335fa2dbd7"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "7e80a369a9b928a2178122f72e8baab8edff374d5aee70c98e1aa4680ab741b7"
+      "sha256": "17bfb5915a7664d660223e444b2ae1a33e7b46574c6fbbca34696e3a7db515ef"
     }
   },
   "table": [
@@ -820,8 +820,9 @@
       "strHomeTeam": "Етър ВТ",
       "strAwayTeam": "Янтра 2019",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "0:1",
       "competition": "Втора професионална лига"
     },
     {
