@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-04T18:14:53.252111+00:00",
+  "updatedAt": "2026-08-04T20:01:52.269760+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "c387280f19980898857ffd53763f4ea351958e8c8cec4a4eba9d74235c4d471d"
+      "sha256": "42d9ee35a93ca9aa89fc81939aa878160d425ce2e3a2c82d15abc707d8fafbf7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "9bd6ee11a046944ed608defcc23de41b897c5b5aea73dcd7709d6e41b8a75a4d"
+      "sha256": "0d32df5dd8eeb68bc260122607edbef93d8faf49efaa1eed75039e15f96cad1e"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "53dc0f7e1bd487fd7a16ce11b1a984b50c20976a1ec5cad63c6d9a04e5630b43"
+      "sha256": "c9d616be087a0e9dab0bf161f4f93876b70e4096674f39e9eabc3cfb242b5247"
     }
   },
   "table": [
@@ -840,8 +840,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "Кайрат",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Шампионска лига - Трети квалификационен кръг"
     }
   ],
@@ -1072,8 +1073,9 @@
         "strHomeTeam": "Левски",
         "strAwayTeam": "Кайрат",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "1",
+        "intAwayScore": "0",
+        "halftime": "0:0",
         "competition": "Шампионска лига"
       },
       {
