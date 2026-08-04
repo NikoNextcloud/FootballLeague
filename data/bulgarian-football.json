@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-04T20:01:52.269760+00:00",
+  "updatedAt": "2026-08-04T21:22:31.546309+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "42d9ee35a93ca9aa89fc81939aa878160d425ce2e3a2c82d15abc707d8fafbf7"
+      "sha256": "e55e607db2327305d2b2c683e903e318adcf4350f8437833683e0a8bafa3ad66"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "0d32df5dd8eeb68bc260122607edbef93d8faf49efaa1eed75039e15f96cad1e"
+      "sha256": "becc6226835760be6c828979d8dd49b8df5176537c11ef69c0d955293c3b0871"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "c9d616be087a0e9dab0bf161f4f93876b70e4096674f39e9eabc3cfb242b5247"
+      "sha256": "c08a91d577e23efa580df0577a1846c4947d712081e2c6817d8dd81f15079a8f"
     }
   },
   "table": [
@@ -818,32 +818,43 @@
   ],
   "today": [
     {
-      "id": "bf-e0d1643cb55d",
-      "dateEvent": "2026-08-04",
+      "id": "bf-f4d622765464",
+      "dateEvent": "2026-08-05",
       "strTime": "18:30:00",
       "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Монтана 1921",
-      "strAwayTeam": "Несебър",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Левски 2007",
+      "strAwayTeam": "Павликени",
       "source": "bulgarian-football.com",
-      "intHomeScore": "3",
-      "intAwayScore": "1",
-      "halftime": "1:1",
-      "competition": "Втора професионална лига"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
     },
     {
-      "id": "bf-22c207f8b81e",
-      "dateEvent": "2026-08-04",
-      "strTime": "20:30:00",
+      "id": "bf-60d059e18434",
+      "dateEvent": "2026-08-05",
+      "strTime": "19:30:00",
       "intRound": "",
-      "roundLabel": "Шампионска лига - Трети квалификационен кръг",
-      "strHomeTeam": "Левски",
-      "strAwayTeam": "Кайрат",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Черно море",
+      "strAwayTeam": "Устрем Д",
       "source": "bulgarian-football.com",
-      "intHomeScore": "1",
-      "intAwayScore": "0",
-      "halftime": "0:0",
-      "competition": "Шампионска лига - Трети квалификационен кръг"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-eb1cd37fcf2b",
+      "dateEvent": "2026-08-05",
+      "strTime": "21:30:00",
+      "intRound": "",
+      "roundLabel": "Лига на конференциите - Трети квалификационен кръг",
+      "strHomeTeam": "Панатинайкос",
+      "strAwayTeam": "ЦСКА 1948",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Лига на конференциите - Трети квалификационен кръг"
     }
   ],
   "europe": {
