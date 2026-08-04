@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-04T16:31:31.429193+00:00",
+  "updatedAt": "2026-08-04T18:14:53.252111+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "4a6aa2de79054cae7328270fc3d4291ceac1e5dea9d884927b9e453abe497229"
+      "sha256": "c387280f19980898857ffd53763f4ea351958e8c8cec4a4eba9d74235c4d471d"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "ac0bc0987526a6dd66875ba355b5aed6fe18c0c36e47ad4ace14d983f619e45c"
+      "sha256": "9bd6ee11a046944ed608defcc23de41b897c5b5aea73dcd7709d6e41b8a75a4d"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "f8ee1616f33eb9e06b5143e2ba850c58b30e43e9883faebce6bae056a9e9134c"
+      "sha256": "53dc0f7e1bd487fd7a16ce11b1a984b50c20976a1ec5cad63c6d9a04e5630b43"
     }
   },
   "table": [
@@ -826,8 +826,9 @@
       "strHomeTeam": "Монтана 1921",
       "strAwayTeam": "Несебър",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Втора професионална лига"
     },
     {
