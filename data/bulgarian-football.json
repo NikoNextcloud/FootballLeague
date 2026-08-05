@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-05T19:47:42.072012+00:00",
+  "updatedAt": "2026-08-05T20:49:56.747429+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "adef54c21c6ab4195c2de2877a7c7e25648e64a4bc9367bc020274a76e823d03"
+      "sha256": "3dff980221466a1a616bae22b3a55daaf92f96ffa7c508404db84f0136ec704c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "30fac77223a533145a541ab1dfcd7f209040971fd4d55af001ea22f1453c6288"
+      "sha256": "c585d7a3f2d9e34a0363a58b07f9f8c646bd33c6183d0589a9582d9b12ea4882"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "4eee5dec2a9b5a3f9818a012bcc824e256b99590d47a67162a6539867c14bb8d"
+      "sha256": "bdf0e5bccf16f2333c9811c319afef2c0d60eb9d5fd90032545a61f4660f80db"
     }
   },
   "table": [
@@ -826,8 +826,9 @@
       "strHomeTeam": "Левски 2007",
       "strAwayTeam": "Павликени",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "3",
+      "halftime": "0:2",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -852,8 +853,9 @@
       "strHomeTeam": "Панатинайкос",
       "strAwayTeam": "ЦСКА 1948",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Лига на конференциите - Трети квалификационен кръг"
     }
   ],
@@ -1098,8 +1100,9 @@
         "strHomeTeam": "Панатинайкос",
         "strAwayTeam": "ЦСКА 1948",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "1",
+        "intAwayScore": "1",
+        "halftime": "1:1",
         "competition": "Лига на конференциите"
       },
       {
