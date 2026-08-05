@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-05T20:49:56.747429+00:00",
+  "updatedAt": "2026-08-05T22:03:05.533882+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "3dff980221466a1a616bae22b3a55daaf92f96ffa7c508404db84f0136ec704c"
+      "sha256": "56f47d27a51690924966d74ff48d26fdda3dd631ab2ea9273d95dda0c0fc38e4"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "c585d7a3f2d9e34a0363a58b07f9f8c646bd33c6183d0589a9582d9b12ea4882"
+      "sha256": "a928eb73ea24baab7f1308f73580180fda7ffdd24e18f120379bc9a617b7712d"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "bdf0e5bccf16f2333c9811c319afef2c0d60eb9d5fd90032545a61f4660f80db"
+      "sha256": "7f17d082a273ff30b32af051c9bbede602aa10a0a63fc2b70568308f8f9e0357"
     }
   },
   "table": [
@@ -818,45 +818,17 @@
   ],
   "today": [
     {
-      "id": "bf-f4d622765464",
-      "dateEvent": "2026-08-05",
-      "strTime": "18:30:00",
+      "id": "bf-36a5f19bdf9f",
+      "dateEvent": "2026-08-06",
+      "strTime": "19:00:00",
       "intRound": "",
-      "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "Левски 2007",
-      "strAwayTeam": "Павликени",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "4",
-      "intAwayScore": "3",
-      "halftime": "0:2",
-      "competition": "Приятелски срещи: Лято-есен"
-    },
-    {
-      "id": "bf-60d059e18434",
-      "dateEvent": "2026-08-05",
-      "strTime": "19:30:00",
-      "intRound": "",
-      "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "Черно море",
-      "strAwayTeam": "Устрем Д",
+      "roundLabel": "Лига Европа - Трети квалификационен кръг",
+      "strHomeTeam": "Макаби",
+      "strAwayTeam": "ЦСКА",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Приятелски срещи: Лято-есен"
-    },
-    {
-      "id": "bf-eb1cd37fcf2b",
-      "dateEvent": "2026-08-05",
-      "strTime": "21:30:00",
-      "intRound": "",
-      "roundLabel": "Лига на конференциите - Трети квалификационен кръг",
-      "strHomeTeam": "Панатинайкос",
-      "strAwayTeam": "ЦСКА 1948",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "1",
-      "intAwayScore": "1",
-      "halftime": "1:1",
-      "competition": "Лига на конференциите - Трети квалификационен кръг"
+      "competition": "Лига Европа - Трети квалификационен кръг"
     }
   ],
   "europe": {
