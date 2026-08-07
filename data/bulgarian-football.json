@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-07T20:03:15.686623+00:00",
+  "updatedAt": "2026-08-07T20:53:55.795103+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "1f9db4646b1c65d4e5ed301aec0e73ea90b8dfed2ad2b3944ccc53cab998851d"
+      "sha256": "cb2dd49615fa71c639c939bcbeea8da4f95ec10fe02899cbbe5bd1c455b3e704"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "3dcc1d6d8665812541f72025b62bf7533c2de1898675b86e97a9c63b076b37e0"
+      "sha256": "b4163e7652eb6f0bbdb167ca6675bbb842b6fc24e2beeb69b2edc87482ac5246"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "50ca028292a88af9d8204e3ab24ca19d4abb28f688552d0b89fa4f1590a2360b"
+      "sha256": "cc382ae6b58e4d718685df83dcbf9056d77524a2e85a6ccef926e2d63e4a7747"
     }
   },
   "table": [
     {
       "intRank": 1,
       "strTeam": "Левски",
-      "intPlayed": 3,
-      "intWin": 3,
+      "intPlayed": 4,
+      "intWin": 4,
       "intDraw": 0,
       "intLoss": 0,
-      "intGoalsFor": 7,
+      "intGoalsFor": 9,
       "intGoalsAgainst": 2,
-      "intGoalDifference": 5,
-      "intPoints": 9
+      "intGoalDifference": 7,
+      "intPoints": 12
     },
     {
       "intRank": 2,
@@ -104,13 +104,13 @@
     {
       "intRank": 8,
       "strTeam": "Локомотив Пловдив",
-      "intPlayed": 3,
+      "intPlayed": 4,
       "intWin": 1,
       "intDraw": 0,
-      "intLoss": 2,
+      "intLoss": 3,
       "intGoalsFor": 2,
-      "intGoalsAgainst": 3,
-      "intGoalDifference": -1,
+      "intGoalsAgainst": 5,
+      "intGoalDifference": -3,
       "intPoints": 3
     },
     {
@@ -469,8 +469,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "1:0"
     },
     {
       "id": "bf-2338f36bdc1b",
@@ -681,6 +682,11 @@
       "goals": 2
     },
     {
+      "player": "Рейналдо Саторно",
+      "team": "Левски",
+      "goals": 2
+    },
+    {
       "player": "Фредерик Масиел",
       "team": "ЦСКА 1948",
       "goals": 1
@@ -738,11 +744,6 @@
     {
       "player": "Флориан Кребс",
       "team": "ЦСКА 1948",
-      "goals": 1
-    },
-    {
-      "player": "Рейналдо Саторно",
-      "team": "Левски",
       "goals": 1
     },
     {
@@ -814,6 +815,11 @@
       "player": "Давид Валверде",
       "team": "Спартак Варна",
       "goals": 1
+    },
+    {
+      "player": "Давид Кусо",
+      "team": "Левски",
+      "goals": 1
     }
   ],
   "today": [
@@ -854,8 +860,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
