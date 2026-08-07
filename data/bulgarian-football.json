@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-07T16:26:37.944164+00:00",
+  "updatedAt": "2026-08-07T17:24:45.093609+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "4049f95643ff59337a03ec27d770d55b9bc90ea15377aa5c3a8233a05394d8cf"
+      "sha256": "e00fd67d8cd00e0ace44da6f91c158f59cb0fbe284041cb62ef2f9a066444752"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "f3ca9d452b84bfacbcb39076ce9fa111af01a69ea1b8853de21f16363d05e0c2"
+      "sha256": "cfffbb2cb9131a394e9c003c650e18d2a2d308c699cc2a23ff25dba38783ee51"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "ceed7b08dae8d2b6954ae9e9ea9aa5d54255a81edba42821eead9f0d4dd7584a"
+      "sha256": "3a97ffc7e531b96ced27f0c8b26bd13392342c413fffd1553dfc77f3019fc988"
     }
   },
   "table": [
@@ -826,8 +826,9 @@
       "strHomeTeam": "ОФК Хасково",
       "strAwayTeam": "Гигант",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "2",
+      "halftime": "2:1",
       "competition": "Югоизточна Трета лига"
     },
     {
