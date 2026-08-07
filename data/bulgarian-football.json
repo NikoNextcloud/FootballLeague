@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-06T15:33:41.848671+00:00",
+  "updatedAt": "2026-08-07T00:33:26.485664+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "11ee1d2d62b8e8e95de766f36092c0d12cb4dd04bb908cd30a1b62cf2e68744a"
+      "sha256": "3f25d39710a71785cdbb91aa93d53bb8c7058d361b4c68b708942f80d7574538"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "3028f8d91b7fb13c8c5a4e4771ee3168533553f5caef7c16340f1572eb4f7b7e"
+      "sha256": "d4a622bdefe38fbd147d16366a8e7f2ee0ef4c8a2b704974fec1e8161aecd105"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "e15014c070bc6128cf186136ad6ff0ff0f37af5e2dc378797cdc4d4029ab36a7"
+      "sha256": "26e7320b7a2b638a4bf14a32d810d46623f0a8c3d44a23fe7a4d7aa2508bd2fa"
     }
   },
   "table": [
@@ -818,17 +818,43 @@
   ],
   "today": [
     {
-      "id": "bf-36a5f19bdf9f",
-      "dateEvent": "2026-08-06",
-      "strTime": "19:00:00",
+      "id": "bf-f4afaa5a7492",
+      "dateEvent": "2026-08-07",
+      "strTime": "18:00:00",
       "intRound": "",
-      "roundLabel": "Лига Европа - Трети квалификационен кръг",
-      "strHomeTeam": "Макаби",
-      "strAwayTeam": "ЦСКА",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "ОФК Хасково",
+      "strAwayTeam": "Гигант",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Лига Европа - Трети квалификационен кръг"
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-e296e38df8a3",
+      "dateEvent": "2026-08-07",
+      "strTime": "18:45:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Етър ВТ",
+      "strAwayTeam": "Марек 1915",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-a479512b0994",
+      "dateEvent": "2026-08-07",
+      "strTime": "21:15:00",
+      "intRound": "",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "Левски",
+      "strAwayTeam": "Локомотив Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Първа професионална лига - Първа фаза"
     }
   ],
   "europe": {
@@ -1086,8 +1112,9 @@
         "strHomeTeam": "Макаби",
         "strAwayTeam": "ЦСКА",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "0",
+        "intAwayScore": "3",
+        "halftime": "0:2",
         "competition": "Лига Европа"
       },
       {
