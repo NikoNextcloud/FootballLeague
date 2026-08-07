@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-07T17:24:45.093609+00:00",
+  "updatedAt": "2026-08-07T18:12:10.910069+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "e00fd67d8cd00e0ace44da6f91c158f59cb0fbe284041cb62ef2f9a066444752"
+      "sha256": "83f19228060df30bf7ecbd2b9cb60c7c3c8ff10aead4f3ea0fc62d78e9ace4ec"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "cfffbb2cb9131a394e9c003c650e18d2a2d308c699cc2a23ff25dba38783ee51"
+      "sha256": "8db08fb8676f07307599a4da76d8a8db73b646ff389a63177ed4a43099a4567a"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "3a97ffc7e531b96ced27f0c8b26bd13392342c413fffd1553dfc77f3019fc988"
+      "sha256": "7021c627253f1b51b12c4b68123c59adc7be663190cef633a8094b2c7e0cfe54"
     }
   },
   "table": [
@@ -840,8 +840,9 @@
       "strHomeTeam": "Етър ВТ",
       "strAwayTeam": "Марек 1915",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
