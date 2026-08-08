@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-08T11:57:22.957406+00:00",
+  "updatedAt": "2026-08-08T13:03:31.577283+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "0b157298bb9257d61197dfdb2a43b3e2f06c2e757e79a202605149e5392bde9e"
+      "sha256": "ed5b412adb5fbd4e797f66075576d458a5bb1ce8de1731e7a6f83b60234651a3"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "8a3091a8516320594000887a1f0379438b107c220ecab4f7bbfb4bc083271579"
+      "sha256": "9a19694001fdfad0f4bbac5b2fa2b566d6df8dec3b15023d6112a143c191b544"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "f9416e0e190a3471cc8b2c85bdaf6b219b532fc8f9ed87c156c3ab29de08280c"
+      "sha256": "7f3adefda0a14708019d22d35fb9e253815a1a91320e4b2702ea44adc2c3a499"
     }
   },
   "table": [
@@ -832,8 +832,9 @@
       "strHomeTeam": "Севлиево",
       "strAwayTeam": "Янтра",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -845,8 +846,9 @@
       "strHomeTeam": "Партизан",
       "strAwayTeam": "ОФК Локомотив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -858,8 +860,9 @@
       "strHomeTeam": "Септември 98",
       "strAwayTeam": "Доростол Силистра",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "8",
+      "intAwayScore": "1",
+      "halftime": "4:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
