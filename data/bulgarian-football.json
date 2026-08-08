@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-08T17:17:17.739296+00:00",
+  "updatedAt": "2026-08-08T17:51:35.002367+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "c1e744fcd668671358fa6b3d130ac858b5cf2c7f096c450b5bce0e4c6ab89425"
+      "sha256": "70c1d9c4d122d7c5ce04677f31245dc160a5077241c62b6903b0710f58ac845e"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "0b54a6457ba521fb07b3ab99d1cff2d24af652a09d3493f3c17fb3610adf2ff8"
+      "sha256": "5b3a3211383e63b3e246a48523e30169112e580c2e4c42b1423e1f23d64ac61d"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "898765477277ad6ef10d66a67a96acfc7de64ee95bb4aa2cbcd21f9c36215f76"
+      "sha256": "e4c776206be1a53e0963f0fb753f4d72494d2db04422f34e4dd2ea6a9689b281"
     }
   },
   "table": [
@@ -929,8 +929,9 @@
       "strHomeTeam": "Етрополе",
       "strAwayTeam": "Оборище",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Югозападна Трета лига"
     },
     {
