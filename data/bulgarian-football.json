@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-08T19:44:04.650054+00:00",
+  "updatedAt": "2026-08-08T20:10:33.645434+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "c421d521594b7fd82debc2b02fc5c2a5cb65545f9870cb59094f36bf41085ee6"
+      "sha256": "94eb994149d8c273464584689628fd18ea3c8f25133f5ecf0754cb0a8ef1bf9a"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "ecae9373cb22d0c45dc07322aefd07dc1466c7ab7f60fe4825e483d546907951"
+      "sha256": "cb7652b90ed65f7971384a2618add42b85c9fd101802b93dc13cf3d411ebab39"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "d74f4e3209de25a3989a907e13a2c52206b4f674e26ffc1bd2506ad8a80609b3"
+      "sha256": "44d67d0d0bdc51e6ee436ace930b45f24478654abcd2060d6ef32be5c090e1f6"
     }
   },
   "table": [
@@ -67,6 +67,18 @@
     },
     {
       "intRank": 5,
+      "strTeam": "Арда",
+      "intPlayed": 4,
+      "intWin": 2,
+      "intDraw": 1,
+      "intLoss": 1,
+      "intGoalsFor": 5,
+      "intGoalsAgainst": 3,
+      "intGoalDifference": 2,
+      "intPoints": 7
+    },
+    {
+      "intRank": 5,
       "strTeam": "ЦСКА",
       "intPlayed": 3,
       "intWin": 2,
@@ -78,7 +90,7 @@
       "intPoints": 7
     },
     {
-      "intRank": 6,
+      "intRank": 7,
       "strTeam": "Ботев Пловдив",
       "intPlayed": 3,
       "intWin": 1,
@@ -86,18 +98,6 @@
       "intLoss": 1,
       "intGoalsFor": 4,
       "intGoalsAgainst": 4,
-      "intGoalDifference": 0,
-      "intPoints": 4
-    },
-    {
-      "intRank": 7,
-      "strTeam": "Арда",
-      "intPlayed": 3,
-      "intWin": 1,
-      "intDraw": 1,
-      "intLoss": 1,
-      "intGoalsFor": 3,
-      "intGoalsAgainst": 3,
       "intGoalDifference": 0,
       "intPoints": 4
     },
@@ -176,13 +176,13 @@
     {
       "intRank": 14,
       "strTeam": "Дунав Русе",
-      "intPlayed": 3,
+      "intPlayed": 4,
       "intWin": 0,
       "intDraw": 0,
-      "intLoss": 3,
+      "intLoss": 4,
       "intGoalsFor": 2,
-      "intGoalsAgainst": 6,
-      "intGoalDifference": -4,
+      "intGoalsAgainst": 8,
+      "intGoalDifference": -6,
       "intPoints": 0
     }
   ],
@@ -495,8 +495,9 @@
       "strHomeTeam": "Дунав Русе",
       "strAwayTeam": "Арда",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:1"
     },
     {
       "id": "bf-cb7e7fb4f743",
@@ -648,6 +649,11 @@
       "goals": 3
     },
     {
+      "player": "Бирсент Карагарен",
+      "team": "Арда",
+      "goals": 3
+    },
+    {
       "player": "Мартин Петков",
       "team": "Ботев Враца",
       "goals": 2
@@ -655,11 +661,6 @@
     {
       "player": "Георг Стояновски",
       "team": "Спартак Варна",
-      "goals": 2
-    },
-    {
-      "player": "Бирсент Карагарен",
-      "team": "Арда",
       "goals": 2
     },
     {
@@ -825,6 +826,11 @@
     {
       "player": "Елиас Франко",
       "team": "ЦСКА 1948",
+      "goals": 1
+    },
+    {
+      "player": "Светослав Ковачев",
+      "team": "Арда",
       "goals": 1
     }
   ],
@@ -1198,8 +1204,9 @@
       "strHomeTeam": "Дунав Русе",
       "strAwayTeam": "Арда",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:1",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
