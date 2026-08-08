@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-08T17:51:35.002367+00:00",
+  "updatedAt": "2026-08-08T18:24:19.132665+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "70c1d9c4d122d7c5ce04677f31245dc160a5077241c62b6903b0710f58ac845e"
+      "sha256": "7e887c7d65cc2f9fb8828c8bdaf0266edb02543bb7fba080fdb6878ccd65001a"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "5b3a3211383e63b3e246a48523e30169112e580c2e4c42b1423e1f23d64ac61d"
+      "sha256": "b5e27cb4fcdf84fdde42b9fdb2bc63b407f68751243d8a1152c694d01b40d34b"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "e4c776206be1a53e0963f0fb753f4d72494d2db04422f34e4dd2ea6a9689b281"
+      "sha256": "f55a3e2ed06c323f3b7bd8ae3b9d9899fbf01a4bca696af73c1e815572a11126"
     }
   },
   "table": [
@@ -31,6 +31,18 @@
     },
     {
       "intRank": 2,
+      "strTeam": "ЦСКА 1948",
+      "intPlayed": 4,
+      "intWin": 3,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 9,
+      "intGoalsAgainst": 5,
+      "intGoalDifference": 4,
+      "intPoints": 10
+    },
+    {
+      "intRank": 3,
       "strTeam": "Лудогорец",
       "intPlayed": 3,
       "intWin": 3,
@@ -42,7 +54,7 @@
       "intPoints": 9
     },
     {
-      "intRank": 3,
+      "intRank": 4,
       "strTeam": "Спартак Варна",
       "intPlayed": 3,
       "intWin": 2,
@@ -51,18 +63,6 @@
       "intGoalsFor": 6,
       "intGoalsAgainst": 2,
       "intGoalDifference": 4,
-      "intPoints": 7
-    },
-    {
-      "intRank": 4,
-      "strTeam": "ЦСКА 1948",
-      "intPlayed": 3,
-      "intWin": 2,
-      "intDraw": 1,
-      "intLoss": 0,
-      "intGoalsFor": 6,
-      "intGoalsAgainst": 4,
-      "intGoalDifference": 2,
       "intPoints": 7
     },
     {
@@ -116,13 +116,13 @@
     {
       "intRank": 9,
       "strTeam": "Локомотив София",
-      "intPlayed": 3,
+      "intPlayed": 4,
       "intWin": 0,
       "intDraw": 2,
-      "intLoss": 1,
-      "intGoalsFor": 3,
-      "intGoalsAgainst": 4,
-      "intGoalDifference": -1,
+      "intLoss": 2,
+      "intGoalsFor": 4,
+      "intGoalsAgainst": 7,
+      "intGoalDifference": -3,
       "intPoints": 2
     },
     {
@@ -482,8 +482,9 @@
       "strHomeTeam": "Локомотив София",
       "strAwayTeam": "ЦСКА 1948",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "1",
+      "intAwayScore": "3",
+      "halftime": "0:0"
     },
     {
       "id": "bf-18f89154d2c6",
@@ -642,6 +643,11 @@
       "goals": 3
     },
     {
+      "player": "Фредерик Масиел",
+      "team": "ЦСКА 1948",
+      "goals": 3
+    },
+    {
       "player": "Мартин Петков",
       "team": "Ботев Враца",
       "goals": 2
@@ -687,9 +693,9 @@
       "goals": 2
     },
     {
-      "player": "Фредерик Масиел",
-      "team": "ЦСКА 1948",
-      "goals": 1
+      "player": "Спас Делев",
+      "team": "Локомотив София",
+      "goals": 2
     },
     {
       "player": "Джойс Читоку",
@@ -744,11 +750,6 @@
     {
       "player": "Флориан Кребс",
       "team": "ЦСКА 1948",
-      "goals": 1
-    },
-    {
-      "player": "Спас Делев",
-      "team": "Локомотив София",
       "goals": 1
     },
     {
@@ -819,6 +820,11 @@
     {
       "player": "Давид Кусо",
       "team": "Левски",
+      "goals": 1
+    },
+    {
+      "player": "Елиас Франко",
+      "team": "ЦСКА 1948",
       "goals": 1
     }
   ],
@@ -917,7 +923,7 @@
       "source": "bulgarian-football.com",
       "intHomeScore": "0",
       "intAwayScore": "1",
-      "halftime": "",
+      "halftime": "0:0",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1015,7 +1021,7 @@
       "source": "bulgarian-football.com",
       "intHomeScore": "0",
       "intAwayScore": "3",
-      "halftime": "",
+      "halftime": "0:1",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -1136,8 +1142,9 @@
       "strHomeTeam": "Беласица",
       "strAwayTeam": "Левски II (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "5",
+      "halftime": "2:2",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -1175,8 +1182,9 @@
       "strHomeTeam": "Локомотив София",
       "strAwayTeam": "ЦСКА 1948",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "3",
+      "halftime": "0:0",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
