@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-09T16:22:46.996405+00:00",
+  "updatedAt": "2026-08-09T17:04:04.342115+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "b8bbf535b68d8dab33e4ae5cde524a25381eeaecb510243db9413027c49bf4c0"
+      "sha256": "5931d0e0c9e3a790cee5c4512765d55e51892c44053f6318d0a988330ee09e28"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "1c00fcbc63c9654ff6581a160e3b83f13e7be24a72763beda5492e67fa5ec368"
+      "sha256": "5d554a89801e074a36fcefd5f93377ee0d582b634bd9ac6a48d272caa6bbd781"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "8f6c38db84ada258f4d595c5a8e44afde4034c1fd2a690259e92e19c4d4918bc"
+      "sha256": "c1bd01eeeca9a572772ee56e7d025815447c8a38a788774a387530b93b7e27fd"
     }
   },
   "table": [
@@ -844,8 +844,9 @@
       "strHomeTeam": "Вихрен",
       "strAwayTeam": "Черноморец 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -857,8 +858,9 @@
       "strHomeTeam": "Локомотив Пловдив",
       "strAwayTeam": "Родопа Смолян",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "0:1",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -870,8 +872,9 @@
       "strHomeTeam": "Рилски спортист 2011",
       "strAwayTeam": "Спартак",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "1:1",
       "competition": "Втора професионална лига"
     },
     {
@@ -883,8 +886,9 @@
       "strHomeTeam": "Спортист 2009",
       "strAwayTeam": "Пирин 22",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
