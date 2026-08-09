@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-09T18:16:43.934680+00:00",
+  "updatedAt": "2026-08-09T19:07:04.456679+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "ab571ab8a6f528024aee7c5faa02ba263a0daa159bac100002124a40b4bbc119"
+      "sha256": "0a0c0351e9409c31ea7afec867ddc4c12e112818f21d64141a8cf9ab73b55fce"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "d86cc7d36b5c6d131e679caec1109e77c4b28f584e1ef83e25422d70b8b07e48"
+      "sha256": "b559cebc1abc0b011b8504c40d7acefbfa01dd9b2feca893c8970af93681651a"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "6633f03a30c90263543d812f5cf3eba916fc848f92d58bcd4f08ff847a6fb98c"
+      "sha256": "bd5c44b531632e2e07954b8c0706fc478308e8ac2b6e6c2c9fbbb0cf89548ee0"
     }
   },
   "table": [
@@ -939,8 +939,9 @@
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Фратрия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:2",
       "competition": "Втора професионална лига"
     },
     {
