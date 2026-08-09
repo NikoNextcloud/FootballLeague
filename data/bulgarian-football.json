@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-09T17:43:58.786459+00:00",
+  "updatedAt": "2026-08-09T18:16:43.934680+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "aa3d173e73d12465688cb2bbf083e361bde3172ee1fa5814622929b87eb31eb7"
+      "sha256": "ab571ab8a6f528024aee7c5faa02ba263a0daa159bac100002124a40b4bbc119"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "6d12e8f136afa7c166f10081d4c1807c46cd3fc561809dceaacfac98352314bd"
+      "sha256": "d86cc7d36b5c6d131e679caec1109e77c4b28f584e1ef83e25422d70b8b07e48"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "2d7180c80fa2a873841cb275b70ac20fb12d958f6ee751784ea6a9b394fd1ad9"
+      "sha256": "6633f03a30c90263543d812f5cf3eba916fc848f92d58bcd4f08ff847a6fb98c"
     }
   },
   "table": [
@@ -31,6 +31,18 @@
     },
     {
       "intRank": 2,
+      "strTeam": "Лудогорец",
+      "intPlayed": 4,
+      "intWin": 4,
+      "intDraw": 0,
+      "intLoss": 0,
+      "intGoalsFor": 8,
+      "intGoalsAgainst": 3,
+      "intGoalDifference": 5,
+      "intPoints": 12
+    },
+    {
+      "intRank": 3,
       "strTeam": "ЦСКА 1948",
       "intPlayed": 4,
       "intWin": 3,
@@ -40,18 +52,6 @@
       "intGoalsAgainst": 5,
       "intGoalDifference": 4,
       "intPoints": 10
-    },
-    {
-      "intRank": 3,
-      "strTeam": "Лудогорец",
-      "intPlayed": 3,
-      "intWin": 3,
-      "intDraw": 0,
-      "intLoss": 0,
-      "intGoalsFor": 5,
-      "intGoalsAgainst": 1,
-      "intGoalDifference": 4,
-      "intPoints": 9
     },
     {
       "intRank": 4,
@@ -152,13 +152,13 @@
     {
       "intRank": 12,
       "strTeam": "Черно море",
-      "intPlayed": 3,
+      "intPlayed": 4,
       "intWin": 0,
       "intDraw": 1,
-      "intLoss": 2,
-      "intGoalsFor": 1,
-      "intGoalsAgainst": 5,
-      "intGoalDifference": -4,
+      "intLoss": 3,
+      "intGoalsFor": 3,
+      "intGoalsAgainst": 8,
+      "intGoalDifference": -5,
       "intPoints": 1
     },
     {
@@ -508,8 +508,9 @@
       "strHomeTeam": "Черно море",
       "strAwayTeam": "Лудогорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "1:0"
     },
     {
       "id": "bf-a0cb921c4541",
@@ -634,6 +635,11 @@
   ],
   "scorers": [
     {
+      "player": "Руан Круз",
+      "team": "Лудогорец",
+      "goals": 4
+    },
+    {
       "player": "Мамаду Диало",
       "team": "ЦСКА 1948",
       "goals": 3
@@ -679,11 +685,6 @@
       "goals": 2
     },
     {
-      "player": "Руан Круз",
-      "team": "Лудогорец",
-      "goals": 2
-    },
-    {
       "player": "Бърнард Текпетей",
       "team": "Лудогорец",
       "goals": 2
@@ -696,6 +697,11 @@
     {
       "player": "Спас Делев",
       "team": "Локомотив София",
+      "goals": 2
+    },
+    {
+      "player": "Ивайло Чочев",
+      "team": "Лудогорец",
       "goals": 2
     },
     {
@@ -716,11 +722,6 @@
     {
       "player": "Себастиан Уейд",
       "team": "Септември София",
-      "goals": 1
-    },
-    {
-      "player": "Ивайло Чочев",
-      "team": "Лудогорец",
       "goals": 1
     },
     {
@@ -832,6 +833,16 @@
       "player": "Светослав Ковачев",
       "team": "Арда",
       "goals": 1
+    },
+    {
+      "player": "Николай Златев",
+      "team": "Черно море",
+      "goals": 1
+    },
+    {
+      "player": "Георги Лазаров",
+      "team": "Черно море",
+      "goals": 1
     }
   ],
   "today": [
@@ -900,8 +911,9 @@
       "strHomeTeam": "Левски 2007",
       "strAwayTeam": "Спартак II",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "2:0",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -913,8 +925,9 @@
       "strHomeTeam": "Черно море",
       "strAwayTeam": "Лудогорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "1:0",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
