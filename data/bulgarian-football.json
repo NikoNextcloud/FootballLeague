@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-09T20:55:26.129454+00:00",
+  "updatedAt": "2026-08-09T21:34:00.279387+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "d400026fe840c83d014416ccac42d22cf4136b4df05c97029847b07b8fd8cace"
+      "sha256": "7b5cbb2ff4a1521312c4376aed0ae292ee6391657e0ce39a29fccab3f43a91d0"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "d7726627380c38c9cb8b10c3b60f2fe8359b486ad9593f9919ab75f471e2e40a"
+      "sha256": "53606f02fe8b1c525a6578451589686edcd6cfd107bb1432e8a41a6b1b2b25fd"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "bed9112fb28a7f3ce48916f898a5365910b50fbce8da90070c52a255bebebcbc"
+      "sha256": "fa1297d0af5dcc6bc0edf75f9c94bc96b0e75eaccecd4e7c52c122d55dd38612"
     }
   },
   "table": [
@@ -858,115 +858,55 @@
   ],
   "today": [
     {
-      "id": "bf-fb1c7ea93a68",
-      "dateEvent": "2026-08-09",
+      "id": "bf-72b4600683b8",
+      "dateEvent": "2026-08-10",
       "strTime": "18:00:00",
       "intRound": "",
       "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Вихрен",
-      "strAwayTeam": "Черноморец 1919",
+      "strHomeTeam": "Несебър",
+      "strAwayTeam": "Добруджа 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": "1",
-      "intAwayScore": "1",
-      "halftime": "0:0",
+      "intHomeScore": null,
+      "intAwayScore": null,
       "competition": "Втора професионална лига"
     },
     {
-      "id": "bf-edb169064ec9",
-      "dateEvent": "2026-08-09",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Локомотив Пловдив",
-      "strAwayTeam": "Родопа Смолян",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "3",
-      "halftime": "0:1",
-      "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-cd8e38dc1609",
-      "dateEvent": "2026-08-09",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Рилски спортист 2011",
-      "strAwayTeam": "Спартак",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "2",
-      "intAwayScore": "2",
-      "halftime": "1:1",
-      "competition": "Втора професионална лига"
-    },
-    {
-      "id": "bf-626e00cce0f6",
-      "dateEvent": "2026-08-09",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Спортист 2009",
-      "strAwayTeam": "Пирин 22",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "1",
-      "intAwayScore": "0",
-      "halftime": "0:0",
-      "competition": "Втора професионална лига"
-    },
-    {
-      "id": "bf-6159c1f8c06d",
-      "dateEvent": "2026-08-09",
-      "strTime": "18:30:00",
-      "intRound": "",
-      "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "Левски 2007",
-      "strAwayTeam": "Спартак II",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "3",
-      "intAwayScore": "2",
-      "halftime": "2:0",
-      "competition": "Приятелски срещи: Лято-есен"
-    },
-    {
-      "id": "bf-07384e2a9a5b",
-      "dateEvent": "2026-08-09",
+      "id": "bf-a2bbd3250f37",
+      "dateEvent": "2026-08-10",
       "strTime": "19:00:00",
       "intRound": "",
       "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "Черно море",
-      "strAwayTeam": "Лудогорец",
+      "strHomeTeam": "Ботев Враца",
+      "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
-      "intHomeScore": "2",
-      "intAwayScore": "3",
-      "halftime": "1:0",
+      "intHomeScore": null,
+      "intAwayScore": null,
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
-      "id": "bf-e7dab6656d78",
-      "dateEvent": "2026-08-09",
+      "id": "bf-cd40cee8022d",
+      "dateEvent": "2026-08-10",
       "strTime": "20:00:00",
       "intRound": "",
       "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Локомотив",
-      "strAwayTeam": "Фратрия",
+      "strHomeTeam": "Берое",
+      "strAwayTeam": "Лудогорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "2",
-      "halftime": "0:2",
+      "intHomeScore": null,
+      "intAwayScore": null,
       "competition": "Втора професионална лига"
     },
     {
-      "id": "bf-fc067651249c",
-      "dateEvent": "2026-08-09",
+      "id": "bf-248804951541",
+      "dateEvent": "2026-08-10",
       "strTime": "21:15:00",
       "intRound": "",
       "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "Септември София",
-      "strAwayTeam": "ЦСКА",
+      "strHomeTeam": "Ботев Пловдив",
+      "strAwayTeam": "Спартак Варна",
       "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "3",
-      "halftime": "0:1",
+      "intHomeScore": null,
+      "intAwayScore": null,
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
