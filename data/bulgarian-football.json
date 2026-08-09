@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-09T08:57:11.605539+00:00",
+  "updatedAt": "2026-08-09T09:48:28.974660+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "fd33a0b9a462d5d037165bec7d69a7a07be03b30fbdb3fedc44496caa7576d91"
+      "sha256": "0a977ebb708e6bb8c14cd177a2af448040d8aecf5ae02cc251e95348ec200654"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "a56c56fd1161e2762ca775cc583c560d2620682904555c6a028eb6092411f4df"
+      "sha256": "db00a33efd84a3d068a0ac731ca7720acdd8aaea3e35ee777afd7b69878d3dee"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "599833807b33c2afb10dc675a2431eecaa28a28c8ee76037d55bce87455acdb0"
+      "sha256": "dc8a6180d9a38eb45b4dd4856b75fc343a8b50762d21ab047badbe5d1cc81605"
     }
   },
   "table": [
@@ -895,19 +895,6 @@
       "roundLabel": "Приятелски срещи: Лято-есен",
       "strHomeTeam": "Левски 2007",
       "strAwayTeam": "Спартак II",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Приятелски срещи: Лято-есен"
-    },
-    {
-      "id": "bf-3b9dfe57f95b",
-      "dateEvent": "2026-08-09",
-      "strTime": "18:30:00",
-      "intRound": "",
-      "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "Тинеретул",
-      "strAwayTeam": "Бдин 1923",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
