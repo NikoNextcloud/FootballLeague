@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-10T18:02:39.906874+00:00",
+  "updatedAt": "2026-08-10T19:10:50.037536+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "fdd9400c1efbf24dcdd2ed394c13c1ade762b7bb0452f38ec19eea03d81588f8"
+      "sha256": "80e991e43267678609ba44d8ac63200648ed28cdcff524e27b517e299aae58fb"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "38dd898b9af9441ef817c888ebfd02699c054cd466cc5d8ba7ce4c97a2f6fa39"
+      "sha256": "0bcdb7e1b06d01d9924c159d832b7d72622677ebad0be0f70b6c582617fee560"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "4ee7a198c68af2df03854a715ab4bbfc7f4174d93c534fee609083ece3efc611"
+      "sha256": "cf9a27a233f015026d1c7f81258f20ae1fe9d8bccb39398894f133a7538a8127"
     }
   },
   "table": [
@@ -905,8 +905,9 @@
       "strHomeTeam": "Берое",
       "strAwayTeam": "Лудогорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
