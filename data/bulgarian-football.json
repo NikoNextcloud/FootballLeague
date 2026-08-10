@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-10T20:02:57.637580+00:00",
+  "updatedAt": "2026-08-10T20:56:52.847234+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "7b534af32e70f436f7823613f65c264006f3353bdf4e36b22385452db35b3db4"
+      "sha256": "354b0c873098b6d11852e40776285055f52a585954f3b3f11e7ee42c5d6d9af8"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "f54210e0653cefde8719c47d877eddd02d97209d6663fb64fe4986eba286854d"
+      "sha256": "b0129011e189ee705b852c6188e2c44ebcca93021e9d12f0497d66b8477e6c7f"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "8cb2c504f1ecccee051244f76e4883959b6317549f612cfaea490472614ff3de"
+      "sha256": "847e6e83e5342d74d6816992aa152a03d55416b602a2d2fde61d03e766e331eb"
     }
   },
   "table": [
@@ -67,14 +67,14 @@
     },
     {
       "intRank": 5,
-      "strTeam": "Спартак Варна",
-      "intPlayed": 3,
+      "strTeam": "Ботев Пловдив",
+      "intPlayed": 4,
       "intWin": 2,
       "intDraw": 1,
-      "intLoss": 0,
-      "intGoalsFor": 6,
-      "intGoalsAgainst": 2,
-      "intGoalDifference": 4,
+      "intLoss": 1,
+      "intGoalsFor": 7,
+      "intGoalsAgainst": 6,
+      "intGoalDifference": 1,
       "intPoints": 7
     },
     {
@@ -91,6 +91,18 @@
     },
     {
       "intRank": 7,
+      "strTeam": "Спартак Варна",
+      "intPlayed": 4,
+      "intWin": 2,
+      "intDraw": 1,
+      "intLoss": 1,
+      "intGoalsFor": 8,
+      "intGoalsAgainst": 5,
+      "intGoalDifference": 3,
+      "intPoints": 7
+    },
+    {
+      "intRank": 8,
       "strTeam": "Славия",
       "intPlayed": 4,
       "intWin": 1,
@@ -100,18 +112,6 @@
       "intGoalsAgainst": 2,
       "intGoalDifference": 2,
       "intPoints": 5
-    },
-    {
-      "intRank": 8,
-      "strTeam": "Ботев Пловдив",
-      "intPlayed": 3,
-      "intWin": 1,
-      "intDraw": 1,
-      "intLoss": 1,
-      "intGoalsFor": 4,
-      "intGoalsAgainst": 4,
-      "intGoalDifference": 0,
-      "intPoints": 4
     },
     {
       "intRank": 9,
@@ -547,8 +547,9 @@
       "strHomeTeam": "Ботев Пловдив",
       "strAwayTeam": "Спартак Варна",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "3:0"
     },
     {
       "id": "bf-d90e39b00e88",
@@ -662,6 +663,11 @@
       "goals": 3
     },
     {
+      "player": "Асен Чандъров",
+      "team": "Ботев Пловдив",
+      "goals": 3
+    },
+    {
       "player": "Мартин Петков",
       "team": "Ботев Враца",
       "goals": 2
@@ -679,11 +685,6 @@
     {
       "player": "Акрам Бурас",
       "team": "Левски",
-      "goals": 2
-    },
-    {
-      "player": "Асен Чандъров",
-      "team": "Ботев Пловдив",
       "goals": 2
     },
     {
@@ -865,6 +866,21 @@
       "player": "Роберто Райчев",
       "team": "Славия",
       "goals": 1
+    },
+    {
+      "player": "Ахмед Ахмедов",
+      "team": "Спартак Варна",
+      "goals": 1
+    },
+    {
+      "player": "Самюел Калу",
+      "team": "Ботев Пловдив",
+      "goals": 1
+    },
+    {
+      "player": "Франклин Маскоте",
+      "team": "Ботев Пловдив",
+      "goals": 1
     }
   ],
   "today": [
@@ -919,8 +935,9 @@
       "strHomeTeam": "Ботев Пловдив",
       "strAwayTeam": "Спартак Варна",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "3:0",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
