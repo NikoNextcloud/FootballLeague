@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-10T16:09:41.732080+00:00",
+  "updatedAt": "2026-08-10T17:08:34.625089+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "00414940ac57e48e451550a3314c36e600f46c72ec29ceae15922bc7acf16c53"
+      "sha256": "185f12d719da28717022066e689e034b40f42911c91bd639bd40e25660a8717b"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "753ec16ba9dfa7f8cd8c35371049434995f1bb4513a0d3f667e2393fd574fad2"
+      "sha256": "28a95de649c8ff7128d40529ff69650f161bb0ca9530c837de24801999a3f61a"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "e8128e06329304bb87a2e6f98b2aba907392f62a8365cd4231df27ce5817c2a9"
+      "sha256": "baf1d3707ab001b7dfabf839ea7a073889df383fffe843d2f707d171a5589a8d"
     }
   },
   "table": [
@@ -866,8 +866,9 @@
       "strHomeTeam": "Несебър",
       "strAwayTeam": "Добруджа 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "2:0",
       "competition": "Втора професионална лига"
     },
     {
