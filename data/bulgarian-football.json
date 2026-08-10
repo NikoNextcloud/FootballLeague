@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-10T17:08:34.625089+00:00",
+  "updatedAt": "2026-08-10T18:02:39.906874+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "185f12d719da28717022066e689e034b40f42911c91bd639bd40e25660a8717b"
+      "sha256": "fdd9400c1efbf24dcdd2ed394c13c1ade762b7bb0452f38ec19eea03d81588f8"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "28a95de649c8ff7128d40529ff69650f161bb0ca9530c837de24801999a3f61a"
+      "sha256": "38dd898b9af9441ef817c888ebfd02699c054cd466cc5d8ba7ce4c97a2f6fa39"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "baf1d3707ab001b7dfabf839ea7a073889df383fffe843d2f707d171a5589a8d"
+      "sha256": "4ee7a198c68af2df03854a715ab4bbfc7f4174d93c534fee609083ece3efc611"
     }
   },
   "table": [
@@ -91,6 +91,18 @@
     },
     {
       "intRank": 7,
+      "strTeam": "Славия",
+      "intPlayed": 4,
+      "intWin": 1,
+      "intDraw": 2,
+      "intLoss": 1,
+      "intGoalsFor": 4,
+      "intGoalsAgainst": 2,
+      "intGoalDifference": 2,
+      "intPoints": 5
+    },
+    {
+      "intRank": 8,
       "strTeam": "Ботев Пловдив",
       "intPlayed": 3,
       "intWin": 1,
@@ -102,7 +114,7 @@
       "intPoints": 4
     },
     {
-      "intRank": 8,
+      "intRank": 9,
       "strTeam": "Локомотив Пловдив",
       "intPlayed": 4,
       "intWin": 1,
@@ -114,7 +126,7 @@
       "intPoints": 3
     },
     {
-      "intRank": 9,
+      "intRank": 10,
       "strTeam": "Локомотив София",
       "intPlayed": 4,
       "intWin": 0,
@@ -126,31 +138,19 @@
       "intPoints": 2
     },
     {
-      "intRank": 10,
-      "strTeam": "Славия",
-      "intPlayed": 3,
-      "intWin": 0,
-      "intDraw": 2,
-      "intLoss": 1,
-      "intGoalsFor": 1,
-      "intGoalsAgainst": 2,
-      "intGoalDifference": -1,
-      "intPoints": 2
-    },
-    {
       "intRank": 11,
       "strTeam": "Ботев Враца",
-      "intPlayed": 3,
+      "intPlayed": 4,
       "intWin": 0,
       "intDraw": 1,
-      "intLoss": 2,
+      "intLoss": 3,
       "intGoalsFor": 3,
-      "intGoalsAgainst": 5,
-      "intGoalDifference": -2,
+      "intGoalsAgainst": 8,
+      "intGoalDifference": -5,
       "intPoints": 1
     },
     {
-      "intRank": 12,
+      "intRank": 11,
       "strTeam": "Черно море",
       "intPlayed": 4,
       "intWin": 0,
@@ -534,8 +534,9 @@
       "strHomeTeam": "Ботев Враца",
       "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "0:0"
     },
     {
       "id": "bf-336c98e71c69",
@@ -711,6 +712,11 @@
       "goals": 2
     },
     {
+      "player": "Васил Казълджиев",
+      "team": "Славия",
+      "goals": 2
+    },
+    {
       "player": "Джойс Читоку",
       "team": "Спартак Варна",
       "goals": 1
@@ -854,6 +860,11 @@
       "player": "Сантиаго Годой",
       "team": "ЦСКА",
       "goals": 1
+    },
+    {
+      "player": "Роберто Райчев",
+      "team": "Славия",
+      "goals": 1
     }
   ],
   "today": [
@@ -880,8 +891,9 @@
       "strHomeTeam": "Ботев Враца",
       "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "0:0",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
