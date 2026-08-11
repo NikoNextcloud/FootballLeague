@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-11T20:07:16.525005+00:00",
+  "updatedAt": "2026-08-11T21:02:22.500943+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "82976c27b16dc734c86dd1075d3531819082aa594a9969f3f176a531f4e8d7ca"
+      "sha256": "f954df05db8aeb48c5c0623e94c7cde6d0c2c5950bea908547394254ed3d8a17"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "a517761d1cda7e6700f2890232da251eeff2b45dc06f10e97699259d44fed403"
+      "sha256": "3f795ee5c469142493ba31198dfc4974391f5efaadb473d6c6d82b56605de411"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "b1ea8a1c13b4b481359cddf96002bfef97df40ac3daa696b101b51640779bb78"
+      "sha256": "6cf2120efe9ba09287710dfb00c91b89d3df945e544f016e1b4ea1e1cb79b5ae"
     }
   },
   "table": [
@@ -885,60 +885,83 @@
   ],
   "today": [
     {
-      "id": "bf-89ed84ec5ab0",
-      "dateEvent": "2026-08-11",
+      "id": "bf-89c768138443",
+      "dateEvent": "2026-08-12",
       "strTime": "18:00:00",
       "intRound": "",
-      "roundLabel": "Шампионска лига - Трети квалификационен кръг",
-      "strHomeTeam": "Кайрат",
-      "strAwayTeam": "Левски",
+      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Първи кръг",
+      "strHomeTeam": "СФК Раковски",
+      "strAwayTeam": "Спартак 1947",
       "source": "bulgarian-football.com",
       "intHomeScore": "0",
-      "intAwayScore": "1",
-      "halftime": "0:1",
-      "competition": "Шампионска лига - Трети квалификационен кръг"
+      "intAwayScore": "3",
+      "halftime": "",
+      "competition": "Купа на България (квалификации) - Област Пловдив, Първи кръг"
     },
     {
-      "id": "bf-5e067e116bb0",
-      "dateEvent": "2026-08-11",
+      "id": "bf-fb43b9e8d231",
+      "dateEvent": "2026-08-12",
       "strTime": "18:00:00",
       "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "ЦСКА II (София)",
-      "strAwayTeam": "Хебър 1918",
+      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Първи кръг",
+      "strHomeTeam": "Тракия 06",
+      "strAwayTeam": "Секирово",
       "source": "bulgarian-football.com",
-      "intHomeScore": "4",
-      "intAwayScore": "3",
-      "halftime": "0:2",
-      "competition": "Втора професионална лига"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Област Пловдив, Първи кръг"
     },
     {
-      "id": "bf-49e559a68b21",
-      "dateEvent": "2026-08-11",
-      "strTime": "20:00:00",
+      "id": "bf-8ccafafbcfac",
+      "dateEvent": "2026-08-12",
+      "strTime": "18:30:00",
       "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Янтра 2019",
-      "strAwayTeam": "Монтана 1921",
+      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Първи кръг",
+      "strHomeTeam": "Асеновец 2005",
+      "strAwayTeam": "Калояново",
       "source": "bulgarian-football.com",
-      "intHomeScore": "3",
-      "intAwayScore": "2",
-      "halftime": "2:2",
-      "competition": "Втора професионална лига"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Област Пловдив, Първи кръг"
     },
     {
-      "id": "bf-5868ea2a7c37",
-      "dateEvent": "2026-08-11",
-      "strTime": "20:30:00",
+      "id": "bf-89a4aea6764a",
+      "dateEvent": "2026-08-12",
+      "strTime": "18:30:00",
       "intRound": "",
-      "roundLabel": "Лига на конференциите - Трети квалификационен кръг",
-      "strHomeTeam": "ЦСКА 1948",
-      "strAwayTeam": "Панатинайкос",
+      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Първи кръг",
+      "strHomeTeam": "Тракия 94",
+      "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
-      "intHomeScore": "1",
-      "intAwayScore": "2",
-      "halftime": "0:0, 1:1",
-      "competition": "Лига на конференциите - Трети квалификационен кръг"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Област Пловдив, Първи кръг"
+    },
+    {
+      "id": "bf-84ffb192c22a",
+      "dateEvent": "2026-08-12",
+      "strTime": "19:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Първи кръг",
+      "strHomeTeam": "Гигант",
+      "strAwayTeam": "Марица 1921",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Област Пловдив, Първи кръг"
+    },
+    {
+      "id": "bf-e0bfc8893a1b",
+      "dateEvent": "2026-08-12",
+      "strTime": "19:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Първи кръг",
+      "strHomeTeam": "Марица",
+      "strAwayTeam": "Атлетик",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Област Пловдив, Първи кръг"
     }
   ],
   "europe": {
