@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-11T19:17:09.843210+00:00",
+  "updatedAt": "2026-08-11T20:07:16.525005+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "8950533a2d6c305307611058d794eed67fb2e1f362d3cfdc19ddb7ce26092bfa"
+      "sha256": "82976c27b16dc734c86dd1075d3531819082aa594a9969f3f176a531f4e8d7ca"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "b18aa234ce38a71210b4ac1c77e9cec800ba0f29985fbf3663281e00b66734b0"
+      "sha256": "a517761d1cda7e6700f2890232da251eeff2b45dc06f10e97699259d44fed403"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "d1e38b5bb9793d5f76ca1e63ac29940bc96068a075c070dcf4438dabb466869d"
+      "sha256": "b1ea8a1c13b4b481359cddf96002bfef97df40ac3daa696b101b51640779bb78"
     }
   },
   "table": [
@@ -935,8 +935,9 @@
       "strHomeTeam": "ЦСКА 1948",
       "strAwayTeam": "Панатинайкос",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:0, 1:1",
       "competition": "Лига на конференциите - Трети квалификационен кръг"
     }
   ],
@@ -1249,8 +1250,9 @@
         "strHomeTeam": "ЦСКА 1948",
         "strAwayTeam": "Панатинайкос",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "1",
+        "intAwayScore": "2",
+        "halftime": "0:0, 1:1",
         "competition": "Лига на конференциите"
       },
       {
