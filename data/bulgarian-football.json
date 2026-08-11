@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-11T17:07:51.345915+00:00",
+  "updatedAt": "2026-08-11T18:05:46.325366+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "62dc9e64173249a9b2e2e86a98dbb74b40fd9386182ff127b1c1d509de63fed8"
+      "sha256": "dbfbe260c236ce4d085fd0fe66585f28112d6addb894887aae7e22484b4729f1"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "ae3c67a8cc3fbb4a74cd865728d47eebdf8e01f0d913b8a751b8108d33c6d01c"
+      "sha256": "722e503743b47089e63b794bff37735fd6b6a43a173886996a3fbaaefb7b7bde"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "0feb0b19cb26a8c54d647bba196cfd3455dfa8bc3d0f4897e73b4564ab88a82f"
+      "sha256": "263a2ec20b719388f319ecc1d65a9e8b16f4289e01c7069347554f6f650dc6a0"
     }
   },
   "table": [
@@ -1200,6 +1200,19 @@
         "competition": "Лига Европа"
       },
       {
+        "id": "bf-06c909d7fef9",
+        "dateEvent": "2026-08-11",
+        "strTime": "18:00:00",
+        "intRound": "",
+        "roundLabel": "Трети квалификационен кръг · Реванш",
+        "strHomeTeam": "АЕК",
+        "strAwayTeam": "Левски",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Шампионска лига"
+      },
+      {
         "id": "bf-21555722eddb",
         "dateEvent": "2026-08-11",
         "strTime": "18:00:00",
@@ -1211,6 +1224,19 @@
         "intHomeScore": "0",
         "intAwayScore": "1",
         "halftime": "0:1",
+        "competition": "Шампионска лига"
+      },
+      {
+        "id": "bf-1c1c38867fba",
+        "dateEvent": "2026-08-11",
+        "strTime": "18:00:00",
+        "intRound": "",
+        "roundLabel": "Трети квалификационен кръг · Първа среща",
+        "strHomeTeam": "Левски",
+        "strAwayTeam": "АЕК",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
         "competition": "Шампионска лига"
       },
       {
