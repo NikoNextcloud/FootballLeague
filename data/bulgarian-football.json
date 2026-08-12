@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-12T06:39:44.757740+00:00",
+  "updatedAt": "2026-08-12T08:04:23.779495+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "ac122df22ce44ab93fa8fc216f16712c8df59ff12a50435bb6a39b096319b151"
+      "sha256": "3a54ea18b19676c69b92421a33da0580fa62218118cbb7e76c06acdc282d2ad1"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "bc2e539d62d4a2f0e9147205d81e6bf92428292791d2ab464d19768749f95c13"
+      "sha256": "8deaa3ce0b8939bcddad76957736aa3c003394c2e03d22ea818d52dd96e6f0bc"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "7b48bba3bec4f74cb993f9222fb7d79c6d10b1a4e6288d572764d0af0046c9e0"
+      "sha256": "ec653e05cb636f6d4e3bd56b98781efa217427e7d71b2acbef1c941bd59202e0"
     }
   },
   "table": [
@@ -1225,19 +1225,6 @@
         "competition": "Лига Европа"
       },
       {
-        "id": "bf-06c909d7fef9",
-        "dateEvent": "2026-08-11",
-        "strTime": "18:00:00",
-        "intRound": "",
-        "roundLabel": "Трети квалификационен кръг · Реванш",
-        "strHomeTeam": "АЕК",
-        "strAwayTeam": "Левски",
-        "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
-        "competition": "Шампионска лига"
-      },
-      {
         "id": "bf-21555722eddb",
         "dateEvent": "2026-08-11",
         "strTime": "18:00:00",
@@ -1249,19 +1236,6 @@
         "intHomeScore": "0",
         "intAwayScore": "1",
         "halftime": "0:1",
-        "competition": "Шампионска лига"
-      },
-      {
-        "id": "bf-1c1c38867fba",
-        "dateEvent": "2026-08-11",
-        "strTime": "18:00:00",
-        "intRound": "",
-        "roundLabel": "Трети квалификационен кръг · Първа среща",
-        "strHomeTeam": "Левски",
-        "strAwayTeam": "АЕК",
-        "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
         "competition": "Шампионска лига"
       },
       {
@@ -1290,6 +1264,32 @@
         "intHomeScore": null,
         "intAwayScore": null,
         "competition": "Лига Европа"
+      },
+      {
+        "id": "bf-9f97cb67df50",
+        "dateEvent": "2026-08-18",
+        "strTime": "22:00:00",
+        "intRound": "",
+        "roundLabel": "Трети квалификационен кръг · Първа среща",
+        "strHomeTeam": "Левски",
+        "strAwayTeam": "АЕК",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Шампионска лига"
+      },
+      {
+        "id": "bf-06971104aa14",
+        "dateEvent": "2026-08-26",
+        "strTime": "22:00:00",
+        "intRound": "",
+        "roundLabel": "Трети квалификационен кръг · Реванш",
+        "strHomeTeam": "АЕК",
+        "strAwayTeam": "Левски",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Шампионска лига"
       }
     ]
   },
