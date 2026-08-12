@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-12T20:27:21.707586+00:00",
+  "updatedAt": "2026-08-12T21:22:48.311682+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "00e09022f235be892efa192146d44bd2a4e6b133e318433891842698eeb0a08b"
+      "sha256": "5406662155aefc693257889a7ced3c715daba262b02ef0bc512ffa60baf3e320"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "709362ddfa56672a14926fcb0b0652eeb97b09bb1d7ffebe278efa8eee7e903e"
+      "sha256": "238d6c9df621d3d12f89c6af73ab2456b735e929189ff578c59a1e0d83f4d38a"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "1143305b79e6e7cab491e6cba3b7d9051ba68ee184f162d4722a60103952fd21"
+      "sha256": "0d72660450a8331457ad38c3ee7b15e574e7ea298b6a39a6456cf5199ce17bd1"
     }
   },
   "table": [
@@ -564,18 +564,6 @@
       "intAwayScore": null
     },
     {
-      "id": "bf-8019b3cca0ce",
-      "dateEvent": "2026-08-15",
-      "strTime": "19:00:00",
-      "intRound": "5",
-      "roundLabel": "V кръг",
-      "strHomeTeam": "Славия",
-      "strAwayTeam": "Левски",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
-    },
-    {
       "id": "bf-cecd5ffecf53",
       "dateEvent": "2026-08-15",
       "strTime": "21:15:00",
@@ -885,83 +873,17 @@
   ],
   "today": [
     {
-      "id": "bf-89c768138443",
-      "dateEvent": "2026-08-12",
-      "strTime": "18:00:00",
+      "id": "bf-c4ca9b4c2a56",
+      "dateEvent": "2026-08-13",
+      "strTime": "21:00:00",
       "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Първи кръг",
-      "strHomeTeam": "СФК Раковски",
-      "strAwayTeam": "Спартак 1947",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "3",
-      "halftime": "",
-      "competition": "Купа на България (квалификации) - Област Пловдив, Първи кръг"
-    },
-    {
-      "id": "bf-fb43b9e8d231",
-      "dateEvent": "2026-08-12",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Първи кръг",
-      "strHomeTeam": "Тракия 06",
-      "strAwayTeam": "Секирово",
+      "roundLabel": "Лига Европа - Трети квалификационен кръг",
+      "strHomeTeam": "ЦСКА",
+      "strAwayTeam": "Макаби",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на България (квалификации) - Област Пловдив, Първи кръг"
-    },
-    {
-      "id": "bf-8ccafafbcfac",
-      "dateEvent": "2026-08-12",
-      "strTime": "18:30:00",
-      "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Първи кръг",
-      "strHomeTeam": "Асеновец 2005",
-      "strAwayTeam": "Калояново",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на България (квалификации) - Област Пловдив, Първи кръг"
-    },
-    {
-      "id": "bf-89a4aea6764a",
-      "dateEvent": "2026-08-12",
-      "strTime": "18:30:00",
-      "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Първи кръг",
-      "strHomeTeam": "Тракия 94",
-      "strAwayTeam": "Левски",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на България (квалификации) - Област Пловдив, Първи кръг"
-    },
-    {
-      "id": "bf-84ffb192c22a",
-      "dateEvent": "2026-08-12",
-      "strTime": "19:30:00",
-      "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Първи кръг",
-      "strHomeTeam": "Гигант",
-      "strAwayTeam": "Марица 1921",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на България (квалификации) - Област Пловдив, Първи кръг"
-    },
-    {
-      "id": "bf-e0bfc8893a1b",
-      "dateEvent": "2026-08-12",
-      "strTime": "19:30:00",
-      "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Първи кръг",
-      "strHomeTeam": "Марица",
-      "strAwayTeam": "Атлетик",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на България (квалификации) - Област Пловдив, Първи кръг"
+      "competition": "Лига Европа - Трети квалификационен кръг"
     }
   ],
   "europe": {
