@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-13T20:57:36.908259+00:00",
+  "updatedAt": "2026-08-13T21:55:05.981981+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "86d242dae1be5ecebac11948499859eee9ece580a71a55254816b65df6fcead1"
+      "sha256": "9fbe7331ffd050e6057faa1fae5d789134f36b243ff1cb6f2d54343647529f07"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "832ba9d457c05a9627662ea12b8f0a5043772acd709ddfb83945b6d0f5a5efce"
+      "sha256": "790f75508d8a367b352adbcc7d3318d66867f807019b7e951a2b4161cf0b5b26"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "876d89b44e569e441de699930f9277f4e7408e4a6406d0f6868421076d2896c9"
+      "sha256": "e409c6aae571ca30fa2dbd677a067c74534758b80ec78dff744072394bf11a8b"
     }
   },
   "table": [
@@ -1041,18 +1041,43 @@
   ],
   "today": [
     {
-      "id": "bf-c4ca9b4c2a56",
-      "dateEvent": "2026-08-13",
-      "strTime": "21:00:00",
+      "id": "bf-012fce0cb27e",
+      "dateEvent": "2026-08-14",
+      "strTime": "09:30:00",
       "intRound": "",
-      "roundLabel": "Лига Европа - Трети квалификационен кръг",
-      "strHomeTeam": "ЦСКА",
-      "strAwayTeam": "Макаби",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Славия",
+      "strAwayTeam": "Национал (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": "1",
-      "intAwayScore": "3",
-      "halftime": "0:1",
-      "competition": "Лига Европа - Трети квалификационен кръг"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-9ca6aa771fff",
+      "dateEvent": "2026-08-14",
+      "strTime": "18:45:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Фратрия",
+      "strAwayTeam": "Берое",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-a45b05898163",
+      "dateEvent": "2026-08-14",
+      "strTime": "21:15:00",
+      "intRound": "",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "ЦСКА 1948",
+      "strAwayTeam": "Черно море",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Първа професионална лига - Първа фаза"
     }
   ],
   "europe": {
@@ -1344,6 +1369,19 @@
         "competition": "Лига на конференциите"
       },
       {
+        "id": "bf-c7986569f8fe",
+        "dateEvent": "2026-08-13",
+        "strTime": "21:00:00",
+        "intRound": "",
+        "roundLabel": "Трети квалификационен кръг · Първа среща",
+        "strHomeTeam": "ОФИ Крит",
+        "strAwayTeam": "ЦСКА",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Лига Европа"
+      },
+      {
         "id": "bf-9ed1fdfaebd9",
         "dateEvent": "2026-08-13",
         "strTime": "21:00:00",
@@ -1355,6 +1393,19 @@
         "intHomeScore": "1",
         "intAwayScore": "3",
         "halftime": "0:1",
+        "competition": "Лига Европа"
+      },
+      {
+        "id": "bf-11df5746974b",
+        "dateEvent": "2026-08-13",
+        "strTime": "21:00:00",
+        "intRound": "",
+        "roundLabel": "Трети квалификационен кръг · Реванш",
+        "strHomeTeam": "ЦСКА",
+        "strAwayTeam": "ОФИ Крит",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
         "competition": "Лига Европа"
       },
       {
