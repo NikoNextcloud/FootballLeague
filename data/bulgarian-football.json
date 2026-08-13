@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-13T16:10:25.441715+00:00",
+  "updatedAt": "2026-08-13T17:13:28.896297+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "3c01860fdb8eeedbef9bf10bbcb97485e0d51a6a37cf34ebdef1f395a5301518"
+      "sha256": "85c828469abb5566f23fe4c6924b64316b30d578ba27033441b731e112b158b3"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e4b1bbfcbc64b27e9f84e53478d47012b22184832c59f4fa83893dcac83dc23c"
+      "sha256": "57a80aa49af7529437898d5d09cb0a4091c51c4f9262431b61536c2b01ce3cfc"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "f6bcef762077c166e4f78e1f40be133f9f612d48d79ce1ada304773932796fbb"
+      "sha256": "a87f5532b805f6209d1a3ca700254086c5f52c95b0338ce1002c700d622c0cb7"
     }
   },
   "table": [
@@ -619,6 +619,174 @@
       "roundLabel": "V кръг",
       "strHomeTeam": "Арда",
       "strAwayTeam": "Локомотив София",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-f034f14246c4",
+      "dateEvent": "2026-08-21",
+      "strTime": "21:15:00",
+      "intRound": "6",
+      "roundLabel": "VI кръг",
+      "strHomeTeam": "Черно море",
+      "strAwayTeam": "Дунав Русе",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-cd0b438b28ec",
+      "dateEvent": "2026-08-22",
+      "strTime": "19:00:00",
+      "intRound": "6",
+      "roundLabel": "VI кръг",
+      "strHomeTeam": "Лудогорец",
+      "strAwayTeam": "Славия",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-acb815004ac0",
+      "dateEvent": "2026-08-22",
+      "strTime": "21:15:00",
+      "intRound": "6",
+      "roundLabel": "VI кръг",
+      "strHomeTeam": "Левски",
+      "strAwayTeam": "Спартак Варна",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-2de33cb09e3b",
+      "dateEvent": "2026-08-23",
+      "strTime": "19:00:00",
+      "intRound": "6",
+      "roundLabel": "VI кръг",
+      "strHomeTeam": "Септември София",
+      "strAwayTeam": "ЦСКА 1948",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-dd9213997c7e",
+      "dateEvent": "2026-08-23",
+      "strTime": "21:15:00",
+      "intRound": "6",
+      "roundLabel": "VI кръг",
+      "strHomeTeam": "Локомотив Пловдив",
+      "strAwayTeam": "Арда",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-af11d1ead4e1",
+      "dateEvent": "2026-08-24",
+      "strTime": "19:00:00",
+      "intRound": "6",
+      "roundLabel": "VI кръг",
+      "strHomeTeam": "Ботев Враца",
+      "strAwayTeam": "Ботев Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-bb7b832beebe",
+      "dateEvent": "2026-08-24",
+      "strTime": "21:15:00",
+      "intRound": "6",
+      "roundLabel": "VI кръг",
+      "strHomeTeam": "Локомотив София",
+      "strAwayTeam": "ЦСКА",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-e5374011be53",
+      "dateEvent": "2026-08-28",
+      "strTime": "19:00:00",
+      "intRound": "7",
+      "roundLabel": "VII кръг",
+      "strHomeTeam": "Славия",
+      "strAwayTeam": "Септември София",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-696b607eac49",
+      "dateEvent": "2026-08-28",
+      "strTime": "21:15:00",
+      "intRound": "7",
+      "roundLabel": "VII кръг",
+      "strHomeTeam": "ЦСКА 1948",
+      "strAwayTeam": "Локомотив Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-3af75e1889f1",
+      "dateEvent": "2026-08-29",
+      "strTime": "21:15:00",
+      "intRound": "7",
+      "roundLabel": "VII кръг",
+      "strHomeTeam": "Ботев Пловдив",
+      "strAwayTeam": "Левски",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-128aad47e80d",
+      "dateEvent": "2026-08-30",
+      "strTime": "19:00:00",
+      "intRound": "7",
+      "roundLabel": "VII кръг",
+      "strHomeTeam": "Спартак Варна",
+      "strAwayTeam": "Лудогорец",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-c2f59eb8a489",
+      "dateEvent": "2026-08-30",
+      "strTime": "21:15:00",
+      "intRound": "7",
+      "roundLabel": "VII кръг",
+      "strHomeTeam": "ЦСКА",
+      "strAwayTeam": "Черно море",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-745120ec0f5d",
+      "dateEvent": "2026-08-31",
+      "strTime": "19:00:00",
+      "intRound": "7",
+      "roundLabel": "VII кръг",
+      "strHomeTeam": "Дунав Русе",
+      "strAwayTeam": "Локомотив София",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-e530da2ee212",
+      "dateEvent": "2026-08-31",
+      "strTime": "21:15:00",
+      "intRound": "7",
+      "roundLabel": "VII кръг",
+      "strHomeTeam": "Арда",
+      "strAwayTeam": "Ботев Враца",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null
