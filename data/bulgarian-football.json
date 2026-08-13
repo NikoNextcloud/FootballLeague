@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-13T19:20:35.907928+00:00",
+  "updatedAt": "2026-08-13T20:02:41.473286+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "f567e3a9afbf940b988910e1b43cccab1bc6bce97ba3ff23e7451a3394cb03e5"
+      "sha256": "8fb4826b9e2868ba0367847def4cab305dd3ef2b069364cf59e3ac407cc86cc7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "4f8067d6228d6a8eb56dd7b51bec6055f644ca4f7d49e93473677fd565998613"
+      "sha256": "74d53ee73f55896eeaf4590313a5021e9a5b61cdcfbfac83895a77dbee76f447"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "0521844cf5322b0867099e67665326069b3b08fba492167f73439c0a8b3dbf1e"
+      "sha256": "ab8560aa91625a68b7d43cff34f047205b57f14e5ce964fbc5c56b2a854dcf10"
     }
   },
   "table": [
@@ -1049,8 +1049,9 @@
       "strHomeTeam": "ЦСКА",
       "strAwayTeam": "Макаби",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "3",
+      "halftime": "0:1",
       "competition": "Лига Европа - Трети квалификационен кръг"
     }
   ],
@@ -1351,8 +1352,9 @@
         "strHomeTeam": "ЦСКА",
         "strAwayTeam": "Макаби",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "1",
+        "intAwayScore": "3",
+        "halftime": "0:1",
         "competition": "Лига Европа"
       },
       {
