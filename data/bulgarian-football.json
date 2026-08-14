@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-14T08:51:01.069542+00:00",
+  "updatedAt": "2026-08-14T09:51:32.653397+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "1cd495d7b6fb62a87b02e05eba950d9d00cfbed3bd9a0b0291af8449735a6051"
+      "sha256": "57d679fd65fcc314ea022044da698747e991d2230f9d899588dd2503571661f7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "968830eef4e80127353bb5eaf8df100b7d86dacd53ffe1c76b309102b8061e11"
+      "sha256": "962e550683979c0a068e2a3403fb21e10bb63098161ef7039f6c3d67c7de9526"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "5d09e0060bef281dd4d67aade97c18d025a26120420c1b553f6b2da03884ef09"
+      "sha256": "8324e5535caadafbf3f34773f03b0459fb50b34ba9a59918234f9e485eab2b9c"
     }
   },
   "table": [
@@ -1049,8 +1049,9 @@
       "strHomeTeam": "Славия",
       "strAwayTeam": "Национал (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
