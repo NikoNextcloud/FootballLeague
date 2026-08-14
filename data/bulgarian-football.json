@@ -1,24 +1,36 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-14T20:06:52.505002+00:00",
+  "updatedAt": "2026-08-14T20:43:49.654497+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "638859d02df8850bae798e8fa67c81307320002b369bb725e9800ed4f060b041"
+      "sha256": "67fc46ef13b710ec11f83b65a12c48d4494acb9be4ff28f17d35a007c6187bb7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "0f8b900f955fd97be0d021365923d38bac526626c32f0f62d68384528761e0e7"
+      "sha256": "ed3963d39526cb5a6f6676547784f9e6e302e818ed7d6609b8aa8cf7720907a5"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "c65abd314dd1b5e9b8bf38ea2170449b8ce0edfcff5b762d80f297c0fd24ff93"
+      "sha256": "3a81cf47b72efbbb98a7172c547ccb86984f05f2c90ed2aa8633c2cdd83e1852"
     }
   },
   "table": [
     {
       "intRank": 1,
+      "strTeam": "ЦСКА 1948",
+      "intPlayed": 5,
+      "intWin": 4,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 13,
+      "intGoalsAgainst": 6,
+      "intGoalDifference": 7,
+      "intPoints": 13
+    },
+    {
+      "intRank": 2,
       "strTeam": "Левски",
       "intPlayed": 4,
       "intWin": 4,
@@ -30,7 +42,7 @@
       "intPoints": 12
     },
     {
-      "intRank": 2,
+      "intRank": 3,
       "strTeam": "Лудогорец",
       "intPlayed": 4,
       "intWin": 4,
@@ -42,7 +54,7 @@
       "intPoints": 12
     },
     {
-      "intRank": 3,
+      "intRank": 4,
       "strTeam": "ЦСКА",
       "intPlayed": 4,
       "intWin": 3,
@@ -51,18 +63,6 @@
       "intGoalsFor": 8,
       "intGoalsAgainst": 3,
       "intGoalDifference": 5,
-      "intPoints": 10
-    },
-    {
-      "intRank": 4,
-      "strTeam": "ЦСКА 1948",
-      "intPlayed": 4,
-      "intWin": 3,
-      "intDraw": 1,
-      "intLoss": 0,
-      "intGoalsFor": 9,
-      "intGoalsAgainst": 5,
-      "intGoalDifference": 4,
       "intPoints": 10
     },
     {
@@ -150,15 +150,15 @@
       "intPoints": 1
     },
     {
-      "intRank": 11,
+      "intRank": 12,
       "strTeam": "Черно море",
-      "intPlayed": 4,
+      "intPlayed": 5,
       "intWin": 0,
       "intDraw": 1,
-      "intLoss": 3,
-      "intGoalsFor": 3,
-      "intGoalsAgainst": 8,
-      "intGoalDifference": -5,
+      "intLoss": 4,
+      "intGoalsFor": 4,
+      "intGoalsAgainst": 12,
+      "intGoalDifference": -8,
       "intPoints": 1
     },
     {
@@ -560,8 +560,9 @@
       "strHomeTeam": "ЦСКА 1948",
       "strAwayTeam": "Черно море",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "1:1"
     },
     {
       "id": "bf-cecd5ffecf53",
@@ -794,6 +795,11 @@
   ],
   "scorers": [
     {
+      "player": "Фредерик Масиел",
+      "team": "ЦСКА 1948",
+      "goals": 5
+    },
+    {
       "player": "Руан Круз",
       "team": "Лудогорец",
       "goals": 4
@@ -806,11 +812,6 @@
     {
       "player": "Йоел Зварц",
       "team": "ЦСКА",
-      "goals": 3
-    },
-    {
-      "player": "Фредерик Масиел",
-      "team": "ЦСКА 1948",
       "goals": 3
     },
     {
@@ -874,6 +875,16 @@
       "goals": 2
     },
     {
+      "player": "Елиас Франко",
+      "team": "ЦСКА 1948",
+      "goals": 2
+    },
+    {
+      "player": "Атанас Илиев",
+      "team": "ЦСКА 1948",
+      "goals": 2
+    },
+    {
       "player": "Джойс Читоку",
       "team": "Спартак Варна",
       "goals": 1
@@ -911,11 +922,6 @@
     {
       "player": "Атанас Кабов",
       "team": "Арда",
-      "goals": 1
-    },
-    {
-      "player": "Атанас Илиев",
-      "team": "ЦСКА 1948",
       "goals": 1
     },
     {
@@ -989,11 +995,6 @@
       "goals": 1
     },
     {
-      "player": "Елиас Франко",
-      "team": "ЦСКА 1948",
-      "goals": 1
-    },
-    {
       "player": "Светослав Ковачев",
       "team": "Арда",
       "goals": 1
@@ -1037,6 +1038,11 @@
       "player": "Франклин Маскоте",
       "team": "Ботев Пловдив",
       "goals": 1
+    },
+    {
+      "player": "Мохамед Аши",
+      "team": "Черно море",
+      "goals": 1
     }
   ],
   "today": [
@@ -1077,8 +1083,9 @@
       "strHomeTeam": "ЦСКА 1948",
       "strAwayTeam": "Черно море",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
