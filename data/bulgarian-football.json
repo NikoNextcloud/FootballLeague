@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-14T17:36:10.029829+00:00",
+  "updatedAt": "2026-08-14T18:30:59.747148+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "d7bdc2296779dd12f87a1a75ae80ad0aab4ca2174621cc9f66a1e6254ebce5f4"
+      "sha256": "59fa331232645c92ee2acde5ee7ccf8f20b6090b047bd8a64a103c524cdf462e"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "cb505f84554aa5fedb271e7650e088ac9535375b6236fd64f0ddd12f938b38ae"
+      "sha256": "660eee6a17bd1350f2dd8923ed253964d1df6bcc24fd0ebee069b84e33a82f7a"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "418a5923ff09ca36385ebde8e3f498046a364ca269a0f97bd015566d8d63e603"
+      "sha256": "adfe44c5897594603c92ec2be89fe10ba0907c28c8f65d37e6ad4b490a53d7d9"
     }
   },
   "table": [
@@ -1063,8 +1063,9 @@
       "strHomeTeam": "Фратрия",
       "strAwayTeam": "Берое",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1410,19 +1411,6 @@
         "competition": "Лига Европа"
       },
       {
-        "id": "bf-423771dd5b27",
-        "dateEvent": "2026-08-20",
-        "strTime": "21:00:00",
-        "intRound": "",
-        "roundLabel": "Трети квалификационен кръг · Реванш",
-        "strHomeTeam": "ЦСКА",
-        "strAwayTeam": "ОФИ Крит",
-        "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
-        "competition": "Лига Европа"
-      },
-      {
         "id": "bf-06971104aa14",
         "dateEvent": "2026-08-26",
         "strTime": "22:00:00",
@@ -1434,6 +1422,19 @@
         "intHomeScore": null,
         "intAwayScore": null,
         "competition": "Шампионска лига"
+      },
+      {
+        "id": "bf-135f45619f1e",
+        "dateEvent": "2026-08-27",
+        "strTime": "21:00:00",
+        "intRound": "",
+        "roundLabel": "Трети квалификационен кръг · Реванш",
+        "strHomeTeam": "ЦСКА",
+        "strAwayTeam": "ОФИ Крит",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Лига Европа"
       }
     ]
   },
