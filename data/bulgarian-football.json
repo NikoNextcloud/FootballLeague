@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-15T15:18:51.037020+00:00",
+  "updatedAt": "2026-08-15T15:40:36.083341+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "0094241a21532b8402ac2cc52b26b1bf84b588871c4971d7fe9ac23d633998a8"
+      "sha256": "eec655d838c40395d2a6183f2d488e0ebabade03ec274d58193bdd06a384d9d2"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "6458962433ede4a3df2e7017059bb675b3f9d908587aa5347c745c219b409686"
+      "sha256": "1cc958a6a1372ae1e9c5acdf3d24578f5813a368b0ea3a196b921b788d8eefef"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "8542d2e24676f5d2a1eaa85097671b546b9fc85aab58258971bdce2227a66997"
+      "sha256": "68fb021765cf5bc402b4e2e7031616a0656418c7d3b61ca8242c6db1573b578e"
     }
   },
   "table": [
@@ -1195,8 +1195,9 @@
       "strHomeTeam": "Миньор",
       "strAwayTeam": "Хебър 1918",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
