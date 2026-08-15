@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-15T18:40:55.325818+00:00",
+  "updatedAt": "2026-08-15T19:03:54.976824+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "75082d6ce629c3b817afd6cec57ec63965f947dfb8e855486cf6775d93f7da99"
+      "sha256": "1a4b03a6884aa737f783e38c4c546e7beca17e1e65faf8067545574ab9035307"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "b56d1915e525d2fd49dccef966c424bb0e891a87952950cd861ac29c32fab13d"
+      "sha256": "b84ce1db56efba15ec9dc2ba1c1c2cc413560166302464c29ac09eb838b07fa6"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "4c04a21899b673ad406c91779a4ba1c88ec7cae87f133a74658d8bac07d530b2"
+      "sha256": "670f58ce5a005498a3e388ad46b60215e75caba879cfae1616b2c52604861d1e"
     }
   },
   "table": [
@@ -1265,8 +1265,9 @@
       "strHomeTeam": "Бдин 1923",
       "strAwayTeam": "Хайдук Велко",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "3",
+      "halftime": "1:2",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -1278,8 +1279,9 @@
       "strHomeTeam": "Бенковски",
       "strAwayTeam": "Ендже",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "9",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1609,21 +1611,9 @@
       "strHomeTeam": "Севлиево",
       "strAwayTeam": "Чавдар",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Приятелски срещи: Лято-есен"
-    },
-    {
-      "id": "bf-eee6a2c69759",
-      "dateEvent": "2026-08-15",
-      "strTime": "18:30:00",
-      "intRound": "",
-      "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "Венци 2022",
-      "strAwayTeam": "Ювентус 95",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "1:0",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
