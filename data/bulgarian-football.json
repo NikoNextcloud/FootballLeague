@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-15T13:03:33.930263+00:00",
+  "updatedAt": "2026-08-15T13:38:46.087310+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "0638a2e128a7615b25753888c35f81cb4922f131220c0bfcc7e91e18d498498a"
+      "sha256": "2c5033654840b56dc6545f23f92d9e31a2ff2e10752d9349992b20039523fda7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "d620ca375ed1a51d8262ed2113e21e959ae2b0332d8be8a73cf61557ccce287c"
+      "sha256": "21d4cf4ad799bc180adc2841b4e0843f7efef7cdb899e225a36bcd96d6040bf5"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "2d96d65e669cdea1d6c0d86ad2387260d74d887d694ff0d4a8d6725a33126612"
+      "sha256": "90428492c70e5604886d905f1ba77a20105542baebf068d61ac5d4d0839b73ad"
     }
   },
   "table": [
@@ -1097,8 +1097,9 @@
       "strHomeTeam": "Локомотив София",
       "strAwayTeam": "Пирин 22",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -1138,8 +1139,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Черно море",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -1575,13 +1577,13 @@
       "competition": "Югоизточна Трета лига"
     },
     {
-      "id": "bf-cc6e60ac4bf6",
+      "id": "bf-936424f6ae24",
       "dateEvent": "2026-08-15",
       "strTime": "18:15:00",
       "intRound": "",
       "roundLabel": "Приятелски срещи: Лято-есен",
       "strHomeTeam": "Севлиево",
-      "strAwayTeam": "ФК Троян 2025",
+      "strAwayTeam": "Чавдар",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
