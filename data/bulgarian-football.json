@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-15T17:43:17.575940+00:00",
+  "updatedAt": "2026-08-15T17:59:19.954225+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "3cfd5b94928f7fe6fa14a8ee6428c2d1121645be3b4e98dd431b9d1ea9adb9e1"
+      "sha256": "0e8a2d8efc5c14bafa28146a16f38f736804803cc41c18b99c35cdaa9e96443c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "49b77faae4b5c6930ce5decccacf869a54317cda1f4446449f45f62fae26a585"
+      "sha256": "9d25b7916ebe63118ad0f7ab6f0ca9d5f0991be56620d9edffa65f5f8b987c0b"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "e3043e13205ae299cbaa6976b8915a77f109d9e7d288c4bf7629f000814902ea"
+      "sha256": "898b7ad2c0a5321f7cb74af0cd81eda2ea609fe9d9c1c6e373f28a75e3bf5af1"
     }
   },
   "table": [
@@ -1550,8 +1550,9 @@
       "strHomeTeam": "Струмска слава 1927",
       "strAwayTeam": "Етрополе",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -1629,8 +1630,9 @@
       "strHomeTeam": "Етър ВТ",
       "strAwayTeam": "Рилски спортист 2011",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1642,8 +1644,9 @@
       "strHomeTeam": "Марица",
       "strAwayTeam": "Атлетик",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
