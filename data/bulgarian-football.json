@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-15T12:17:37.547358+00:00",
+  "updatedAt": "2026-08-15T13:03:33.930263+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "36e5dc076a49e657f96e04604af4f9dbf282be39529b0a9924af8172dd7fde3c"
+      "sha256": "0638a2e128a7615b25753888c35f81cb4922f131220c0bfcc7e91e18d498498a"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "de61f876cfc730e72dd1732b5a154c90f423a0b2d59e20e95ea0a76df8a8ee67"
+      "sha256": "d620ca375ed1a51d8262ed2113e21e959ae2b0332d8be8a73cf61557ccce287c"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "654406c01c14a5c8270d68f81d7a2d498294a629b46e907a5c1a50ae412576ff"
+      "sha256": "2d96d65e669cdea1d6c0d86ad2387260d74d887d694ff0d4a8d6725a33126612"
     }
   },
   "table": [
@@ -1083,8 +1083,9 @@
       "strHomeTeam": "Славия",
       "strAwayTeam": "Национал (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -1150,8 +1151,9 @@
       "strHomeTeam": "УФК Ботев (София)",
       "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -1179,7 +1181,7 @@
       "source": "bulgarian-football.com",
       "intHomeScore": "4",
       "intAwayScore": "0",
-      "halftime": "",
+      "halftime": "0:0",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
