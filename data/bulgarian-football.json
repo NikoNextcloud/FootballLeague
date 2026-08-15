@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-15T08:57:52.006574+00:00",
+  "updatedAt": "2026-08-15T09:33:09.640347+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "8636128ee577c2c160fa57c8b865bb1b3b8dcdc12c43633dfdd7d184af40bd4c"
+      "sha256": "13c4e98baf5b5aa7c62bf1a33e18a17db8a0c9366c2353801b38134dc27a3801"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "c3862ee1fa4695e94d33bb6c91daa179d2fb0ffde3cda35f15a886c02e7c19f3"
+      "sha256": "5ffb95a0a9930411b63adbb122f39afc1b9d2f2801cac450529781b99d6b54af"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "2b726ca3aaec104691e057becefe2dd68c1988d2fc2eb2a25ea90d7158f7a276"
+      "sha256": "a7900615258027f8e73ca03c2c9686bffb5027c84a2f7a670fea2d4e6b0996f8"
     }
   },
   "table": [
@@ -1047,6 +1047,34 @@
   ],
   "today": [
     {
+      "id": "bf-20cdbeb3c05a",
+      "dateEvent": "2026-08-15",
+      "strTime": "09:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Арда",
+      "strAwayTeam": "Нефтохимик 1962",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "",
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-1a507bf930f7",
+      "dateEvent": "2026-08-15",
+      "strTime": "09:30:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Септември София",
+      "strAwayTeam": "Ботев Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "1:1",
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-b0b770762fed",
       "dateEvent": "2026-08-15",
       "strTime": "09:30:00",
@@ -1081,8 +1109,9 @@
       "strHomeTeam": "ЦСКА 1948",
       "strAwayTeam": "Хебър 1918",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1145,32 +1174,6 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Миньор",
       "strAwayTeam": "Хебър 1918",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-20cdbeb3c05a",
-      "dateEvent": "2026-08-15",
-      "strTime": "11:15:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Арда",
-      "strAwayTeam": "Нефтохимик 1962",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-1a507bf930f7",
-      "dateEvent": "2026-08-15",
-      "strTime": "11:30:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Септември София",
-      "strAwayTeam": "Ботев Пловдив",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
