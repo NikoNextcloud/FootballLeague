@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-15T17:59:19.954225+00:00",
+  "updatedAt": "2026-08-15T18:40:55.325818+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "0e8a2d8efc5c14bafa28146a16f38f736804803cc41c18b99c35cdaa9e96443c"
+      "sha256": "75082d6ce629c3b817afd6cec57ec63965f947dfb8e855486cf6775d93f7da99"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "9d25b7916ebe63118ad0f7ab6f0ca9d5f0991be56620d9edffa65f5f8b987c0b"
+      "sha256": "b56d1915e525d2fd49dccef966c424bb0e891a87952950cd861ac29c32fab13d"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "898b7ad2c0a5321f7cb74af0cd81eda2ea609fe9d9c1c6e373f28a75e3bf5af1"
+      "sha256": "4c04a21899b673ad406c91779a4ba1c88ec7cae87f133a74658d8bac07d530b2"
     }
   },
   "table": [
@@ -1237,8 +1237,9 @@
       "strHomeTeam": "Аксаково",
       "strAwayTeam": "Олимпик",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1318,8 +1319,9 @@
       "strHomeTeam": "Волов Шумен 2007",
       "strAwayTeam": "Ботев",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1414,8 +1416,9 @@
       "strHomeTeam": "Миньор",
       "strAwayTeam": "Беласица",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -1455,8 +1458,9 @@
       "strHomeTeam": "Рилци",
       "strAwayTeam": "Доростол Силистра",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1525,7 +1529,7 @@
       "source": "bulgarian-football.com",
       "intHomeScore": "0",
       "intAwayScore": "2",
-      "halftime": "",
+      "halftime": "0:0",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1578,8 +1582,9 @@
       "strHomeTeam": "Черноморец",
       "strAwayTeam": "Устрем Д",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "1",
+      "halftime": "4:0",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1646,7 +1651,7 @@
       "source": "bulgarian-football.com",
       "intHomeScore": "1",
       "intAwayScore": "0",
-      "halftime": "",
+      "halftime": "0:0",
       "competition": "Югоизточна Трета лига"
     },
     {
