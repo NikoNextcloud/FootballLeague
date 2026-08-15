@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-15T19:49:42.749895+00:00",
+  "updatedAt": "2026-08-15T20:07:43.620548+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "47fbeba9b355e7f2648eef70a8c0ed72bbf1da6b44cd2b65be546d94e9892db3"
+      "sha256": "99e521a29d1e83560a87b7913d960b7c6cdca6f4a5a311ccbb35bd5b693c0769"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "66b306dd9acdc1579b20a85fcf5074efb9796517e5533a2265fcfd7d7667beb6"
+      "sha256": "ebec524fc044afa8a5fb836f0eb8dff60aa3413bba9583ffb3cc5ff25cc8d779"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "81b72174c8d722e28927af3a33bd6591556e952793ea9f621301d514354cd7c2"
+      "sha256": "d69f86b0cf3674f7240bbda52afdbe43a3f8ceea349db872510362b4d5d746d6"
     }
   },
   "table": [
@@ -1599,8 +1599,9 @@
       "strHomeTeam": "Янтра",
       "strAwayTeam": "Черноломец 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "8",
+      "halftime": "0:4",
       "competition": "Югоизточна Трета лига"
     },
     {
