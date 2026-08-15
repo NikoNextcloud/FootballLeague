@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-15T15:57:17.406009+00:00",
+  "updatedAt": "2026-08-15T16:32:48.457920+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "f7b86f9567c6fe40051c5e7435ab0a214908e6002f63bbab997e5f9785c0741d"
+      "sha256": "db445973ff2e0a72b50c901156ec30ebfb2a9a58c15f24a6aa699102467bed53"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "bf7bea5352d505d78d48ca521934f4a984b98e11728b299e40103e3cc2d18550"
+      "sha256": "fefd3af8533939485d4111078525728bb3464e0dffe1529b74d69efbabe1584c"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "503148a3b3169dff0e022ddd7b48c53dc65dfcb03fb2b89a95ab4d4332e00695"
+      "sha256": "e7b00f5e4c6086c0745ca5f320b4d6655247fc61eb27c508059a8823ea5abae0"
     }
   },
   "table": [
@@ -1209,8 +1209,9 @@
       "strHomeTeam": "Дунав Русе",
       "strAwayTeam": "Янтра 2019",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
