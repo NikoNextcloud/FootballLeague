@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-15T10:22:01.387707+00:00",
+  "updatedAt": "2026-08-15T10:45:39.225782+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "107ee78876507de053c81f240682cad75bd54ec8771534d0c30dda3fa79284e9"
+      "sha256": "2a1370df7d630465a28df812c0c93fc798d9f0db30158b115b37813e0af92152"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "b73b3548194ccf6a186e806970e2f75daaff6042f96c4f72225cb752029437c9"
+      "sha256": "406f9934e49a454847e233380c99df7b7a1a0055652f5782a3f2cbc15c6c6207"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "1804de0f678020403c1ca375ba2156f1ef18e1922b9cc9d675625d2ac3cb74ec"
+      "sha256": "4032f59df7b59d61ceb7e602801f2418e7dc976a220b4a735c91516c81a76775"
     }
   },
   "table": [
@@ -1352,6 +1352,19 @@
       "competition": "Югозападна Трета лига"
     },
     {
+      "id": "bf-450ec8150bc0",
+      "dateEvent": "2026-08-15",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Левски 2007",
+      "strAwayTeam": "Обнова 2022",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
       "id": "bf-bc8c8731f7b9",
       "dateEvent": "2026-08-15",
       "strTime": "18:00:00",
@@ -1495,6 +1508,19 @@
       "competition": "Югоизточна Трета лига"
     },
     {
+      "id": "bf-401e872b38bc",
+      "dateEvent": "2026-08-15",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Спартак II",
+      "strAwayTeam": "Партизан",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
       "id": "bf-8588138150c2",
       "dateEvent": "2026-08-15",
       "strTime": "18:00:00",
@@ -1545,6 +1571,32 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-cc6e60ac4bf6",
+      "dateEvent": "2026-08-15",
+      "strTime": "18:15:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Севлиево",
+      "strAwayTeam": "ФК Троян 2025",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-eee6a2c69759",
+      "dateEvent": "2026-08-15",
+      "strTime": "18:30:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Венци 2022",
+      "strAwayTeam": "Ювентус 95",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
     },
     {
       "id": "bf-0e943bb54137",
