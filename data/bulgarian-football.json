@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-15T19:03:54.976824+00:00",
+  "updatedAt": "2026-08-15T19:30:12.698249+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "1a4b03a6884aa737f783e38c4c546e7beca17e1e65faf8067545574ab9035307"
+      "sha256": "74ad0aca4c2e09e23f3c570bc1065778aa2b9a62b178ab3701fa11ab546bd882"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "b84ce1db56efba15ec9dc2ba1c1c2cc413560166302464c29ac09eb838b07fa6"
+      "sha256": "d5dc7ad66f050a7964512461ffb909c69f078d2d97f90d9081962775e471f75b"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "670f58ce5a005498a3e388ad46b60215e75caba879cfae1616b2c52604861d1e"
+      "sha256": "ed50168aa2a132b8636e54ae6f4daf93e928ce7de7e31a14a947b8d5e015298f"
     }
   },
   "table": [
@@ -1365,7 +1365,7 @@
       "source": "bulgarian-football.com",
       "intHomeScore": "0",
       "intAwayScore": "1",
-      "halftime": "",
+      "halftime": "0:0",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -1502,8 +1502,9 @@
       "strHomeTeam": "Септември 98",
       "strAwayTeam": "СФК Светкавица 2014",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
