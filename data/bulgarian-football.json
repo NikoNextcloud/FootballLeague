@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-15T17:22:22.191311+00:00",
+  "updatedAt": "2026-08-15T17:43:17.575940+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "ef5dbcf89b1e740de230d406c4e616361bc9dd04c7be1b2fb1c6e261e0f131cf"
+      "sha256": "3cfd5b94928f7fe6fa14a8ee6428c2d1121645be3b4e98dd431b9d1ea9adb9e1"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "dcf6f824257e3fb74735fc1138ff8f0c64ba3e8e8fc683fcdae7a43d21ba3434"
+      "sha256": "49b77faae4b5c6930ce5decccacf869a54317cda1f4446449f45f62fae26a585"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "c15b67f43cc6c5da749d1200a6c3500f82b9427d35748edcbf5e758a55d90565"
+      "sha256": "e3043e13205ae299cbaa6976b8915a77f109d9e7d288c4bf7629f000814902ea"
     }
   },
   "table": [
@@ -1223,8 +1223,9 @@
       "strHomeTeam": "Академик",
       "strAwayTeam": "Етър ВТ",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -1289,8 +1290,9 @@
       "strHomeTeam": "Берое",
       "strAwayTeam": "Локомотив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -1357,8 +1359,9 @@
       "strHomeTeam": "Кюстендил",
       "strAwayTeam": "Балкан 1929",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -1438,8 +1441,9 @@
       "strHomeTeam": "Оборище",
       "strAwayTeam": "Национал (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "2:0",
       "competition": "Югозападна Трета лига"
     },
     {
