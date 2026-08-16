@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-16T18:41:41.775765+00:00",
+  "updatedAt": "2026-08-16T19:04:03.133205+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "d71bff4945b796a0c271225445d6de174698486f85571abd9807b7fba532ae00"
+      "sha256": "aaf5e0ad4cf964e8668e5214822a0219210a3c53bd48ed1470df8a7546d60c34"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "099710169644f939c48d9993619128c4b8cb5dafbb05fb563374b27a01cd0ec6"
+      "sha256": "ea09ccdab904b273f9b591e1536256a167aee2e9bca15d17d6f8ed9b89d389cf"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "785b105616e6f5ba74fdbbd00ea0fdef6517c10ff64f8f2181302e5045fca92a"
+      "sha256": "5fb666d456bf40802f6a40f82d84f57ded46e1b4ba6edb6700cd54064bdd16cd"
     }
   },
   "table": [
@@ -1185,6 +1185,20 @@
       "competition": "Югоизточна Трета лига"
     },
     {
+      "id": "bf-f3c9261c7792",
+      "dateEvent": "2026-08-16",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Национал (София)",
+      "strAwayTeam": "Етър ВТ",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "",
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-a49ee92703a2",
       "dateEvent": "2026-08-16",
       "strTime": "18:00:00",
@@ -1232,8 +1246,9 @@
       "strHomeTeam": "Дунав Русе",
       "strAwayTeam": "Спартак Варна",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "5",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1283,19 +1298,6 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Мрамор",
       "strAwayTeam": "Сокол",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-f3c9261c7792",
-      "dateEvent": "2026-08-16",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Национал (София)",
-      "strAwayTeam": "Етър ВТ",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
@@ -1391,8 +1393,9 @@
       "strHomeTeam": "Добруджа 1919",
       "strAwayTeam": "Янтра 2019",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1404,8 +1407,9 @@
       "strHomeTeam": "Монтана 1921",
       "strAwayTeam": "Марек 1915",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1417,8 +1421,9 @@
       "strHomeTeam": "Спартак",
       "strAwayTeam": "Локомотив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "0:1",
       "competition": "Втора професионална лига"
     },
     {
