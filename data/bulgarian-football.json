@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-16T07:22:59.125600+00:00",
+  "updatedAt": "2026-08-16T07:53:21.442403+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "dab62737d5699c7fd21557f25fa20780b74e23d72e5f349fe64c847ee9eb512e"
+      "sha256": "a288c79f2645056a7dc012d0801de38647043dfa898a4b2bc4f848b641f7c8b3"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "f7a643b43e8e6c7aa381e5f1a0fe5be5c2b80235596f86afc65fcc1526dcfddb"
+      "sha256": "c918ed5a019f15e62227b6b4058ed6a5d922722a1f934ef7234c216ae8901bd1"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "8f523e118e278d598fe1bf8ae72fd5e927d4c86e55a04c1c4159720283f31668"
+      "sha256": "39bff34f16c773fc7a9e31d41171335d36270094df765af825646125b8b7bb20"
     }
   },
   "table": [
@@ -1061,6 +1061,20 @@
       "competition": "Югоизточна Трета лига"
     },
     {
+      "id": "bf-2df89b0e093a",
+      "dateEvent": "2026-08-16",
+      "strTime": "09:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "ЦСКА",
+      "strAwayTeam": "Черно море",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "8",
+      "intAwayScore": "0",
+      "halftime": "4:0",
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-29adabb22c07",
       "dateEvent": "2026-08-16",
       "strTime": "09:30:00",
@@ -1120,19 +1134,6 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Септември София",
       "strAwayTeam": "Пирин 22",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-2df89b0e093a",
-      "dateEvent": "2026-08-16",
-      "strTime": "11:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "ЦСКА",
-      "strAwayTeam": "Черно море",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
