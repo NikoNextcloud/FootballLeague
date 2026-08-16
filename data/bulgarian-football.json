@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-16T13:42:53.547755+00:00",
+  "updatedAt": "2026-08-16T14:01:47.674644+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "d4ca698427dee5f25a1965676e866ae60e0a24f7328446b0cf439c88ad8351b4"
+      "sha256": "13e6cc08e7a5121fffd5e63bfef9323a85fcb8c3b3b0e8f804011ac07b46af06"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "82c93d591efb7bba4da1e222415e8df7e90ef3e32da558ca76c08b29600ce1ee"
+      "sha256": "c7aec7400c904a6a73755615e5ea09f19e6168582c288c688935a5816e4d69b7"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "3eaca9aa1754555f301f9a1c59940670385317e16c03b1117d3a14bd9d57508c"
+      "sha256": "6bfdd51df7624e277d79b565fa2128b4ab3825661e5824a15d31427f6f344a3b"
     }
   },
   "table": [
@@ -1048,6 +1048,20 @@
   ],
   "today": [
     {
+      "id": "bf-e6485b75cfde",
+      "dateEvent": "2026-08-16",
+      "strTime": "09:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Лудогорец",
+      "strAwayTeam": "Локомотив Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "",
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-38fe05d10c38",
       "dateEvent": "2026-08-16",
       "strTime": "09:00:00",
@@ -1142,20 +1156,6 @@
       "source": "bulgarian-football.com",
       "intHomeScore": "1",
       "intAwayScore": "2",
-      "halftime": "",
-      "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-e6485b75cfde",
-      "dateEvent": "2026-08-16",
-      "strTime": "11:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Лудогорец",
-      "strAwayTeam": "Локомотив Пловдив",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "3",
-      "intAwayScore": "1",
       "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
