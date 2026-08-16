@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-16T09:31:35.176939+00:00",
+  "updatedAt": "2026-08-16T09:54:24.976267+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "a8f0e1ceed0f4a0ddffe5d66f099c23fecea9968fa42c85b57a57f4907919270"
+      "sha256": "90b2f0557da68f6e3e3e4076a22369f8322388146ce958423141193b4751573b"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "784d054696242c2f00ed60d4b7a0f139af873c35a474fecf38987c6e5eb2d367"
+      "sha256": "15201323e45751c964e42b402800573d01a109c69b5a49d695d38dbe0a67abb9"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "b7dc8c6e5fe17d233db376119ba2aaa240c873ed2b7a7f322cb63b4f0925db41"
+      "sha256": "fd289a41ff189b0c4856dd9886dd44faaf1ff6f79a6510ea588d04b1e1e3175a"
     }
   },
   "table": [
@@ -1056,8 +1056,9 @@
       "strHomeTeam": "Септември София",
       "strAwayTeam": "Локомотив София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1072,6 +1073,20 @@
       "intHomeScore": "8",
       "intAwayScore": "0",
       "halftime": "4:0",
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-992e892b0707",
+      "dateEvent": "2026-08-16",
+      "strTime": "09:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "ЦСКА 1948",
+      "strAwayTeam": "Левски",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "4",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1096,8 +1111,9 @@
       "strHomeTeam": "Шипка старс 2015",
       "strAwayTeam": "Марица 1921",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1134,19 +1150,6 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Септември София",
       "strAwayTeam": "Пирин 22",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-992e892b0707",
-      "dateEvent": "2026-08-16",
-      "strTime": "11:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "ЦСКА 1948",
-      "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
