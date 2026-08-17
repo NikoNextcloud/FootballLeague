@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-17T19:52:21.599639+00:00",
+  "updatedAt": "2026-08-17T20:19:07.664267+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "4974b1813e536cb4d9f814d00ba404b0cc22f8a43af15a0a1ae9482d6670e06d"
+      "sha256": "567de8cb3641beb93ad049ea3429e84c75a84b3e13474386b803a68faded81db"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "41c2a039f84bc5edb119b632a240acbd88206f434bfdf84c3f7c31ecd1867c55"
+      "sha256": "4acd8c228b0daf9b2e6d6045cf8e8fc30771e263d50d0f8d5b49849e1cd06d58"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "858bc0355acbf9693bdacb539ddecb43940d6d6125fb45ef00fa0713384c492b"
+      "sha256": "4a36d6ecbb0b743ca4c9e0a474ac39bc53b01b33aa502260a71a663fb237581b"
     }
   },
   "table": [
@@ -67,6 +67,18 @@
     },
     {
       "intRank": 5,
+      "strTeam": "Арда",
+      "intPlayed": 5,
+      "intWin": 3,
+      "intDraw": 1,
+      "intLoss": 1,
+      "intGoalsFor": 8,
+      "intGoalsAgainst": 4,
+      "intGoalDifference": 4,
+      "intPoints": 10
+    },
+    {
+      "intRank": 6,
       "strTeam": "Ботев Пловдив",
       "intPlayed": 5,
       "intWin": 2,
@@ -75,18 +87,6 @@
       "intGoalsFor": 7,
       "intGoalsAgainst": 8,
       "intGoalDifference": -1,
-      "intPoints": 7
-    },
-    {
-      "intRank": 6,
-      "strTeam": "Арда",
-      "intPlayed": 4,
-      "intWin": 2,
-      "intDraw": 1,
-      "intLoss": 1,
-      "intGoalsFor": 5,
-      "intGoalsAgainst": 3,
-      "intGoalDifference": 2,
       "intPoints": 7
     },
     {
@@ -152,13 +152,13 @@
     {
       "intRank": 12,
       "strTeam": "Локомотив София",
-      "intPlayed": 4,
+      "intPlayed": 5,
       "intWin": 0,
       "intDraw": 2,
-      "intLoss": 2,
-      "intGoalsFor": 4,
-      "intGoalsAgainst": 7,
-      "intGoalDifference": -3,
+      "intLoss": 3,
+      "intGoalsFor": 5,
+      "intGoalsAgainst": 10,
+      "intGoalDifference": -5,
       "intPoints": 2
     },
     {
@@ -625,8 +625,9 @@
       "strHomeTeam": "Арда",
       "strAwayTeam": "Локомотив София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "2:0"
     },
     {
       "id": "bf-f034f14246c4",
@@ -894,6 +895,16 @@
       "goals": 2
     },
     {
+      "player": "Светослав Ковачев",
+      "team": "Арда",
+      "goals": 2
+    },
+    {
+      "player": "Станислав Иванов",
+      "team": "Арда",
+      "goals": 2
+    },
+    {
       "player": "Джойс Читоку",
       "team": "Спартак Варна",
       "goals": 1
@@ -1004,11 +1015,6 @@
       "goals": 1
     },
     {
-      "player": "Светослав Ковачев",
-      "team": "Арда",
-      "goals": 1
-    },
-    {
       "player": "Николай Златев",
       "team": "Черно море",
       "goals": 1
@@ -1077,6 +1083,11 @@
       "player": "Андре Либерал",
       "team": "Септември София",
       "goals": 1
+    },
+    {
+      "player": "Кауе Карузо",
+      "team": "Локомотив София",
+      "goals": 1
     }
   ],
   "today": [
@@ -1117,8 +1128,9 @@
       "strHomeTeam": "Арда",
       "strAwayTeam": "Локомотив София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "2:0",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
