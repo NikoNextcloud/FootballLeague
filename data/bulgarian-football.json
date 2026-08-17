@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-17T17:38:46.238688+00:00",
+  "updatedAt": "2026-08-17T18:02:40.079220+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "bd6e1937ca6b83c569fb7c9ccb26db314195d710c5cc0d03c273e5f24d4256a5"
+      "sha256": "61a2a15130d107dfb3d463f7dc1a5867a8d0baa99ad3060409a6b37c22f819f9"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "cbfb2d3b0139b3ef526380422a85a63860b076161a2499c15934c64872fdb960"
+      "sha256": "4012cf8de2042bcebcb313e739d478f8585b02a73c95ae29fb594b689c26ce83"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "f61d2dc5d6cb9e7e40beca514ed97e4b22fd9969b3ed95e2a84f550e8e5cd63b"
+      "sha256": "f0c4aa39337eb28b85fc16feea92997411f37f8c195488ac597d164275c9fce9"
     }
   },
   "table": [
@@ -92,13 +92,13 @@
     {
       "intRank": 7,
       "strTeam": "Спартак Варна",
-      "intPlayed": 4,
+      "intPlayed": 5,
       "intWin": 2,
       "intDraw": 1,
-      "intLoss": 1,
+      "intLoss": 2,
       "intGoalsFor": 8,
-      "intGoalsAgainst": 5,
-      "intGoalDifference": 3,
+      "intGoalsAgainst": 6,
+      "intGoalDifference": 2,
       "intPoints": 7
     },
     {
@@ -115,6 +115,18 @@
     },
     {
       "intRank": 9,
+      "strTeam": "Септември София",
+      "intPlayed": 5,
+      "intWin": 1,
+      "intDraw": 1,
+      "intLoss": 3,
+      "intGoalsFor": 3,
+      "intGoalsAgainst": 9,
+      "intGoalDifference": -6,
+      "intPoints": 4
+    },
+    {
+      "intRank": 10,
       "strTeam": "Дунав Русе",
       "intPlayed": 5,
       "intWin": 1,
@@ -126,7 +138,7 @@
       "intPoints": 3
     },
     {
-      "intRank": 10,
+      "intRank": 11,
       "strTeam": "Локомотив Пловдив",
       "intPlayed": 5,
       "intWin": 1,
@@ -138,7 +150,7 @@
       "intPoints": 3
     },
     {
-      "intRank": 11,
+      "intRank": 12,
       "strTeam": "Локомотив София",
       "intPlayed": 4,
       "intWin": 0,
@@ -150,7 +162,7 @@
       "intPoints": 2
     },
     {
-      "intRank": 12,
+      "intRank": 13,
       "strTeam": "Черно море",
       "intPlayed": 5,
       "intWin": 0,
@@ -162,7 +174,7 @@
       "intPoints": 1
     },
     {
-      "intRank": 13,
+      "intRank": 14,
       "strTeam": "Ботев Враца",
       "intPlayed": 5,
       "intWin": 0,
@@ -171,18 +183,6 @@
       "intGoalsFor": 3,
       "intGoalsAgainst": 13,
       "intGoalDifference": -10,
-      "intPoints": 1
-    },
-    {
-      "intRank": 14,
-      "strTeam": "Септември София",
-      "intPlayed": 4,
-      "intWin": 0,
-      "intDraw": 1,
-      "intLoss": 3,
-      "intGoalsFor": 2,
-      "intGoalsAgainst": 9,
-      "intGoalDifference": -7,
       "intPoints": 1
     }
   ],
@@ -612,8 +612,9 @@
       "strHomeTeam": "Спартак Варна",
       "strAwayTeam": "Септември София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "0:0"
     },
     {
       "id": "bf-578c55401e60",
@@ -1071,6 +1072,11 @@
       "player": "Крист Лонгвил",
       "team": "Локомотив Пловдив",
       "goals": 1
+    },
+    {
+      "player": "Андре Либерал",
+      "team": "Септември София",
+      "goals": 1
     }
   ],
   "today": [
@@ -1097,8 +1103,9 @@
       "strHomeTeam": "Спартак Варна",
       "strAwayTeam": "Септември София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
