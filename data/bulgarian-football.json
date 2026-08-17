@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-17T20:19:07.664267+00:00",
+  "updatedAt": "2026-08-17T20:48:32.513467+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "567de8cb3641beb93ad049ea3429e84c75a84b3e13474386b803a68faded81db"
+      "sha256": "d02b8bb8d9c6bb68eb8a6c5698e897da88b28f34fecf119b743daa4f617cddcb"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "4acd8c228b0daf9b2e6d6045cf8e8fc30771e263d50d0f8d5b49849e1cd06d58"
+      "sha256": "b2b210b4aed030c670a6f0d3be9227af42760513f2b8c66440628ac06451f477"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "4a36d6ecbb0b743ca4c9e0a474ac39bc53b01b33aa502260a71a663fb237581b"
+      "sha256": "6dc3a03fdbbf9b0f46f2b90d12336f96f26513cbd85f9af576c1a6b4b8b0201b"
     }
   },
   "table": [
@@ -678,13 +678,13 @@
       "intAwayScore": null
     },
     {
-      "id": "bf-dd9213997c7e",
+      "id": "bf-be6a6ca0eaef",
       "dateEvent": "2026-08-23",
       "strTime": "21:15:00",
       "intRound": "6",
       "roundLabel": "VI кръг",
-      "strHomeTeam": "Локомотив Пловдив",
-      "strAwayTeam": "Арда",
+      "strHomeTeam": "Локомотив София",
+      "strAwayTeam": "ЦСКА",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null
@@ -702,13 +702,13 @@
       "intAwayScore": null
     },
     {
-      "id": "bf-bb7b832beebe",
+      "id": "bf-bf598b36bedf",
       "dateEvent": "2026-08-24",
       "strTime": "21:15:00",
       "intRound": "6",
       "roundLabel": "VI кръг",
-      "strHomeTeam": "Локомотив София",
-      "strAwayTeam": "ЦСКА",
+      "strHomeTeam": "Локомотив Пловдив",
+      "strAwayTeam": "Арда",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null
