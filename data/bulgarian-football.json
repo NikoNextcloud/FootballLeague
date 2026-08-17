@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-17T20:48:32.513467+00:00",
+  "updatedAt": "2026-08-17T21:13:03.857802+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "d02b8bb8d9c6bb68eb8a6c5698e897da88b28f34fecf119b743daa4f617cddcb"
+      "sha256": "20ef73cb5de7c29527dbf04665f42da87389349a187ab68b0be4b15e6eab8182"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "b2b210b4aed030c670a6f0d3be9227af42760513f2b8c66440628ac06451f477"
+      "sha256": "f30cc23964651483b120cf8aa64c2fc65d27aa6817770a27e247c39d9080f4b8"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "6dc3a03fdbbf9b0f46f2b90d12336f96f26513cbd85f9af576c1a6b4b8b0201b"
+      "sha256": "c5107dc7e8bfd75b552e00413a7542cadab8a3289b1112b96cac26f7901ed3a1"
     }
   },
   "table": [
@@ -1092,46 +1092,43 @@
   ],
   "today": [
     {
-      "id": "bf-15122810f65a",
-      "dateEvent": "2026-08-17",
-      "strTime": "18:00:00",
+      "id": "bf-7fd6d1c76ff5",
+      "dateEvent": "2026-08-18",
+      "strTime": "18:30:00",
       "intRound": "",
       "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Черноморец 1919",
-      "strAwayTeam": "ЦСКА II (София)",
+      "strHomeTeam": "Пирин 22",
+      "strAwayTeam": "Хебър 1918",
       "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "1",
-      "halftime": "0:1",
+      "intHomeScore": null,
+      "intAwayScore": null,
       "competition": "Втора професионална лига"
     },
     {
-      "id": "bf-4339621c0911",
-      "dateEvent": "2026-08-17",
-      "strTime": "19:00:00",
+      "id": "bf-8f04c61b7bd3",
+      "dateEvent": "2026-08-18",
+      "strTime": "20:00:00",
       "intRound": "",
-      "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "Спартак Варна",
-      "strAwayTeam": "Септември София",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Лудогорец",
+      "strAwayTeam": "Вихрен",
       "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "1",
-      "halftime": "0:0",
-      "competition": "Първа професионална лига - Първа фаза"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
     },
     {
-      "id": "bf-c75624ce9d0f",
-      "dateEvent": "2026-08-17",
-      "strTime": "21:15:00",
+      "id": "bf-198276758903",
+      "dateEvent": "2026-08-18",
+      "strTime": "22:00:00",
       "intRound": "",
-      "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "Арда",
-      "strAwayTeam": "Локомотив София",
+      "roundLabel": "Шампионска лига - Плейофи",
+      "strHomeTeam": "Левски",
+      "strAwayTeam": "АЕК",
       "source": "bulgarian-football.com",
-      "intHomeScore": "3",
-      "intAwayScore": "1",
-      "halftime": "2:0",
-      "competition": "Първа професионална лига - Първа фаза"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Шампионска лига - Плейофи"
     }
   ],
   "europe": {
