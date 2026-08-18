@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-18T20:46:35.909596+00:00",
+  "updatedAt": "2026-08-18T21:09:39.547285+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "0f91c332421ed92cc90f5ab9e427b1666d0f7d161bd39bb3244fd7fb3155949f"
+      "sha256": "a7b3dca978e95e0ca1f4ed6d4c0bdb216ad560ed202f3f1303d194a2327ce7ff"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "07f0c28ae6a202700bd7d074e1b045a7cff025909f00ea254f1f4f3b96bdbcbd"
+      "sha256": "bbb52f50675bf43aeb427f8719b3986d2384e6f9090086cc210b051824a85d6e"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "1fbcb968dc71bf55c314b4983abbcc0d8c9628fcaf6afda60dae16eb90669177"
+      "sha256": "ee7d5a33d47d3c742d097831d67366f1bd61c9d2f8b1edddc183714b755894ae"
     }
   },
   "table": [
@@ -1200,45 +1200,69 @@
   ],
   "today": [
     {
-      "id": "bf-7fd6d1c76ff5",
-      "dateEvent": "2026-08-18",
-      "strTime": "18:30:00",
+      "id": "bf-fed65c6b9109",
+      "dateEvent": "2026-08-19",
+      "strTime": "18:00:00",
       "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Пирин 22",
-      "strAwayTeam": "Хебър 1918",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "2",
-      "intAwayScore": "3",
-      "halftime": "1:1",
-      "competition": "Втора професионална лига"
-    },
-    {
-      "id": "bf-8f04c61b7bd3",
-      "dateEvent": "2026-08-18",
-      "strTime": "20:00:00",
-      "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Лудогорец",
-      "strAwayTeam": "Вихрен",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "2",
-      "halftime": "0:1",
-      "competition": "Втора професионална лига"
-    },
-    {
-      "id": "bf-198276758903",
-      "dateEvent": "2026-08-18",
-      "strTime": "22:00:00",
-      "intRound": "",
-      "roundLabel": "Шампионска лига - Плейофи",
-      "strHomeTeam": "Левски",
-      "strAwayTeam": "АЕК",
+      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Втори кръг",
+      "strHomeTeam": "Асеновец 2005",
+      "strAwayTeam": "Спартак 1947",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Шампионска лига - Плейофи"
+      "competition": "Купа на България (квалификации) - Област Пловдив, Втори кръг"
+    },
+    {
+      "id": "bf-5829d6818fc1",
+      "dateEvent": "2026-08-19",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област Сливен, Финал",
+      "strHomeTeam": "Загорец",
+      "strAwayTeam": "Спартак",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Област Сливен, Финал"
+    },
+    {
+      "id": "bf-2d39c210cea1",
+      "dateEvent": "2026-08-19",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Втори кръг",
+      "strHomeTeam": "Левски",
+      "strAwayTeam": "Секирово",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Област Пловдив, Втори кръг"
+    },
+    {
+      "id": "bf-ac278d388d6a",
+      "dateEvent": "2026-08-19",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област Бургас, Финал",
+      "strHomeTeam": "Нефтохимик 1962",
+      "strAwayTeam": "Созопол",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Област Бургас, Финал"
+    },
+    {
+      "id": "bf-9363ec5000a9",
+      "dateEvent": "2026-08-19",
+      "strTime": "19:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Втори кръг",
+      "strHomeTeam": "Марица",
+      "strAwayTeam": "Гигант",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Област Пловдив, Втори кръг"
     }
   ],
   "europe": {
@@ -1552,8 +1576,9 @@
         "strHomeTeam": "Левски",
         "strAwayTeam": "АЕК",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "0",
+        "intAwayScore": "0",
+        "halftime": "",
         "competition": "Шампионска лига"
       },
       {
