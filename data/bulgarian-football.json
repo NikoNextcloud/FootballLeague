@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-19T16:48:20.312557+00:00",
+  "updatedAt": "2026-08-19T17:13:44.420696+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "d0a7e3c5e9e908ce2c9e966bd26a8f23849a5e516070fbd031a2ee28f73d0803"
+      "sha256": "1be92dfee0b3ccaf73ca98329d2a1fc861eb131dc073b861f3a35afae8cd5ded"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "1f21eedac4f5e9557e7994d419986b7e198e9e2a7410afa1597a24c7006bd869"
+      "sha256": "7a640e7171b2876bacceed4405ea6b100049e26044076f3bc4640122eda20bf8"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "2b4f1f02028a2b40bff5f4429958afb842afe526926fc001c8a9e9c5377b9dde"
+      "sha256": "efb416e1ee28d1e20aff86e909adde1fa74d8a6333adf167a225ca336becc124"
     }
   },
   "table": [
@@ -1221,8 +1221,9 @@
       "strHomeTeam": "Загорец",
       "strAwayTeam": "Спартак",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "9",
+      "intAwayScore": "0",
+      "halftime": "4:0",
       "competition": "Купа на България (квалификации) - Област Сливен, Финал"
     },
     {
@@ -1247,8 +1248,9 @@
       "strHomeTeam": "Нефтохимик 1962",
       "strAwayTeam": "Созопол",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Купа на България (квалификации) - Област Бургас, Финал"
     },
     {
