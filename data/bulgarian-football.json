@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-19T19:44:04.540930+00:00",
+  "updatedAt": "2026-08-19T20:02:13.803004+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "3bba92a3821d1fbcf5731a529e66be3a00be3ca1af74c41a41d7a546e7868e5e"
+      "sha256": "8dc92f7e35f127cee277483871e7bbb3edea34a41cd2d3e8e301b7146c679151"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "3bdf0fd16d0048e66e427db57d17d3d7e39d96d16a1154ecf5800ca0ad14b9c6"
+      "sha256": "b938c892b33318e10686c85b8ff9b15464315560bf4a42ef02316eb9e019bf69"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "409cc0e263d8bf8d289f69bc9000e845ea92d71d2de321c21366b31bbca4eb07"
+      "sha256": "b677e735194b62ffa3d88e3b117025e3287d1c85ecc5381fd015cd9b14d311fe"
     }
   },
   "table": [
@@ -1254,6 +1254,20 @@
       "intAwayScore": "2",
       "halftime": "0:1",
       "competition": "Купа на България (квалификации) - Област Пловдив, Втори кръг"
+    },
+    {
+      "id": "bf-b39c1a8734e2",
+      "dateEvent": "2026-08-19",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област София (столица), Финал",
+      "strHomeTeam": "Национал (София)",
+      "strAwayTeam": "Спортист",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "7",
+      "intAwayScore": "0",
+      "halftime": "",
+      "competition": "Купа на България (квалификации) - Област София (столица), Финал"
     },
     {
       "id": "bf-ac278d388d6a",
