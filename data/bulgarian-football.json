@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-19T17:43:50.804672+00:00",
+  "updatedAt": "2026-08-19T18:02:26.207784+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "0bb1a44711b6bb1ccb2b49a935a5a3accc2a18d230b86050f56c10904acc3a84"
+      "sha256": "626f94eba0de4480bf89d95a4c073ae0d139174c6570235ffbbe5cc48f0ab6e8"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "4bc6e6ee8b7c408cfd372ab9b300c5bae8bcd0ec405ead9da08fcaf5ac50f7a9"
+      "sha256": "e020e1be741bea5ad5073be92b997c39e0323acc257305c461efbc20d9e6516f"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "87029996c2d4028a331de60ecd27d71dfec8586a99313c41680d5abb07c0fde1"
+      "sha256": "532bd9c858f6454293bfd42543090c42d74b89dbdc36b614e097d5e6b5677266"
     }
   },
   "table": [
@@ -1208,8 +1208,9 @@
       "strHomeTeam": "Асеновец 2005",
       "strAwayTeam": "Спартак 1947",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "6",
+      "halftime": "",
       "competition": "Купа на България (квалификации) - Област Пловдив, Втори кръг"
     },
     {
