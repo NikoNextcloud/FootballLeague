@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-19T17:13:44.420696+00:00",
+  "updatedAt": "2026-08-19T17:43:50.804672+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "1be92dfee0b3ccaf73ca98329d2a1fc861eb131dc073b861f3a35afae8cd5ded"
+      "sha256": "0bb1a44711b6bb1ccb2b49a935a5a3accc2a18d230b86050f56c10904acc3a84"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "7a640e7171b2876bacceed4405ea6b100049e26044076f3bc4640122eda20bf8"
+      "sha256": "4bc6e6ee8b7c408cfd372ab9b300c5bae8bcd0ec405ead9da08fcaf5ac50f7a9"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "efb416e1ee28d1e20aff86e909adde1fa74d8a6333adf167a225ca336becc124"
+      "sha256": "87029996c2d4028a331de60ecd27d71dfec8586a99313c41680d5abb07c0fde1"
     }
   },
   "table": [
@@ -1235,8 +1235,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "Секирово",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:1",
       "competition": "Купа на България (квалификации) - Област Пловдив, Втори кръг"
     },
     {
