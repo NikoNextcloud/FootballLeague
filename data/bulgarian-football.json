@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-19T18:02:26.207784+00:00",
+  "updatedAt": "2026-08-19T18:49:42.720307+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "626f94eba0de4480bf89d95a4c073ae0d139174c6570235ffbbe5cc48f0ab6e8"
+      "sha256": "db778c0e1aa33a34b4cc6fdaead8e6d3ecf6b97674bb9afb7f7f1fc7157a8663"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e020e1be741bea5ad5073be92b997c39e0323acc257305c461efbc20d9e6516f"
+      "sha256": "f9b0e5602650d681e6f03f37bf365b2cdaa00a1663945d9b17e48747715f55af"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "532bd9c858f6454293bfd42543090c42d74b89dbdc36b614e097d5e6b5677266"
+      "sha256": "3f623ee5e747a50bf74986a503ccda3e2e1424e2cd83e564511e588a867e4975"
     }
   },
   "table": [
@@ -1214,6 +1214,20 @@
       "competition": "Купа на България (квалификации) - Област Пловдив, Втори кръг"
     },
     {
+      "id": "bf-9c4e7cadbcde",
+      "dateEvent": "2026-08-19",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област София, Първи кръг",
+      "strHomeTeam": "Балкан 1929",
+      "strAwayTeam": "ОФК Костинброд 2012",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:0",
+      "competition": "Купа на България (квалификации) - Област София, Първи кръг"
+    },
+    {
       "id": "bf-5829d6818fc1",
       "dateEvent": "2026-08-19",
       "strTime": "18:00:00",
@@ -1264,8 +1278,9 @@
       "strHomeTeam": "Марица",
       "strAwayTeam": "Гигант",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Купа на България (квалификации) - Област Пловдив, Втори кръг"
     }
   ],
