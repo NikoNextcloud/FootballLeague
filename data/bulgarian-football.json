@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-20T19:34:13.664736+00:00",
+  "updatedAt": "2026-08-20T19:59:41.372634+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "7b0708ab60e2e3919c2471c919348ac16a86236828750fcb8cc7b74687aa964f"
+      "sha256": "22c9449d795c550a782f0eaaaee180979a60090a5110caf45965be4204da3e9e"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e1ff40748bd87e2873615824ad5b11cb7a78c85c222ed6781cf0a1188a78948c"
+      "sha256": "26f45879e6895a498bc8c0d34ce2b0a2ad1b723dee15dd7b011c066557bd1df0"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "7fa58526076b1951726978ebf948a12308f5f24c28de21c578263554039eb33e"
+      "sha256": "14fc4caef3475eeee96999708919176fc029040f37d0683c3507831fbfcb2ff3"
     }
   },
   "table": [
@@ -1208,8 +1208,9 @@
       "strHomeTeam": "ОФИ Крит",
       "strAwayTeam": "ЦСКА",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Лига Европа - Плейофи"
     }
   ],
@@ -1538,8 +1539,9 @@
         "strHomeTeam": "ОФИ Крит",
         "strAwayTeam": "ЦСКА",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "3",
+        "intAwayScore": "0",
+        "halftime": "1:0",
         "competition": "Лига Европа"
       },
       {
