@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-21T15:46:46.202269+00:00",
+  "updatedAt": "2026-08-21T16:15:05.156676+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "611d550df76ad2cd390e55008dd9249260a291edeb37e934b106995e5532631a"
+      "sha256": "2150f025d6ea45553e453f9fc0211975b59b5375933193c6ff5c5002dddac978"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "71487a904fc135c8236e899acc385ec9e3b82cb3446eb9193936d48997179a04"
+      "sha256": "b10c779ca44e07c12aafab71c9670bfd92cea0ddade77bc7f00a39f1b29e1eb6"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "225783cdc5cb015652e10929918b6d022df5ae3cdc779d4a98d468236cf5529c"
+      "sha256": "1283f51e70158b4ddc89ebed7d9d1c9c4d08ccc6c29978a9be2dbee06f9991d9"
     }
   },
   "table": [
@@ -673,18 +673,6 @@
       "roundLabel": "VI кръг",
       "strHomeTeam": "Септември София",
       "strAwayTeam": "ЦСКА 1948",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
-    },
-    {
-      "id": "bf-be6a6ca0eaef",
-      "dateEvent": "2026-08-23",
-      "strTime": "21:15:00",
-      "intRound": "6",
-      "roundLabel": "VI кръг",
-      "strHomeTeam": "Локомотив София",
-      "strAwayTeam": "ЦСКА",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null
