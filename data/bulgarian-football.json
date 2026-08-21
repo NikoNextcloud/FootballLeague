@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-21T17:30:35.030910+00:00",
+  "updatedAt": "2026-08-21T17:59:30.040694+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "0865c2aaba2971924259b94dd24ad88fd8fa67538d8104e640ff5ceccbc7df8b"
+      "sha256": "fc8d93babbe1659c6577753e4a57cafee06433e1e9e84a35d4cb420e70e284f9"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "d7dffdd44601b4c218519cf35f5627c4f8718e212c5a3f858439820c44be8885"
+      "sha256": "e6a0f4f06b959289c7a806daa49b590b1e7f5fb30586b42012402d89e40061ed"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "267b904914e6cd7a18280eb8cf9af4b11456a48474a71a664d510e602ff9219b"
+      "sha256": "641508933e752a596117ebdd11765d3f5683a47d309a5a533c308f0c5fe217d8"
     }
   },
   "table": [
@@ -1210,8 +1210,9 @@
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Етър ВТ",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Втора професионална лига"
     },
     {
