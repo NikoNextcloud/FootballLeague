@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-22T20:07:09.581478+00:00",
+  "updatedAt": "2026-08-22T20:37:16.417643+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "6f0de9af2597c1a302fa77db432978f143851a2500483b6125a64a2df3e48ef1"
+      "sha256": "7579130b458ec99e229c7205de43b916a71cf763d18ba9b905e5866909658f79"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "ed93fcc68d24ad03f1952d9a06b733dedb5828cf3c39de6ba88876f491d906c9"
+      "sha256": "d667c1b295d2809f948d51bad29d7b5fe9b6a3b49ded894fe6875d60ab575177"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "09e7b5f36d569e95378adad57ea8683c61dc5234ea91df06f66729a16a9efbb4"
+      "sha256": "162f4fa1a4b7d057a812d32bf201495fc6990d79846029e9a919c54e27b742c4"
     }
   },
   "table": [
@@ -31,6 +31,18 @@
     },
     {
       "intRank": 2,
+      "strTeam": "Левски",
+      "intPlayed": 5,
+      "intWin": 5,
+      "intDraw": 0,
+      "intLoss": 0,
+      "intGoalsFor": 15,
+      "intGoalsAgainst": 2,
+      "intGoalDifference": 13,
+      "intPoints": 15
+    },
+    {
+      "intRank": 3,
       "strTeam": "ЦСКА",
       "intPlayed": 5,
       "intWin": 4,
@@ -42,7 +54,7 @@
       "intPoints": 13
     },
     {
-      "intRank": 3,
+      "intRank": 4,
       "strTeam": "ЦСКА 1948",
       "intPlayed": 5,
       "intWin": 4,
@@ -52,18 +64,6 @@
       "intGoalsAgainst": 6,
       "intGoalDifference": 7,
       "intPoints": 13
-    },
-    {
-      "intRank": 4,
-      "strTeam": "Левски",
-      "intPlayed": 4,
-      "intWin": 4,
-      "intDraw": 0,
-      "intLoss": 0,
-      "intGoalsFor": 9,
-      "intGoalsAgainst": 2,
-      "intGoalDifference": 7,
-      "intPoints": 12
     },
     {
       "intRank": 5,
@@ -92,13 +92,13 @@
     {
       "intRank": 7,
       "strTeam": "Спартак Варна",
-      "intPlayed": 5,
+      "intPlayed": 6,
       "intWin": 2,
       "intDraw": 1,
-      "intLoss": 2,
+      "intLoss": 3,
       "intGoalsFor": 8,
-      "intGoalsAgainst": 6,
-      "intGoalDifference": 2,
+      "intGoalsAgainst": 12,
+      "intGoalDifference": -4,
       "intPoints": 7
     },
     {
@@ -664,8 +664,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "Спартак Варна",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "6",
+      "intAwayScore": "0",
+      "halftime": "2:0"
     },
     {
       "id": "bf-2de33cb09e3b",
@@ -928,6 +929,11 @@
       "goals": 3
     },
     {
+      "player": "Армстронг Око-Флекс",
+      "team": "Левски",
+      "goals": 3
+    },
+    {
       "player": "Мартин Петков",
       "team": "Ботев Враца",
       "goals": 2
@@ -1000,6 +1006,11 @@
     {
       "player": "Станислав Иванов",
       "team": "Арда",
+      "goals": 2
+    },
+    {
+      "player": "Давид Кусо",
+      "team": "Левски",
       "goals": 2
     },
     {
@@ -1083,11 +1094,6 @@
       "goals": 1
     },
     {
-      "player": "Армстронг Око-Флекс",
-      "team": "Левски",
-      "goals": 1
-    },
-    {
       "player": "Преслав Боруков",
       "team": "Ботев Враца",
       "goals": 1
@@ -1105,11 +1111,6 @@
     {
       "player": "Давид Валверде",
       "team": "Спартак Варна",
-      "goals": 1
-    },
-    {
-      "player": "Давид Кусо",
-      "team": "Левски",
       "goals": 1
     },
     {
@@ -1215,6 +1216,21 @@
     {
       "player": "Никола Савич",
       "team": "Славия",
+      "goals": 1
+    },
+    {
+      "player": "Адриан Райчев",
+      "team": "Левски",
+      "goals": 1
+    },
+    {
+      "player": "Стивън Стоянчов",
+      "team": "Левски",
+      "goals": 1
+    },
+    {
+      "player": "Хуан Переа",
+      "team": "Левски",
       "goals": 1
     }
   ],
@@ -1912,8 +1928,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "Спартак Варна",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "6",
+      "intAwayScore": "0",
+      "halftime": "2:0",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
