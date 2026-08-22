@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-22T10:32:09.923620+00:00",
+  "updatedAt": "2026-08-22T10:54:44.244778+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "e6ccb5eaa80b93f82973e2d7fa5ca88a355c6a7036ffcd2cc0a5a52d7b8528fc"
+      "sha256": "8c7d4e6541559dd32691233af63ecc3578aac739b2baa44409f1bf0941a4cff7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "dcc09c78e4694fe7a37a4da07c368c581117669726e20d753a69a8ad3e68ce23"
+      "sha256": "b38eb11c078368cde2c039c7e0a8e433f40a1b5d6a338096ddf72c31eeae8216"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "231c382c9f40fdaac46fc327232cca3d70618298559a9440c561dd0833dd8cd9"
+      "sha256": "07a768a0289c077fcbae44c6f891ec2c2d3de970db0ca1515649ec8c754779c2"
     }
   },
   "table": [
@@ -1251,6 +1251,20 @@
       "competition": "Югоизточна Трета лига"
     },
     {
+      "id": "bf-a853f6834573",
+      "dateEvent": "2026-08-22",
+      "strTime": "09:30:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Пирин 22",
+      "strAwayTeam": "Септември София",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "2",
+      "intAwayScore": "4",
+      "halftime": "",
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-7315fb5a9acc",
       "dateEvent": "2026-08-22",
       "strTime": "10:00:00",
@@ -1275,20 +1289,6 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Деца: Купа на БФС (квалификации) - Област Бургас, 1/2 финали"
-    },
-    {
-      "id": "bf-a853f6834573",
-      "dateEvent": "2026-08-22",
-      "strTime": "10:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Пирин 22",
-      "strAwayTeam": "Септември София",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "5",
-      "halftime": "",
-      "competition": "Югоизточна Трета лига"
     },
     {
       "id": "bf-f9422836c432",
@@ -1354,8 +1354,9 @@
       "strHomeTeam": "Хебър 1918",
       "strAwayTeam": "Локомотив София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1367,8 +1368,9 @@
       "strHomeTeam": "Нефтохимик 1962",
       "strAwayTeam": "Миньор",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "0",
+      "halftime": "2:0",
       "competition": "Югоизточна Трета лига"
     },
     {
