@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-22T15:51:53.827791+00:00",
+  "updatedAt": "2026-08-22T16:14:54.839324+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "82ec9885f16df72f24ff6e438d703ea926b4b99cdb488eaa7e94876c93bb4dcf"
+      "sha256": "379f249f1eae13bf20fc5a236fd2e196f826d7de2e36c4d4720ed4af769f04bb"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "ba5b084fd22e274df8678eebe2650aeb166379020f4e3f5b59f553c9c74afd97"
+      "sha256": "61632f1d459f910b6bde32ab6b758dd37117129700473328aee217738398151e"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "bd47a1a88e8b7a12b4b27fd4476430e4a433d229b1b2d9ba3431cfb6dec86497"
+      "sha256": "28d8df6f3811177765c11b8c4c9d1609a90d7b91d852e66887a7987ee998480b"
     }
   },
   "table": [
@@ -1375,6 +1375,20 @@
       "competition": "Югоизточна Трета лига"
     },
     {
+      "id": "bf-3fd38848fb4c",
+      "dateEvent": "2026-08-22",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Национал (София)",
+      "strAwayTeam": "Арда",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "7",
+      "intAwayScore": "0",
+      "halftime": "",
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-7042708d3dc0",
       "dateEvent": "2026-08-22",
       "strTime": "16:00:00",
@@ -1581,19 +1595,6 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Югозападна Трета лига"
-    },
-    {
-      "id": "bf-3fd38848fb4c",
-      "dateEvent": "2026-08-22",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Национал (София)",
-      "strAwayTeam": "Арда",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
     },
     {
       "id": "bf-491aae112794",
