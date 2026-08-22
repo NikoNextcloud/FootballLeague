@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-22T17:53:16.093298+00:00",
+  "updatedAt": "2026-08-22T18:23:29.413949+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "7ca39171fb6c4a4cb576fbeb880ac07369e1d56d9348296115f07fba2988f144"
+      "sha256": "1048a9c37cb85c02fbda364ca79dcf50795ef04d482f8df33c0e25dfb2186464"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "ec173875f3a548d21bb37dbf3271505deabc9187117d98b430f2394644977dfd"
+      "sha256": "22cc01b416e8dc4d9fe400b8db5429e59bc06c55bcbd44d2af16ec05b969ad26"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "0eebed295adc606e1cc5f89d8ae84c375d3715b684dd0981541f0567643c5d8b"
+      "sha256": "0c05d5ef1ab35a3486ef902e7278cd5ddefa4cf5686fa00069cf601fe1659ef3"
     }
   },
   "table": [
     {
       "intRank": 1,
       "strTeam": "Лудогорец",
-      "intPlayed": 5,
+      "intPlayed": 6,
       "intWin": 5,
-      "intDraw": 0,
+      "intDraw": 1,
       "intLoss": 0,
-      "intGoalsFor": 10,
-      "intGoalsAgainst": 3,
+      "intGoalsFor": 11,
+      "intGoalsAgainst": 4,
       "intGoalDifference": 7,
-      "intPoints": 15
+      "intPoints": 16
     },
     {
       "intRank": 2,
@@ -104,14 +104,14 @@
     {
       "intRank": 8,
       "strTeam": "Славия",
-      "intPlayed": 4,
+      "intPlayed": 5,
       "intWin": 1,
-      "intDraw": 2,
+      "intDraw": 3,
       "intLoss": 1,
-      "intGoalsFor": 4,
-      "intGoalsAgainst": 2,
+      "intGoalsFor": 5,
+      "intGoalsAgainst": 3,
       "intGoalDifference": 2,
-      "intPoints": 5
+      "intPoints": 6
     },
     {
       "intRank": 9,
@@ -651,8 +651,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "1:1"
     },
     {
       "id": "bf-acb815004ac0",
@@ -1205,6 +1206,16 @@
       "player": "Давид Телеш",
       "team": "Черно море",
       "goals": 1
+    },
+    {
+      "player": "Куадво Дуа",
+      "team": "Лудогорец",
+      "goals": 1
+    },
+    {
+      "player": "Никола Савич",
+      "team": "Славия",
+      "goals": 1
     }
   ],
   "today": [
@@ -1495,8 +1506,9 @@
       "strHomeTeam": "Етрополе",
       "strAwayTeam": "Септември",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -1522,8 +1534,9 @@
       "strHomeTeam": "Житница",
       "strAwayTeam": "Борислав 2009",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1576,8 +1589,9 @@
       "strHomeTeam": "Металик 1938",
       "strAwayTeam": "Калояново",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1717,7 +1731,7 @@
       "source": "bulgarian-football.com",
       "intHomeScore": "2",
       "intAwayScore": "2",
-      "halftime": "",
+      "halftime": "0:2",
       "competition": "Северозападна Трета лига"
     },
     {
@@ -1799,8 +1813,9 @@
       "strHomeTeam": "Тракия 06",
       "strAwayTeam": "СФК Раковски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1882,8 +1897,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
