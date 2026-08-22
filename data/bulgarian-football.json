@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-22T07:40:06.877028+00:00",
+  "updatedAt": "2026-08-22T08:01:15.760774+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "73a488cd54c350aba1f03c610636525a2b0f942e77e4b5a2009e5e465bebc67b"
+      "sha256": "ad4a3ca469eb89eb43486fa3feac752ab0b24adbc2b4b521cb438d2c8ecd07d7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "3d667bd30c9737101135a05138ef4560df4438b2e9d5b2e41ace21f4db681e8e"
+      "sha256": "584509b408a35fded79e3ba2063ecb9e85310d8746a7070d3bb5d161d204f17c"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "54e1f9a7211783817fba62d4cbe6ddcef8fed908e506c24ddd1fde650b67ab0d"
+      "sha256": "de6a9fda171977efa7e35fb463cf8485fd9d593264b3147a51e333f5b21a27d3"
     }
   },
   "table": [
@@ -1243,8 +1243,9 @@
       "strHomeTeam": "Хебър 1918",
       "strAwayTeam": "ЦСКА",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "5",
+      "halftime": "0:4",
       "competition": "Югоизточна Трета лига"
     },
     {
