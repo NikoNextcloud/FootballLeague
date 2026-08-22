@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-22T18:57:39.214983+00:00",
+  "updatedAt": "2026-08-22T19:28:16.446345+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "ff51f7906891780c6c0486ee29ad83c0e8e86c9c0b3c8e0bf242a9fa5026ac06"
+      "sha256": "30faba0731a681aae6881295dba58f718016cf9c384f92036ec86d90946c174a"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "d04a8b5e25d0a1b8f4dcccf805990234869671f1b2f26e4bea267df27cf2b390"
+      "sha256": "3db74d8f543d6de226bc9ecc25b47ab99df5f7ebdf93cb24f284ad7b0f77dbb5"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "931610d02ffc3dabba4d66a7b7051035f55753e1587fcc38e5c7a2c6444b16a6"
+      "sha256": "2530e56dd7ac5fcda673d5ab16ca0eed62e83fdbdf9466de76c0b6d85868c44d"
     }
   },
   "table": [
@@ -1452,7 +1452,7 @@
       "source": "bulgarian-football.com",
       "intHomeScore": "2",
       "intAwayScore": "1",
-      "halftime": "",
+      "halftime": "0:1",
       "competition": "Югозападна Трета лига"
     },
     {
