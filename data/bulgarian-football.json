@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-22T09:58:11.684780+00:00",
+  "updatedAt": "2026-08-22T10:32:09.923620+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "33dde91a6f224f9cb85078bbe41a0fdd5bcef6ea7018133991487ede24068093"
+      "sha256": "e6ccb5eaa80b93f82973e2d7fa5ca88a355c6a7036ffcd2cc0a5a52d7b8528fc"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "0ea606c523fdf94f9caf8fe4c4802bae7c6be9cc88a982ba3b257d830d13cc8c"
+      "sha256": "dcc09c78e4694fe7a37a4da07c368c581117669726e20d753a69a8ad3e68ce23"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "2ef148c95d657551cf4149dc0d2d66b75faee0a1c1862190e0e5ce89b1e76c86"
+      "sha256": "231c382c9f40fdaac46fc327232cca3d70618298559a9440c561dd0833dd8cd9"
     }
   },
   "table": [
@@ -1217,8 +1217,9 @@
       "strHomeTeam": "Ботев Пловдив",
       "strAwayTeam": "Академик",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1284,8 +1285,9 @@
       "strHomeTeam": "Пирин 22",
       "strAwayTeam": "Септември София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "5",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1297,8 +1299,9 @@
       "strHomeTeam": "Янтра 2019",
       "strAwayTeam": "Локомотив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "4",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1310,8 +1313,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "Шипка старс 2015",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "7",
+      "intAwayScore": "0",
+      "halftime": "5:0",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1323,8 +1327,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
