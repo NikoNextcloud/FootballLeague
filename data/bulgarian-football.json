@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-22T08:01:15.760774+00:00",
+  "updatedAt": "2026-08-22T08:41:32.943487+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "ad4a3ca469eb89eb43486fa3feac752ab0b24adbc2b4b521cb438d2c8ecd07d7"
+      "sha256": "aa7d88842f82c0d9c2620ed344e18b89269be02068bc8fb8a334c4085f610c91"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "584509b408a35fded79e3ba2063ecb9e85310d8746a7070d3bb5d161d204f17c"
+      "sha256": "cbf95726c042772949cf52254b46c098e19ef987758f8b573d1e8201ceb5dcdc"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "de6a9fda171977efa7e35fb463cf8485fd9d593264b3147a51e333f5b21a27d3"
+      "sha256": "f14a39606e6762049cbcc8ea00b872ec3a17ddf68b5a0e161104a2e5210283e7"
     }
   },
   "table": [
@@ -1230,8 +1230,9 @@
       "strHomeTeam": "Нефтохимик 1962",
       "strAwayTeam": "ЦСКА 1948",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "4",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
