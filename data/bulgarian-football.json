@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-23T10:08:52.036961+00:00",
+  "updatedAt": "2026-08-23T10:39:19.369569+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "4ac3c3ee3b0c96d825594dcfca34d47eb831fe7c064bc666e4300a3e36b5ed42"
+      "sha256": "92fd5d70183c40d08b3ae99ad375d440576ee9c52c16fa22661a8b08feb15e30"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "b0647d8ff2d695e229b86dcd10d591b8be4620b563086b0efc402c8261d547b2"
+      "sha256": "7d400e519e8e16a6cb2708f716cedaaccddae6a1e988471a15c7e99078d77bc5"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "87b1e27ea0a674df24788ea94535d04d0e463c5b3f48713888ef57ff1369ddce"
+      "sha256": "da7fb00a3df41af8463011a5c08efec7e82bcb3b1e24a415b89711d4a4b42e95"
     }
   },
   "table": [
@@ -1244,8 +1244,23 @@
       "strHomeTeam": "Локомотив София",
       "strAwayTeam": "ЦСКА 1948",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": "",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
+    },
+    {
+      "id": "bf-14433f987815",
+      "dateEvent": "2026-08-23",
+      "strTime": "09:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг",
+      "strHomeTeam": "Национал (София)",
+      "strAwayTeam": "Дунав Русе",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
     },
     {
@@ -1257,8 +1272,9 @@
       "strHomeTeam": "Спартак Варна",
       "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
     },
     {
@@ -1270,8 +1286,23 @@
       "strHomeTeam": "Дунав Русе",
       "strAwayTeam": "УФК Ботев (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
+    },
+    {
+      "id": "bf-6844ee83a192",
+      "dateEvent": "2026-08-23",
+      "strTime": "09:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг",
+      "strHomeTeam": "Локомотив Пловдив",
+      "strAwayTeam": "Септември София",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
     },
     {
@@ -1310,8 +1341,9 @@
       "strHomeTeam": "Пирин 22",
       "strAwayTeam": "ЦСКА 1948",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
     },
     {
@@ -1323,21 +1355,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "Арда",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
-    },
-    {
-      "id": "bf-14433f987815",
-      "dateEvent": "2026-08-23",
-      "strTime": "11:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг",
-      "strHomeTeam": "Национал (София)",
-      "strAwayTeam": "Дунав Русе",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
     },
     {
@@ -1349,21 +1369,9 @@
       "strHomeTeam": "Черноморец 1919",
       "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
-    },
-    {
-      "id": "bf-6844ee83a192",
-      "dateEvent": "2026-08-23",
-      "strTime": "11:30:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг",
-      "strHomeTeam": "Локомотив Пловдив",
-      "strAwayTeam": "Септември София",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
     },
     {
