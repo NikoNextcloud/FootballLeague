@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-23T16:46:39.988865+00:00",
+  "updatedAt": "2026-08-23T17:09:14.497870+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "2c63fab2b7ba0c6d3146744bde5e58ce8cf2a397ec3dd289e07fb50f8ab5d9d7"
+      "sha256": "fcd57f9d56e4e21c84e1d6c42fc7e15d61d11b8f191d65d47ba89e1a4ab50b2a"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "7e6b577474447999194d12622030c7aa10f1e8aa073057cf1f960185c433b46b"
+      "sha256": "1e2fea27df4657607877646d609b6cfd834df16e5c9f17b27e72d3872017063f"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "126ccb6458c846c2dc95bce36a15e847aad1abc18ba8ad7c8369727a7945e795"
+      "sha256": "e5418fe029d1adb3564d0da3828ba1b1c3ae2e5e5a3373cfa03c47e649766de7"
     }
   },
   "table": [
@@ -1437,8 +1437,9 @@
       "strHomeTeam": "Ботев II",
       "strAwayTeam": "Секирово",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "2:2",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1528,8 +1529,9 @@
       "strHomeTeam": "Марек 1915",
       "strAwayTeam": "Добруджа 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "2",
+      "halftime": "2:1",
       "competition": "Втора професионална лига"
     },
     {
@@ -1567,8 +1569,9 @@
       "strHomeTeam": "Несебър",
       "strAwayTeam": "Пирин 22",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "7",
+      "intAwayScore": "0",
+      "halftime": "2:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1580,8 +1583,9 @@
       "strHomeTeam": "ОФК Костинброд 2012",
       "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Югозападна Трета лига"
     },
     {
