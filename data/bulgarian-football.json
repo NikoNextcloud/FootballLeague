@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-23T08:12:19.487563+00:00",
+  "updatedAt": "2026-08-23T08:50:20.029146+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "c17f058becd5cc458e946cd4562b0d633682f4bfd17e5192e9957c10efefe4f8"
+      "sha256": "c0e0c7cffb3bd7662f1dd108b63c3c84cbef0113b64cf7d77938e6d82be272c5"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "83cfe65da772fd4250fbff8fd38bab785d4194643d79acc5a8a9a6b5044f35f8"
+      "sha256": "0f7bd2ec08609c40f0991a9be17b1a08060ebdefa71ea969146e9e8b108eb97e"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "a151f0588b894aca925e5861d4edc00204f57bbd016738efb919b25f3a8cf6bb"
+      "sha256": "dc22265f1e1a440f469826a1d25b18504da43cfbb6a773e50e0a7a88656977cb"
     }
   },
   "table": [
@@ -1283,8 +1283,9 @@
       "strHomeTeam": "Марица 1921",
       "strAwayTeam": "ЦСКА",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "1:1",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
     },
     {
