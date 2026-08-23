@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-23T15:29:48.861875+00:00",
+  "updatedAt": "2026-08-23T15:51:56.471570+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "62754b0c9632b62ae85ed457e122d769b92fcc6eec32fedf8808964120b1899c"
+      "sha256": "cc8b66b76617e24ed3f89193bd7badea03473af68176e44ca0a1c3f4c07d8e60"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e633f2244aaeb6918450e0d588581986d433318f44681928348fd7109b4e95b7"
+      "sha256": "f625c58a985877da33addb7e413667e321b43bb551dd478587a8f53c7c51a7c6"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "abb9584b39484636009710019fcb812a2ace78056ae28fced77cb9346f3a9dad"
+      "sha256": "bb1bbadc3afb20fdb0e063acf1392663f81bcb08688e3dbf8a639787f9a36d91"
     }
   },
   "table": [
@@ -1376,6 +1376,20 @@
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
     },
     {
+      "id": "bf-ffc04c3d5a71",
+      "dateEvent": "2026-08-23",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг",
+      "strHomeTeam": "Етър ВТ",
+      "strAwayTeam": "Черно море",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
+    },
+    {
       "id": "bf-0e28f7c8d22f",
       "dateEvent": "2026-08-23",
       "strTime": "18:00:00",
@@ -1452,19 +1466,6 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-ffc04c3d5a71",
-      "dateEvent": "2026-08-23",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг",
-      "strHomeTeam": "Етър ВТ",
-      "strAwayTeam": "Черно море",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
     },
     {
       "id": "bf-886cdbb94bba",
