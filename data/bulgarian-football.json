@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-23T18:55:15.389879+00:00",
+  "updatedAt": "2026-08-23T19:23:02.304759+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "58e943803bbe9693926cfe22713b7c44348a6e35238c876b7ba0a9d7e89f18da"
+      "sha256": "a3e385b308ffb276b788694c14d70ceb6d9eec7e93ed5714514301fd9428804c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "94acb8a823088c0e4b571205b90808ed6422c00bea005157a5b3bf6ad23cc401"
+      "sha256": "45349cc9f09a8ecb9b55163347fcb1d9797b348fd36cb4be762ca1ba3b7b837c"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "8d85ac9557bce5519182d4c5c242c8149b2a740148a45489a0171183f082c839"
+      "sha256": "219777c12ce7c83f89706a6d0d2fec5c90270324a48d1676a1771d5af9cf124f"
     }
   },
   "table": [
@@ -1404,8 +1404,9 @@
       "strHomeTeam": "Академия Юли Петков (София)",
       "strAwayTeam": "Мрамор",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1431,8 +1432,9 @@
       "strHomeTeam": "Банкя 2009",
       "strAwayTeam": "Сокол (кв.Бенковски, София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1458,8 +1460,9 @@
       "strHomeTeam": "Витоша",
       "strAwayTeam": "София спорт (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "5",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1471,8 +1474,9 @@
       "strHomeTeam": "Гранит",
       "strAwayTeam": "УФК Ботев (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1498,8 +1502,9 @@
       "strHomeTeam": "Житен",
       "strAwayTeam": "Надежда",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1637,8 +1642,9 @@
       "strHomeTeam": "Сокол",
       "strAwayTeam": "Искър 1945",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "4",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
