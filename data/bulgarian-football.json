@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-23T17:53:05.796876+00:00",
+  "updatedAt": "2026-08-23T18:22:03.032441+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "016ca952230415daa030919e13c20c8570f69cabde20f4f5a03430adc68914b8"
+      "sha256": "1596cc3bb1b9f062d165ce3e9b911e09d097edc16ecddf1e90b4edc1dea7d868"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "ee7767dba84d4e986a123023467073d1bcdcc6d8cfa791747291c0c81f9cd759"
+      "sha256": "277d2cd4976ff990df1c4ddb6f97e866b1b1d2193b1609564893de0f578fab1e"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "df01ec03fa12898b44e6c1f95cb2d7a7b0dadafdd8cf971449069170f2188be0"
+      "sha256": "c6f288a3a0c67eac66c3314d4113db5d6afc97f1a8d41019b00024a51ba3b5b9"
     }
   },
   "table": [
@@ -56,13 +56,13 @@
     {
       "intRank": 4,
       "strTeam": "ЦСКА 1948",
-      "intPlayed": 5,
+      "intPlayed": 6,
       "intWin": 4,
       "intDraw": 1,
-      "intLoss": 0,
+      "intLoss": 1,
       "intGoalsFor": 13,
-      "intGoalsAgainst": 6,
-      "intGoalDifference": 7,
+      "intGoalsAgainst": 7,
+      "intGoalDifference": 6,
       "intPoints": 13
     },
     {
@@ -91,6 +91,18 @@
     },
     {
       "intRank": 7,
+      "strTeam": "Септември София",
+      "intPlayed": 6,
+      "intWin": 2,
+      "intDraw": 1,
+      "intLoss": 3,
+      "intGoalsFor": 4,
+      "intGoalsAgainst": 9,
+      "intGoalDifference": -5,
+      "intPoints": 7
+    },
+    {
+      "intRank": 8,
       "strTeam": "Спартак Варна",
       "intPlayed": 6,
       "intWin": 2,
@@ -102,7 +114,7 @@
       "intPoints": 7
     },
     {
-      "intRank": 8,
+      "intRank": 9,
       "strTeam": "Славия",
       "intPlayed": 5,
       "intWin": 1,
@@ -114,7 +126,7 @@
       "intPoints": 6
     },
     {
-      "intRank": 9,
+      "intRank": 10,
       "strTeam": "Черно море",
       "intPlayed": 6,
       "intWin": 1,
@@ -122,18 +134,6 @@
       "intLoss": 4,
       "intGoalsFor": 7,
       "intGoalsAgainst": 13,
-      "intGoalDifference": -6,
-      "intPoints": 4
-    },
-    {
-      "intRank": 10,
-      "strTeam": "Септември София",
-      "intPlayed": 5,
-      "intWin": 1,
-      "intDraw": 1,
-      "intLoss": 3,
-      "intGoalsFor": 3,
-      "intGoalsAgainst": 9,
       "intGoalDifference": -6,
       "intPoints": 4
     },
@@ -677,8 +677,9 @@
       "strHomeTeam": "Септември София",
       "strAwayTeam": "ЦСКА 1948",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0"
     },
     {
       "id": "bf-af11d1ead4e1",
@@ -1232,6 +1233,11 @@
       "player": "Хуан Переа",
       "team": "Левски",
       "goals": 1
+    },
+    {
+      "player": "Ерар Францети",
+      "team": "Септември София",
+      "goals": 1
     }
   ],
   "today": [
@@ -1478,8 +1484,9 @@
       "strHomeTeam": "Железница",
       "strAwayTeam": "Казичене 1929",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "2:1",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1518,8 +1525,9 @@
       "strHomeTeam": "Левски Спартак 1962 (София)",
       "strAwayTeam": "Левски Раковски (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "1:0",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1545,8 +1553,9 @@
       "strHomeTeam": "Марица",
       "strAwayTeam": "Свобода 2011",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "5",
+      "halftime": "0:3",
       "competition": "Купа на България (квалификации) - Област Пазарджик, Първи кръг"
     },
     {
@@ -1683,8 +1692,9 @@
       "strHomeTeam": "Септември София",
       "strAwayTeam": "ЦСКА 1948",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
