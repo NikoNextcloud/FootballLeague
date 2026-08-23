@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-23T17:09:14.497870+00:00",
+  "updatedAt": "2026-08-23T17:34:01.695551+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "fcd57f9d56e4e21c84e1d6c42fc7e15d61d11b8f191d65d47ba89e1a4ab50b2a"
+      "sha256": "ef493c414f4087e71ce74c374b58d7bf3c4bcf744e18f94eaad8b04002496e9c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "1e2fea27df4657607877646d609b6cfd834df16e5c9f17b27e72d3872017063f"
+      "sha256": "04d11e868bef16474b01e61bf942acfea544bf558133c09726833a475e88e97a"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "e5418fe029d1adb3564d0da3828ba1b1c3ae2e5e5a3373cfa03c47e649766de7"
+      "sha256": "c3ffbee28aa90f4952d0f0cf6b9fa837688a7115a83156a56a31c933c1aaaaf8"
     }
   },
   "table": [
@@ -1649,8 +1649,9 @@
       "strHomeTeam": "Спартак",
       "strAwayTeam": "Тунджа 2009",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Първи кръг"
     },
     {
