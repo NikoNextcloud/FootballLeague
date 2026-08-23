@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-23T17:34:01.695551+00:00",
+  "updatedAt": "2026-08-23T17:53:05.796876+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "ef493c414f4087e71ce74c374b58d7bf3c4bcf744e18f94eaad8b04002496e9c"
+      "sha256": "016ca952230415daa030919e13c20c8570f69cabde20f4f5a03430adc68914b8"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "04d11e868bef16474b01e61bf942acfea544bf558133c09726833a475e88e97a"
+      "sha256": "ee7767dba84d4e986a123023467073d1bcdcc6d8cfa791747291c0c81f9cd759"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "c3ffbee28aa90f4952d0f0cf6b9fa837688a7115a83156a56a31c933c1aaaaf8"
+      "sha256": "df01ec03fa12898b44e6c1f95cb2d7a7b0dadafdd8cf971449069170f2188be0"
     }
   },
   "table": [
@@ -1411,8 +1411,9 @@
       "strHomeTeam": "Атлетик II",
       "strAwayTeam": "Труд",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1503,8 +1504,9 @@
       "strHomeTeam": "Кричим",
       "strAwayTeam": "Раковски 2018",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1556,8 +1558,9 @@
       "strHomeTeam": "Марица 1921 II",
       "strAwayTeam": "Белащица",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1597,8 +1600,9 @@
       "strHomeTeam": "Садово",
       "strAwayTeam": "Дълго поле",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "4",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1610,8 +1614,9 @@
       "strHomeTeam": "Скутаре",
       "strAwayTeam": "Асеновец 2005",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1636,8 +1641,9 @@
       "strHomeTeam": "Спартак",
       "strAwayTeam": "Дъбене",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1663,8 +1669,9 @@
       "strHomeTeam": "Спартак 1947 II",
       "strAwayTeam": "Чавдар",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
