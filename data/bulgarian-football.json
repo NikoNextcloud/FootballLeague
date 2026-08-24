@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-24T16:24:57.196975+00:00",
+  "updatedAt": "2026-08-24T17:05:17.043235+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "b6e2141878f60fba6310b87e8bb008bc5f5b538a3e285f16691a96e576a1e83d"
+      "sha256": "45107534109004e2476c9b873c3c095fef7b818852908a9402003832b7e550b5"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "a096a3a750f1d00ddcc4e465d26b62abdc73c9f4160758a47aac46476ce41f07"
+      "sha256": "274198aea564b115e1a3bc72fb510392f6b7e9cbb2f694b78269eff37b4663bd"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "242bd02ed278e5368b6b3b5bf27b9aa393444df2f04c4b258884546289eb3b53"
+      "sha256": "4684dc3530b063728fba702d9612f2e32a6da926a974c57e26416c0ae2be5f9a"
     }
   },
   "table": [
@@ -1264,8 +1264,9 @@
       "strHomeTeam": "Вихрен",
       "strAwayTeam": "Фратрия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "1:0",
       "competition": "Втора професионална лига"
     },
     {
