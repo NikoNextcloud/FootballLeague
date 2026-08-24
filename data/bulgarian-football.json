@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-24T20:02:37.133381+00:00",
+  "updatedAt": "2026-08-24T20:44:01.921474+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "c32aa6c3b89f67fe1afe4e32c38b3a32ba3f7b9560fce43b3c6a0d54f48d6d0e"
+      "sha256": "8416fd140880cd379cde24eb6bf35e19dcf5b022655dc9996659ceba2aa034c1"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "817836fac0ca324e925124995ff0daac5614f68b40ffe7104f76421149cc310b"
+      "sha256": "bd0dca22dbb22e9baa81418eb2dcc905f7919f0ad54c60af8b326f4b94c8ac71"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "d1682b349790c15d00da0d76fc26c76f37172ebcf0165e23c3d79ddd0a21ead2"
+      "sha256": "0f1edd76b1870c99b71912119749a4b6980d49d9cb3eec691ab3582553d52fd7"
     }
   },
   "table": [
@@ -43,18 +43,6 @@
     },
     {
       "intRank": 3,
-      "strTeam": "ЦСКА",
-      "intPlayed": 5,
-      "intWin": 4,
-      "intDraw": 1,
-      "intLoss": 0,
-      "intGoalsFor": 13,
-      "intGoalsAgainst": 3,
-      "intGoalDifference": 10,
-      "intPoints": 13
-    },
-    {
-      "intRank": 4,
       "strTeam": "ЦСКА 1948",
       "intPlayed": 6,
       "intWin": 4,
@@ -66,16 +54,28 @@
       "intPoints": 13
     },
     {
+      "intRank": 4,
+      "strTeam": "ЦСКА",
+      "intPlayed": 5,
+      "intWin": 4,
+      "intDraw": 1,
+      "intLoss": 0,
+      "intGoalsFor": 13,
+      "intGoalsAgainst": 3,
+      "intGoalDifference": 10,
+      "intPoints": 13
+    },
+    {
       "intRank": 5,
       "strTeam": "Арда",
-      "intPlayed": 5,
-      "intWin": 3,
+      "intPlayed": 6,
+      "intWin": 4,
       "intDraw": 1,
       "intLoss": 1,
-      "intGoalsFor": 8,
+      "intGoalsFor": 9,
       "intGoalsAgainst": 4,
-      "intGoalDifference": 4,
-      "intPoints": 10
+      "intGoalDifference": 5,
+      "intPoints": 13
     },
     {
       "intRank": 6,
@@ -164,13 +164,13 @@
     {
       "intRank": 13,
       "strTeam": "Локомотив Пловдив",
-      "intPlayed": 5,
+      "intPlayed": 6,
       "intWin": 1,
       "intDraw": 0,
-      "intLoss": 4,
+      "intLoss": 5,
       "intGoalsFor": 3,
-      "intGoalsAgainst": 7,
-      "intGoalDifference": -4,
+      "intGoalsAgainst": 8,
+      "intGoalDifference": -5,
       "intPoints": 3
     },
     {
@@ -703,8 +703,9 @@
       "strHomeTeam": "Локомотив Пловдив",
       "strAwayTeam": "Арда",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "0:0"
     },
     {
       "id": "bf-e5374011be53",
@@ -1239,6 +1240,11 @@
       "player": "Ерар Францети",
       "team": "Септември София",
       "goals": 1
+    },
+    {
+      "player": "Доминик Янков",
+      "team": "Арда",
+      "goals": 1
     }
   ],
   "today": [
@@ -1293,8 +1299,9 @@
       "strHomeTeam": "Локомотив Пловдив",
       "strAwayTeam": "Арда",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
