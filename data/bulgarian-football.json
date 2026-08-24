@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-24T09:02:52.174454+00:00",
+  "updatedAt": "2026-08-24T09:58:39.467731+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "554c4d771d6c871bf820a482dbcaf07d63045f6b8216fdae43b0d5792a31eb5a"
+      "sha256": "0b172500d4e2f10f0acc44738150bb0feaf5a4736e46c09482636f692db40937"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "9a240dea2092e8cd078a383457f098ee49048d9c94e007ab466fc2c824ce69ff"
+      "sha256": "ede3272bfc6e14229b31a982ca2d508a5118ffad395455c64dd57d7654e0fb25"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "2557f1e595b2112b303356138ebf98e2860aaa32444a411d92c8483e68239706"
+      "sha256": "1c8a94e3fc36d9571714093ee97c27f4fca6f8c044bc3d60bc46b6b8d713dc37"
     }
   },
   "table": [
@@ -1244,14 +1244,15 @@
     {
       "id": "bf-ee5fda6e9099",
       "dateEvent": "2026-08-24",
-      "strTime": "11:15:00",
+      "strTime": "09:00:00",
       "intRound": "",
       "roundLabel": "Втора професионална лига",
       "strHomeTeam": "Ботев Пловдив",
       "strAwayTeam": "Лудогорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
