@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-25T21:39:21.161488+00:00",
+  "updatedAt": "2026-08-25T21:59:44.076281+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "4de8f283ec7bb674dbd454efddb8eeb2c02fc9803a0f76de88ac0c5485ad33ee"
+      "sha256": "1620eb442dff097429b185cda7375fcc09ed4bddc60e292ba076040a8d0733d7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "649bb5f7c044d7f4047451354a06b9354b3982fdea2deb54bcfdfcb211d94b21"
+      "sha256": "72dbf2e561535d66e1a6970f5237676dc383b5ccff7f7e491bad895530a90869"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "1d315bd6d6b04b6c7a2aa036fb76f361b261723a0905986a1479e34e6f60bf51"
+      "sha256": "06f2b7dff006ce1981dee4d6616a25fcdc0eba643ae9ea8ea8fd8b7fc3724203"
     }
   },
   "table": [
