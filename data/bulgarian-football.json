@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-26T20:11:26.465189+00:00",
+  "updatedAt": "2026-08-26T23:36:13.862432+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "c7d64df3b3e3632022f4607c660697d27a6db37c03d8c847cc2e114e2725b5bb"
+      "sha256": "e51d69baece60661238425e5eff085efe68b4bc2494f287a6e4cd2e7a4c449e7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "f386f5f26483c0fd82c2fc1738713881cd4aa38722a67af1c3db46a51ef302d8"
+      "sha256": "4bf71560075983b61422707e86c3388b05c535f35ac42c2aebb40c544f9b29f5"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "b91816998a18627d7c2824785f92d5ccf84314d5136afc882cb1169122e555a8"
+      "sha256": "f093607ed0b9f3347331f2a9fb3d43108ad28931f44929b43afe35404e7c9ab4"
     }
   },
   "table": [
@@ -1237,211 +1237,17 @@
   ],
   "today": [
     {
-      "id": "bf-2111236e8dd7",
-      "dateEvent": "2026-08-26",
-      "strTime": "10:00:00",
+      "id": "bf-c2664cddca34",
+      "dateEvent": "2026-08-27",
+      "strTime": "21:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Първи кръг",
-      "strHomeTeam": "Овощник",
-      "strAwayTeam": "Траяна 2022",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "13",
-      "intAwayScore": "0",
-      "halftime": "",
-      "competition": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Първи кръг"
-    },
-    {
-      "id": "bf-c1d30211dbf8",
-      "dateEvent": "2026-08-26",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Североизточна Трета лига",
-      "strHomeTeam": "Волов Шумен 2007",
-      "strAwayTeam": "Девня 2005",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "2",
-      "intAwayScore": "0",
-      "halftime": "2:0",
-      "competition": "Североизточна Трета лига"
-    },
-    {
-      "id": "bf-4ff4403f71d3",
-      "dateEvent": "2026-08-26",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Стара Загора, 1/2 финали",
-      "strHomeTeam": "Локомотив",
-      "strAwayTeam": "Розова долина",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "1",
-      "halftime": "0:0",
-      "competition": "Купа на България (квалификации) - Област Стара Загора, 1/2 финали"
-    },
-    {
-      "id": "bf-c3284d6c9475",
-      "dateEvent": "2026-08-26",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Североизточна Трета лига",
-      "strHomeTeam": "Лудогорец",
-      "strAwayTeam": "Аксаково",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "6",
-      "intAwayScore": "1",
-      "halftime": "3:1",
-      "competition": "Североизточна Трета лига"
-    },
-    {
-      "id": "bf-4f80d3dcbaaa",
-      "dateEvent": "2026-08-26",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Стара Загора, 1/2 финали",
-      "strHomeTeam": "Овощник",
-      "strAwayTeam": "Левски",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "12",
-      "intAwayScore": "2",
-      "halftime": "",
-      "competition": "Купа на България (квалификации) - Област Стара Загора, 1/2 финали"
-    },
-    {
-      "id": "bf-8bb8cd0cd90f",
-      "dateEvent": "2026-08-26",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Североизточна Трета лига",
-      "strHomeTeam": "Олимпик",
-      "strAwayTeam": "Септември",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "4",
-      "intAwayScore": "1",
-      "halftime": "2:0",
-      "competition": "Североизточна Трета лига"
-    },
-    {
-      "id": "bf-1b368ec1c889",
-      "dateEvent": "2026-08-26",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Североизточна Трета лига",
-      "strHomeTeam": "Рилци",
-      "strAwayTeam": "Доростол Силистра",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "1",
-      "intAwayScore": "0",
-      "halftime": "0:0",
-      "competition": "Североизточна Трета лига"
-    },
-    {
-      "id": "bf-0b90c5e5dd98",
-      "dateEvent": "2026-08-26",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Североизточна Трета лига",
-      "strHomeTeam": "Светкавица 2014",
-      "strAwayTeam": "Фратрия II",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "4",
-      "intAwayScore": "0",
-      "halftime": "1:0",
-      "competition": "Североизточна Трета лига"
-    },
-    {
-      "id": "bf-1394e53b72d7",
-      "dateEvent": "2026-08-26",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Пазарджик, Финал",
-      "strHomeTeam": "Свобода 2011",
-      "strAwayTeam": "Оборище",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "7",
-      "halftime": "",
-      "competition": "Купа на България (квалификации) - Област Пазарджик, Финал"
-    },
-    {
-      "id": "bf-e4500d70ca9a",
-      "dateEvent": "2026-08-26",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Трети кръг",
-      "strHomeTeam": "Секирово",
-      "strAwayTeam": "Спартак 1947",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "3",
-      "intAwayScore": "5",
-      "halftime": "0:4",
-      "competition": "Купа на България (квалификации) - Област Пловдив, Трети кръг"
-    },
-    {
-      "id": "bf-0e6807ca74e2",
-      "dateEvent": "2026-08-26",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Сливен, Финал",
-      "strHomeTeam": "ФК Сливен",
-      "strAwayTeam": "Сините камъни 2022",
+      "roundLabel": "Лига Европа - Плейофи",
+      "strHomeTeam": "ЦСКА",
+      "strAwayTeam": "ОФИ Крит",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област Сливен, Финал"
-    },
-    {
-      "id": "bf-f7b7eecfc65e",
-      "dateEvent": "2026-08-26",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Североизточна Трета лига",
-      "strHomeTeam": "Черно море",
-      "strAwayTeam": "Черноломец 1919",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "4",
-      "intAwayScore": "1",
-      "halftime": "1:0",
-      "competition": "Североизточна Трета лига"
-    },
-    {
-      "id": "bf-13e67d55ec76",
-      "dateEvent": "2026-08-26",
-      "strTime": "18:30:00",
-      "intRound": "",
-      "roundLabel": "Североизточна Трета лига",
-      "strHomeTeam": "Ботев",
-      "strAwayTeam": "Устрем Д",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "5",
-      "intAwayScore": "1",
-      "halftime": "4:0",
-      "competition": "Североизточна Трета лига"
-    },
-    {
-      "id": "bf-f319195bafa0",
-      "dateEvent": "2026-08-26",
-      "strTime": "19:30:00",
-      "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Първи кръг",
-      "strHomeTeam": "Берое",
-      "strAwayTeam": "Розова долина",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Първи кръг"
-    },
-    {
-      "id": "bf-e50bd5d2c7c5",
-      "dateEvent": "2026-08-26",
-      "strTime": "22:00:00",
-      "intRound": "",
-      "roundLabel": "Шампионска лига - Плейофи",
-      "strHomeTeam": "АЕК",
-      "strAwayTeam": "Левски",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Шампионска лига - Плейофи"
+      "competition": "Лига Европа - Плейофи"
     }
   ],
   "europe": {
@@ -1783,8 +1589,9 @@
         "strHomeTeam": "АЕК",
         "strAwayTeam": "Левски",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "4",
+        "intAwayScore": "0",
+        "halftime": "3:0",
         "competition": "Шампионска лига"
       },
       {
