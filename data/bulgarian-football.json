@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-26T14:05:49.229915+00:00",
+  "updatedAt": "2026-08-26T15:00:10.710730+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "8f8b1652fa0f63b31deb2107fc2baee67ae1ed62c33a95ad3521d60dc89b664e"
+      "sha256": "1bfbbaddbe9f79e81df4fffcb1c87ab661e57d5b13274305d603ef0212dc47a3"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e9e9db48ea254a002941af50a94a349ee71c6f5057f56f307d5ad4146354ad9e"
+      "sha256": "6152eed00c1e4b52e5a5fa8b136b50cd41f213d46eaf71418155de5b6adc973a"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "fba8c79e3091c4b322bc4e8b72ba4eca4ddedcfd858571ca08177a6ce87122d3"
+      "sha256": "d61d70f93c738bc8113699507d222e138fab6a7fddca268fcbb9e5063c778ada"
     }
   },
   "table": [
@@ -732,25 +732,13 @@
       "intAwayScore": null
     },
     {
-      "id": "bf-3af75e1889f1",
-      "dateEvent": "2026-08-29",
-      "strTime": "21:15:00",
-      "intRound": "7",
-      "roundLabel": "VII кръг",
-      "strHomeTeam": "Ботев Пловдив",
-      "strAwayTeam": "Левски",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
-    },
-    {
-      "id": "bf-128aad47e80d",
+      "id": "bf-ce847719f20d",
       "dateEvent": "2026-08-30",
       "strTime": "19:00:00",
       "intRound": "7",
       "roundLabel": "VII кръг",
-      "strHomeTeam": "Спартак Варна",
-      "strAwayTeam": "Лудогорец",
+      "strHomeTeam": "Ботев Пловдив",
+      "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null
@@ -1340,12 +1328,12 @@
       "competition": "Североизточна Трета лига"
     },
     {
-      "id": "bf-b2f2195010f6",
+      "id": "bf-0b90c5e5dd98",
       "dateEvent": "2026-08-26",
       "strTime": "18:00:00",
       "intRound": "",
       "roundLabel": "Североизточна Трета лига",
-      "strHomeTeam": "СФК Светкавица 2014",
+      "strHomeTeam": "Светкавица 2014",
       "strAwayTeam": "Фратрия II",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
