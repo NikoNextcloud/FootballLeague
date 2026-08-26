@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-26T18:15:32.755763+00:00",
+  "updatedAt": "2026-08-26T20:11:26.465189+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "15cee7029bdccbb82fb86925b9d5ab564eead2bd1c5258369b66989ebe40a606"
+      "sha256": "c7d64df3b3e3632022f4607c660697d27a6db37c03d8c847cc2e114e2725b5bb"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "0981e39eb5ae852f51f796f58179ea6cc5bc241cf9203eeb17ab13948e644791"
+      "sha256": "f386f5f26483c0fd82c2fc1738713881cd4aa38722a67af1c3db46a51ef302d8"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "3a7b23b62a8b94536b822ae16f719ff3defa52d2059fe4df891c5621a73cd1a6"
+      "sha256": "b91816998a18627d7c2824785f92d5ccf84314d5136afc882cb1169122e555a8"
     }
   },
   "table": [
@@ -1289,7 +1289,7 @@
       "source": "bulgarian-football.com",
       "intHomeScore": "6",
       "intAwayScore": "1",
-      "halftime": "",
+      "halftime": "3:1",
       "competition": "Североизточна Трета лига"
     },
     {
@@ -1329,8 +1329,9 @@
       "strHomeTeam": "Рилци",
       "strAwayTeam": "Доростол Силистра",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Североизточна Трета лига"
     },
     {
@@ -1342,8 +1343,9 @@
       "strHomeTeam": "Светкавица 2014",
       "strAwayTeam": "Фратрия II",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Североизточна Трета лига"
     },
     {
@@ -1371,7 +1373,7 @@
       "source": "bulgarian-football.com",
       "intHomeScore": "3",
       "intAwayScore": "5",
-      "halftime": "",
+      "halftime": "0:4",
       "competition": "Купа на България (квалификации) - Област Пловдив, Трети кръг"
     },
     {
@@ -1398,7 +1400,7 @@
       "source": "bulgarian-football.com",
       "intHomeScore": "4",
       "intAwayScore": "1",
-      "halftime": "",
+      "halftime": "1:0",
       "competition": "Североизточна Трета лига"
     },
     {
