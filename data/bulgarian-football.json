@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-26T06:22:09.776903+00:00",
+  "updatedAt": "2026-08-26T07:23:38.015054+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "9ed5d6e353a003ea424d6da3d1119b930dbfbbc2ae505692460be9dcc814f36f"
+      "sha256": "2237fb6c7f42b578f7677777f159a3e25561cef252720d910912ca0afb593c36"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "6a68fc222b3b75255eda6f1674aa6e1ced77892372ea15fed13c2c74bf77eb08"
+      "sha256": "a80de7e6650995b986e78ac29dc70e921b352a18b801ab3bf12a5dfff4a2b970"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "4e140c82285f07ffb3e81a30121d1ebe62ccf8888098b0542b585362ca11578f"
+      "sha256": "734c6a3cc57038ef0ab5649c945de230dc7b76711830b7d55fb5d6e42a3ea99d"
     }
   },
   "table": [
@@ -1260,19 +1260,6 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Първи кръг"
-    },
-    {
-      "id": "bf-ba83dec66dd5",
-      "dateEvent": "2026-08-26",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Североизточна Трета лига",
-      "strHomeTeam": "Бенковски",
-      "strAwayTeam": "Септември 98",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Североизточна Трета лига"
     },
     {
       "id": "bf-c1d30211dbf8",
