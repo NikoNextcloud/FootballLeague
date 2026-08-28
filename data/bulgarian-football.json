@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-27T16:24:27.819219+00:00",
+  "updatedAt": "2026-08-28T01:02:52.286831+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "18c5ceb25cc1a4d68fd1c489213e462531bda1e5d88e75160c8ba2fed8f833b2"
+      "sha256": "4e5e321f50cf48b640ed5e8f5cd12447664e2e23dfad7cfac52adc2835787b54"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "9828ee21f5c3703ad8dfbcd50328c568a138ae18423c160266c7382eed22d9d6"
+      "sha256": "1fe688bb756746cb2820114de1383610527bf74161af32b79fc41bb21f7049c9"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "edcf441fc06cd3f63fb659a946af39a600046a8d872f54f868be5d5f37109d34"
+      "sha256": "5417cd5f158e7486644dd7ba34657291cb5b5c89be2fb98e470c07ad6aafd269"
     }
   },
   "table": [
@@ -1237,17 +1237,43 @@
   ],
   "today": [
     {
-      "id": "bf-c2664cddca34",
-      "dateEvent": "2026-08-27",
-      "strTime": "21:00:00",
+      "id": "bf-f59f4f8c3a3d",
+      "dateEvent": "2026-08-28",
+      "strTime": "10:00:00",
       "intRound": "",
-      "roundLabel": "Лига Европа - Плейофи",
-      "strHomeTeam": "ЦСКА",
-      "strAwayTeam": "ОФИ Крит",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "Локомотив",
+      "strAwayTeam": "Орлета",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Лига Европа - Плейофи"
+      "competition": "Първа професионална лига - Първа фаза"
+    },
+    {
+      "id": "bf-a47a1b2b7e57",
+      "dateEvent": "2026-08-28",
+      "strTime": "19:00:00",
+      "intRound": "",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "Славия",
+      "strAwayTeam": "Септември София",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Първа професионална лига - Първа фаза"
+    },
+    {
+      "id": "bf-77021370944d",
+      "dateEvent": "2026-08-28",
+      "strTime": "21:15:00",
+      "intRound": "",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "ЦСКА 1948",
+      "strAwayTeam": "Локомотив Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Първа професионална лига - Първа фаза"
     }
   ],
   "europe": {
@@ -1603,8 +1629,9 @@
         "strHomeTeam": "ЦСКА",
         "strAwayTeam": "ОФИ Крит",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "0",
+        "intAwayScore": "2",
+        "halftime": "0:1",
         "competition": "Лига Европа"
       }
     ]
