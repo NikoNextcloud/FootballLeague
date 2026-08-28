@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-28T01:02:52.286831+00:00",
+  "updatedAt": "2026-08-28T12:42:23.002109+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "4e5e321f50cf48b640ed5e8f5cd12447664e2e23dfad7cfac52adc2835787b54"
+      "sha256": "6960167c139b686fe1f3827c74a12bb9730cc3f32e6fde6360060bb9dba8e0ae"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "1fe688bb756746cb2820114de1383610527bf74161af32b79fc41bb21f7049c9"
+      "sha256": "f141be419e6a9a970ea0ee8b3e87c641e76e376b13ed09526bfd666cc3ca4cc4"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "5417cd5f158e7486644dd7ba34657291cb5b5c89be2fb98e470c07ad6aafd269"
+      "sha256": "4808992f8dc9a3d3a3e4c12941b1e7700ca834a15763d3976f7bb2a22a370c5f"
     }
   },
   "table": [
@@ -1245,8 +1245,9 @@
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Орлета",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "4",
+      "halftime": "",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
