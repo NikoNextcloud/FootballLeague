@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-29T10:46:39.220202+00:00",
+  "updatedAt": "2026-08-29T15:20:51.302230+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "cd153be3b2ff61056953bbacd31926f2bd9b24c8d5cfd020b8bd49b9bf8acb39"
+      "sha256": "88ca10e6ed7ad3bfb25f5ae3e8c307f485e126e4a7a3972af3caa6d8317650c5"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "9d663870383e1757a5461c52785f4814a4c1608df780ef21bfc88c633529a4ac"
+      "sha256": "f40f3673f86e4151018fa193748717ab0e2306330e834e3bb9db9b8e364cf9db"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "04efba43880bcf6e272daf1bac0fb52ed0111b4f534df1dfa63a79bd294f6796"
+      "sha256": "62deef52ad8e715088105ee85bf2b45e337140eeb152f0c01324f7dee5a57ded"
     }
   },
   "table": [
@@ -1257,8 +1257,9 @@
       "strHomeTeam": "Миньор",
       "strAwayTeam": "Национал (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1380,8 +1381,9 @@
       "strHomeTeam": "Етър ВТ",
       "strAwayTeam": "Ботев Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1393,8 +1395,9 @@
       "strHomeTeam": "Локомотив Пловдив",
       "strAwayTeam": "Овощник",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "6",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1406,8 +1409,9 @@
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Ботев Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "5",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1432,8 +1436,9 @@
       "strHomeTeam": "ФК Сливен",
       "strAwayTeam": "Арда",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1445,8 +1450,9 @@
       "strHomeTeam": "Ботев Пловдив",
       "strAwayTeam": "Черноморец 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
