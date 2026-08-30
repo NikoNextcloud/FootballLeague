@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-30T07:19:24.065846+00:00",
+  "updatedAt": "2026-08-30T13:01:16.956188+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "1547927cb904c678ee23723a4751f9f61bc35606660f6bcdcd01eb3699246f2c"
+      "sha256": "babc50c02fd04de4e233f1a1fcc1d517a5748f8c9012994f18bb1d88e4e7f63f"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e4c0f157732e8c7db647a215025a5b968a9029664d07ce7531db6fffad1aecc9"
+      "sha256": "4825a48463163005062df3902cef3059e04d54a137c46ed2930675da36325196"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "0a4cd555b82666a64452a52c52e47a0f90c5a815c962d331825f523294da5b48"
+      "sha256": "b6a381f1228516ef8c9b93bbd5161838d0e7c1910e19f5d573d5bede34908f9d"
     }
   },
   "table": [
@@ -1257,8 +1257,37 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Черноморец 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "3",
+      "halftime": "",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
+    },
+    {
+      "id": "bf-aac74389e910",
+      "dateEvent": "2026-08-30",
+      "strTime": "09:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали",
+      "strHomeTeam": "Славия",
+      "strAwayTeam": "Национал (София)",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:0",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
+    },
+    {
+      "id": "bf-6c0daf99b833",
+      "dateEvent": "2026-08-30",
+      "strTime": "09:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали",
+      "strHomeTeam": "ЦСКА",
+      "strAwayTeam": "Левски",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -1275,6 +1304,34 @@
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
+      "id": "bf-9aedc841f654",
+      "dateEvent": "2026-08-30",
+      "strTime": "09:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали",
+      "strHomeTeam": "Септември София",
+      "strAwayTeam": "Ботев Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
+    },
+    {
+      "id": "bf-08d4eb18f5e9",
+      "dateEvent": "2026-08-30",
+      "strTime": "09:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали",
+      "strHomeTeam": "ЦСКА 1948",
+      "strAwayTeam": "Локомотив Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
+    },
+    {
       "id": "bf-a627f48020cc",
       "dateEvent": "2026-08-30",
       "strTime": "10:00:00",
@@ -1283,8 +1340,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "Септември София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -1296,8 +1354,9 @@
       "strHomeTeam": "Арда",
       "strAwayTeam": "Пирин 22",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -1322,34 +1381,9 @@
       "strHomeTeam": "Нефтохимик 1962",
       "strAwayTeam": "Берое",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
-    },
-    {
-      "id": "bf-aac74389e910",
-      "dateEvent": "2026-08-30",
-      "strTime": "11:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали",
-      "strHomeTeam": "Славия",
-      "strAwayTeam": "Национал (София)",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
-    },
-    {
-      "id": "bf-6c0daf99b833",
-      "dateEvent": "2026-08-30",
-      "strTime": "11:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали",
-      "strHomeTeam": "ЦСКА",
-      "strAwayTeam": "Левски",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "5",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -1374,8 +1408,9 @@
       "strHomeTeam": "Шипка старс 2015",
       "strAwayTeam": "Локомотив София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "4",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -1387,34 +1422,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Спартак Варна",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
-    },
-    {
-      "id": "bf-9aedc841f654",
-      "dateEvent": "2026-08-30",
-      "strTime": "11:30:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали",
-      "strHomeTeam": "Септември София",
-      "strAwayTeam": "Ботев Пловдив",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
-    },
-    {
-      "id": "bf-08d4eb18f5e9",
-      "dateEvent": "2026-08-30",
-      "strTime": "11:30:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали",
-      "strHomeTeam": "ЦСКА 1948",
-      "strAwayTeam": "Локомотив Пловдив",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
