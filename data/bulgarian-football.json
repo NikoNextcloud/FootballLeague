@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-30T13:01:16.956188+00:00",
+  "updatedAt": "2026-08-30T17:22:52.185135+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "babc50c02fd04de4e233f1a1fcc1d517a5748f8c9012994f18bb1d88e4e7f63f"
+      "sha256": "b55d7028e90c6d66221c645b562ef316243bf04619755dcc5a34217c87391431"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "4825a48463163005062df3902cef3059e04d54a137c46ed2930675da36325196"
+      "sha256": "320023dedfd266b13fd496ce4c76a171607f89bad70d226cdad32e2664b8680e"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "b6a381f1228516ef8c9b93bbd5161838d0e7c1910e19f5d573d5bede34908f9d"
+      "sha256": "188793238f0dc09028b380548dcad255974b5189c703a16614f306a30f9307f8"
     }
   },
   "table": [
@@ -1299,8 +1299,9 @@
       "strHomeTeam": "Черно море",
       "strAwayTeam": "Марица 1921",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -1428,6 +1429,20 @@
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
+      "id": "bf-932ba187ad4f",
+      "dateEvent": "2026-08-30",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали",
+      "strHomeTeam": "Дунав Русе",
+      "strAwayTeam": "Етър ВТ",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
+    },
+    {
       "id": "bf-b06249b1c455",
       "dateEvent": "2026-08-30",
       "strTime": "17:00:00",
@@ -1436,8 +1451,9 @@
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Лудогорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "6",
+      "halftime": "0:2",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -1449,8 +1465,9 @@
       "strHomeTeam": "НСА (София)",
       "strAwayTeam": "Ботев Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "10",
+      "intAwayScore": "0",
+      "halftime": "6:0",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -1462,8 +1479,9 @@
       "strHomeTeam": "Девня 2005",
       "strAwayTeam": "Бенковски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "0:1",
       "competition": "Североизточна Трета лига"
     },
     {
@@ -1488,8 +1506,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Олимпик",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "1",
+      "halftime": "2:0",
       "competition": "Североизточна Трета лига"
     },
     {
@@ -1514,8 +1533,9 @@
       "strHomeTeam": "Фратрия II",
       "strAwayTeam": "Рилци",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Североизточна Трета лига"
     },
     {
@@ -1527,8 +1547,9 @@
       "strHomeTeam": "Академик",
       "strAwayTeam": "Етър ВТ II",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "0:2",
       "competition": "Северозападна Трета лига"
     },
     {
@@ -1556,19 +1577,6 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Северозападна Трета лига"
-    },
-    {
-      "id": "bf-932ba187ad4f",
-      "dateEvent": "2026-08-30",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали",
-      "strHomeTeam": "Дунав Русе",
-      "strAwayTeam": "Етър ВТ",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
       "id": "bf-013cc22fa1dd",
@@ -1670,8 +1678,9 @@
       "strHomeTeam": "Монтана 1921",
       "strAwayTeam": "Локомотив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1727,19 +1736,6 @@
       "competition": "Северозападна Трета лига"
     },
     {
-      "id": "bf-e96cb4cb6c49",
-      "dateEvent": "2026-08-30",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Финал",
-      "strHomeTeam": "Самуил 2006",
-      "strAwayTeam": "Спартак",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Финал"
-    },
-    {
       "id": "bf-8835ec451077",
       "dateEvent": "2026-08-30",
       "strTime": "18:00:00",
@@ -1779,6 +1775,20 @@
       "competition": "Северозападна Трета лига"
     },
     {
+      "id": "bf-f16b3cde0baa",
+      "dateEvent": "2026-08-30",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Финал",
+      "strHomeTeam": "Спартак",
+      "strAwayTeam": "Самуил 2006",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "4",
+      "intAwayScore": "2",
+      "halftime": "",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Сливен, Финал"
+    },
+    {
       "id": "bf-ccd3439b0cd0",
       "dateEvent": "2026-08-30",
       "strTime": "18:00:00",
@@ -1800,8 +1810,9 @@
       "strHomeTeam": "УФК Ботев (София)",
       "strAwayTeam": "Житен",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Северозападна Трета лига"
     },
     {
