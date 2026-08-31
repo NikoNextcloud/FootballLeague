@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-08-31T14:07:50.627063+00:00",
+  "updatedAt": "2026-08-31T20:02:51.811015+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "f593894f54a2ff67724679cd49df702ba4a9af6c553c3c40bea73e9d7c6df784"
+      "sha256": "4f8f4b2c43bbfc9775321a6594a0ae522084ed5438044a903d1270f36c9e3d20"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e1b04ef2b320de9418be311722a875288110f232f8d6fa04a80650bd5c3390b3"
+      "sha256": "5b0bef87f5f1375102b4ad579ed4476d6b130e204b20801189b68c58088aaf1d"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "70436e9a3bc34e827fc738840b878d5664c79e7ade360c328a368d55a5085efb"
+      "sha256": "e712d0605f3f3519187b38bd3c66e35278ea03d871451275dcd1bf4559728e17"
     }
   },
   "table": [
@@ -152,17 +152,29 @@
     {
       "intRank": 12,
       "strTeam": "Дунав Русе",
-      "intPlayed": 6,
+      "intPlayed": 7,
       "intWin": 1,
-      "intDraw": 0,
+      "intDraw": 1,
       "intLoss": 5,
-      "intGoalsFor": 5,
-      "intGoalsAgainst": 12,
+      "intGoalsFor": 7,
+      "intGoalsAgainst": 14,
       "intGoalDifference": -7,
-      "intPoints": 3
+      "intPoints": 4
     },
     {
       "intRank": 13,
+      "strTeam": "Локомотив София",
+      "intPlayed": 6,
+      "intWin": 0,
+      "intDraw": 3,
+      "intLoss": 3,
+      "intGoalsFor": 7,
+      "intGoalsAgainst": 12,
+      "intGoalDifference": -5,
+      "intPoints": 3
+    },
+    {
+      "intRank": 14,
       "strTeam": "Локомотив Пловдив",
       "intPlayed": 7,
       "intWin": 1,
@@ -172,18 +184,6 @@
       "intGoalsAgainst": 10,
       "intGoalDifference": -7,
       "intPoints": 3
-    },
-    {
-      "intRank": 14,
-      "strTeam": "Локомотив София",
-      "intPlayed": 5,
-      "intWin": 0,
-      "intDraw": 2,
-      "intLoss": 3,
-      "intGoalsFor": 5,
-      "intGoalsAgainst": 10,
-      "intGoalDifference": -5,
-      "intPoints": 2
     }
   ],
   "events": [
@@ -768,8 +768,9 @@
       "strHomeTeam": "Дунав Русе",
       "strAwayTeam": "Локомотив София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "1:0"
     },
     {
       "id": "bf-e530da2ee212",
@@ -1014,6 +1015,21 @@
       "goals": 2
     },
     {
+      "player": "Кауе Карузо",
+      "team": "Локомотив София",
+      "goals": 2
+    },
+    {
+      "player": "Александър Валиньо",
+      "team": "Дунав Русе",
+      "goals": 2
+    },
+    {
+      "player": "Радослав Апостолов",
+      "team": "Дунав Русе",
+      "goals": 2
+    },
+    {
       "player": "Джойс Читоку",
       "team": "Спартак Варна",
       "goals": 1
@@ -1099,11 +1115,6 @@
       "goals": 1
     },
     {
-      "player": "Радослав Апостолов",
-      "team": "Дунав Русе",
-      "goals": 1
-    },
-    {
       "player": "Давид Валверде",
       "team": "Спартак Варна",
       "goals": 1
@@ -1164,11 +1175,6 @@
       "goals": 1
     },
     {
-      "player": "Александър Валиньо",
-      "team": "Дунав Русе",
-      "goals": 1
-    },
-    {
       "player": "Крист Лонгвил",
       "team": "Локомотив Пловдив",
       "goals": 1
@@ -1176,11 +1182,6 @@
     {
       "player": "Андре Либерал",
       "team": "Септември София",
-      "goals": 1
-    },
-    {
-      "player": "Кауе Карузо",
-      "team": "Локомотив София",
       "goals": 1
     },
     {
@@ -1277,6 +1278,11 @@
       "player": "Стефано Сенси",
       "team": "ЦСКА",
       "goals": 1
+    },
+    {
+      "player": "Георги Минчев",
+      "team": "Локомотив София",
+      "goals": 1
     }
   ],
   "today": [
@@ -1289,8 +1295,9 @@
       "strHomeTeam": "Дунав Русе",
       "strAwayTeam": "Локомотив София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "1:0",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
