@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-01T19:51:58.913589+00:00",
+  "updatedAt": "2026-09-01T22:15:38.707724+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "42f06f32afcbaf72fb54ce87bbcf42b1ad7dbf800995535d6c6f80f359bd2bf9"
+      "sha256": "db0494edc7f8fe00a00bbe30604e3b16404220135e616a62fa7e87af469ef0dc"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "ffeb4c826cb9fb2328e2ae067fd536d321d5935b0ff7b7ae1403aeaeaf1cabea"
+      "sha256": "67a8f1051525c313c32b2d58256516f4c4d6a8a9417e77c4b6d891b2f9c4a3cb"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "394c94d3904b395e332dcb88956dd28acf6f776de8e3567ca098ab6de09656bd"
+      "sha256": "4eabee64dea8f4a4d7f22b3193199741a05cc0b343249830c1cc6ec141cce88c"
     }
   },
   "table": [
@@ -1485,43 +1485,187 @@
   ],
   "today": [
     {
-      "id": "bf-d43564558c7e",
-      "dateEvent": "2026-09-01",
-      "strTime": "17:30:00",
+      "id": "bf-81c0e101361e",
+      "dateEvent": "2026-09-02",
+      "strTime": "09:00:00",
       "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Велико Търново, 1/2 финали",
-      "strHomeTeam": "Левски",
-      "strAwayTeam": "Павликени",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Пловдив, Първи кръг",
+      "strHomeTeam": "Велд",
+      "strAwayTeam": "Ботев Пловдив",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на България (квалификации) - Област Велико Търново, 1/2 финали"
+      "competition": "Деца: Купа на БФС (квалификации) - Област Пловдив, Първи кръг"
     },
     {
-      "id": "bf-64095689d58c",
-      "dateEvent": "2026-09-01",
-      "strTime": "18:00:00",
+      "id": "bf-8f627af5bb0c",
+      "dateEvent": "2026-09-02",
+      "strTime": "09:30:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Първи кръг",
-      "strHomeTeam": "Миньор 2022",
-      "strAwayTeam": "Локомотив",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Бургас, Финали",
+      "strHomeTeam": "Черноморец 1919",
+      "strAwayTeam": "Нефтохимик 1962",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Първи кръг"
+      "competition": "Деца: Купа на БФС (квалификации) - Област Бургас, Финали"
     },
     {
-      "id": "bf-003f0215449c",
-      "dateEvent": "2026-09-01",
-      "strTime": "20:00:00",
+      "id": "bf-a2c51ad803c8",
+      "dateEvent": "2026-09-02",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Пловдив, Първи кръг",
+      "strHomeTeam": "Марица 1921",
+      "strAwayTeam": "Локомотив Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС (квалификации) - Област Пловдив, Първи кръг"
+    },
+    {
+      "id": "bf-7969b4d0bb57",
+      "dateEvent": "2026-09-02",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Пловдив, Първи кръг",
+      "strHomeTeam": "СФК Раковски",
+      "strAwayTeam": "Пловдив 2015",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС (квалификации) - Област Пловдив, Първи кръг"
+    },
+    {
+      "id": "bf-956c63d4e740",
+      "dateEvent": "2026-09-02",
+      "strTime": "11:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Първи кръг",
+      "strHomeTeam": "Септември София",
+      "strAwayTeam": "Национал (София)",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Първи кръг"
+    },
+    {
+      "id": "bf-edab76d5441b",
+      "dateEvent": "2026-09-02",
+      "strTime": "17:00:00",
       "intRound": "",
       "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Хебър 1918",
-      "strAwayTeam": "Фратрия",
+      "strHomeTeam": "Марек 1915",
+      "strAwayTeam": "Несебър",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-4f716b335269",
+      "dateEvent": "2026-09-02",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област Стара Загора, Финал",
+      "strHomeTeam": "Овощник",
+      "strAwayTeam": "Розова долина",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Област Стара Загора, Финал"
+    },
+    {
+      "id": "bf-1ef3f27cb75a",
+      "dateEvent": "2026-09-02",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Рилски спортист 2011",
+      "strAwayTeam": "Спортист 2009",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-983822ba8107",
+      "dateEvent": "2026-09-02",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Финал",
+      "strHomeTeam": "Спартак 1947",
+      "strAwayTeam": "Марица",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Област Пловдив, Финал"
+    },
+    {
+      "id": "bf-619eca2a4d8d",
+      "dateEvent": "2026-09-02",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Черноморец 1919",
+      "strAwayTeam": "Лудогорец",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-f7c9d1de4d9d",
+      "dateEvent": "2026-09-02",
+      "strTime": "17:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област Велико Търново, 1/2 финали",
+      "strHomeTeam": "Земеделец 93",
+      "strAwayTeam": "Академик",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "",
+      "competition": "Купа на България (квалификации) - Област Велико Търново, 1/2 финали"
+    },
+    {
+      "id": "bf-7a357e8170dc",
+      "dateEvent": "2026-09-02",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Първи кръг",
+      "strHomeTeam": "Ботев 2022",
+      "strAwayTeam": "Левски 2007",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Първи кръг"
+    },
+    {
+      "id": "bf-02d7d094593c",
+      "dateEvent": "2026-09-02",
+      "strTime": "19:00:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Янтра 2019",
+      "strAwayTeam": "Пирин 22",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-711b6b1780cb",
+      "dateEvent": "2026-09-02",
+      "strTime": "20:00:00",
+      "intRound": "",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "Славия",
+      "strAwayTeam": "Левски",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Първа професионална лига - Първа фаза"
     }
   ],
   "europe": {
