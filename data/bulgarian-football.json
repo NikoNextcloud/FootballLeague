@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-02T04:47:19.973102+00:00",
+  "updatedAt": "2026-09-02T09:07:34.891310+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "fc4a7ad20c9c926a0241ca08fcc67f1f48cb5e172b6b8393bf9c68f012869c35"
+      "sha256": "e8bd8994608070be82f73a731a5416f2c76a9330adb6ec488ec80b4a5e5ee5a8"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "a3493b03839f9b12edae8ee2876fb0d0ce5e6c513464236425a249d274b70131"
+      "sha256": "1ca9c4c2d0027d8670e3312d87aec5160b164c247bd19ed78fcfb9a562624095"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "033ae56b26e13544e49031488cb3eefc777494ae13094f1875e843f118d74b2a"
+      "sha256": "eb315a16db0670f252f87405dd414efafa2df9019abc01b4dde1529f37f6e458"
     }
   },
   "table": [
@@ -1498,6 +1498,20 @@
       "competition": "Деца: Купа на БФС (квалификации) - Област Пловдив, Първи кръг"
     },
     {
+      "id": "bf-956c63d4e740",
+      "dateEvent": "2026-09-02",
+      "strTime": "09:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Първи кръг",
+      "strHomeTeam": "Септември София",
+      "strAwayTeam": "Национал (София)",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:1",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Първи кръг"
+    },
+    {
       "id": "bf-8f627af5bb0c",
       "dateEvent": "2026-09-02",
       "strTime": "09:30:00",
@@ -1537,19 +1551,6 @@
       "competition": "Деца: Купа на БФС (квалификации) - Област Пловдив, Първи кръг"
     },
     {
-      "id": "bf-956c63d4e740",
-      "dateEvent": "2026-09-02",
-      "strTime": "11:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Първи кръг",
-      "strHomeTeam": "Септември София",
-      "strAwayTeam": "Национал (София)",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Първи кръг"
-    },
-    {
       "id": "bf-edab76d5441b",
       "dateEvent": "2026-09-02",
       "strTime": "17:00:00",
@@ -1563,17 +1564,17 @@
       "competition": "Втора професионална лига"
     },
     {
-      "id": "bf-4f716b335269",
+      "id": "bf-9785db77c3e3",
       "dateEvent": "2026-09-02",
       "strTime": "17:00:00",
       "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Стара Загора, Финал",
-      "strHomeTeam": "Овощник",
-      "strAwayTeam": "Розова долина",
+      "roundLabel": "Купа на България (квалификации) - Област Хасково, Финал",
+      "strHomeTeam": "ОФК Хасково",
+      "strAwayTeam": "Димитровград 1947",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на България (квалификации) - Област Стара Загора, Финал"
+      "competition": "Купа на България (квалификации) - Област Хасково, Финал"
     },
     {
       "id": "bf-1ef3f27cb75a",
@@ -1587,19 +1588,6 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Втора професионална лига"
-    },
-    {
-      "id": "bf-983822ba8107",
-      "dateEvent": "2026-09-02",
-      "strTime": "17:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Финал",
-      "strHomeTeam": "Спартак 1947",
-      "strAwayTeam": "Марица",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на България (квалификации) - Област Пловдив, Финал"
     },
     {
       "id": "bf-619eca2a4d8d",
@@ -1627,6 +1615,32 @@
       "intAwayScore": "3",
       "halftime": "",
       "competition": "Купа на България (квалификации) - Област Велико Търново, 1/2 финали"
+    },
+    {
+      "id": "bf-983822ba8107",
+      "dateEvent": "2026-09-02",
+      "strTime": "17:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област Пловдив, Финал",
+      "strHomeTeam": "Спартак 1947",
+      "strAwayTeam": "Марица",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Област Пловдив, Финал"
+    },
+    {
+      "id": "bf-4f716b335269",
+      "dateEvent": "2026-09-02",
+      "strTime": "17:45:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област Стара Загора, Финал",
+      "strHomeTeam": "Овощник",
+      "strAwayTeam": "Розова долина",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Област Стара Загора, Финал"
     },
     {
       "id": "bf-7a357e8170dc",
@@ -1941,6 +1955,32 @@
         "intAwayScore": "1",
         "halftime": "0:1",
         "competition": "Шампионска лига"
+      },
+      {
+        "id": "bf-9e84054792bb",
+        "dateEvent": "2026-08-11",
+        "strTime": "20:30:00",
+        "intRound": "",
+        "roundLabel": "Реванш",
+        "strHomeTeam": "Септември София",
+        "strAwayTeam": "Фиорентина",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Юношеска лига"
+      },
+      {
+        "id": "bf-72c138f392b8",
+        "dateEvent": "2026-08-11",
+        "strTime": "20:30:00",
+        "intRound": "",
+        "roundLabel": "Първа среща",
+        "strHomeTeam": "Фиорентина",
+        "strAwayTeam": "Септември София",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Юношеска лига"
       },
       {
         "id": "bf-e0af3d3e59c3",
