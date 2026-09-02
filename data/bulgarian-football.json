@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-02T17:21:47.435225+00:00",
+  "updatedAt": "2026-09-02T19:56:16.270532+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "60ff06c86cb5066150a2d9f40fcab9306f4e692fc3dbd64dd02da1f91b209eb4"
+      "sha256": "2c19ff88cdd692017fa1234fe6da63fbea75612fcdab66b31c370344df377eb3"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e7acf53f7a21b9c47016d4dd819e5ff86cf730c5e57cb09f912a6a2be47f4b7c"
+      "sha256": "a249a46f1778383736d2db9a5c6b981684d8f7e455e84bcb78c6b7b71a641254"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "c9b34efd46c3ed0096c723f07b47eb3a4425d8067297ee41ffa0797217a51dd1"
+      "sha256": "d02bf86e9790a27a533c843bfeeccfdcb02e025148dc071e0b635125b5b5a2b4"
     }
   },
   "table": [
     {
       "intRank": 1,
       "strTeam": "Левски",
-      "intPlayed": 6,
-      "intWin": 6,
+      "intPlayed": 7,
+      "intWin": 7,
       "intDraw": 0,
       "intLoss": 0,
-      "intGoalsFor": 18,
-      "intGoalsAgainst": 3,
-      "intGoalDifference": 15,
-      "intPoints": 18
+      "intGoalsFor": 20,
+      "intGoalsAgainst": 4,
+      "intGoalDifference": 16,
+      "intPoints": 21
     },
     {
       "intRank": 2,
@@ -104,13 +104,13 @@
     {
       "intRank": 8,
       "strTeam": "Славия",
-      "intPlayed": 6,
+      "intPlayed": 7,
       "intWin": 1,
       "intDraw": 4,
-      "intLoss": 1,
-      "intGoalsFor": 6,
-      "intGoalsAgainst": 4,
-      "intGoalDifference": 2,
+      "intLoss": 2,
+      "intGoalsFor": 7,
+      "intGoalsAgainst": 6,
+      "intGoalDifference": 1,
       "intPoints": 7
     },
     {
@@ -794,8 +794,9 @@
       "strHomeTeam": "Славия",
       "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:0"
     },
     {
       "id": "bf-e11b7d18754d",
@@ -806,8 +807,9 @@
       "strHomeTeam": "Славия",
       "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:0"
     },
     {
       "id": "bf-a0677ff037c9",
@@ -1108,6 +1110,11 @@
       "goals": 4
     },
     {
+      "player": "Армстронг Око-Флекс",
+      "team": "Левски",
+      "goals": 4
+    },
+    {
       "player": "Мамаду Диало",
       "team": "ЦСКА 1948",
       "goals": 3
@@ -1115,11 +1122,6 @@
     {
       "player": "Бирсент Карагарен",
       "team": "Арда",
-      "goals": 3
-    },
-    {
-      "player": "Армстронг Око-Флекс",
-      "team": "Левски",
       "goals": 3
     },
     {
@@ -1225,6 +1227,16 @@
     {
       "player": "Доминик Янков",
       "team": "Арда",
+      "goals": 2
+    },
+    {
+      "player": "Хуан Переа",
+      "team": "Левски",
+      "goals": 2
+    },
+    {
+      "player": "Емил Стоев",
+      "team": "Славия",
       "goals": 2
     },
     {
@@ -1423,18 +1435,8 @@
       "goals": 1
     },
     {
-      "player": "Хуан Переа",
-      "team": "Левски",
-      "goals": 1
-    },
-    {
       "player": "Ерар Францети",
       "team": "Септември София",
-      "goals": 1
-    },
-    {
-      "player": "Емил Стоев",
-      "team": "Славия",
       "goals": 1
     },
     {
@@ -1674,8 +1676,9 @@
       "strHomeTeam": "Ботев 2022",
       "strAwayTeam": "Левски 2007",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Първи кръг"
     },
     {
@@ -1687,8 +1690,9 @@
       "strHomeTeam": "Янтра 2019",
       "strAwayTeam": "Пирин 22",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1700,8 +1704,9 @@
       "strHomeTeam": "Славия",
       "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:0",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
