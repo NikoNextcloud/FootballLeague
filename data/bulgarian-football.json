@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-02T13:37:52.458811+00:00",
+  "updatedAt": "2026-09-02T17:21:47.435225+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "436c9ecf95b6505fce0a008a9a1ff63dba0af7e9f2a25fb5c08da124900caad1"
+      "sha256": "60ff06c86cb5066150a2d9f40fcab9306f4e692fc3dbd64dd02da1f91b209eb4"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "aa8864ad0255d59b494c8c6c46c3589d1cc5550cbad0a96818ddacbcd9d63bad"
+      "sha256": "e7acf53f7a21b9c47016d4dd819e5ff86cf730c5e57cb09f912a6a2be47f4b7c"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "23936f1256685b4edcabed819039a7d381d143de7c20113b632bc46fe2ca505e"
+      "sha256": "c9b34efd46c3ed0096c723f07b47eb3a4425d8067297ee41ffa0797217a51dd1"
     }
   },
   "table": [
@@ -1541,6 +1541,19 @@
       "competition": "Деца: Купа на БФС (квалификации) - Област Пловдив, Първи кръг"
     },
     {
+      "id": "bf-a9556012893e",
+      "dateEvent": "2026-09-02",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Втори кръг",
+      "strHomeTeam": "Овощник",
+      "strAwayTeam": "Берое",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Втори кръг"
+    },
+    {
       "id": "bf-7969b4d0bb57",
       "dateEvent": "2026-09-02",
       "strTime": "10:00:00",
@@ -1563,8 +1576,9 @@
       "strHomeTeam": "Марек 1915",
       "strAwayTeam": "Несебър",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1576,8 +1590,9 @@
       "strHomeTeam": "ОФК Хасково",
       "strAwayTeam": "Димитровград 1947",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "2:0",
       "competition": "Купа на България (квалификации) - Област Хасково, Финал"
     },
     {
@@ -1589,8 +1604,9 @@
       "strHomeTeam": "Рилски спортист 2011",
       "strAwayTeam": "Спортист 2009",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1602,8 +1618,9 @@
       "strHomeTeam": "Черноморец 1919",
       "strAwayTeam": "Лудогорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1629,8 +1646,9 @@
       "strHomeTeam": "Спартак 1947",
       "strAwayTeam": "Марица",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Купа на България (квалификации) - Област Пловдив, Финал"
     },
     {
@@ -1642,8 +1660,9 @@
       "strHomeTeam": "Овощник",
       "strAwayTeam": "Розова долина",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "3",
+      "halftime": "0:3",
       "competition": "Купа на България (квалификации) - Област Стара Загора, Финал"
     },
     {
