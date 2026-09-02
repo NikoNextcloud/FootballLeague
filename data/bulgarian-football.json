@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-02T09:07:34.891310+00:00",
+  "updatedAt": "2026-09-02T13:37:52.458811+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "e8bd8994608070be82f73a731a5416f2c76a9330adb6ec488ec80b4a5e5ee5a8"
+      "sha256": "436c9ecf95b6505fce0a008a9a1ff63dba0af7e9f2a25fb5c08da124900caad1"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "1ca9c4c2d0027d8670e3312d87aec5160b164c247bd19ed78fcfb9a562624095"
+      "sha256": "aa8864ad0255d59b494c8c6c46c3589d1cc5550cbad0a96818ddacbcd9d63bad"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "eb315a16db0670f252f87405dd414efafa2df9019abc01b4dde1529f37f6e458"
+      "sha256": "23936f1256685b4edcabed819039a7d381d143de7c20113b632bc46fe2ca505e"
     }
   },
   "table": [
@@ -1493,8 +1493,9 @@
       "strHomeTeam": "Велд",
       "strAwayTeam": "Ботев Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "14",
+      "halftime": "",
       "competition": "Деца: Купа на БФС (квалификации) - Област Пловдив, Първи кръг"
     },
     {
@@ -1512,17 +1513,18 @@
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Първи кръг"
     },
     {
-      "id": "bf-8f627af5bb0c",
+      "id": "bf-32411644469b",
       "dateEvent": "2026-09-02",
       "strTime": "09:30:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Бургас, Финали",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Бургас, Финал",
       "strHomeTeam": "Черноморец 1919",
       "strAwayTeam": "Нефтохимик 1962",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област Бургас, Финали"
+      "intHomeScore": "5",
+      "intAwayScore": "1",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС (квалификации) - Област Бургас, Финал"
     },
     {
       "id": "bf-a2c51ad803c8",
@@ -1533,8 +1535,9 @@
       "strHomeTeam": "Марица 1921",
       "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Деца: Купа на БФС (квалификации) - Област Пловдив, Първи кръг"
     },
     {
@@ -1546,8 +1549,9 @@
       "strHomeTeam": "СФК Раковски",
       "strAwayTeam": "Пловдив 2015",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "10",
+      "halftime": "",
       "competition": "Деца: Купа на БФС (квалификации) - Област Пловдив, Първи кръг"
     },
     {
