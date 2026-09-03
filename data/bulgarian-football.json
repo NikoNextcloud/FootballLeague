@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-03T13:52:31.540129+00:00",
+  "updatedAt": "2026-09-03T17:26:49.775061+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "a5379cb910074bf1f372ff69f509df8cb79b5201c49ba3e6bab6ed9531701d49"
+      "sha256": "48f0f1edbf468f6deb7df22e57464a5dc30579a271c8fe48e77491c0bb2830b7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "bb8c13858aa0965b02891855e40549615fdc1e76e47040022e915e86f355b6ee"
+      "sha256": "eefcd707ca2e85d0cb4262bcdbbc2c9f256fccf6ab227d16552e187ca79d81c5"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "4f215e5ad937d695a225a9a283afd9f56258c9c1b61abf5d5ca14610c984e14c"
+      "sha256": "0160e32b0cce17a8ad76a9478e67ed3c7db27f26c461ba6183db7adb2bc9fb32"
     }
   },
   "table": [
@@ -1598,6 +1598,20 @@
       "competition": "Купа на България (квалификации) - Област Кърджали, Финал"
     },
     {
+      "id": "bf-8ad4f1ea3975",
+      "dateEvent": "2026-09-03",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област Кърджали, Финал",
+      "strHomeTeam": "Славия",
+      "strAwayTeam": "Етър ВТ",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "",
+      "competition": "Купа на България (квалификации) - Област Кърджали, Финал"
+    },
+    {
       "id": "bf-edf61a1f429a",
       "dateEvent": "2026-09-03",
       "strTime": "17:00:00",
@@ -1606,8 +1620,9 @@
       "strHomeTeam": "Вихрен",
       "strAwayTeam": "Етър ВТ",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "2:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1619,8 +1634,9 @@
       "strHomeTeam": "ЦСКА II (София)",
       "strAwayTeam": "Спартак",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "1",
+      "halftime": "2:1",
       "competition": "Втора професионална лига"
     },
     {
@@ -1631,19 +1647,6 @@
       "roundLabel": "Купа на България (квалификации) - Област Кърджали, Финал",
       "strHomeTeam": "Джебел 2025",
       "strAwayTeam": "Крумовград",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на България (квалификации) - Област Кърджали, Финал"
-    },
-    {
-      "id": "bf-8ad4f1ea3975",
-      "dateEvent": "2026-09-03",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Кърджали, Финал",
-      "strHomeTeam": "Славия",
-      "strAwayTeam": "Етър ВТ",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
