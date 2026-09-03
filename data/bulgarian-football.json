@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-03T09:38:31.448247+00:00",
+  "updatedAt": "2026-09-03T13:52:31.540129+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "ea2c826b71be381d3338591db0a998a58e58e2bfffdcb8a4a01e539cebd63fd6"
+      "sha256": "a5379cb910074bf1f372ff69f509df8cb79b5201c49ba3e6bab6ed9531701d49"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e99cc380ace1e8357320ae5aa63157cacbd1054d6f92f6a237cd635d5527d6e0"
+      "sha256": "bb8c13858aa0965b02891855e40549615fdc1e76e47040022e915e86f355b6ee"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "4077564b7ed002d53aef9c8e7dd910f34eed263c112ed322ba2869d2c3c9166f"
+      "sha256": "4f215e5ad937d695a225a9a283afd9f56258c9c1b61abf5d5ca14610c984e14c"
     }
   },
   "table": [
@@ -1495,8 +1495,9 @@
       "strHomeTeam": "ЦСКА 1948",
       "strAwayTeam": "Спартак Варна",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Купа на България (квалификации) - Област Кърджали, Финал"
     },
     {
@@ -1564,8 +1565,9 @@
       "strHomeTeam": "Арда",
       "strAwayTeam": "Ботев Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Купа на България (квалификации) - Област Кърджали, Финал"
     },
     {
@@ -1590,8 +1592,9 @@
       "strHomeTeam": "Черно море",
       "strAwayTeam": "Пирин 22",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Купа на България (квалификации) - Област Кърджали, Финал"
     },
     {
