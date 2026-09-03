@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-03T05:00:10.586681+00:00",
+  "updatedAt": "2026-09-03T09:38:31.448247+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "0c1df5fc0e47cad5aac972d9eb816989783ae1fd5b6b7e01921ff845f8d36cf1"
+      "sha256": "ea2c826b71be381d3338591db0a998a58e58e2bfffdcb8a4a01e539cebd63fd6"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "549815e8a65ae7995652262ab8f3f66bff6d3d9d01bf26725513f5fa8179de5a"
+      "sha256": "e99cc380ace1e8357320ae5aa63157cacbd1054d6f92f6a237cd635d5527d6e0"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "bd0bcaf385db6a7670d18657f3486a6dae3368c5fa66d5c7e6c0b13564c59edd"
+      "sha256": "4077564b7ed002d53aef9c8e7dd910f34eed263c112ed322ba2869d2c3c9166f"
     }
   },
   "table": [
@@ -1508,8 +1508,9 @@
       "strHomeTeam": "Черно море",
       "strAwayTeam": "Локомотив София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Купа на България (квалификации) - Област Кърджали, Финал"
     },
     {
@@ -1521,8 +1522,23 @@
       "strHomeTeam": "Шипка старс 2015",
       "strAwayTeam": "Ботев Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "4",
+      "halftime": "",
+      "competition": "Купа на България (квалификации) - Област Кърджали, Финал"
+    },
+    {
+      "id": "bf-d0bb62525ee9",
+      "dateEvent": "2026-09-03",
+      "strTime": "09:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област Кърджали, Финал",
+      "strHomeTeam": "ЦСКА",
+      "strAwayTeam": "Локомотив Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "4",
+      "intAwayScore": "0",
+      "halftime": "2:0",
       "competition": "Купа на България (квалификации) - Област Кърджали, Финал"
     },
     {
@@ -1534,8 +1550,9 @@
       "strHomeTeam": "Марица 1921",
       "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Купа на България (квалификации) - Област Кърджали, Финал"
     },
     {
@@ -1572,19 +1589,6 @@
       "roundLabel": "Купа на България (квалификации) - Област Кърджали, Финал",
       "strHomeTeam": "Черно море",
       "strAwayTeam": "Пирин 22",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на България (квалификации) - Област Кърджали, Финал"
-    },
-    {
-      "id": "bf-d0bb62525ee9",
-      "dateEvent": "2026-09-03",
-      "strTime": "11:30:00",
-      "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Кърджали, Финал",
-      "strHomeTeam": "ЦСКА",
-      "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
