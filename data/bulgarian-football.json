@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-03T17:26:49.775061+00:00",
+  "updatedAt": "2026-09-03T20:04:04.060398+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "48f0f1edbf468f6deb7df22e57464a5dc30579a271c8fe48e77491c0bb2830b7"
+      "sha256": "c86c38a9f17d3311a4c26f8a70cbde0623a45aa677b6e941bcdfbf7338955980"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "eefcd707ca2e85d0cb4262bcdbbc2c9f256fccf6ab227d16552e187ca79d81c5"
+      "sha256": "c3cc5a08e5b95ad637915ab6b854b7772f868691a1d53d181986832474b35df8"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "0160e32b0cce17a8ad76a9478e67ed3c7db27f26c461ba6183db7adb2bc9fb32"
+      "sha256": "05af54aeefb81d786fe80cd5d0af1b84dbb3a0291b0384d5ec5280af94ab57c9"
     }
   },
   "table": [
@@ -1579,8 +1579,9 @@
       "strHomeTeam": "ЦСКА 1948",
       "strAwayTeam": "Черноморец 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Купа на България (квалификации) - Област Кърджали, Финал"
     },
     {
@@ -1648,8 +1649,9 @@
       "strHomeTeam": "Джебел 2025",
       "strAwayTeam": "Крумовград",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "8",
+      "halftime": "",
       "competition": "Купа на България (квалификации) - Област Кърджали, Финал"
     },
     {
@@ -1661,8 +1663,9 @@
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Добруджа 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1674,8 +1677,9 @@
       "strHomeTeam": "Берое",
       "strAwayTeam": "Монтана 1921",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Втора професионална лига"
     }
   ],
