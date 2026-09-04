@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-04T04:45:56.058765+00:00",
+  "updatedAt": "2026-09-04T09:06:55.949555+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "b8eebaba2d4db9e3a8df6ef9a0bea9341150d9ad53da016f8dd5bdd23304720e"
+      "sha256": "4288b4145b5257e83990635f089347f1153bcf782eec18894a0de9c5c35a726a"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "942ab3a30554d1ab76b6df30f9ba9f5742a0ff06727cd92be8790b7b24f3c8b8"
+      "sha256": "b03506e062864e18ebde5af9b1a66198d7ee7c868d61a1f793a837244353fd68"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "0b076e5509d7030c937ef72da2d7eaf8279589093808dce583f804274dc7f797"
+      "sha256": "6cff5bb8b98520cf1cec41661653fc035088b3b9b807ee3a7de183c388a836c8"
     }
   },
   "table": [
@@ -1495,8 +1495,9 @@
       "strHomeTeam": "УФК Ботев (София)",
       "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Първи кръг"
     },
     {
