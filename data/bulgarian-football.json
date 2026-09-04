@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-04T17:01:25.918934+00:00",
+  "updatedAt": "2026-09-04T19:27:15.750864+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "c81388cdb28634afc6a6618fab93b31b0d0f093006797acd7a08a18abba2e027"
+      "sha256": "8cb829cceac13ee05df58b565d37fe298ac19ffc737a3aad0566d437098e5f68"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e371ede1c96fbefb70185fc318c289cb7f9be7a819b27477b4b64076cb6c297f"
+      "sha256": "e4a56973b1476f85bdd3ff2cef07a599cdf2bb741c58af3faa78a17b98b98be6"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "a866d070f81320602835588194668aa93a8f0d77c52d6c192fb3da6273d05cf8"
+      "sha256": "e5fb05f4c442ebbb80c5d489fd59214cd02f2440ddd2abd39b3c222ee8e9c121"
     }
   },
   "table": [
@@ -80,13 +80,13 @@
     {
       "intRank": 6,
       "strTeam": "Септември София",
-      "intPlayed": 7,
+      "intPlayed": 8,
       "intWin": 2,
       "intDraw": 2,
-      "intLoss": 3,
-      "intGoalsFor": 5,
-      "intGoalsAgainst": 10,
-      "intGoalDifference": -5,
+      "intLoss": 4,
+      "intGoalsFor": 7,
+      "intGoalsAgainst": 13,
+      "intGoalDifference": -6,
       "intPoints": 8
     },
     {
@@ -115,6 +115,18 @@
     },
     {
       "intRank": 9,
+      "strTeam": "Ботев Враца",
+      "intPlayed": 8,
+      "intWin": 2,
+      "intDraw": 1,
+      "intLoss": 5,
+      "intGoalsFor": 7,
+      "intGoalsAgainst": 17,
+      "intGoalDifference": -10,
+      "intPoints": 7
+    },
+    {
+      "intRank": 10,
       "strTeam": "Ботев Пловдив",
       "intPlayed": 7,
       "intWin": 2,
@@ -126,7 +138,7 @@
       "intPoints": 7
     },
     {
-      "intRank": 10,
+      "intRank": 11,
       "strTeam": "Черно море",
       "intPlayed": 7,
       "intWin": 1,
@@ -135,18 +147,6 @@
       "intGoalsFor": 8,
       "intGoalsAgainst": 16,
       "intGoalDifference": -8,
-      "intPoints": 4
-    },
-    {
-      "intRank": 11,
-      "strTeam": "Ботев Враца",
-      "intPlayed": 7,
-      "intWin": 1,
-      "intDraw": 1,
-      "intLoss": 5,
-      "intGoalsFor": 4,
-      "intGoalsAgainst": 15,
-      "intGoalDifference": -11,
       "intPoints": 4
     },
     {
@@ -820,8 +820,9 @@
       "strHomeTeam": "Септември София",
       "strAwayTeam": "Ботев Враца",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "0:1"
     },
     {
       "id": "bf-2f656f00fc11",
@@ -1240,6 +1241,11 @@
       "goals": 2
     },
     {
+      "player": "Филип Гигов",
+      "team": "Ботев Враца",
+      "goals": 2
+    },
+    {
       "player": "Джойс Читоку",
       "team": "Спартак Варна",
       "goals": 1
@@ -1483,6 +1489,21 @@
       "player": "Антонио Вутов",
       "team": "Арда",
       "goals": 1
+    },
+    {
+      "player": "Галин Иванов",
+      "team": "Септември София",
+      "goals": 1
+    },
+    {
+      "player": "Педро Игор",
+      "team": "Септември София",
+      "goals": 1
+    },
+    {
+      "player": "Мартин Смоленски",
+      "team": "Ботев Враца",
+      "goals": 1
     }
   ],
   "today": [
@@ -1523,8 +1544,9 @@
       "strHomeTeam": "Септември София",
       "strAwayTeam": "Ботев Враца",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "0:1",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
@@ -2050,6 +2072,19 @@
         "roundLabel": "I кръг · Реванш",
         "strHomeTeam": "ОФИ Крит",
         "strAwayTeam": "Хофенхайм",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Лига Европа"
+      },
+      {
+        "id": "bf-67873dd98e55",
+        "dateEvent": "2026-09-17",
+        "strTime": "22:00:00",
+        "intRound": "1",
+        "roundLabel": "I кръг · Реванш",
+        "strHomeTeam": "-",
+        "strAwayTeam": "-",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
         "intAwayScore": null,
