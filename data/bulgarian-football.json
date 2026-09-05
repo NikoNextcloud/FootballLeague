@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-05T05:49:32.316997+00:00",
+  "updatedAt": "2026-09-05T09:29:38.630972+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "e50382546d6cef7125dbd5fdbe3b8b88ecab12f90db775e7fa8c73054e6eac79"
+      "sha256": "747107fa3b387d2bb65b26877b7e4c9d2024dba25fe0783e18506304fb280680"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "c71dc3526791da0b031df1c7bbeeab592de7d3423941004704c7f966041ad5a3"
+      "sha256": "09b77fcfae67296f7ba7756aad46606b0ece9aa364fa41d47af8b7812e01d15f"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "53a12d6b3a26205e459442e9d41dc61f6838a917b75f5726b1da55f31dd34de8"
+      "sha256": "a3039cddea7e85b69b96f503a8579dd79d08ecbc456057178dd4a422d0ff4a7f"
     }
   },
   "table": [
@@ -1532,55 +1532,17 @@
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
     },
     {
-      "id": "bf-68c747ac206f",
+      "id": "bf-e38e96365945",
       "dateEvent": "2026-09-05",
       "strTime": "09:00:00",
       "intRound": "",
       "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг",
-      "strHomeTeam": "Локомотив София",
-      "strAwayTeam": "Олимпия ФК (София)",
+      "strHomeTeam": "Нефтохимик 1962",
+      "strAwayTeam": "Септември София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
-    },
-    {
-      "id": "bf-8878bd9cc4b2",
-      "dateEvent": "2026-09-05",
-      "strTime": "09:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг",
-      "strHomeTeam": "Септември София",
-      "strAwayTeam": "Национал (София)",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
-    },
-    {
-      "id": "bf-36698a4c62b6",
-      "dateEvent": "2026-09-05",
-      "strTime": "09:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг",
-      "strHomeTeam": "УФК Ботев (София)",
-      "strAwayTeam": "Академия Септември (София)",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
-    },
-    {
-      "id": "bf-ff2be2af1b24",
-      "dateEvent": "2026-09-05",
-      "strTime": "09:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг",
-      "strHomeTeam": "ЦСКА",
-      "strAwayTeam": "Левски",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "8",
+      "halftime": "0:3",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
     },
     {
@@ -1592,8 +1554,9 @@
       "strHomeTeam": "Локомотив Пловдив",
       "strAwayTeam": "ЦСКА 1948",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
     },
     {
@@ -1610,6 +1573,19 @@
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
     },
     {
+      "id": "bf-8183860dbc4a",
+      "dateEvent": "2026-09-05",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг",
+      "strHomeTeam": "Овощник",
+      "strAwayTeam": "Локомотив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
+    },
+    {
       "id": "bf-67dd046062b5",
       "dateEvent": "2026-09-05",
       "strTime": "10:00:00",
@@ -1618,8 +1594,9 @@
       "strHomeTeam": "Пирин 22",
       "strAwayTeam": "Етър ВТ",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
     },
     {
@@ -1695,19 +1672,6 @@
       "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг",
       "strHomeTeam": "Национал (София)",
       "strAwayTeam": "Локомотив София",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
-    },
-    {
-      "id": "bf-e38e96365945",
-      "dateEvent": "2026-09-05",
-      "strTime": "11:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг",
-      "strHomeTeam": "Нефтохимик 1962",
-      "strAwayTeam": "Септември София",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
@@ -1870,6 +1834,19 @@
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
     },
     {
+      "id": "bf-e44817172a41",
+      "dateEvent": "2026-09-05",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Брацигово",
+      "strAwayTeam": "Оборище II",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-60f9f34ea28c",
       "dateEvent": "2026-09-05",
       "strTime": "17:00:00",
@@ -1877,6 +1854,19 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Бригада 2010",
       "strAwayTeam": "Димитровград 1947 II",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-46b5fec8d81c",
+      "dateEvent": "2026-09-05",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Венци 2022",
+      "strAwayTeam": "Ситомир",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
@@ -1896,6 +1886,19 @@
       "competition": "Североизточна Трета лига"
     },
     {
+      "id": "bf-a9b1680520a9",
+      "dateEvent": "2026-09-05",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Гигант 1947",
+      "strAwayTeam": "Тръстеник",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-c048f6bf5f37",
       "dateEvent": "2026-09-05",
       "strTime": "17:00:00",
@@ -1903,6 +1906,19 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Димитровград 1947",
       "strAwayTeam": "Загорец",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-8e5f10c7f277",
+      "dateEvent": "2026-09-05",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Динамо",
+      "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
@@ -1935,6 +1951,19 @@
       "competition": "Северозападна Трета лига"
     },
     {
+      "id": "bf-4733c5d0dd05",
+      "dateEvent": "2026-09-05",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Зенит 1945",
+      "strAwayTeam": "Тракия",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-c79bc928a9e9",
       "dateEvent": "2026-09-05",
       "strTime": "17:00:00",
@@ -1955,6 +1984,19 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Левски",
       "strAwayTeam": "ФК Ямбол 1915",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-eb78567ba648",
+      "dateEvent": "2026-09-05",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Левски",
+      "strAwayTeam": "Марица",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
@@ -1985,19 +2027,6 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Северозападна Трета лига"
-    },
-    {
-      "id": "bf-89fdcdb0b4f5",
-      "dateEvent": "2026-09-05",
-      "strTime": "17:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Марица 1921",
-      "strAwayTeam": "Гигант",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
     },
     {
       "id": "bf-7ed8de4ad1e5",
@@ -2076,6 +2105,19 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
+    },
+    {
+      "id": "bf-ba7e5df7248d",
+      "dateEvent": "2026-09-05",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Обнова 2022",
+      "strAwayTeam": "Мизия 1924",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
     },
     {
       "id": "bf-d2e69ddc8475",
@@ -2221,6 +2263,19 @@
       "competition": "Северозападна Трета лига"
     },
     {
+      "id": "bf-6c39dcd8d75a",
+      "dateEvent": "2026-09-05",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Тракиец 2005",
+      "strAwayTeam": "Свобода 2011",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-1ddfb13a7514",
       "dateEvent": "2026-09-05",
       "strTime": "17:00:00",
@@ -2297,6 +2352,19 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Купа на България (квалификации) - Област Враца, Първи кръг"
+    },
+    {
+      "id": "bf-89fdcdb0b4f5",
+      "dateEvent": "2026-09-05",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Марица 1921",
+      "strAwayTeam": "Гигант",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
     },
     {
       "id": "bf-16bea1653891",
@@ -3152,6 +3220,19 @@
         "competition": "Лига Европа"
       },
       {
+        "id": "bf-6e87cf925b28",
+        "dateEvent": "2026-10-15",
+        "strTime": "22:00:00",
+        "intRound": "1",
+        "roundLabel": "I кръг · Реванш",
+        "strHomeTeam": "-",
+        "strAwayTeam": "-",
+        "source": "bulgarian-football.com",
+        "intHomeScore": null,
+        "intAwayScore": null,
+        "competition": "Лига на конференциите"
+      },
+      {
         "id": "bf-36b069bb8a88",
         "dateEvent": "2026-10-15",
         "strTime": "22:00:00",
@@ -3191,12 +3272,12 @@
         "competition": "Лига Европа"
       },
       {
-        "id": "bf-3eca133ae88b",
+        "id": "bf-1ebd8fb2b6f4",
         "dateEvent": "2026-10-15",
         "strTime": "22:00:00",
         "intRound": "1",
         "roundLabel": "I кръг · Реванш",
-        "strHomeTeam": "Брайтън & Хоув Албиън",
+        "strHomeTeam": "Брайтън & ХА",
         "strAwayTeam": "Кауно Жалгирис",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
@@ -3347,12 +3428,12 @@
         "competition": "Лига на конференциите"
       },
       {
-        "id": "bf-e3de8abfebe0",
+        "id": "bf-0ecf2b3b07b2",
         "dateEvent": "2026-10-15",
         "strTime": "22:00:00",
         "intRound": "1",
         "roundLabel": "I кръг · Реванш",
-        "strHomeTeam": "Харт ъф Мидлоутиан",
+        "strHomeTeam": "Хартс",
         "strAwayTeam": "Нордшеланд",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
@@ -3516,13 +3597,13 @@
         "competition": "Лига на конференциите"
       },
       {
-        "id": "bf-831555e73489",
+        "id": "bf-8d09b8afe2fd",
         "dateEvent": "2026-10-22",
         "strTime": "19:45:00",
         "intRound": "1",
         "roundLabel": "I кръг · Реванш",
         "strHomeTeam": "Трабзонспор",
-        "strAwayTeam": "Харт ъф Мидлоутиан",
+        "strAwayTeam": "Хартс",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
         "intAwayScore": null,
@@ -3607,13 +3688,13 @@
         "competition": "Лига Европа"
       },
       {
-        "id": "bf-84590bd1d3e9",
+        "id": "bf-c1c22c89d537",
         "dateEvent": "2026-10-22",
         "strTime": "19:45:00",
         "intRound": "1",
         "roundLabel": "I кръг · Реванш",
         "strHomeTeam": "Яблонец",
-        "strAwayTeam": "Брайтън & Хоув Албиън",
+        "strAwayTeam": "Брайтън & ХА",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
         "intAwayScore": null,
@@ -3711,12 +3792,12 @@
         "competition": "Лига Европа"
       },
       {
-        "id": "bf-9b13e4652ed3",
+        "id": "bf-0d167309e54c",
         "dateEvent": "2026-10-22",
         "strTime": "22:00:00",
         "intRound": "1",
         "roundLabel": "I кръг · Реванш",
-        "strHomeTeam": "Линкълн Ред Импс",
+        "strHomeTeam": "Линкълн РИ",
         "strAwayTeam": "Твенте",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
@@ -4036,13 +4117,13 @@
         "competition": "Лига на конференциите"
       },
       {
-        "id": "bf-7ab46e3f20a6",
+        "id": "bf-14ebed421256",
         "dateEvent": "2026-11-05",
         "strTime": "19:45:00",
         "intRound": "1",
         "roundLabel": "I кръг · Реванш",
         "strHomeTeam": "Тун",
-        "strAwayTeam": "Харт ъф Мидлоутиан",
+        "strAwayTeam": "Хартс",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
         "intAwayScore": null,
@@ -4270,13 +4351,13 @@
         "competition": "Лига на конференциите"
       },
       {
-        "id": "bf-6b938e34073d",
+        "id": "bf-9e99ff893783",
         "dateEvent": "2026-11-05",
         "strTime": "22:00:00",
         "intRound": "1",
         "roundLabel": "I кръг · Реванш",
         "strHomeTeam": "Хетафе",
-        "strAwayTeam": "Брайтън & Хоув Албиън",
+        "strAwayTeam": "Брайтън & ХА",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
         "intAwayScore": null,
@@ -4335,12 +4416,12 @@
         "competition": "Лига Европа"
       },
       {
-        "id": "bf-e6a018585efd",
+        "id": "bf-6c783bbe4fbd",
         "dateEvent": "2026-11-26",
         "strTime": "19:45:00",
         "intRound": "1",
         "roundLabel": "I кръг · Реванш",
-        "strHomeTeam": "Брайтън & Хоув Албиън",
+        "strHomeTeam": "Брайтън & ХА",
         "strAwayTeam": "Университатя",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
@@ -4387,13 +4468,13 @@
         "competition": "Лига Европа"
       },
       {
-        "id": "bf-8b6c90a387aa",
+        "id": "bf-e3979148b693",
         "dateEvent": "2026-11-26",
         "strTime": "19:45:00",
         "intRound": "1",
         "roundLabel": "I кръг · Реванш",
         "strHomeTeam": "Егнатия",
-        "strAwayTeam": "Линкълн Ред Импс",
+        "strAwayTeam": "Линкълн РИ",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
         "intAwayScore": null,
@@ -4478,12 +4559,12 @@
         "competition": "Лига Европа"
       },
       {
-        "id": "bf-86313c06d2d7",
+        "id": "bf-aa3c5b10bf0e",
         "dateEvent": "2026-11-26",
         "strTime": "19:45:00",
         "intRound": "1",
         "roundLabel": "I кръг · Реванш",
-        "strHomeTeam": "Харт ъф Мидлоутиан",
+        "strHomeTeam": "Хартс",
         "strAwayTeam": "Монако",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
@@ -5024,12 +5105,12 @@
         "competition": "Лига Европа"
       },
       {
-        "id": "bf-94dcf23b656c",
+        "id": "bf-8e0a8f8d385d",
         "dateEvent": "2026-12-10",
         "strTime": "22:00:00",
         "intRound": "1",
         "roundLabel": "I кръг · Реванш",
-        "strHomeTeam": "Брайтън & Хоув Албиън",
+        "strHomeTeam": "Брайтън & ХА",
         "strAwayTeam": "Монако",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
@@ -5180,12 +5261,12 @@
         "competition": "Лига на конференциите"
       },
       {
-        "id": "bf-d6d9d0741f23",
+        "id": "bf-16d95c8d41c6",
         "dateEvent": "2026-12-10",
         "strTime": "22:00:00",
         "intRound": "1",
         "roundLabel": "I кръг · Реванш",
-        "strHomeTeam": "Харт ъф Мидлоутиан",
+        "strHomeTeam": "Хартс",
         "strAwayTeam": "Борац",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
@@ -5323,26 +5404,26 @@
         "competition": "Лига на конференциите"
       },
       {
-        "id": "bf-29d492436306",
+        "id": "bf-a667ac50dd1c",
         "dateEvent": "2026-12-17",
         "strTime": "22:00:00",
         "intRound": "1",
         "roundLabel": "I кръг · Реванш",
         "strHomeTeam": "Панатинайкос",
-        "strAwayTeam": "Брайтън & Хоув Албиън",
+        "strAwayTeam": "Брайтън & ХА",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
         "intAwayScore": null,
         "competition": "Лига на конференциите"
       },
       {
-        "id": "bf-7b02abd03204",
+        "id": "bf-2f59fac10c0a",
         "dateEvent": "2026-12-17",
         "strTime": "22:00:00",
         "intRound": "1",
         "roundLabel": "I кръг · Реванш",
         "strHomeTeam": "Пафос",
-        "strAwayTeam": "Харт ъф Мидлоутиан",
+        "strAwayTeam": "Хартс",
         "source": "bulgarian-football.com",
         "intHomeScore": null,
         "intAwayScore": null,
