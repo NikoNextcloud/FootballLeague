@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-05T22:06:09.260452+00:00",
+  "updatedAt": "2026-09-05T23:52:18.300832+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "8a0e4d9af93702e85b2836069dda2c48355e1ffa01dbcadee3243b70ceb60f45"
+      "sha256": "9658fc139ac5801aa930700057b68fd753647cfda0e60a8577e8b3b8d925ea4d"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "9e76a32165f9b5de7622f0bb67b883768c17772431f806ac223197b1699ea385"
+      "sha256": "4f6534fdd81599c1579aec50f4423149836f371f27c40a593474cdc7ef92b511"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "09cfa99094598c40ad7f27f11926240efeca663a467c75a2c35d70f6b754e731"
+      "sha256": "d021d7e46dcc6a90bd2c39c5942f8abd1fc53238aee62204a2143e5819d3762f"
     }
   },
   "table": [
@@ -1721,6 +1721,45 @@
       "competition": "Югоизточна Трета лига"
     },
     {
+      "id": "bf-31e177101ee6",
+      "dateEvent": "2026-09-06",
+      "strTime": "13:30:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Балкан",
+      "strAwayTeam": "Заря 1962",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-ac393289bb09",
+      "dateEvent": "2026-09-06",
+      "strTime": "13:30:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Балкан",
+      "strAwayTeam": "Кочово",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-acfb40be76e6",
+      "dateEvent": "2026-09-06",
+      "strTime": "13:30:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Ботев",
+      "strAwayTeam": "Устрем",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-e76c29db053e",
       "dateEvent": "2026-09-06",
       "strTime": "13:30:00",
@@ -2111,6 +2150,19 @@
       "competition": "Югоизточна Трета лига"
     },
     {
+      "id": "bf-6ef72b53b812",
+      "dateEvent": "2026-09-06",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Устрем",
+      "strAwayTeam": "Спортист",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-713f7cb5ff09",
       "dateEvent": "2026-09-06",
       "strTime": "17:00:00",
@@ -2170,6 +2222,19 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Чико Бунара",
       "strAwayTeam": "Лесичово",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-fed819d394c0",
+      "dateEvent": "2026-09-06",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Локомотив 2019",
+      "strAwayTeam": "Дянково сити",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
