@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-05T12:59:58.813975+00:00",
+  "updatedAt": "2026-09-05T15:57:58.347287+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "7e17025521731963d79d561be8838f9621cc5e085a6a40a6e2e0adec61aa9a14"
+      "sha256": "bb29924e44551a2210355721d5c08d4e2a5d7f7c1a0063b79aa009ff59ecaf0f"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "eedd65b0878ea28537db36aa00f3e00fae96032575b2ad39b8b6e80313d1d587"
+      "sha256": "3a654c90858e435ab0e1defd4c710ad03cf2be08e9712882ca0abd4cc502be83"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "5388483d0a393da7b2b02c034ee9c0d6656dd19c17ca88bfa67de6573afd7089"
+      "sha256": "df300113f5e03261b3d9dfafc7672854d064e7f6e49c464baa2e83562181ae84"
     }
   },
   "table": [
@@ -1568,8 +1568,9 @@
       "strHomeTeam": "Хебър 1918",
       "strAwayTeam": "Академик",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
     },
     {
@@ -1608,8 +1609,9 @@
       "strHomeTeam": "Черно море",
       "strAwayTeam": "Ботев Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
     },
     {
@@ -1705,8 +1707,9 @@
       "strHomeTeam": "Хебър 1918",
       "strAwayTeam": "Берое",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
     },
     {
@@ -1718,8 +1721,9 @@
       "strHomeTeam": "Пирин 22",
       "strAwayTeam": "Локомотив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
     },
     {
@@ -1731,8 +1735,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Арда",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, Първи кръг"
     },
     {
@@ -2251,8 +2256,9 @@
       "strHomeTeam": "Спартак 1947",
       "strAwayTeam": "Розова долина",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Югоизточна Трета лига"
     },
     {
