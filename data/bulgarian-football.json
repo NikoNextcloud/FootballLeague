@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-06T11:40:45.187929+00:00",
+  "updatedAt": "2026-09-06T14:24:50.465525+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "8e72356e6ea1699351a1a75b58c5775eb90edd01a11e5a9ffb06231341c87c7e"
+      "sha256": "0c63fc4ab994b580230d9c754cd564f488a5000a36227361638c163226ae7271"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "89f637ca71a496ea056e8182ccda1ff6e60137abe3c4809f6810a8230056e6c7"
+      "sha256": "ef31b97140fb2a4b127c11db7ce6c765d3084ecf2e8505850bef374ccdd9b5ef"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "4caa9f9970a48ea399b7f02b0ed35f1d31bfba36208754dfff7cbec49908ca65"
+      "sha256": "f93ed54fde8935cc7a786ca496eed4e9b93dc4a05a128767a26aa9bde67256c1"
     }
   },
   "table": [
@@ -1568,6 +1568,20 @@
       "competition": "Югоизточна Трета лига"
     },
     {
+      "id": "bf-86070269f0e1",
+      "dateEvent": "2026-09-06",
+      "strTime": "09:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Национал (София)",
+      "strAwayTeam": "Лудогорец",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:1",
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-ab3395b6d769",
       "dateEvent": "2026-09-06",
       "strTime": "09:30:00",
@@ -1617,8 +1631,9 @@
       "strHomeTeam": "ФК Хасково",
       "strAwayTeam": "ФК Сливен",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "5",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1644,8 +1659,9 @@
       "strHomeTeam": "Черноморец 1919",
       "strAwayTeam": "Септември София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1740,20 +1756,6 @@
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-86070269f0e1",
-      "dateEvent": "2026-09-06",
-      "strTime": "11:15:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Национал (София)",
-      "strAwayTeam": "Лудогорец",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "2",
-      "intAwayScore": "5",
-      "halftime": "2:2",
       "competition": "Югоизточна Трета лига"
     },
     {
