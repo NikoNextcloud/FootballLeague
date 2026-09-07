@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-07T11:05:07.361558+00:00",
+  "updatedAt": "2026-09-07T16:25:42.014671+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "6d205f8cf629b779a3de6e6a4ed3e0395beff2a52f94d355e6ea5cd411ab34f9"
+      "sha256": "5571df4f19c08244da3d76bb8a8c106343215018f1330ff5e1d090e3b5a2afd5"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "f1b6f907372df57bb2a4651fa4485cc0d631c8df5964136c36e93963a6a753f5"
+      "sha256": "f25f84393b69a211ab16554b63bc18bddb56fe569503afd2217f4b0df41dcd18"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "c5bacab70aa18d2989939da036a0107e731f59210125c4510b9071d6a8c262e2"
+      "sha256": "b3f5d789ed486e56311c69337da51b149c2917fd3a298a23792e38c576aa1069"
     }
   },
   "table": [
@@ -1541,8 +1541,9 @@
       "strHomeTeam": "Хебър 1918",
       "strAwayTeam": "Арда",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Втора професионална лига"
     },
     {
@@ -1554,8 +1555,9 @@
       "strHomeTeam": "Банкя 2009",
       "strAwayTeam": "Мрамор",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Втора професионална лига"
     },
     {
@@ -1736,8 +1738,9 @@
       "strHomeTeam": "Казичене 1929",
       "strAwayTeam": "Сокол (кв.Бенковски, София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "1:3",
       "competition": "Втора професионална лига"
     },
     {
@@ -1762,8 +1765,9 @@
       "strHomeTeam": "Спортист 2009",
       "strAwayTeam": "Локомотив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Втора професионална лига"
     },
     {
