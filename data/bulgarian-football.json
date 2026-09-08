@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-08T14:03:56.373046+00:00",
+  "updatedAt": "2026-09-08T17:53:20.795212+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "416546ab11df69d006527ea9be58f58a4357a91117dff56cb219be5b644abb8f"
+      "sha256": "8ab1e1fb3a5745571c643afd17d866213cb73f2691c51c4c47fecf5ab84176b6"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "d483af4d92c46f5e2e896ff49a36c4b4e94770672a348fc8769eac616e1a5e00"
+      "sha256": "a67e811f4a9e3ac843f7d16f40f2c9a07c3abe68dc31526ec52e102eb4ad3def"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "229a835d0f6c068c859db4e14bdecf644bb74d2a9af0350cf5bd5eda64ec3d7d"
+      "sha256": "4a7244fce01f20fa124c7ec55fc56a4e5f3e03b5428f49fe8db301336cb0f8ff"
     }
   },
   "table": [
@@ -1573,8 +1573,9 @@
       "strHomeTeam": "Монтана 1921",
       "strAwayTeam": "Вихрен",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "4",
+      "halftime": "0:1",
       "competition": "Втора професионална лига"
     }
   ],
