@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-08T20:39:42.380496+00:00",
+  "updatedAt": "2026-09-08T22:58:47.449287+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "07574d7475c09b191b0da75626329b0ce904537784f3fe3bf0216e1ede72fea6"
+      "sha256": "7b7d516a468eba6132b7fc22782856b0d7a7e36125833f39a78fccd19f07cb36"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "06332936ed7b668b4905ccecaaaf038ac54d76841130bf85859d02dfc8dac27b"
+      "sha256": "46416561b83cde65d46daa5c549f4278bd92a324f4acf4f7f36cad7261bfd807"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "fa114f61c34127c3d983019205a567b689f7dcfb0f6f1fd85d226e5f0ab21d2f"
+      "sha256": "d11fe1846c0213b6b04ad4ca470433184e9af817a39217a6bbde86abecfb72ba"
     }
   },
   "table": [
@@ -1539,45 +1539,199 @@
   ],
   "today": [
     {
-      "id": "bf-be1efb24333a",
-      "dateEvent": "2026-09-08",
-      "strTime": "17:30:00",
+      "id": "bf-18cde7962712",
+      "dateEvent": "2026-09-09",
+      "strTime": "09:00:00",
       "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Габрово, Финал",
-      "strHomeTeam": "Балкан",
-      "strAwayTeam": "Севлиево",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Финал",
+      "strHomeTeam": "Олимпия ФК (София)",
+      "strAwayTeam": "УФК Ботев (София)",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Габрово, Финал"
+      "competition": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Финал"
     },
     {
-      "id": "bf-d10753a499f8",
-      "dateEvent": "2026-09-08",
+      "id": "bf-a3a72fc22917",
+      "dateEvent": "2026-09-09",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Финал",
+      "strHomeTeam": "Локомотив",
+      "strAwayTeam": "Берое",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Финал"
+    },
+    {
+      "id": "bf-8ee96957bb0c",
+      "dateEvent": "2026-09-09",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Финал",
+      "strHomeTeam": "Национал (София)",
+      "strAwayTeam": "ДИТ (кв.Драгалевци, София)",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Финал"
+    },
+    {
+      "id": "bf-c8ebcdddbb7f",
+      "dateEvent": "2026-09-09",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Североизточна България, Финали",
+      "strHomeTeam": "Бенковски",
+      "strAwayTeam": "Светкавица 2014",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Североизточна България, Финали"
+    },
+    {
+      "id": "bf-35fc9e6c533b",
+      "dateEvent": "2026-09-09",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Североизточна България, Финали",
+      "strHomeTeam": "Ботев",
+      "strAwayTeam": "Аксаково",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Североизточна България, Финали"
+    },
+    {
+      "id": "bf-927455bb7e4a",
+      "dateEvent": "2026-09-09",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Поток Пловдив/Смолян/Хасково/Кърджали, Финали",
+      "strHomeTeam": "Нефтохимик 1962",
+      "strAwayTeam": "Розова долина",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Поток Пловдив/Смолян/Хасково/Кърджали, Финали"
+    },
+    {
+      "id": "bf-81b13fe36caa",
+      "dateEvent": "2026-09-09",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Поток Пловдив/Смолян/Хасково/Кърджали, Финали",
+      "strHomeTeam": "ОФК Хасково",
+      "strAwayTeam": "Крумовград",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Поток Пловдив/Смолян/Хасково/Кърджали, Финали"
+    },
+    {
+      "id": "bf-bb5b269c04e4",
+      "dateEvent": "2026-09-09",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област София, Първи кръг",
+      "strHomeTeam": "Правец",
+      "strAwayTeam": "ОФК Костинброд 2012",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област София, Първи кръг"
+    },
+    {
+      "id": "bf-cf111e62a5c4",
+      "dateEvent": "2026-09-09",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област София, Първи кръг",
+      "strHomeTeam": "Ракитин",
+      "strAwayTeam": "Балкан 1929",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област София, Първи кръг"
+    },
+    {
+      "id": "bf-4955ffd5227b",
+      "dateEvent": "2026-09-09",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Поток Пловдив/Смолян/Хасково/Кърджали, Финали",
+      "strHomeTeam": "Родопа Смолян",
+      "strAwayTeam": "Спартак 1947",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Поток Пловдив/Смолян/Хасково/Кърджали, Финали"
+    },
+    {
+      "id": "bf-d0f78f86c0b5",
+      "dateEvent": "2026-09-09",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област София, Първи кръг",
+      "strHomeTeam": "Сливнишки герой",
+      "strAwayTeam": "Етрополе",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област София, Първи кръг"
+    },
+    {
+      "id": "bf-3f84ae6cc7af",
+      "dateEvent": "2026-09-09",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Поток Пловдив/Смолян/Хасково/Кърджали, Финали",
+      "strHomeTeam": "ФК Ямбол 1915",
+      "strAwayTeam": "Загорец",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Поток Пловдив/Смолян/Хасково/Кърджали, Финали"
+    },
+    {
+      "id": "bf-e95728389364",
+      "dateEvent": "2026-09-09",
       "strTime": "17:30:00",
       "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Област Велико Търново, Финал",
-      "strHomeTeam": "Левски",
-      "strAwayTeam": "Академик",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Труд",
+      "strAwayTeam": "Спартак",
       "source": "bulgarian-football.com",
-      "intHomeScore": "2",
-      "intAwayScore": "2",
-      "halftime": "2:0",
-      "competition": "Купа на България (квалификации) - Област Велико Търново, Финал"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС"
     },
     {
-      "id": "bf-892acaf87495",
-      "dateEvent": "2026-09-08",
-      "strTime": "19:00:00",
+      "id": "bf-358a9f025cec",
+      "dateEvent": "2026-09-09",
+      "strTime": "18:00:00",
       "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Монтана 1921",
-      "strAwayTeam": "Вихрен",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Марица 1921 II",
+      "strAwayTeam": "Борислав 2009",
       "source": "bulgarian-football.com",
-      "intHomeScore": "1",
-      "intAwayScore": "4",
-      "halftime": "0:1",
-      "competition": "Втора професионална лига"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС"
+    },
+    {
+      "id": "bf-a434a5109481",
+      "dateEvent": "2026-09-09",
+      "strTime": "18:30:00",
+      "intRound": "",
+      "roundLabel": "Суперкупа на България - Финал",
+      "strHomeTeam": "Левски",
+      "strAwayTeam": "ЦСКА",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Суперкупа на България - Финал"
     }
   ],
   "europe": {
