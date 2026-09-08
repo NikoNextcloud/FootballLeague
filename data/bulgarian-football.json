@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-08T17:53:20.795212+00:00",
+  "updatedAt": "2026-09-08T20:39:42.380496+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "8ab1e1fb3a5745571c643afd17d866213cb73f2691c51c4c47fecf5ab84176b6"
+      "sha256": "07574d7475c09b191b0da75626329b0ce904537784f3fe3bf0216e1ede72fea6"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "a67e811f4a9e3ac843f7d16f40f2c9a07c3abe68dc31526ec52e102eb4ad3def"
+      "sha256": "06332936ed7b668b4905ccecaaaf038ac54d76841130bf85859d02dfc8dac27b"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "4a7244fce01f20fa124c7ec55fc56a4e5f3e03b5428f49fe8db301336cb0f8ff"
+      "sha256": "fa114f61c34127c3d983019205a567b689f7dcfb0f6f1fd85d226e5f0ab21d2f"
     }
   },
   "table": [
@@ -1560,8 +1560,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "Академик",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "2:0",
       "competition": "Купа на България (квалификации) - Област Велико Търново, Финал"
     },
     {
