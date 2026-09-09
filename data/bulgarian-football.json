@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-09T15:08:29.642212+00:00",
+  "updatedAt": "2026-09-09T18:35:22.445220+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "f84618ffccb600d302a267b6659c518e0012ba71b8f12e78598c09c055a64a6b"
+      "sha256": "be27e888e7c96823a76ebfe99bbe7b9ddcb8d57a2cbf657f3586e34ecd583a1e"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "aed8239f925251a2b6c763fdaf6c69917edb9f7c1d4e4e1ef8513c1afb89b3cb"
+      "sha256": "f87b6e0492abef0d56989fce0f1c0afc3b2ba656ff67466cf55d94c79c9efce0"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "7b41a9ba2bb245dd9353a8ecf25ca0c87dfc42e90fa804c7104b4b59545048fc"
+      "sha256": "4b65a6790400aaa0045605b07e19664a4e43fe35144d376f19f2a9f0f551648e"
     }
   },
   "table": [
@@ -1547,8 +1547,9 @@
       "strHomeTeam": "Олимпия ФК (София)",
       "strAwayTeam": "УФК Ботев (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Финал"
     },
     {
@@ -1560,8 +1561,9 @@
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Берое",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "6",
+      "halftime": "",
       "competition": "Деца: Купа на БФС (квалификации) - Област Стара Загора, Финал"
     },
     {
@@ -1586,8 +1588,9 @@
       "strHomeTeam": "Бенковски",
       "strAwayTeam": "Светкавица 2014",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Купа на България (квалификации) - Североизточна България, Финали"
     },
     {
@@ -1599,8 +1602,9 @@
       "strHomeTeam": "Ботев",
       "strAwayTeam": "Аксаково",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Купа на България (квалификации) - Североизточна България, Финали"
     },
     {
@@ -1612,8 +1616,9 @@
       "strHomeTeam": "Нефтохимик 1962",
       "strAwayTeam": "Розова долина",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Купа на България (квалификации) - Поток Пловдив/Смолян/Хасково/Кърджали, Финали"
     },
     {
@@ -1625,8 +1630,9 @@
       "strHomeTeam": "ОФК Хасково",
       "strAwayTeam": "Крумовград",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:0",
       "competition": "Купа на България (квалификации) - Поток Пловдив/Смолян/Хасково/Кърджали, Финали"
     },
     {
@@ -1638,8 +1644,9 @@
       "strHomeTeam": "Огоста",
       "strAwayTeam": "ОФК Локомотив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:0",
       "competition": "Купа на България (квалификации) - Област Враца, Финал"
     },
     {
@@ -1679,8 +1686,9 @@
       "strHomeTeam": "Родопа Смолян",
       "strAwayTeam": "Спартак 1947",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "0:1",
       "competition": "Купа на България (квалификации) - Поток Пловдив/Смолян/Хасково/Кърджали, Финали"
     },
     {
@@ -1705,8 +1713,9 @@
       "strHomeTeam": "ФК Ямбол 1915",
       "strAwayTeam": "Загорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Купа на България (квалификации) - Поток Пловдив/Смолян/Хасково/Кърджали, Финали"
     },
     {
@@ -1744,8 +1753,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "ЦСКА",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "4",
+      "halftime": "1:0",
       "competition": "Суперкупа на България - Финал"
     }
   ],
