@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-09T06:00:16.030455+00:00",
+  "updatedAt": "2026-09-09T11:12:30.927550+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "a0987395ac2b3042f4cd74c2fddefa2e27a5be191e2a5c3090f914fc265f49b4"
+      "sha256": "d1f6677c9caf10d87c60ca113818bb13000652f8a8e2ef1e2cc3430043620e45"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e7b71e0e311a4083dae3dfdd4f319295eeee762354e6886d86648ccef105652b"
+      "sha256": "7af3c6dadb6f7c26cb9466382e65f2d1b7908ef235391a473b7e854f30fb151c"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "6ce9983fa92ee47da811500654b38fde1420b0ab3a3c26e5e34140540bda341e"
+      "sha256": "d3728a17a02b27bd14f9afb0862b40fe0e5e27e9eee6e129b2a543c0a5a3d41a"
     }
   },
   "table": [
@@ -1630,6 +1630,19 @@
       "competition": "Купа на България (квалификации) - Поток Пловдив/Смолян/Хасково/Кърджали, Финали"
     },
     {
+      "id": "bf-f068c37d4cff",
+      "dateEvent": "2026-09-09",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Област Враца, Финал",
+      "strHomeTeam": "Огоста",
+      "strAwayTeam": "ОФК Локомотив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Област Враца, Финал"
+    },
+    {
       "id": "bf-bb5b269c04e4",
       "dateEvent": "2026-09-09",
       "strTime": "17:00:00",
@@ -1638,8 +1651,9 @@
       "strHomeTeam": "Правец",
       "strAwayTeam": "ОФК Костинброд 2012",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област София, Първи кръг"
     },
     {
@@ -1651,8 +1665,9 @@
       "strHomeTeam": "Ракитин",
       "strAwayTeam": "Балкан 1929",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област София, Първи кръг"
     },
     {
