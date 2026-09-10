@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-10T20:58:25.177667+00:00",
+  "updatedAt": "2026-09-10T23:04:18.843307+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "f97359a296aec97c3628cd3377df33d0fe2cda2e42d5000bb3a07cc2a4320478"
+      "sha256": "a3e05897fc574938850d1dd2335f2db7b6307611ab9d88a10b839390bd321ad0"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e77cc8704f5f17c947ce5c6b79915a87560e52bf19035530811f125cf9b144e2"
+      "sha256": "d9b9e81f72b211d02980b3de1eb21080a896fcd3618d174d9ee3e5a986752e10"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "a3853227d4a9bb7ad33f605e660ebee12f6157b70588e4da63fb603e4e119de5"
+      "sha256": "146722e0adcdd6d10a5217e9520c380376f53a80108e6faad957a997b3ceb16b"
     }
   },
   "table": [
@@ -1537,7 +1537,73 @@
       "goals": 1
     }
   ],
-  "today": [],
+  "today": [
+    {
+      "id": "bf-4bf1932ff208",
+      "dateEvent": "2026-09-11",
+      "strTime": "09:30:00",
+      "intRound": "",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "Ботев Пловдив",
+      "strAwayTeam": "Пловдив 2015",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Първа професионална лига - Първа фаза"
+    },
+    {
+      "id": "bf-505a654696aa",
+      "dateEvent": "2026-09-11",
+      "strTime": "10:30:00",
+      "intRound": "",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "Лудогорец",
+      "strAwayTeam": "Дунав Русе",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Първа професионална лига - Първа фаза"
+    },
+    {
+      "id": "bf-2961e8910f42",
+      "dateEvent": "2026-09-11",
+      "strTime": "11:00:00",
+      "intRound": "",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "Академик",
+      "strAwayTeam": "Левски",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Първа професионална лига - Първа фаза"
+    },
+    {
+      "id": "bf-ee1108e4cf0e",
+      "dateEvent": "2026-09-11",
+      "strTime": "11:00:00",
+      "intRound": "",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "Локомотив Пловдив",
+      "strAwayTeam": "Берое",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Първа професионална лига - Първа фаза"
+    },
+    {
+      "id": "bf-29c66234c5c3",
+      "dateEvent": "2026-09-11",
+      "strTime": "21:00:00",
+      "intRound": "",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "Черно море",
+      "strAwayTeam": "Локомотив София",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Първа професионална лига - Първа фаза"
+    }
+  ],
   "europe": {
     "participants": [
       {
