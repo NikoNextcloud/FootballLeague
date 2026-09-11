@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-11T17:51:39.335022+00:00",
+  "updatedAt": "2026-09-11T20:15:16.079431+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "6a22dee99bf53351e541b0d6aeb4e797aa5e2da9c706d0a07c930c0624e88269"
+      "sha256": "f72165c6dfd481875ebc03cfa07cec1e668d009369c4e19b2d01dfea0267d6e7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "ee0d32e5bec157abdfbdc0f7af89273c74b4613ba83920e3c5730ad3a04854c9"
+      "sha256": "8ead11a1ccd93b067b3b9280acf5864450b71e72fe40640ff0a3fd9428dc809f"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "f00b764ba3f4b90c0fec9aeddfd2401773858b2c7ea95ba529ca57099c51e558"
+      "sha256": "08fd8700eb15a7905e88c7d7d3d487d66d44c160613c430340630e7e64d15463"
     }
   },
   "table": [
@@ -152,17 +152,29 @@
     {
       "intRank": 12,
       "strTeam": "Черно море",
-      "intPlayed": 8,
+      "intPlayed": 9,
       "intWin": 1,
-      "intDraw": 1,
+      "intDraw": 2,
       "intLoss": 6,
-      "intGoalsFor": 8,
-      "intGoalsAgainst": 17,
+      "intGoalsFor": 10,
+      "intGoalsAgainst": 19,
       "intGoalDifference": -9,
-      "intPoints": 4
+      "intPoints": 5
     },
     {
       "intRank": 13,
+      "strTeam": "Локомотив София",
+      "intPlayed": 8,
+      "intWin": 0,
+      "intDraw": 4,
+      "intLoss": 4,
+      "intGoalsFor": 10,
+      "intGoalsAgainst": 16,
+      "intGoalDifference": -6,
+      "intPoints": 4
+    },
+    {
+      "intRank": 14,
       "strTeam": "Дунав Русе",
       "intPlayed": 8,
       "intWin": 1,
@@ -172,18 +184,6 @@
       "intGoalsAgainst": 15,
       "intGoalDifference": -8,
       "intPoints": 4
-    },
-    {
-      "intRank": 14,
-      "strTeam": "Локомотив София",
-      "intPlayed": 7,
-      "intWin": 0,
-      "intDraw": 3,
-      "intLoss": 4,
-      "intGoalsFor": 8,
-      "intGoalsAgainst": 14,
-      "intGoalDifference": -6,
-      "intPoints": 3
     }
   ],
   "events": [
@@ -911,8 +911,9 @@
       "strHomeTeam": "Черно море",
       "strAwayTeam": "Локомотив София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "2:0"
     },
     {
       "id": "bf-082f68b0a7c0",
@@ -1589,8 +1590,9 @@
       "strHomeTeam": "Черно море",
       "strAwayTeam": "Локомотив София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "2:0",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
