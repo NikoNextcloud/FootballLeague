@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-11T10:15:57.473488+00:00",
+  "updatedAt": "2026-09-11T14:29:38.384938+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "dd7b23064dc653195a2ae569ef5a6794c2eee739eaa0d54f00ca8b7b31217e27"
+      "sha256": "6ebd179e0251d3fe29508328d00bf9836552f72fe66bab78ae0d89305c42b7e6"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "99a32e27875d8a43ed76dc5be981ded9c58e530f80dab9beffaa997159916b7a"
+      "sha256": "c4446a74cf532694bb7597dcfc279e0788f051c8724ec586fdf2243ace1b1bd9"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "70b0caf7b005a800650d286de735130fc9bdb6ce461febef26263aeb7963d743"
+      "sha256": "9c3531fc8d898c20039f09a89babb3589bede1b01bbbbd32ddd6b98f98866e8b"
     }
   },
   "table": [
@@ -1547,8 +1547,9 @@
       "strHomeTeam": "Ботев Пловдив",
       "strAwayTeam": "Пловдив 2015",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "6",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
@@ -1560,8 +1561,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Дунав Русе",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
@@ -1573,21 +1575,9 @@
       "strHomeTeam": "Академик",
       "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Първа професионална лига - Първа фаза"
-    },
-    {
-      "id": "bf-ee1108e4cf0e",
-      "dateEvent": "2026-09-11",
-      "strTime": "11:00:00",
-      "intRound": "",
-      "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "Локомотив Пловдив",
-      "strAwayTeam": "Берое",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "5",
+      "halftime": "",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
