@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-12T09:15:58.484352+00:00",
+  "updatedAt": "2026-09-12T12:55:17.492232+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "b71b1d8d246ca40069b84adc8a0cfc00806f67348b3d4ff1b8d68a67cbd169db"
+      "sha256": "2324bd8091e86a71ac0a95fb69675a25fc5a414e139ff7fc0b7530f060638e5a"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "eafcae05f19e3532645ae428a46c39d9d24bf1369544420b1b3896426f85b18b"
+      "sha256": "39fa8edaf2e4136bc61c252c16480378065b3e3b90fb965dc34ea5627618d6a0"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "ac58764454718d5c1531221b08fc21937504622c76f1491d74731e57d1e59a0a"
+      "sha256": "aba8d7b5f61004dad3bf9eef0e5c68d7724696f8ecea071b048717ecadab91fe"
     }
   },
   "table": [
@@ -1661,6 +1661,20 @@
       "competition": "Югоизточна Трета лига"
     },
     {
+      "id": "bf-fe7de91f1085",
+      "dateEvent": "2026-09-12",
+      "strTime": "09:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Септември София",
+      "strAwayTeam": "Национал (София)",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "3",
+      "intAwayScore": "4",
+      "halftime": "0:0",
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-3e6629b01ddb",
       "dateEvent": "2026-09-12",
       "strTime": "09:30:00",
@@ -1722,8 +1736,9 @@
       "strHomeTeam": "ЦСКА 1948",
       "strAwayTeam": "Лудогорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1735,8 +1750,9 @@
       "strHomeTeam": "Локомотив София",
       "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1761,8 +1777,9 @@
       "strHomeTeam": "Арда",
       "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1787,8 +1804,9 @@
       "strHomeTeam": "Берое",
       "strAwayTeam": "Нефтохимик 1962",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1800,8 +1818,9 @@
       "strHomeTeam": "Етър ВТ",
       "strAwayTeam": "Хебър 1918",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1812,19 +1831,6 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Черноморец 1919",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-fe7de91f1085",
-      "dateEvent": "2026-09-12",
-      "strTime": "11:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Септември София",
-      "strAwayTeam": "Национал (София)",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
@@ -1852,8 +1858,9 @@
       "strHomeTeam": "ЦСКА",
       "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "6",
+      "intAwayScore": "0",
+      "halftime": "2:0",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -1891,8 +1898,9 @@
       "strHomeTeam": "Академик",
       "strAwayTeam": "Нефтохимик 1962",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
