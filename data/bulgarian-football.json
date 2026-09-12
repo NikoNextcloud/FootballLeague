@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-12T05:05:51.356728+00:00",
+  "updatedAt": "2026-09-12T09:15:58.484352+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "8f6b5406b3e9a4ab26e6ac53376c17e13058e93b50a25155cdaa8cf99d951a01"
+      "sha256": "b71b1d8d246ca40069b84adc8a0cfc00806f67348b3d4ff1b8d68a67cbd169db"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "f28a81f5abdaeafb3833e6e6ad229c5f3d8b0aa1f455497248109e4d1c0b964d"
+      "sha256": "eafcae05f19e3532645ae428a46c39d9d24bf1369544420b1b3896426f85b18b"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "d2aa6ae0cecb52fd39fcd7c41e1d2ab17fe84ff5c2fe9c8949814b4b92915af8"
+      "sha256": "ac58764454718d5c1531221b08fc21937504622c76f1491d74731e57d1e59a0a"
     }
   },
   "table": [
@@ -1084,13 +1084,85 @@
       "intAwayScore": null
     },
     {
-      "id": "bf-b4bc13ba848b",
-      "dateEvent": "2026-09-20",
-      "strTime": "20:30:00",
-      "intRound": "10",
-      "roundLabel": "X кръг",
-      "strHomeTeam": "Левски",
-      "strAwayTeam": "Лудогорец",
+      "id": "bf-4976c95e7241",
+      "dateEvent": "2026-10-10",
+      "strTime": "15:00:00",
+      "intRound": "",
+      "roundLabel": "XI кръг",
+      "strHomeTeam": "Ботев Враца",
+      "strAwayTeam": "Спартак Варна",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-9957e40c659e",
+      "dateEvent": "2026-10-10",
+      "strTime": "17:30:00",
+      "intRound": "",
+      "roundLabel": "XI кръг",
+      "strHomeTeam": "Локомотив София",
+      "strAwayTeam": "Локомотив Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-8e82d6aa6519",
+      "dateEvent": "2026-10-10",
+      "strTime": "20:00:00",
+      "intRound": "",
+      "roundLabel": "XI кръг",
+      "strHomeTeam": "Ботев Пловдив",
+      "strAwayTeam": "Славия",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-a6be844d44bc",
+      "dateEvent": "2026-10-11",
+      "strTime": "15:00:00",
+      "intRound": "",
+      "roundLabel": "XI кръг",
+      "strHomeTeam": "Септември София",
+      "strAwayTeam": "Дунав Русе",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-acf0bace67b7",
+      "dateEvent": "2026-10-11",
+      "strTime": "17:30:00",
+      "intRound": "",
+      "roundLabel": "XI кръг",
+      "strHomeTeam": "Черно море",
+      "strAwayTeam": "Левски",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-65cbdb800d4d",
+      "dateEvent": "2026-10-11",
+      "strTime": "20:00:00",
+      "intRound": "",
+      "roundLabel": "XI кръг",
+      "strHomeTeam": "ЦСКА 1948",
+      "strAwayTeam": "ЦСКА",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null
+    },
+    {
+      "id": "bf-79d81b117bda",
+      "dateEvent": "2026-10-12",
+      "strTime": "20:00:00",
+      "intRound": "",
+      "roundLabel": "XI кръг",
+      "strHomeTeam": "Лудогорец",
+      "strAwayTeam": "Арда",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null
@@ -1623,8 +1695,9 @@
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Хебър 1918",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "5",
+      "halftime": "0:3",
       "competition": "Югоизточна Трета лига"
     },
     {
