@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-13T10:08:02.927350+00:00",
+  "updatedAt": "2026-09-13T14:21:54.251860+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "d228a5ed60722c2aafcf2a2c9243f886fc5a7c16bb65e856d10fe1d0b82d49bf"
+      "sha256": "0e8abb163595953fd0962bec6e69b34242aeaaca0a38c9962231ce2791476d47"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "4a1829e1a36dc58fa10fa437546023ba19b9e63d408440d6dfd76f174451ef07"
+      "sha256": "3e5895171d959855c7b86ccba1c3afef29dd7f3d2d6c79e4f1b37b2614adf8b2"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "ccbd8d3a3ba89fb2bea8c8c23362fdf73cde652e2277a5c55410be0a621c3520"
+      "sha256": "304a91ddc3b36ac24ba4f4cde4a9f621967133b12f2b6650baee2d376998440e"
     }
   },
   "table": [
@@ -80,14 +80,14 @@
     {
       "intRank": 6,
       "strTeam": "Славия",
-      "intPlayed": 8,
+      "intPlayed": 9,
       "intWin": 2,
-      "intDraw": 4,
+      "intDraw": 5,
       "intLoss": 2,
       "intGoalsFor": 8,
       "intGoalsAgainst": 6,
       "intGoalDifference": 2,
-      "intPoints": 10
+      "intPoints": 11
     },
     {
       "intRank": 7,
@@ -104,14 +104,14 @@
     {
       "intRank": 8,
       "strTeam": "Спартак Варна",
-      "intPlayed": 8,
+      "intPlayed": 9,
       "intWin": 2,
-      "intDraw": 3,
+      "intDraw": 4,
       "intLoss": 3,
       "intGoalsFor": 10,
       "intGoalsAgainst": 14,
       "intGoalDifference": -4,
-      "intPoints": 9
+      "intPoints": 10
     },
     {
       "intRank": 9,
@@ -950,8 +950,9 @@
       "strHomeTeam": "Славия",
       "strAwayTeam": "Спартак Варна",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": ""
     },
     {
       "id": "bf-b3e9b9703d19",
@@ -1725,8 +1726,9 @@
       "strHomeTeam": "Арда",
       "strAwayTeam": "УФК Ботев (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -2089,8 +2091,9 @@
       "strHomeTeam": "Славия",
       "strAwayTeam": "Спартак Варна",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
