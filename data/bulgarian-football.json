@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-14T14:00:49.141629+00:00",
+  "updatedAt": "2026-09-14T19:15:39.542877+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "44ca599567cd45543abab4d2ba922733e6673b153a85faa0ca5196e233c1829c"
+      "sha256": "066fff9798f3f92f999a565edab5b9ba5318f65c56dacc986724d84bce272a08"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "0079ed4393a122e848a250514c5a31ac577022ea4b32ebb42b702fe58aeafc75"
+      "sha256": "bfa7a73276436fa282e14597fa6be424ad82629da1f7d3ee79d9e90916bfc404"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "edfb36cc3bb58e235632695718e28db7cb1effbbcff8e415795bff8eca19c699"
+      "sha256": "e3f4c17d2b7bcc54a5522f7e12e836be5214ce10dda358df9bb858ca75d888f2"
     }
   },
   "table": [
@@ -1655,8 +1655,9 @@
       "strHomeTeam": "Хебър 1918",
       "strAwayTeam": "Етър ВТ",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "2:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1668,8 +1669,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Дунав Русе",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Втора професионална лига"
     },
     {
