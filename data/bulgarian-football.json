@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-14T19:15:39.542877+00:00",
+  "updatedAt": "2026-09-14T22:34:08.871587+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "066fff9798f3f92f999a565edab5b9ba5318f65c56dacc986724d84bce272a08"
+      "sha256": "83b8bce38e6f60a53d2a7b3c59274876a4dd5f3dbec5588e86e629cbbc4e08f5"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "bfa7a73276436fa282e14597fa6be424ad82629da1f7d3ee79d9e90916bfc404"
+      "sha256": "7bd3e6754562d5ccdf0ef918ebcdee947ee62503beb08e9d8690bd811e90e576"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "e3f4c17d2b7bcc54a5522f7e12e836be5214ce10dda358df9bb858ca75d888f2"
+      "sha256": "2d6ca6902bf40b094d6ca5abf7257b2195ee5d2e8fa3765e12953da905052dd7"
     }
   },
   "table": [
@@ -31,6 +31,18 @@
     },
     {
       "intRank": 2,
+      "strTeam": "Лудогорец",
+      "intPlayed": 9,
+      "intWin": 7,
+      "intDraw": 2,
+      "intLoss": 0,
+      "intGoalsFor": 16,
+      "intGoalsAgainst": 7,
+      "intGoalDifference": 9,
+      "intPoints": 23
+    },
+    {
+      "intRank": 3,
       "strTeam": "ЦСКА",
       "intPlayed": 8,
       "intWin": 6,
@@ -39,18 +51,6 @@
       "intGoalsFor": 21,
       "intGoalsAgainst": 6,
       "intGoalDifference": 15,
-      "intPoints": 20
-    },
-    {
-      "intRank": 3,
-      "strTeam": "Лудогорец",
-      "intPlayed": 8,
-      "intWin": 6,
-      "intDraw": 2,
-      "intLoss": 0,
-      "intGoalsFor": 14,
-      "intGoalsAgainst": 6,
-      "intGoalDifference": 8,
       "intPoints": 20
     },
     {
@@ -128,13 +128,13 @@
     {
       "intRank": 10,
       "strTeam": "Септември София",
-      "intPlayed": 8,
+      "intPlayed": 9,
       "intWin": 2,
       "intDraw": 2,
-      "intLoss": 4,
-      "intGoalsFor": 7,
-      "intGoalsAgainst": 13,
-      "intGoalDifference": -6,
+      "intLoss": 5,
+      "intGoalsFor": 8,
+      "intGoalsAgainst": 15,
+      "intGoalDifference": -7,
       "intPoints": 8
     },
     {
@@ -989,8 +989,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Септември София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:0"
     },
     {
       "id": "bf-14ff5b33a196",
@@ -1195,13 +1196,13 @@
       "goals": 5
     },
     {
-      "player": "Армстронг Око-Флекс",
-      "team": "Левски",
-      "goals": 4
-    },
-    {
       "player": "Ивайло Чочев",
       "team": "Лудогорец",
+      "goals": 5
+    },
+    {
+      "player": "Армстронг Око-Флекс",
+      "team": "Левски",
       "goals": 4
     },
     {
@@ -1352,6 +1353,11 @@
     {
       "player": "Стефано Сенси",
       "team": "ЦСКА",
+      "goals": 2
+    },
+    {
+      "player": "Ерар Францети",
+      "team": "Септември София",
       "goals": 2
     },
     {
@@ -1545,11 +1551,6 @@
       "goals": 1
     },
     {
-      "player": "Ерар Францети",
-      "team": "Септември София",
-      "goals": 1
-    },
-    {
       "player": "Борислав Цонев",
       "team": "ЦСКА 1948",
       "goals": 1
@@ -1643,49 +1644,78 @@
       "player": "Мауро Родригес",
       "team": "Ботев Пловдив",
       "goals": 1
+    },
+    {
+      "player": "Агибу Камара",
+      "team": "Лудогорец",
+      "goals": 1
     }
   ],
   "today": [
     {
-      "id": "bf-4437b5d83629",
-      "dateEvent": "2026-09-14",
-      "strTime": "17:45:00",
+      "id": "bf-000930d55366",
+      "dateEvent": "2026-09-15",
+      "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Хебър 1918",
-      "strAwayTeam": "Етър ВТ",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "4",
-      "intAwayScore": "1",
-      "halftime": "2:0",
-      "competition": "Втора професионална лига"
-    },
-    {
-      "id": "bf-5f3f353a382b",
-      "dateEvent": "2026-09-14",
-      "strTime": "18:00:00",
-      "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Лудогорец",
-      "strAwayTeam": "Дунав Русе",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "2",
-      "intAwayScore": "0",
-      "halftime": "",
-      "competition": "Втора професионална лига"
-    },
-    {
-      "id": "bf-6a3d0c44d908",
-      "dateEvent": "2026-09-14",
-      "strTime": "20:30:00",
-      "intRound": "",
-      "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "Лудогорец",
-      "strAwayTeam": "Септември София",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Пловдив, Финали",
+      "strHomeTeam": "Ботев Пловдив",
+      "strAwayTeam": "Секирово",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Първа професионална лига - Първа фаза"
+      "competition": "Деца: Купа на БФС (квалификации) - Област Пловдив, Финали"
+    },
+    {
+      "id": "bf-8178f363827b",
+      "dateEvent": "2026-09-15",
+      "strTime": "17:00:00",
+      "intRound": "",
+      "roundLabel": "Международни приятелски срещи за юноши (до 16 г.) 2026",
+      "strHomeTeam": "Литва",
+      "strAwayTeam": "България",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Международни приятелски срещи за юноши (до 16 г.) 2026"
+    },
+    {
+      "id": "bf-d7318e48f3c6",
+      "dateEvent": "2026-09-15",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Пловдив, Финали",
+      "strHomeTeam": "Марица 1921",
+      "strAwayTeam": "Пловдив 2015",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС (квалификации) - Област Пловдив, Финали"
+    },
+    {
+      "id": "bf-e163173390ce",
+      "dateEvent": "2026-09-15",
+      "strTime": "18:30:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Локомотив",
+      "strAwayTeam": "Несебър",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-e550734c99a3",
+      "dateEvent": "2026-09-15",
+      "strTime": "19:00:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Лудогорец",
+      "strAwayTeam": "Фратрия",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
     }
   ],
   "europe": {
