@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-15T15:13:28.666031+00:00",
+  "updatedAt": "2026-09-15T19:03:03.661253+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "f993c59323dda3407e80e10a967f04e8bdbec022d37afab3458f2889a8234aac"
+      "sha256": "cfa88e80458d0fb90e36da072689a4c8c672f534667249a44440cc1aea64a9ca"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "2a610381743f51bbafc64f4aefe4f9b44a1b9d844dd74f99eedb8f8ea335b8f5"
+      "sha256": "eaf15b95ba1cb44a1d2abd7f65445a19ddbb4237284d3d3d39ebcdc3cd15f1a7"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "9a29d14ccfaa985f35050580f8a66fd0014e9d4c05410a1faed892c3a2f099fa"
+      "sha256": "8238e59d9effa94675d97c72dc83e40fb403caf5141376e77d804d36011dbba1"
     }
   },
   "table": [
@@ -1674,8 +1674,9 @@
       "strHomeTeam": "Литва",
       "strAwayTeam": "България",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "1:2",
       "competition": "Международни приятелски срещи за юноши (до 16 г.) 2026"
     },
     {
@@ -1700,8 +1701,9 @@
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Несебър",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -1713,8 +1715,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Фратрия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     }
   ],
