@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-16T04:59:32.336348+00:00",
+  "updatedAt": "2026-09-16T09:50:34.226058+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "180cb6a0f9fa2d4ffe3fe5073f4637cc3ca25b166e25e022821bdf4a89b33951"
+      "sha256": "00727996881c1e08649683c13204120844da5424be1e7a80a385bec5f716c70e"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "bf037509ba0065101f370c963cc4c21496d4d34ca868dd02234f478d835f2f58"
+      "sha256": "dd9bc8bc4433a49f828b83db0cb6bf3ff32f302a547cbe82b0acca085f8b35d3"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "54213fec01084f031733e46a54932ab855f413b4eb1fe07e67539b1ee94e352b"
+      "sha256": "8d4c56f0fe6aa56a14b908acdc4c98b0245292a80a012a4a078e2e7a5e5a5fd0"
     }
   },
   "table": [
@@ -1661,8 +1661,9 @@
       "strHomeTeam": "ЦСКА",
       "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Лига Европа - Шампионатна фаза"
     },
     {
