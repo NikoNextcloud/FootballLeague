@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-16T21:28:41.125834+00:00",
+  "updatedAt": "2026-09-16T23:46:43.122026+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "d594996d93bc612b80c4cb9b585a5404e56804c98ee3fef4a677c3e887f1f925"
+      "sha256": "2f1661102d9729562614c19dc79ee25586158e1b26d686846a6ee479e0e8bf5d"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "6218904050a1a39b3aa87e3b5e9f09445fb586fc440e205d7093beeb437fbde5"
+      "sha256": "df00fe59e45bb748cb8c6ca7bc588c4b1bc8d9a8909806165548f3563122b2da"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "0507ff3743490f00c0315fd8311b3e0a8b89e4bd67eb92f2e049d923c2e27d8b"
+      "sha256": "9369acfb31f8af1c27c3d373fdf6768fd03d8799de950372e56a4506257e4f1c"
     }
   },
   "table": [
@@ -2185,8 +2185,9 @@
         "strHomeTeam": "Андерлехт",
         "strAwayTeam": "Олимпик Лионе",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "1",
+        "intAwayScore": "2",
+        "halftime": "0:2",
         "competition": "Лига Европа"
       },
       {
@@ -2198,8 +2199,9 @@
         "strHomeTeam": "Апоел",
         "strAwayTeam": "Динамо",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "0",
+        "intAwayScore": "0",
+        "halftime": "",
         "competition": "Лига Европа"
       },
       {
@@ -2211,8 +2213,9 @@
         "strHomeTeam": "Байер 04",
         "strAwayTeam": "Целе",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "2",
+        "intAwayScore": "0",
+        "halftime": "1:0",
         "competition": "Лига Европа"
       },
       {
@@ -2224,8 +2227,9 @@
         "strHomeTeam": "Милан",
         "strAwayTeam": "Бенфика",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "0",
+        "intAwayScore": "2",
+        "halftime": "0:1",
         "competition": "Лига Европа"
       },
       {
@@ -2237,8 +2241,9 @@
         "strHomeTeam": "Олимпиакос",
         "strAwayTeam": "Ягелония",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "2",
+        "intAwayScore": "1",
+        "halftime": "1:1",
         "competition": "Лига Европа"
       },
       {
@@ -2250,8 +2255,9 @@
         "strHomeTeam": "Съндърланд",
         "strAwayTeam": "АЗ",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "1",
+        "intAwayScore": "0",
+        "halftime": "0:0",
         "competition": "Лига Европа"
       },
       {
@@ -2263,8 +2269,9 @@
         "strHomeTeam": "Щурм",
         "strAwayTeam": "Стад Рене",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "0",
+        "intAwayScore": "0",
+        "halftime": "",
         "competition": "Лига Европа"
       },
       {
