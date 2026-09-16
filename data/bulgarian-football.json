@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-16T09:50:34.226058+00:00",
+  "updatedAt": "2026-09-16T14:26:27.786792+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "00727996881c1e08649683c13204120844da5424be1e7a80a385bec5f716c70e"
+      "sha256": "1af67b22cf2e7c7de562ec273b03c51bc3bd55426610aa9424e3073bad478cdd"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "dd9bc8bc4433a49f828b83db0cb6bf3ff32f302a547cbe82b0acca085f8b35d3"
+      "sha256": "fc48d9e41022649fb8fcd9a7f84de3b3e0cd5176eba09dd3328af28abdd57020"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "8d4c56f0fe6aa56a14b908acdc4c98b0245292a80a012a4a078e2e7a5e5a5fd0"
+      "sha256": "7fe785e0458de9d4d3bf3767c5b36bccd7242fd952f08187324c77b3191b93ce"
     }
   },
   "table": [
@@ -1667,19 +1667,6 @@
       "competition": "Лига Европа - Шампионатна фаза"
     },
     {
-      "id": "bf-0dc5f107f001",
-      "dateEvent": "2026-09-16",
-      "strTime": "16:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на България (квалификации) - Северозападна България, Финали",
-      "strHomeTeam": "Партизан",
-      "strAwayTeam": "Бдин 1923",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на България (квалификации) - Северозападна България, Финали"
-    },
-    {
       "id": "bf-e51f9b0f562d",
       "dateEvent": "2026-09-16",
       "strTime": "16:00:00",
@@ -1687,6 +1674,19 @@
       "roundLabel": "Купа на България (квалификации) - Северозападна България, Финали",
       "strHomeTeam": "Трявна 1922",
       "strAwayTeam": "Чавдар",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България (квалификации) - Северозападна България, Финали"
+    },
+    {
+      "id": "bf-0dc5f107f001",
+      "dateEvent": "2026-09-16",
+      "strTime": "16:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на България (квалификации) - Северозападна България, Финали",
+      "strHomeTeam": "Партизан",
+      "strAwayTeam": "Бдин 1923",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
