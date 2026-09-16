@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-16T14:26:27.786792+00:00",
+  "updatedAt": "2026-09-16T18:20:31.302087+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "1af67b22cf2e7c7de562ec273b03c51bc3bd55426610aa9424e3073bad478cdd"
+      "sha256": "69350454216ec0dd1872cf02c1042bc85f3370ca3cf05bf4598608ddcc4ea0ed"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "fc48d9e41022649fb8fcd9a7f84de3b3e0cd5176eba09dd3328af28abdd57020"
+      "sha256": "b541b3361ca69a33672ea6f30c6ab4e0f60892c7be8d7cd4c69ffe6ab671a5e8"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "7fe785e0458de9d4d3bf3767c5b36bccd7242fd952f08187324c77b3191b93ce"
+      "sha256": "979f0f055964f3df90d15a28e4cd081e65ee772022b794e5cd5ce7fcc52c8255"
     }
   },
   "table": [
@@ -31,6 +31,18 @@
     },
     {
       "intRank": 2,
+      "strTeam": "ЦСКА",
+      "intPlayed": 9,
+      "intWin": 7,
+      "intDraw": 2,
+      "intLoss": 0,
+      "intGoalsFor": 23,
+      "intGoalsAgainst": 6,
+      "intGoalDifference": 17,
+      "intPoints": 23
+    },
+    {
+      "intRank": 3,
       "strTeam": "Лудогорец",
       "intPlayed": 9,
       "intWin": 7,
@@ -40,18 +52,6 @@
       "intGoalsAgainst": 7,
       "intGoalDifference": 9,
       "intPoints": 23
-    },
-    {
-      "intRank": 3,
-      "strTeam": "ЦСКА",
-      "intPlayed": 8,
-      "intWin": 6,
-      "intDraw": 2,
-      "intLoss": 0,
-      "intGoalsFor": 21,
-      "intGoalsAgainst": 6,
-      "intGoalDifference": 15,
-      "intPoints": 20
     },
     {
       "intRank": 4,
@@ -164,13 +164,13 @@
     {
       "intRank": 13,
       "strTeam": "Локомотив София",
-      "intPlayed": 8,
+      "intPlayed": 9,
       "intWin": 0,
       "intDraw": 4,
-      "intLoss": 4,
+      "intLoss": 5,
       "intGoalsFor": 10,
-      "intGoalsAgainst": 16,
-      "intGoalDifference": -6,
+      "intGoalsAgainst": 18,
+      "intGoalDifference": -8,
       "intPoints": 4
     },
     {
@@ -1002,8 +1002,9 @@
       "strHomeTeam": "Локомотив София",
       "strAwayTeam": "ЦСКА",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:1"
     },
     {
       "id": "bf-586d93f786a9",
@@ -1014,8 +1015,9 @@
       "strHomeTeam": "Локомотив София",
       "strAwayTeam": "ЦСКА",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:1"
     },
     {
       "id": "bf-2a5acecd7d7e",
@@ -1178,7 +1180,7 @@
     {
       "player": "Йоел Зварц",
       "team": "ЦСКА",
-      "goals": 7
+      "goals": 8
     },
     {
       "player": "Асен Чандъров",
@@ -1649,6 +1651,11 @@
       "player": "Агибу Камара",
       "team": "Лудогорец",
       "goals": 1
+    },
+    {
+      "player": "Джемс Етоо",
+      "team": "ЦСКА",
+      "goals": 1
     }
   ],
   "today": [
@@ -1675,8 +1682,9 @@
       "strHomeTeam": "Трявна 1922",
       "strAwayTeam": "Чавдар",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:0",
       "competition": "Купа на България (квалификации) - Северозападна България, Финали"
     },
     {
@@ -1688,8 +1696,9 @@
       "strHomeTeam": "Партизан",
       "strAwayTeam": "Бдин 1923",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:0",
       "competition": "Купа на България (квалификации) - Северозападна България, Финали"
     },
     {
@@ -1714,8 +1723,9 @@
       "strHomeTeam": "Беласица",
       "strAwayTeam": "Септември",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Купа на България (квалификации) - Област Благоевград, Финал"
     },
     {
@@ -1740,8 +1750,9 @@
       "strHomeTeam": "Загорец",
       "strAwayTeam": "Розова долина",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Купа на България (квалификации) - Област Благоевград, Финал"
     },
     {
@@ -1753,8 +1764,9 @@
       "strHomeTeam": "Родопа Смолян",
       "strAwayTeam": "ОФК Хасково",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Купа на България (квалификации) - Област Благоевград, Финал"
     },
     {
@@ -1805,8 +1817,9 @@
       "strHomeTeam": "Локомотив София",
       "strAwayTeam": "ЦСКА",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:1",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
