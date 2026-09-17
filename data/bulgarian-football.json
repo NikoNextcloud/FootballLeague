@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-17T20:17:11.633716+00:00",
+  "updatedAt": "2026-09-17T22:54:32.060563+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "918149b81d53e3c5a0677fadf8065a440be98909e14b3f6d5be636d376299da4"
+      "sha256": "83c367173973a9492818973506e52b988728283cb1c97df32c1d67f05ae9a94c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "642d0c3ef79785a5154871b463efddea931e5a1bb665db3eb3701bd6e7f862b2"
+      "sha256": "4a86201bca2154051987de36b970a663eda13f6ceef974beaec0c09b9612a12f"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "76e643023a314e9a188ec34e57548181be5806e8a72358c458ea8741f7c0c1da"
+      "sha256": "2c99205d873099f81d6bd1f781c1b3dce230e128b3a60aaf1c7f4d246e011876"
     }
   },
   "table": [
@@ -1660,137 +1660,69 @@
   ],
   "today": [
     {
-      "id": "bf-626dc4adafea",
-      "dateEvent": "2026-09-17",
-      "strTime": "13:00:00",
+      "id": "bf-9ff04d5dbf5c",
+      "dateEvent": "2026-09-18",
+      "strTime": "14:00:00",
       "intRound": "",
-      "roundLabel": "Международни приятелски срещи за юноши (до 16 г.) 2026",
-      "strHomeTeam": "Литва",
-      "strAwayTeam": "България",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "2",
-      "intAwayScore": "3",
-      "halftime": "1:3",
-      "competition": "Международни приятелски срещи за юноши (до 16 г.) 2026"
-    },
-    {
-      "id": "bf-5956f5f390bd",
-      "dateEvent": "2026-09-17",
-      "strTime": "19:45:00",
-      "intRound": "",
-      "roundLabel": "Лига Европа - Шампионатна фаза",
-      "strHomeTeam": "Левски",
-      "strAwayTeam": "Ред Бул",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "0",
-      "intAwayScore": "1",
-      "halftime": "0:1",
-      "competition": "Лига Европа - Шампионатна фаза"
-    },
-    {
-      "id": "bf-996ae71338cd",
-      "dateEvent": "2026-09-17",
-      "strTime": "19:45:00",
-      "intRound": "",
-      "roundLabel": "Лига Европа - Шампионатна фаза",
-      "strHomeTeam": "ОФИ Крит",
-      "strAwayTeam": "Хофенхайм",
-      "source": "bulgarian-football.com",
-      "intHomeScore": "2",
-      "intAwayScore": "0",
-      "halftime": "1:0",
-      "competition": "Лига Европа - Шампионатна фаза"
-    },
-    {
-      "id": "bf-58abb85d6e2e",
-      "dateEvent": "2026-09-17",
-      "strTime": "22:00:00",
-      "intRound": "",
-      "roundLabel": "Лига Европа - Шампионатна фаза",
-      "strHomeTeam": "Бешикташ",
-      "strAwayTeam": "Олимпик",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "София спорт (София)",
+      "strAwayTeam": "Балкан 1929",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Лига Европа - Шампионатна фаза"
+      "competition": "Югоизточна Трета лига"
     },
     {
-      "id": "bf-a892ea54d979",
-      "dateEvent": "2026-09-17",
-      "strTime": "22:00:00",
+      "id": "bf-e1f1234405f9",
+      "dateEvent": "2026-09-18",
+      "strTime": "14:00:00",
       "intRound": "",
-      "roundLabel": "Лига Европа - Шампионатна фаза",
-      "strHomeTeam": "Виктория",
-      "strAwayTeam": "Юнион Сен Жилоаз",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Янтра 2019",
+      "strAwayTeam": "Пирин 22",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Лига Европа - Шампионатна фаза"
+      "competition": "Югоизточна Трета лига"
     },
     {
-      "id": "bf-bde7a39e8508",
-      "dateEvent": "2026-09-17",
-      "strTime": "22:00:00",
+      "id": "bf-404fc5d58934",
+      "dateEvent": "2026-09-18",
+      "strTime": "15:00:00",
       "intRound": "",
-      "roundLabel": "Лига Европа - Шампионатна фаза",
-      "strHomeTeam": "Кристъл Палас",
-      "strAwayTeam": "Лех",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Пловдив 2015",
+      "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Лига Европа - Шампионатна фаза"
+      "competition": "Югоизточна Трета лига"
     },
     {
-      "id": "bf-d786ac3d1463",
-      "dateEvent": "2026-09-17",
-      "strTime": "22:00:00",
+      "id": "bf-cbcdc0228fb9",
+      "dateEvent": "2026-09-18",
+      "strTime": "19:00:00",
       "intRound": "",
-      "roundLabel": "Лига Европа - Шампионатна фаза",
-      "strHomeTeam": "Лилестрьом СК",
-      "strAwayTeam": "Торензе",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Ботев II",
+      "strAwayTeam": "Созопол",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Лига Европа - Шампионатна фаза"
+      "competition": "Югоизточна Трета лига"
     },
     {
-      "id": "bf-508acfae99cf",
-      "dateEvent": "2026-09-17",
-      "strTime": "22:00:00",
+      "id": "bf-591914e0220c",
+      "dateEvent": "2026-09-18",
+      "strTime": "20:00:00",
       "intRound": "",
-      "roundLabel": "Лига Европа - Шампионатна фаза",
-      "strHomeTeam": "Реал Сосиедад",
-      "strAwayTeam": "АФК Борнемут",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "Славия",
+      "strAwayTeam": "ЦСКА 1948",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Лига Европа - Шампионатна фаза"
-    },
-    {
-      "id": "bf-913d0d94ef59",
-      "dateEvent": "2026-09-17",
-      "strTime": "22:00:00",
-      "intRound": "",
-      "roundLabel": "Лига Европа - Шампионатна фаза",
-      "strHomeTeam": "Селтик",
-      "strAwayTeam": "Ференцварош",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Лига Европа - Шампионатна фаза"
-    },
-    {
-      "id": "bf-2254801f9711",
-      "dateEvent": "2026-09-17",
-      "strTime": "22:00:00",
-      "intRound": "",
-      "roundLabel": "Лига Европа - Шампионатна фаза",
-      "strHomeTeam": "Ювентус",
-      "strAwayTeam": "НЕК",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Лига Европа - Шампионатна фаза"
+      "competition": "Първа професионална лига - Първа фаза"
     }
   ],
   "europe": {
@@ -2327,8 +2259,9 @@
         "strHomeTeam": "Бешикташ",
         "strAwayTeam": "Олимпик",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "4",
+        "intAwayScore": "1",
+        "halftime": "1:1",
         "competition": "Лига Европа"
       },
       {
@@ -2340,8 +2273,9 @@
         "strHomeTeam": "Виктория",
         "strAwayTeam": "Юнион Сен Жилоаз",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "0",
+        "intAwayScore": "3",
+        "halftime": "0:2",
         "competition": "Лига Европа"
       },
       {
@@ -2353,8 +2287,9 @@
         "strHomeTeam": "Кристъл Палас",
         "strAwayTeam": "Лех",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "4",
+        "intAwayScore": "0",
+        "halftime": "3:0",
         "competition": "Лига Европа"
       },
       {
@@ -2366,8 +2301,9 @@
         "strHomeTeam": "Лилестрьом СК",
         "strAwayTeam": "Торензе",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "1",
+        "intAwayScore": "2",
+        "halftime": "0:1",
         "competition": "Лига Европа"
       },
       {
@@ -2379,8 +2315,9 @@
         "strHomeTeam": "Реал Сосиедад",
         "strAwayTeam": "АФК Борнемут",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "1",
+        "intAwayScore": "2",
+        "halftime": "0:2",
         "competition": "Лига Европа"
       },
       {
@@ -2392,8 +2329,9 @@
         "strHomeTeam": "Селтик",
         "strAwayTeam": "Ференцварош",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "1",
+        "intAwayScore": "3",
+        "halftime": "1:2",
         "competition": "Лига Европа"
       },
       {
@@ -2405,8 +2343,9 @@
         "strHomeTeam": "Ювентус",
         "strAwayTeam": "НЕК",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "5",
+        "intAwayScore": "0",
+        "halftime": "3:0",
         "competition": "Лига Европа"
       },
       {
