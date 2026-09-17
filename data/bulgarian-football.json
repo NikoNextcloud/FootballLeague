@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-17T17:05:04.444594+00:00",
+  "updatedAt": "2026-09-17T20:17:11.633716+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "0988171ed8ef82b2fb23eec0ed41178f7ffd652d8815a5845774a62ad0f5b95b"
+      "sha256": "918149b81d53e3c5a0677fadf8065a440be98909e14b3f6d5be636d376299da4"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "a14f1940aca70b782f0d2fc029f7b74c6febaf685c55d713a6c4107d14bb7020"
+      "sha256": "642d0c3ef79785a5154871b463efddea931e5a1bb665db3eb3701bd6e7f862b2"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "ce487fb9ecdbc887fe45556f4420246a74adcfeb2593465687ef8f8e72efc473"
+      "sha256": "76e643023a314e9a188ec34e57548181be5806e8a72358c458ea8741f7c0c1da"
     }
   },
   "table": [
@@ -1682,8 +1682,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "Ред Бул",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "0:1",
       "competition": "Лига Европа - Шампионатна фаза"
     },
     {
@@ -1695,8 +1696,9 @@
       "strHomeTeam": "ОФИ Крит",
       "strAwayTeam": "Хофенхайм",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Лига Европа - Шампионатна фаза"
     },
     {
@@ -2284,8 +2286,9 @@
         "strHomeTeam": "Левски",
         "strAwayTeam": "Ред Бул",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "0",
+        "intAwayScore": "1",
+        "halftime": "0:1",
         "competition": "Лига Европа"
       },
       {
@@ -2297,8 +2300,9 @@
         "strHomeTeam": "ОФИ Крит",
         "strAwayTeam": "Хофенхайм",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "2",
+        "intAwayScore": "0",
+        "halftime": "1:0",
         "competition": "Лига Европа"
       },
       {
