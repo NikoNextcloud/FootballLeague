@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-18T14:33:13.034294+00:00",
+  "updatedAt": "2026-09-18T17:50:51.337915+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "057c3b6a4d96fe5b69b53a7c7fd7d698b5146df9e474f246e430f20b4081b646"
+      "sha256": "e3f0cddd61364dd6e548be41114facaa8dcb412940657c7ab6bf5470c17c0546"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "d1e062e018e42fb5c5db813d1db6af2c161bb3ea80cfad7fc0368e2de5de0ec9"
+      "sha256": "beeb69d18daceba8271b0ec2388a326bf20c4f036c51a3b9e7dbbaa9c048ea94"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "5fcd3e5763743f06b019572b65f3ed6d5abbee528e28dffc9e6acf681c3cfab4"
+      "sha256": "647e7f666966ecade52eb0b04150120aa0cc9d0529640782b5f08b47481e7e57"
     }
   },
   "table": [
@@ -1681,8 +1681,9 @@
       "strHomeTeam": "Янтра 2019",
       "strAwayTeam": "Пирин 22",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
