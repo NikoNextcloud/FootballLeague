@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-19T09:25:09.094837+00:00",
+  "updatedAt": "2026-09-19T13:17:57.628343+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "5bf40a0b660359cea4b52570767192fe548ba2211d419766a0aded4fb06a9ca2"
+      "sha256": "f86143cb99e9285115019b0a415d13187c41b8896c7a9cdc7ed4b6c60cea4a1a"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "2df424a906f46ed0db786f859c0bb23560dcbbea9b80c31d75b2338f2ed365c1"
+      "sha256": "498e66fadc360f06acb6d9b4f44081d9e8ed59d5ca49555a80643c88b4629b92"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "eb360b0b50ca2be68cc34b171d5f547dd70350be384a064861943b45ea9a4d52"
+      "sha256": "7ff51c46bebe6d87aefa1c96b76579e5ec5e24fff53b0d098047324d9c876072"
     }
   },
   "table": [
@@ -116,14 +116,14 @@
     {
       "intRank": 9,
       "strTeam": "Ботев Враца",
-      "intPlayed": 9,
+      "intPlayed": 10,
       "intWin": 2,
-      "intDraw": 2,
+      "intDraw": 3,
       "intLoss": 5,
-      "intGoalsFor": 7,
-      "intGoalsAgainst": 17,
+      "intGoalsFor": 9,
+      "intGoalsAgainst": 19,
       "intGoalDifference": -10,
-      "intPoints": 8
+      "intPoints": 9
     },
     {
       "intRank": 10,
@@ -163,6 +163,18 @@
     },
     {
       "intRank": 13,
+      "strTeam": "Дунав Русе",
+      "intPlayed": 10,
+      "intWin": 1,
+      "intDraw": 2,
+      "intLoss": 7,
+      "intGoalsFor": 10,
+      "intGoalsAgainst": 19,
+      "intGoalDifference": -9,
+      "intPoints": 5
+    },
+    {
+      "intRank": 14,
       "strTeam": "Локомотив София",
       "intPlayed": 9,
       "intWin": 0,
@@ -171,18 +183,6 @@
       "intGoalsFor": 10,
       "intGoalsAgainst": 18,
       "intGoalDifference": -8,
-      "intPoints": 4
-    },
-    {
-      "intRank": 14,
-      "strTeam": "Дунав Русе",
-      "intPlayed": 9,
-      "intWin": 1,
-      "intDraw": 1,
-      "intLoss": 7,
-      "intGoalsFor": 8,
-      "intGoalsAgainst": 17,
-      "intGoalDifference": -9,
       "intPoints": 4
     }
   ],
@@ -1041,8 +1041,9 @@
       "strHomeTeam": "Дунав Русе",
       "strAwayTeam": "Ботев Враца",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "2:1"
     },
     {
       "id": "bf-180588689965",
@@ -1674,6 +1675,11 @@
       "goals": 3
     },
     {
+      "player": "Александър Валиньо",
+      "team": "Дунав Русе",
+      "goals": 3
+    },
+    {
       "player": "Мартин Петков",
       "team": "Ботев Враца",
       "goals": 2
@@ -1729,11 +1735,6 @@
       "goals": 2
     },
     {
-      "player": "Александър Валиньо",
-      "team": "Дунав Русе",
-      "goals": 2
-    },
-    {
       "player": "Радослав Апостолов",
       "team": "Дунав Русе",
       "goals": 2
@@ -1786,6 +1787,11 @@
     {
       "player": "Иван Минчев",
       "team": "Славия",
+      "goals": 2
+    },
+    {
+      "player": "Джордан Сейнт-Луис",
+      "team": "Дунав Русе",
       "goals": 2
     },
     {
@@ -2054,11 +2060,6 @@
       "goals": 1
     },
     {
-      "player": "Джордан Сейнт-Луис",
-      "team": "Дунав Русе",
-      "goals": 1
-    },
-    {
       "player": "Лео Перейра",
       "team": "ЦСКА",
       "goals": 1
@@ -2081,6 +2082,16 @@
     {
       "player": "Георги Русев",
       "team": "ЦСКА 1948",
+      "goals": 1
+    },
+    {
+      "player": "Касим Аджи",
+      "team": "Ботев Враца",
+      "goals": 1
+    },
+    {
+      "player": "Сейни Санянг",
+      "team": "Ботев Враца",
       "goals": 1
     }
   ],
@@ -2160,8 +2171,23 @@
       "strHomeTeam": "Дунав Русе",
       "strAwayTeam": "Локомотив София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "2",
+      "halftime": "",
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-564fe8e1ebb5",
+      "dateEvent": "2026-09-19",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Локомотив Пловдив",
+      "strAwayTeam": "Септември София",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -2173,8 +2199,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "ЦСКА",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -2186,8 +2213,23 @@
       "strHomeTeam": "Национал (София)",
       "strAwayTeam": "Академик",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "3",
+      "halftime": "",
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-86eb3e913a60",
+      "dateEvent": "2026-09-19",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Хебър 1918",
+      "strAwayTeam": "Ботев Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -2199,8 +2241,9 @@
       "strHomeTeam": "Черно море",
       "strAwayTeam": "Пирин 22",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -2212,8 +2255,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "ЦСКА 1948",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "2:1",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -2277,8 +2321,9 @@
       "strHomeTeam": "УФК Ботев (София)",
       "strAwayTeam": "Миньор",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -2290,34 +2335,9 @@
       "strHomeTeam": "НСА (София)",
       "strAwayTeam": "Етър ВТ",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-564fe8e1ebb5",
-      "dateEvent": "2026-09-19",
-      "strTime": "12:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Локомотив Пловдив",
-      "strAwayTeam": "Септември София",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-86eb3e913a60",
-      "dateEvent": "2026-09-19",
-      "strTime": "12:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Хебър 1918",
-      "strAwayTeam": "Ботев Пловдив",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -2355,8 +2375,9 @@
       "strHomeTeam": "Нефтохимик 1962",
       "strAwayTeam": "Етър ВТ",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -2407,8 +2428,9 @@
       "strHomeTeam": "Дунав Русе",
       "strAwayTeam": "Ботев Враца",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "2:1",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
@@ -2436,19 +2458,6 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Югозападна Трета лига"
-    },
-    {
-      "id": "bf-f6888b188fe0",
-      "dateEvent": "2026-09-19",
-      "strTime": "14:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Спартак",
-      "strAwayTeam": "Аполон",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
     },
     {
       "id": "bf-c3332fab1c28",
@@ -2484,6 +2493,19 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Дунав 24",
       "strAwayTeam": "Оряхово 2021",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-f6888b188fe0",
+      "dateEvent": "2026-09-19",
+      "strTime": "14:30:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Спартак",
+      "strAwayTeam": "Аполон",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
