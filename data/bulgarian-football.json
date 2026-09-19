@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-19T21:12:25.257747+00:00",
+  "updatedAt": "2026-09-19T23:10:06.619594+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "068ec072202277f999c49a0fbcc729b82930573d5f420f3c299d69db993e74f7"
+      "sha256": "780477f5edfa9d5d7e1cbb17ea42dccc5d20a5f644a728c03929d7b6f372b89c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "2e6d1c04d671b57f1f2995c7cbf7c6595fc9f725c7ac2c23d1a2b7f4f7b4eed4"
+      "sha256": "482fdf81243d028717cc534e362fdff6a384e3b663cd4bd4c035b640a8c66c0d"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "a2be4291bbe0bab753e2c9867c25632fb1d4cf4adb269fd0e724e1268753eaf3"
+      "sha256": "91f73c59c543d88ce48c0b354147a527c4610f22c03ad5dd2c8fdf15521beccc"
     }
   },
   "table": [
@@ -4106,19 +4106,6 @@
       "competition": "Североизточна Трета лига"
     },
     {
-      "id": "bf-02b8fcdf32a1",
-      "dateEvent": "2026-09-20",
-      "strTime": "17:00:00",
-      "intRound": "",
-      "roundLabel": "Североизточна Трета лига",
-      "strHomeTeam": "Сокол",
-      "strAwayTeam": "Вихър",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Североизточна Трета лига"
-    },
-    {
       "id": "bf-3605f9afadeb",
       "dateEvent": "2026-09-20",
       "strTime": "17:00:00",
@@ -4412,19 +4399,6 @@
       "roundLabel": "Североизточна Трета лига",
       "strHomeTeam": "Футболна академия Данчеви",
       "strAwayTeam": "Енергетик",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Североизточна Трета лига"
-    },
-    {
-      "id": "bf-eebb627f8d55",
-      "dateEvent": "2026-09-20",
-      "strTime": "17:00:00",
-      "intRound": "",
-      "roundLabel": "Североизточна Трета лига",
-      "strHomeTeam": "Чавдар II",
-      "strAwayTeam": "Сокол",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
