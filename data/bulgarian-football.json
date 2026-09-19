@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-19T05:02:01.935211+00:00",
+  "updatedAt": "2026-09-19T09:25:09.094837+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "852e18ef5badc25b40434f5e063459e4603e1c5a665971e94c17a342b5a3b579"
+      "sha256": "5bf40a0b660359cea4b52570767192fe548ba2211d419766a0aded4fb06a9ca2"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "2d8580104d80bb15c2d9a4f1fabd95bc7a694a43de1daae39adee47f21746fb0"
+      "sha256": "2df424a906f46ed0db786f859c0bb23560dcbbea9b80c31d75b2338f2ed365c1"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "033d4e3b98f78ba192512dd2f80d8e89584be93a105ffa75b03888475206a872"
+      "sha256": "eb360b0b50ca2be68cc34b171d5f547dd70350be384a064861943b45ea9a4d52"
     }
   },
   "table": [
@@ -2127,14 +2127,15 @@
     {
       "id": "bf-4e1eb0514ded",
       "dateEvent": "2026-09-19",
-      "strTime": "09:00:00",
+      "strTime": "09:15:00",
       "intRound": "",
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "ЦСКА",
       "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -2613,6 +2614,19 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Сокол (кв.Бенковски, София)",
       "strAwayTeam": "Левски Раковски (София)",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-7df589b51fc3",
+      "dateEvent": "2026-09-19",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "ФК Вихър 1965",
+      "strAwayTeam": "ФК Арда 1924",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
