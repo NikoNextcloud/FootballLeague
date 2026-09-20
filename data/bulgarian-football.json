@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-20T06:18:12.775405+00:00",
+  "updatedAt": "2026-09-20T11:36:45.731812+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "f34de413017954a1731409ea915e46d32360f901e4548c73ea99ae3417836c2e"
+      "sha256": "3d8c0029d7d1a8109eca66560b13e26a0b2d322e7d4c1d53d65c17a926cdf2cd"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "0e6c02a428b085acfa85cfded8e233fd653784409b62ad8d30fdcdf027ecea39"
+      "sha256": "bd4a6ff15e4edf4ea7080ef7cbbb208031c8fc32bb8f299a39a3767da3c08495"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "f09f1d5203d09f4c25dbdfd00f6e7c52cf7fbcd96c2825a01c223afadbf884fe"
+      "sha256": "07ccb7e2c9cc4beb4f2437d0ee7c11e28ddf89b714b30dc69ef69f3a8f00b76c"
     }
   },
   "table": [
@@ -2104,6 +2104,34 @@
   ],
   "today": [
     {
+      "id": "bf-1b142c10add1",
+      "dateEvent": "2026-09-20",
+      "strTime": "09:00:00",
+      "intRound": "",
+      "roundLabel": "Североизточна Трета лига",
+      "strHomeTeam": "Локомотив Пловдив",
+      "strAwayTeam": "Черно море",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "",
+      "competition": "Североизточна Трета лига"
+    },
+    {
+      "id": "bf-dfce87037335",
+      "dateEvent": "2026-09-20",
+      "strTime": "09:00:00",
+      "intRound": "",
+      "roundLabel": "Североизточна Трета лига",
+      "strHomeTeam": "Национал (София)",
+      "strAwayTeam": "ЦСКА 1948",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "",
+      "competition": "Североизточна Трета лига"
+    },
+    {
       "id": "bf-1a0bbc6a3a0a",
       "dateEvent": "2026-09-20",
       "strTime": "09:30:00",
@@ -2351,19 +2379,6 @@
       "competition": "Североизточна Трета лига"
     },
     {
-      "id": "bf-1b142c10add1",
-      "dateEvent": "2026-09-20",
-      "strTime": "11:00:00",
-      "intRound": "",
-      "roundLabel": "Североизточна Трета лига",
-      "strHomeTeam": "Локомотив Пловдив",
-      "strAwayTeam": "Черно море",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Североизточна Трета лига"
-    },
-    {
       "id": "bf-83c791902027",
       "dateEvent": "2026-09-20",
       "strTime": "11:00:00",
@@ -2462,19 +2477,6 @@
       "roundLabel": "Североизточна Трета лига",
       "strHomeTeam": "Ясен 2011",
       "strAwayTeam": "Спартак 22",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Североизточна Трета лига"
-    },
-    {
-      "id": "bf-dfce87037335",
-      "dateEvent": "2026-09-20",
-      "strTime": "11:15:00",
-      "intRound": "",
-      "roundLabel": "Североизточна Трета лига",
-      "strHomeTeam": "Национал (София)",
-      "strAwayTeam": "ЦСКА 1948",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
