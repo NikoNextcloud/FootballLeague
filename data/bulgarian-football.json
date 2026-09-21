@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-21T10:31:26.447367+00:00",
+  "updatedAt": "2026-09-21T16:33:51.673359+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "f627cf2c39a1e184a94d62f29d127168bc1f77ffe0512cd9150ca6ed5052b0e7"
+      "sha256": "863a9676180d93973dd8b85f6a5d5ca1413fa41fd7b5c51d60a7bffaf9e8a6f5"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "84b24a26d9ad170c4f9650ef7905ef20298510a858e54a303496848c260525d1"
+      "sha256": "28e27b6b8319814ba138fafd72a8e433069e4e499933729424525b1412c117db"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "4aebf9903096268576c35194e8b543bf491ae46e8d261ed381f0ee05f3f589de"
+      "sha256": "920772f5e52845bee9840830fbee389067ea56231622bdafbc90fcdf4e3b2535"
     }
   },
   "table": [
@@ -2119,8 +2119,9 @@
       "strHomeTeam": "Спортист 2009",
       "strAwayTeam": "Вихрен",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
