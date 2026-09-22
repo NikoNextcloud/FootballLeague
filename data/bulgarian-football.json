@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-22T12:16:05.963220+00:00",
+  "updatedAt": "2026-09-22T17:03:05.737404+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "e172ca1e1222ce4179981e0f40841267e4a62923ed9ceb9fa904e6fc948d1f7c"
+      "sha256": "7508c463c83a9760e82ac7e02e54b600c2c651968ccc29cf0729187c331cb90c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e2e5119086199c1d053d256bee23bdc3c4263265832acabfca3832391e1f685f"
+      "sha256": "da919eafc8da77a768009f0901ede2b1b5a00f0e65af8d323bc2a8229efc8f74"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "cb184e50a4812c1d36a0cc599ae035c0b89c32a54933427630d9bc2ad4c6aac8"
+      "sha256": "72d064973e21ec1fe2137b240ca42ff0263eb64749c89d9299f046dc0e65d9e2"
     }
   },
   "table": [
@@ -2135,6 +2135,20 @@
       "source": "bulgarian-football.com",
       "intHomeScore": "0",
       "intAwayScore": "4",
+      "halftime": "0:1",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
+    },
+    {
+      "id": "bf-327c09f87746",
+      "dateEvent": "2026-09-22",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали",
+      "strHomeTeam": "Етър ВТ",
+      "strAwayTeam": "Левски",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "1",
       "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
@@ -2199,19 +2213,6 @@
       "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали",
       "strHomeTeam": "Чирпан 1929",
       "strAwayTeam": "Загорец",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
-    },
-    {
-      "id": "bf-327c09f87746",
-      "dateEvent": "2026-09-22",
-      "strTime": "12:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали",
-      "strHomeTeam": "Етър ВТ",
-      "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
