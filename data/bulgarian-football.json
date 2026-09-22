@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-22T17:03:05.737404+00:00",
+  "updatedAt": "2026-09-22T20:09:14.182181+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "7508c463c83a9760e82ac7e02e54b600c2c651968ccc29cf0729187c331cb90c"
+      "sha256": "79149fbb3d219e86cdc6b13c2501d7ce2615bbc1aaa03dcee579c1e2b1ef55f2"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "da919eafc8da77a768009f0901ede2b1b5a00f0e65af8d323bc2a8229efc8f74"
+      "sha256": "18a03eea29a55c23d62c901eece6f3050bc594a0532fcfcaf9b1985f685c24eb"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "72d064973e21ec1fe2137b240ca42ff0263eb64749c89d9299f046dc0e65d9e2"
+      "sha256": "8d040c590357a85cbc7cfccfc50cf4fdd57ebc3b1731653648117cfde8150248"
     }
   },
   "table": [
@@ -2153,6 +2153,20 @@
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
+      "id": "bf-63ba2fb70284",
+      "dateEvent": "2026-09-22",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали",
+      "strHomeTeam": "Победа 1945 (София)",
+      "strAwayTeam": "ОФК София 1992 (София)",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "2",
+      "intAwayScore": "7",
+      "halftime": "",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
+    },
+    {
       "id": "bf-b3b20d06cdd4",
       "dateEvent": "2026-09-22",
       "strTime": "10:00:00",
@@ -2175,8 +2189,9 @@
       "strHomeTeam": "Арсенал 2000",
       "strAwayTeam": "Верея",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "4",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -2188,8 +2203,9 @@
       "strHomeTeam": "ОФК Хасково",
       "strAwayTeam": "Берое",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "6",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -2201,8 +2217,9 @@
       "strHomeTeam": "Пълдин",
       "strAwayTeam": "Ботев Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "6",
+      "intAwayScore": "1",
+      "halftime": "4:0",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -2214,8 +2231,9 @@
       "strHomeTeam": "Чирпан 1929",
       "strAwayTeam": "Загорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -2227,8 +2245,9 @@
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Спартак",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -2240,8 +2259,9 @@
       "strHomeTeam": "ФК Сливен",
       "strAwayTeam": "Севлиево лейдис",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -2253,8 +2273,9 @@
       "strHomeTeam": "Българово 1948",
       "strAwayTeam": "Созопол",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Бургас, 1/4 финали"
     },
     {
@@ -2279,8 +2300,9 @@
       "strHomeTeam": "Свобода 2011",
       "strAwayTeam": "Оборище",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "6",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Пазарджик, Финал"
     }
   ],
