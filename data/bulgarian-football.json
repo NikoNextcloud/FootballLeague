@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-23T15:35:00.417782+00:00",
+  "updatedAt": "2026-09-23T19:13:09.641237+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "53605bdee25ea73de49a963de90bc8afebdd1caadae73730ecbff4e40af38635"
+      "sha256": "8bf8e5ae368bac8ad5bc757066e385bc2db9d004cdef31addea4aa75413216b3"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "741cfe1fded29348a80dfac0e0f71be4c44fa0d71f72224746323b714861c05d"
+      "sha256": "ce29f5d42333c7ac57f6b9e7485da5e994c2aa14d18846c85e6a74965fa53b7f"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "ce08c20881a9fcb242bd9d3cf160784ddaf9c8a43080999c479f85bc35c1c28a"
+      "sha256": "6f97f0ff7b2d7e1127fb112920b7f6e5512d9a0af53cc922d5e0a17e1ea19ca2"
     }
   },
   "table": [
@@ -2238,8 +2238,9 @@
       "strHomeTeam": "Сливнишки герой",
       "strAwayTeam": "ОФК Костинброд 2012",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област София, 1/2 финали"
     },
     {
@@ -2291,8 +2292,9 @@
       "strHomeTeam": "Нефтохимик 1962",
       "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Югоизточна Трета лига"
     },
     {
