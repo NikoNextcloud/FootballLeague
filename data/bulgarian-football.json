@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-23T11:42:20.039420+00:00",
+  "updatedAt": "2026-09-23T15:35:00.417782+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "d0b97b37907542ce99083330ed817af5a4a146f0e09f0a4a7f875402d81ef7c7"
+      "sha256": "53605bdee25ea73de49a963de90bc8afebdd1caadae73730ecbff4e40af38635"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "760fb6aed876f61f2204a3dc192cda5c6f7cc6b55bca5a399f9e3e34bcbbce40"
+      "sha256": "741cfe1fded29348a80dfac0e0f71be4c44fa0d71f72224746323b714861c05d"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "25badd0d6b60d4e534c7d186e3f2c45a1b82409a6b2d3756b3fd5203672f6f61"
+      "sha256": "ce08c20881a9fcb242bd9d3cf160784ddaf9c8a43080999c479f85bc35c1c28a"
     }
   },
   "table": [
@@ -2111,6 +2111,20 @@
   ],
   "today": [
     {
+      "id": "bf-908b8cebc3aa",
+      "dateEvent": "2026-09-23",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Първи кръг",
+      "strHomeTeam": "УФК Ботев (София)",
+      "strAwayTeam": "Славия",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Първи кръг"
+    },
+    {
       "id": "bf-e98151095209",
       "dateEvent": "2026-09-23",
       "strTime": "13:00:00",
@@ -2158,8 +2172,9 @@
       "strHomeTeam": "Балкан 1929",
       "strAwayTeam": "Ботев 1937",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област София, 1/2 финали"
     },
     {
@@ -2249,8 +2264,9 @@
       "strHomeTeam": "Житен",
       "strAwayTeam": "Мрамор",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Враца, 1/2 финали"
     },
     {
@@ -2288,8 +2304,9 @@
       "strHomeTeam": "Огоста",
       "strAwayTeam": "ОФК Локомотив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Враца, 1/2 финали"
     },
     {
