@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-23T06:12:00.248487+00:00",
+  "updatedAt": "2026-09-23T11:42:20.039420+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "f799a752aff4a42d2d3f4b3673db70ef7a158b3e426cbc39b8b93a5dbec0d369"
+      "sha256": "d0b97b37907542ce99083330ed817af5a4a146f0e09f0a4a7f875402d81ef7c7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "8d140f251d5e3d2a4880c81d63e9f7fe2bcab512f44d6f9c876522fc2a613317"
+      "sha256": "760fb6aed876f61f2204a3dc192cda5c6f7cc6b55bca5a399f9e3e34bcbbce40"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "93664b6df742e4ef08f553580ea41c8d7913de7c0222009ebf51bdd21ef17932"
+      "sha256": "25badd0d6b60d4e534c7d186e3f2c45a1b82409a6b2d3756b3fd5203672f6f61"
     }
   },
   "table": [
@@ -2124,6 +2124,32 @@
       "competition": "Деца: Купа на БФС (квалификации) - Област Пазарджик, Финал"
     },
     {
+      "id": "bf-de3a95c5609b",
+      "dateEvent": "2026-09-23",
+      "strTime": "14:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Пазарджик, Финал",
+      "strHomeTeam": "Ботев Враца",
+      "strAwayTeam": "Спартак",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС (квалификации) - Област Пазарджик, Финал"
+    },
+    {
+      "id": "bf-ace049c48559",
+      "dateEvent": "2026-09-23",
+      "strTime": "14:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Пазарджик, Финал",
+      "strHomeTeam": "Металик 1938",
+      "strAwayTeam": "ФК Вихър 1965",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС (квалификации) - Област Пазарджик, Финал"
+    },
+    {
       "id": "bf-e78834fe79b5",
       "dateEvent": "2026-09-23",
       "strTime": "14:30:00",
@@ -2150,26 +2176,13 @@
       "competition": "Деца: Купа на БФС (квалификации) - Област Пазарджик, Финал"
     },
     {
-      "id": "bf-ace049c48559",
+      "id": "bf-6f3d88083872",
       "dateEvent": "2026-09-23",
       "strTime": "15:00:00",
       "intRound": "",
       "roundLabel": "Деца: Купа на БФС (квалификации) - Област Пазарджик, Финал",
-      "strHomeTeam": "Металик 1938",
-      "strAwayTeam": "ФК Вихър 1965",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област Пазарджик, Финал"
-    },
-    {
-      "id": "bf-de3a95c5609b",
-      "dateEvent": "2026-09-23",
-      "strTime": "16:00:00",
-      "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Пазарджик, Финал",
-      "strHomeTeam": "Ботев Враца",
-      "strAwayTeam": "Спартак",
+      "strHomeTeam": "Добруджа 1919",
+      "strAwayTeam": "Олимпик",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
@@ -2228,19 +2241,6 @@
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Враца, 1/2 финали"
     },
     {
-      "id": "bf-6f3d88083872",
-      "dateEvent": "2026-09-23",
-      "strTime": "17:00:00",
-      "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Пазарджик, Финал",
-      "strHomeTeam": "Добруджа 1919",
-      "strAwayTeam": "Олимпик",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област Пазарджик, Финал"
-    },
-    {
       "id": "bf-2d1f89c5c5e6",
       "dateEvent": "2026-09-23",
       "strTime": "17:00:00",
@@ -2291,19 +2291,6 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Враца, 1/2 финали"
-    },
-    {
-      "id": "bf-7c06bcd9b1a8",
-      "dateEvent": "2026-09-23",
-      "strTime": "17:00:00",
-      "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област Пазарджик, Финал",
-      "strHomeTeam": "Светкавица 2014",
-      "strAwayTeam": "Ботев",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област Пазарджик, Финал"
     },
     {
       "id": "bf-f70ca99767ce",
