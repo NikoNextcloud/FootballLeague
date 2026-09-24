@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-24T15:21:45.885299+00:00",
+  "updatedAt": "2026-09-24T19:21:02.084380+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "8c957b8b984133ed4e48ba5b0deab016ed3c48a68c269021719c6e0b4fc7de81"
+      "sha256": "40bf97ed6d1763b19ae332bc91b6ecc5db133cf426573a7125ba55aa00550757"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "3f6d21a80f05120a5dfeb77e544155a14a42f92b5709fa48e581c383b5ff3958"
+      "sha256": "171ad99a7d4be4ca7d89df02fa7ef1f4c8885e8aec7e931da80539de0289232d"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "ed755ca3d7578f972a60dbf0298428089828a2d863071de1b4ff37723d658d27"
+      "sha256": "17edbc1aff73eafb822c68d9d8b514ffc58b1378b263d9eb815077304c8fca99"
     }
   },
   "table": [
@@ -2110,6 +2110,33 @@
     }
   ],
   "today": [
+    {
+      "id": "bf-e3eb3c13d408",
+      "dateEvent": "2026-09-24",
+      "strTime": "13:30:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Розова долина",
+      "strAwayTeam": "ФК Хасково",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС"
+    },
+    {
+      "id": "bf-edc3ff7fd32d",
+      "dateEvent": "2026-09-24",
+      "strTime": "14:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Академик",
+      "strAwayTeam": "Верея",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС"
+    },
     {
       "id": "bf-59ac30791124",
       "dateEvent": "2026-09-24",
