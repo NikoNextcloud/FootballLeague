@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-25T15:30:05.220112+00:00",
+  "updatedAt": "2026-09-25T19:29:21.644224+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "03d223234140c26937176d6c33a3fa0b9706fc67aafb894290e528ad86a0c30b"
+      "sha256": "321980a8502861092f843d5b71dfd29111bb970971bbb965c605a3bfceef1eb6"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "9bc29118deeb233530da71a3d74b0d8ea5197df894128a47cfe6c3ff47b3fa46"
+      "sha256": "6cfb4588ea22ac5bb2433b22befb9c258ddcfc8d34576ae8cc406c266dc29445"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "5cc088169c1230685568c4785fe941fe40d5a5a57c3a33689999ac20f72bdf2b"
+      "sha256": "93ca4c2a59ca415d4d7d196e5777ffecb93308fd26f4c0642b19363491631dd0"
     }
   },
   "table": [
@@ -2119,8 +2119,9 @@
       "strHomeTeam": "Вихрен",
       "strAwayTeam": "Пирин 1912",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Деца: Купа на БФС"
     },
     {
@@ -2146,8 +2147,23 @@
       "strHomeTeam": "ФК Сливен",
       "strAwayTeam": "Юнайтед",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "9",
+      "intAwayScore": "0",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС"
+    },
+    {
+      "id": "bf-221da7de7008",
+      "dateEvent": "2026-09-25",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Шипка старс 2015",
+      "strAwayTeam": "Локомотив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Деца: Купа на БФС"
     },
     {
@@ -2159,8 +2175,9 @@
       "strHomeTeam": "Азербайджан",
       "strAwayTeam": "Чехия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Деца: Купа на БФС"
     },
     {
@@ -2172,8 +2189,9 @@
       "strHomeTeam": "Ком 98",
       "strAwayTeam": "София спорт (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Деца: Купа на БФС"
     },
     {
@@ -2185,21 +2203,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "ФК Сливен",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС"
-    },
-    {
-      "id": "bf-221da7de7008",
-      "dateEvent": "2026-09-25",
-      "strTime": "17:00:00",
-      "intRound": "",
-      "roundLabel": "Деца: Купа на БФС",
-      "strHomeTeam": "Шипка старс 2015",
-      "strAwayTeam": "Локомотив",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "12",
+      "halftime": "",
       "competition": "Деца: Купа на БФС"
     },
     {
@@ -2211,8 +2217,9 @@
       "strHomeTeam": "България",
       "strAwayTeam": "Португалия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Деца: Купа на БФС"
     }
   ],
