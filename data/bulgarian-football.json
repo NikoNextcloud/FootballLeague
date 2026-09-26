@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-26T11:14:35.227720+00:00",
+  "updatedAt": "2026-09-26T14:59:43.777202+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "ba79eb52a52a3c2f731879bd82274ec6f79c5621390d9d6f5e0266f3dffd3e9e"
+      "sha256": "dabc993899ea450e531109b6deb984fd15190e55ac3868d6f8346432d377762c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "7e2e4ab442e4d189ccd754168cbeb5981290bd9155d349d0d9225c455e9bef4b"
+      "sha256": "912f41e42914c1e0b62e47c3ed95ae029bd4af75328a7a0986a661573da52f1d"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "3987a93dfc8a227ecc2b731f2bc64102ec65f2b9f2d29099f7fb8b60b071b72b"
+      "sha256": "c839de58ddc47a8b0028be3d3023c29cd06a9ecc7c74a08cd4262d28532a198d"
     }
   },
   "table": [
@@ -2626,8 +2626,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "АФР (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "16",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -2756,8 +2757,9 @@
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Спортика",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -2977,8 +2979,9 @@
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Марек 1915",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Втора професионална лига"
     },
     {
@@ -2990,8 +2993,9 @@
       "strHomeTeam": "Пълдин",
       "strAwayTeam": "Ботев Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "0",
+      "halftime": "2:0",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -3003,8 +3007,9 @@
       "strHomeTeam": "Рилски спортист 2011",
       "strAwayTeam": "Пирин 22",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -3016,8 +3021,9 @@
       "strHomeTeam": "Спартак 1947",
       "strAwayTeam": "Родопа Смолян",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Югоизточна Трета лига"
     },
     {
