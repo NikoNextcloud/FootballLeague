@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-26T21:27:24.402379+00:00",
+  "updatedAt": "2026-09-26T23:47:17.846466+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "ada48871987ab7bdc4dd888de0f99bcb395d3a300925f568200d6651ad394371"
+      "sha256": "d9934fb18fc4ccc5e99f795b636722d5f84e662ba6bcd40c974427ca60d00056"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "dfe14dd583ebbb480c125cd74822f2e1ec84ee41d2d20ad4bc544d085988b8fb"
+      "sha256": "2cd50c19f3cb2a27fa3e02a53756a486a545c8d3c9d9e81307dd148b9cbc066b"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "092045183243abc56faa5f7a338a2cacb995b7fc2606a77eb146afc7eabbd280"
+      "sha256": "3f469f180ad6e9fa3fd604288bfdcb5167500135902b93bf0610b8ee64190502"
     }
   },
   "table": [
@@ -3086,6 +3086,19 @@
       "competition": "Югоизточна Трета лига"
     },
     {
+      "id": "bf-d7d5b2dfb06f",
+      "dateEvent": "2026-09-27",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Братаница",
+      "strAwayTeam": "Атлетик",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
       "id": "bf-740350e972ab",
       "dateEvent": "2026-09-27",
       "strTime": "16:00:00",
@@ -3372,19 +3385,6 @@
       "competition": "Югоизточна Трета лига"
     },
     {
-      "id": "bf-ed90f7a52ef5",
-      "dateEvent": "2026-09-27",
-      "strTime": "17:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Аполония",
-      "strAwayTeam": "Свети Никола",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
-    },
-    {
       "id": "bf-be4aaebfacd6",
       "dateEvent": "2026-09-27",
       "strTime": "17:00:00",
@@ -3483,19 +3483,6 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Ботев 2010",
       "strAwayTeam": "Ултра Мартен сити",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-d7d5b2dfb06f",
-      "dateEvent": "2026-09-27",
-      "strTime": "17:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Братаница",
-      "strAwayTeam": "Атлетик",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
@@ -3613,19 +3600,6 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Герлово 2016",
       "strAwayTeam": "Боровец 2002",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-e11da7008237",
-      "dateEvent": "2026-09-27",
-      "strTime": "17:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Гоце Делчев",
-      "strAwayTeam": "Марица 2009",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
@@ -3977,19 +3951,6 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Лудогорие 2026",
       "strAwayTeam": "Победа 2016",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-58a55ace3f4a",
-      "dateEvent": "2026-09-27",
-      "strTime": "17:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Манолич",
-      "strAwayTeam": "Русокастро Зл.крепост",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
@@ -4705,6 +4666,19 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Банево",
       "strAwayTeam": "Равнец 2011",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-10cb2118a4a1",
+      "dateEvent": "2026-09-27",
+      "strTime": "19:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Свети Влас",
+      "strAwayTeam": "Оризаре",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
