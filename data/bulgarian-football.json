@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-27T07:41:35.584709+00:00",
+  "updatedAt": "2026-09-27T13:19:33.214058+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "e0350d1c4fc3ab8a6c10f30bf4c38f6112ac4e7d27c38040b33842ac05606ea2"
+      "sha256": "d625b9817682d00704d3618e9bf9c12c8aef87af4059c1c254070e1d7856edd3"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "44e551c48f8141a2a1303c148cdd662203b41574311d87cc1c926df658442287"
+      "sha256": "723461b5445e96edbbcd2528ed07ad2b799864b07dc1233d80f3862772c74e2f"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "709529bc1ab687d745c93a3a11f0a1bc48b08522a59b7d586dcb89280113e9bf"
+      "sha256": "397e156934c20d5703d02ae6f1478ce8bb10f9d4183de1a6c774d9ec168362b8"
     }
   },
   "table": [
@@ -2111,6 +2111,20 @@
   ],
   "today": [
     {
+      "id": "bf-5370e8ec16ff",
+      "dateEvent": "2026-09-27",
+      "strTime": "09:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Септември София",
+      "strAwayTeam": "Славия",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "3",
+      "halftime": "1:0",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
       "id": "bf-7b53baf8b582",
       "dateEvent": "2026-09-27",
       "strTime": "09:30:00",
@@ -2119,8 +2133,9 @@
       "strHomeTeam": "ЦСКА",
       "strAwayTeam": "Спартак Варна",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -2132,8 +2147,9 @@
       "strHomeTeam": "Академик",
       "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -2171,8 +2187,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "Локомотив София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "1",
+      "halftime": "4:0",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -2197,8 +2214,9 @@
       "strHomeTeam": "Марица 1921",
       "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -2423,19 +2441,6 @@
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
-      "id": "bf-5370e8ec16ff",
-      "dateEvent": "2026-09-27",
-      "strTime": "11:00:00",
-      "intRound": "",
-      "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "Септември София",
-      "strAwayTeam": "Славия",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Приятелски срещи: Лято-есен"
-    },
-    {
       "id": "bf-41f6526574d2",
       "dateEvent": "2026-09-27",
       "strTime": "11:00:00",
@@ -2444,8 +2449,9 @@
       "strHomeTeam": "Славия",
       "strAwayTeam": "Ясен 2011",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:0",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -2475,6 +2481,20 @@
       "competition": "Югоизточна Трета лига"
     },
     {
+      "id": "bf-c595ae901596",
+      "dateEvent": "2026-09-27",
+      "strTime": "11:30:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Лудогорец",
+      "strAwayTeam": "Етър ВТ",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
       "id": "bf-c9369c663498",
       "dateEvent": "2026-09-27",
       "strTime": "11:30:00",
@@ -2496,8 +2516,9 @@
       "strHomeTeam": "ЦСКА",
       "strAwayTeam": "Черноморец 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -2509,8 +2530,9 @@
       "strHomeTeam": "Шипка старс 2015",
       "strAwayTeam": "Национал (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "6",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -2548,8 +2570,9 @@
       "strHomeTeam": "Арда",
       "strAwayTeam": "Национал (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -2561,8 +2584,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "Пирин 22",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -2590,19 +2614,6 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-c595ae901596",
-      "dateEvent": "2026-09-27",
-      "strTime": "13:15:00",
-      "intRound": "",
-      "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "Лудогорец",
-      "strAwayTeam": "Етър ВТ",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Приятелски срещи: Лято-есен"
     },
     {
       "id": "bf-5cdf26d883b0",
@@ -2717,8 +2728,9 @@
       "strHomeTeam": "Вихрен",
       "strAwayTeam": "Несебър",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
