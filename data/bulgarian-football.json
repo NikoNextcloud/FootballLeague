@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-27T13:19:33.214058+00:00",
+  "updatedAt": "2026-09-27T17:50:06.370015+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "d625b9817682d00704d3618e9bf9c12c8aef87af4059c1c254070e1d7856edd3"
+      "sha256": "3ede3ea8dfa7e45dc3ec16252d96aaedede1caaf97141ac4803024ab4b119e4b"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "723461b5445e96edbbcd2528ed07ad2b799864b07dc1233d80f3862772c74e2f"
+      "sha256": "44c696a7b944dc8e3df47e92f388eb47ddc3d1f6cc4eaceede251d7605abda3e"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "397e156934c20d5703d02ae6f1478ce8bb10f9d4183de1a6c774d9ec168362b8"
+      "sha256": "fa05c34e671ef201a89d1269495d5e496db988fe08c8d340614a2bd2542fdfe8"
     }
   },
   "table": [
@@ -2139,6 +2139,20 @@
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
+      "id": "bf-c9369c663498",
+      "dateEvent": "2026-09-27",
+      "strTime": "09:30:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "ЦСКА 1948",
+      "strAwayTeam": "Дунав Русе",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
       "id": "bf-35750def09c7",
       "dateEvent": "2026-09-27",
       "strTime": "10:00:00",
@@ -2230,6 +2244,20 @@
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-f3f6419008e8",
+      "dateEvent": "2026-09-27",
+      "strTime": "10:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Черно море",
+      "strAwayTeam": "Ботев Пловдив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "1",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -2495,19 +2523,6 @@
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
-      "id": "bf-c9369c663498",
-      "dateEvent": "2026-09-27",
-      "strTime": "11:30:00",
-      "intRound": "",
-      "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "ЦСКА 1948",
-      "strAwayTeam": "Дунав Русе",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Приятелски срещи: Лято-есен"
-    },
-    {
       "id": "bf-3a1a4b1fcaec",
       "dateEvent": "2026-09-27",
       "strTime": "12:00:00",
@@ -2547,19 +2562,6 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Югоизточна Трета лига"
-    },
-    {
-      "id": "bf-f3f6419008e8",
-      "dateEvent": "2026-09-27",
-      "strTime": "12:30:00",
-      "intRound": "",
-      "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "Черно море",
-      "strAwayTeam": "Ботев Пловдив",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Приятелски срещи: Лято-есен"
     },
     {
       "id": "bf-f2659c90f3c7",
@@ -2689,8 +2691,9 @@
       "strHomeTeam": "Академик (София)",
       "strAwayTeam": "Спортист",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "8",
+      "intAwayScore": "1",
+      "halftime": "5:0",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -2976,8 +2979,9 @@
       "strHomeTeam": "НСА (София)",
       "strAwayTeam": "ЦСКА",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3041,8 +3045,9 @@
       "strHomeTeam": "Етър ВТ",
       "strAwayTeam": "Енко",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3067,8 +3072,9 @@
       "strHomeTeam": "Севлиево лейдис",
       "strAwayTeam": "ОФК София 1992 (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3171,8 +3177,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Ръмнику Вълча",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "2:0",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3314,8 +3321,9 @@
       "strHomeTeam": "Берое",
       "strAwayTeam": "Янтра 2019",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -3366,8 +3374,9 @@
       "strHomeTeam": "ЦСКА 1948",
       "strAwayTeam": "Раднички",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3639,8 +3648,9 @@
       "strHomeTeam": "Димитровград 1947 II",
       "strAwayTeam": "ХФК",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -3899,8 +3909,9 @@
       "strHomeTeam": "Левски",
       "strAwayTeam": "Чирпан 1929",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "0:0",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -3938,8 +3949,9 @@
       "strHomeTeam": "Локомотив",
       "strAwayTeam": "Габровница 04",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "2:1",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -3951,8 +3963,9 @@
       "strHomeTeam": "Локомотив Пловдив",
       "strAwayTeam": "Марица",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "5",
+      "halftime": "0:1",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -3977,8 +3990,9 @@
       "strHomeTeam": "Марица",
       "strAwayTeam": "Раковски 1923",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -4003,8 +4017,9 @@
       "strHomeTeam": "Миньор 2022",
       "strAwayTeam": "Единство",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "7",
+      "halftime": "0:4",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -4575,8 +4590,9 @@
       "strHomeTeam": "ЦСКА II (София)",
       "strAwayTeam": "Спортист 2009",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -4627,8 +4643,9 @@
       "strHomeTeam": "Черноморец 1919",
       "strAwayTeam": "Монтана 1921",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Втора професионална лига"
     },
     {
