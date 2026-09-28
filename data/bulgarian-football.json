@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-28T07:46:30.122549+00:00",
+  "updatedAt": "2026-09-28T16:04:52.763255+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "f2c5378d72ae286c238b0c0de7f3bf6d50f1ac5db156dd76e43297ccfa28362f"
+      "sha256": "067f865854815e7e1a13a9d12e29d822d713bc6202155d962fd034d8fbed3997"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "793ac50ac6b8e9554325817912726c53c42659902c70ca307796fb2e829b570b"
+      "sha256": "da28eb26a3c0d5f5366bad47158db63024b0b84800f3bfe59f3dbd0920803229"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "2726e72faeca8297951dc618f42214ef525ac4aea61a68bf57eed75c1cdaed7d"
+      "sha256": "69159fa753e78bad2b6d05bb3daeaf89a90dc8bf598607d5bac9e49b9e2c22ec"
     }
   },
   "table": [
@@ -2119,8 +2119,9 @@
       "strHomeTeam": "България",
       "strAwayTeam": "Естония",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Международни приятелски срещи за юноши (до 17 г.) 2026"
     }
   ],
