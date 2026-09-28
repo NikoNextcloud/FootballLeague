@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-28T16:04:52.763255+00:00",
+  "updatedAt": "2026-09-28T21:56:27.943469+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "067f865854815e7e1a13a9d12e29d822d713bc6202155d962fd034d8fbed3997"
+      "sha256": "d92f5e8509773719b23c8121463479c0e70ed015a32549eb2ddabb154b72187c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "da28eb26a3c0d5f5366bad47158db63024b0b84800f3bfe59f3dbd0920803229"
+      "sha256": "2f115929b0edde5240ee93c8a99085c69dac5421a985a9cdd73527ab6a372d1d"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "69159fa753e78bad2b6d05bb3daeaf89a90dc8bf598607d5bac9e49b9e2c22ec"
+      "sha256": "b31a2cb6cff178e1c0aeffddad9f98b9a9fefcf2851ddc47f3d128d8d71ca1d1"
     }
   },
   "table": [
@@ -2111,18 +2111,95 @@
   ],
   "today": [
     {
-      "id": "bf-dca8f83ce750",
-      "dateEvent": "2026-09-28",
-      "strTime": "11:00:00",
+      "id": "bf-524819263b02",
+      "dateEvent": "2026-09-29",
+      "strTime": "13:30:00",
       "intRound": "",
-      "roundLabel": "Международни приятелски срещи за юноши (до 17 г.) 2026",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Финал",
+      "strHomeTeam": "Карнобат",
+      "strAwayTeam": "Априлец 2017",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Финал"
+    },
+    {
+      "id": "bf-2b15483db658",
+      "dateEvent": "2026-09-29",
+      "strTime": "13:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Финал",
+      "strHomeTeam": "Несебър",
+      "strAwayTeam": "ОФК Поморие",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Финал"
+    },
+    {
+      "id": "bf-a2389c141e47",
+      "dateEvent": "2026-09-29",
+      "strTime": "15:30:00",
+      "intRound": "",
+      "roundLabel": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4",
+      "strHomeTeam": "България",
+      "strAwayTeam": "Румъния",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4"
+    },
+    {
+      "id": "bf-e32ca01eb64f",
+      "dateEvent": "2026-09-29",
+      "strTime": "16:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Финал",
+      "strHomeTeam": "Левски 2007",
+      "strAwayTeam": "Партизан",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Финал"
+    },
+    {
+      "id": "bf-fc91393daafd",
+      "dateEvent": "2026-09-29",
+      "strTime": "17:30:00",
+      "intRound": "",
+      "roundLabel": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4",
+      "strHomeTeam": "Сърбия",
+      "strAwayTeam": "Унгария",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4"
+    },
+    {
+      "id": "bf-72f4aa966d63",
+      "dateEvent": "2026-09-29",
+      "strTime": "21:45:00",
+      "intRound": "",
+      "roundLabel": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4",
       "strHomeTeam": "България",
       "strAwayTeam": "Естония",
       "source": "bulgarian-football.com",
-      "intHomeScore": "1",
-      "intAwayScore": "1",
-      "halftime": "0:0",
-      "competition": "Международни приятелски срещи за юноши (до 17 г.) 2026"
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4"
+    },
+    {
+      "id": "bf-e93b9d80266b",
+      "dateEvent": "2026-09-29",
+      "strTime": "21:45:00",
+      "intRound": "",
+      "roundLabel": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4",
+      "strHomeTeam": "Люксембург",
+      "strAwayTeam": "Исландия",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4"
     }
   ],
   "europe": {
