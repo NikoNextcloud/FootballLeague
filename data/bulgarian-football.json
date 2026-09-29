@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-29T07:29:43.654556+00:00",
+  "updatedAt": "2026-09-29T14:17:42.767658+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "54055215d3f1ea39ed49fc3e7e1955c25510b0b724192a7ed20e05998d739b0a"
+      "sha256": "cd2c60048e9757e874150ab3980e46388c9dc2a909f0a2c9e4108dfe240a61ea"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "f9cb71c8e92591db42e43447cec7b036187cb5f7fb4b01e99f4ceffd4421cc14"
+      "sha256": "e13276fab3d2771ade1628363d40c4e9f922f786739566e76ada774fc1dbfcc6"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "a1584e5754332c3297cb109394cb354779e42027dcae15dd71ab6e649e697007"
+      "sha256": "e0756f2c8aff5d1112bcf5e3a12400bcef88af0399b7104c0c51c0f086e3de81"
     }
   },
   "table": [
@@ -2148,6 +2148,19 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4"
+    },
+    {
+      "id": "bf-dbddc86e768d",
+      "dateEvent": "2026-09-29",
+      "strTime": "16:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Финал",
+      "strHomeTeam": "Димитровград 1947",
+      "strAwayTeam": "ФК Хасково",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Плевен, Финал"
     },
     {
       "id": "bf-e32ca01eb64f",
