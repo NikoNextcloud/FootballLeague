@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-29T14:17:42.767658+00:00",
+  "updatedAt": "2026-09-29T19:29:14.386139+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "cd2c60048e9757e874150ab3980e46388c9dc2a909f0a2c9e4108dfe240a61ea"
+      "sha256": "80f5abb98f29b3074913f2e6e2b38e0fdd27e04e5ebd793af4867d98681af34f"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e13276fab3d2771ade1628363d40c4e9f922f786739566e76ada774fc1dbfcc6"
+      "sha256": "9e2b5bc5a2a028b1f868abaab6d595286c7385545a123b520bae9f9863888776"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "e0756f2c8aff5d1112bcf5e3a12400bcef88af0399b7104c0c51c0f086e3de81"
+      "sha256": "8cc7327456addbceb3b4fd59ae6cf63f8ee6d02b9e38f30a754fea78ea61fdb9"
     }
   },
   "table": [
@@ -2145,8 +2145,9 @@
       "strHomeTeam": "България",
       "strAwayTeam": "Румъния",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4"
     },
     {
