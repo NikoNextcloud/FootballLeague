@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-09-30T15:13:15.728359+00:00",
+  "updatedAt": "2026-09-30T20:05:11.313034+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "e6429cbd6e957db69a814d30a9f0c014c2ec823bc8ae7a9a19bc90809dd6192b"
+      "sha256": "b6e34d056ae365646214ef363e626fea0c20e2add233f8ef0a292de3488c137c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "05ec982f06fe064c24ecd2dbda56b86ef269d3eb4f1af3d4484c942675f04fd9"
+      "sha256": "f8e2a18d2d845c5ae51b4a736bbb09fb791381da3d2f3c40b64698ef5620d62e"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "f88072a04007ffc6688fe89abdf6ce0a539c526aa8bee006351509c6fbae23d8"
+      "sha256": "261d7f274e3798d7c823ea5b3756108bea925ee04634c59d0a69cd0d4aa31cb9"
     }
   },
   "table": [
@@ -2111,135 +2111,126 @@
   ],
   "today": [
     {
-      "id": "bf-4262117535f2",
+      "id": "bf-24b4a49c482f",
       "dateEvent": "2026-09-30",
       "strTime": "09:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Сердика (София)",
       "strAwayTeam": "ЦСКА 1948",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-be3355292b2a",
+      "id": "bf-e5756ff81913",
       "dateEvent": "2026-09-30",
       "strTime": "13:30:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
-      "strHomeTeam": "Тунджа 2009",
-      "strAwayTeam": "Черноморец 1919",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
-    },
-    {
-      "id": "bf-ca15e8c6c8b3",
-      "dateEvent": "2026-09-30",
-      "strTime": "13:30:00",
-      "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "ФК Сливен",
       "strAwayTeam": "Бургас спорт",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-b8d6e540b285",
+      "id": "bf-9e015ad4c052",
       "dateEvent": "2026-09-30",
       "strTime": "14:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Левски",
       "strAwayTeam": "ЦСКА",
       "source": "bulgarian-football.com",
       "intHomeScore": "2",
       "intAwayScore": "0",
       "halftime": "1:0",
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-b645a9cb471d",
+      "id": "bf-5416f064f31e",
       "dateEvent": "2026-09-30",
       "strTime": "15:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Верея",
       "strAwayTeam": "Локомотив",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-5e38becd30bc",
+      "id": "bf-75f06c022f16",
       "dateEvent": "2026-09-30",
       "strTime": "15:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Загорец",
       "strAwayTeam": "Берое",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "intHomeScore": "0",
+      "intAwayScore": "7",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-a2dc114cc619",
+      "id": "bf-f133796d58df",
       "dateEvent": "2026-09-30",
       "strTime": "15:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Спартак",
       "strAwayTeam": "ОФК Хасково",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "intHomeScore": "1",
+      "intAwayScore": "4",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-0113fcb2d149",
+      "id": "bf-ebccc6d36d34",
       "dateEvent": "2026-09-30",
       "strTime": "15:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Чирпан 1929",
       "strAwayTeam": "Арсенал 2000",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "intHomeScore": "4",
+      "intAwayScore": "2",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-d9f8e655c33e",
+      "id": "bf-41530113f24d",
       "dateEvent": "2026-09-30",
       "strTime": "15:30:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "ФК Харманли",
       "strAwayTeam": "Сакарски спортист 04",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-a252d0eec74f",
+      "id": "bf-99516c6ba5b1",
       "dateEvent": "2026-09-30",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Академик",
       "strAwayTeam": "Ботев Враца",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
       "id": "bf-f9809ee379bc",
@@ -2250,8 +2241,9 @@
       "strHomeTeam": "Аксаково",
       "strAwayTeam": "Светкавица 2014",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "6",
+      "intAwayScore": "0",
+      "halftime": "3:0",
       "competition": "Деца: Купа на БФС"
     },
     {
@@ -2263,8 +2255,9 @@
       "strHomeTeam": "Атлетик",
       "strAwayTeam": "Черноморец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "0:3",
       "competition": "Деца: Купа на БФС"
     },
     {
@@ -2276,35 +2269,37 @@
       "strHomeTeam": "Бенковски",
       "strAwayTeam": "Септември",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Деца: Купа на БФС"
     },
     {
-      "id": "bf-c184bd249f3e",
+      "id": "bf-76323410957b",
       "dateEvent": "2026-09-30",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Ботев",
       "strAwayTeam": "Добруджа 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-c8b68267e8cd",
+      "id": "bf-e620bf12509c",
       "dateEvent": "2026-09-30",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Гранд Про 2024",
       "strAwayTeam": "Светкавица 2014",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
       "id": "bf-fe2f27977c92",
@@ -2315,35 +2310,38 @@
       "strHomeTeam": "Етър ВТ",
       "strAwayTeam": "Чардафон 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Деца: Купа на БФС (квалификации) - Северозападна България, Финали"
     },
     {
-      "id": "bf-8511cd956e59",
+      "id": "bf-e25d86252b23",
       "dateEvent": "2026-09-30",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
-      "strHomeTeam": "Ком",
-      "strAwayTeam": "Павликени",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
+      "strHomeTeam": "Национал (София)",
+      "strAwayTeam": "Олимпия ФК (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "intHomeScore": "6",
+      "intAwayScore": "0",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-4d5a98f0c942",
+      "id": "bf-aa4a0543bdf5",
       "dateEvent": "2026-09-30",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Олимпик",
       "strAwayTeam": "Кубрат 2016",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "intHomeScore": "7",
+      "intAwayScore": "2",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
       "id": "bf-458ed0d4f923",
@@ -2354,22 +2352,23 @@
       "strHomeTeam": "Рилци",
       "strAwayTeam": "Волов Шумен 2007",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "5",
+      "halftime": "0:1",
       "competition": "Деца: Купа на БФС"
     },
     {
-      "id": "bf-80eecdb4efb2",
+      "id": "bf-15ee02f3e4bb",
       "dateEvent": "2026-09-30",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Спартак",
       "strAwayTeam": "Локомотив",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
       "id": "bf-66742d707508",
@@ -2380,100 +2379,105 @@
       "strHomeTeam": "Стрела 2003",
       "strAwayTeam": "Дебрен",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Деца: Купа на БФС"
     },
     {
-      "id": "bf-457891eb5fc8",
+      "id": "bf-7d0ec31bc405",
       "dateEvent": "2026-09-30",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "ФК Арда 1924",
       "strAwayTeam": "Металик 1938",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-a4df0856f163",
+      "id": "bf-3d282df53a26",
       "dateEvent": "2026-09-30",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "ФК Хасково",
       "strAwayTeam": "Пловдив 2015",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "intHomeScore": "2",
+      "intAwayScore": "12",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-373ababa2029",
+      "id": "bf-399396053f33",
       "dateEvent": "2026-09-30",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Чавдар 2020",
       "strAwayTeam": "Монтана 1921",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-77ce01250355",
+      "id": "bf-c1444fdfdb1d",
       "dateEvent": "2026-09-30",
       "strTime": "17:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Марица 1921",
       "strAwayTeam": "Садово",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-7eca35df194b",
+      "id": "bf-3e0c6b654242",
       "dateEvent": "2026-09-30",
       "strTime": "19:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Чехия",
       "strAwayTeam": "България",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-43949bb87670",
+      "id": "bf-3f9e7d58df87",
       "dateEvent": "2026-09-30",
       "strTime": "21:30:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Шотландия",
       "strAwayTeam": "Азербайджан",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     },
     {
-      "id": "bf-82bd1873d223",
+      "id": "bf-4b913a0dffb1",
       "dateEvent": "2026-09-30",
       "strTime": "22:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали",
       "strHomeTeam": "Португалия",
       "strAwayTeam": "Гибралтар",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Втори кръг"
+      "competition": "Деца: Купа на БФС (квалификации) - Област София (столица), Финали"
     }
   ],
   "europe": {
