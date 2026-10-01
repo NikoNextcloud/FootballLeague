@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-01T16:35:49.615098+00:00",
+  "updatedAt": "2026-10-01T21:19:54.831467+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "cd4f65aa7dff6bba46553c6df5ead8c33ef866f77f8fbd85b5d19abf977caa11"
+      "sha256": "f88745bc4be0daa6d1b56cae73deebe4985234950920ba90454122eae4276ccf"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "2da85e12260dcae7b46b17b39b367baa5676e41394760a7e4df1f50df36a7ae4"
+      "sha256": "99d547c4ea923921daa72adf5435d90e788cf84ccdd7dbb4355fc54fa5223038"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "51d4169a2bfa1095697e1c8acb488e3060949292761f3fd27fe781f5f80e883b"
+      "sha256": "55770bed9c2ba5dffdb3e1a92b3ce083fd9de3ac4e020515b8f88a5d9f027f9d"
     }
   },
   "table": [
@@ -2111,82 +2111,134 @@
   ],
   "today": [
     {
-      "id": "bf-6901b0c7213f",
-      "dateEvent": "2026-10-01",
-      "strTime": "13:00:00",
+      "id": "bf-4018b8f23755",
+      "dateEvent": "2026-10-02",
+      "strTime": "11:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Северозападна България, Финали",
-      "strHomeTeam": "Несебър",
-      "strAwayTeam": "ОФК Поморие",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "ОФК София 1992 (София)",
+      "strAwayTeam": "Надежда",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Северозападна България, Финали"
+      "competition": "Приятелски срещи: Лято-есен"
     },
     {
-      "id": "bf-d2cbf9b2e3f5",
-      "dateEvent": "2026-10-01",
-      "strTime": "15:00:00",
+      "id": "bf-fc3bf5e7d4bf",
+      "dateEvent": "2026-10-02",
+      "strTime": "14:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Северозападна България, Финали",
-      "strHomeTeam": "Самуил 2006",
-      "strAwayTeam": "Вихър",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Ком",
+      "strAwayTeam": "Павликени",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Северозападна България, Финали"
+      "competition": "Приятелски срещи: Лято-есен"
     },
     {
-      "id": "bf-5d95db21854e",
-      "dateEvent": "2026-10-01",
-      "strTime": "15:00:00",
+      "id": "bf-2de803402b33",
+      "dateEvent": "2026-10-02",
+      "strTime": "14:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Северозападна България, Финали",
-      "strHomeTeam": "Спартак",
-      "strAwayTeam": "Монтана 1921",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Юнайтед",
+      "strAwayTeam": "Берое",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Северозападна България, Финали"
+      "competition": "Приятелски срещи: Лято-есен"
     },
     {
-      "id": "bf-d8a62d5bca6e",
-      "dateEvent": "2026-10-01",
+      "id": "bf-61fa61300b4d",
+      "dateEvent": "2026-10-02",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Северозападна България, Финали",
-      "strHomeTeam": "Академик",
-      "strAwayTeam": "Шипка старс 2015",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Ботев",
+      "strAwayTeam": "Озрен",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Северозападна България, Финали"
+      "competition": "Приятелски срещи: Лято-есен"
     },
     {
-      "id": "bf-c5eb3c2b9533",
-      "dateEvent": "2026-10-01",
+      "id": "bf-891571c463c3",
+      "dateEvent": "2026-10-02",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Северозападна България, Финали",
-      "strHomeTeam": "Марица",
-      "strAwayTeam": "Спартак 1947",
+      "roundLabel": "Международни приятелски срещи за юноши (до 17 г.) 2026",
+      "strHomeTeam": "България",
+      "strAwayTeam": "Малта",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Северозападна България, Финали"
+      "competition": "Международни приятелски срещи за юноши (до 17 г.) 2026"
     },
     {
-      "id": "bf-74fce853b690",
-      "dateEvent": "2026-10-01",
+      "id": "bf-d1789b060a38",
+      "dateEvent": "2026-10-02",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС (квалификации) - Северозападна България, Финали",
-      "strHomeTeam": "Пирин 1941",
-      "strAwayTeam": "Малеш 1932",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Венци 2022",
+      "strAwayTeam": "Спартак",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Деца: Купа на БФС (квалификации) - Северозападна България, Финали"
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-5a84ab1335ee",
+      "dateEvent": "2026-10-02",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Левски 2007",
+      "strAwayTeam": "Партизан",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-e473ead9558a",
+      "dateEvent": "2026-10-02",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Марица 1921",
+      "strAwayTeam": "ФК Сливен",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-c6a7b0b03776",
+      "dateEvent": "2026-10-02",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Фортуна",
+      "strAwayTeam": "Ювентус 95",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-513eabb71c56",
+      "dateEvent": "2026-10-02",
+      "strTime": "16:30:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Пловдив 2015",
+      "strAwayTeam": "Марица 1921",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Приятелски срещи: Лято-есен"
     }
   ],
   "europe": {
