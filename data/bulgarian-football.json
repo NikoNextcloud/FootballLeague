@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-02T13:18:39.869308+00:00",
+  "updatedAt": "2026-10-02T18:32:19.678067+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "2fd90ad9987246b154ca56276aa42911f24836f758d48fc99769923a25ce64e9"
+      "sha256": "73c92376d693637897798ff1d80827c3d9931cb419848caacc0c7fa11e601202"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "54b94fc6249fd1804c15b35500113b69ae12633cc401f340096d4e931ab937ff"
+      "sha256": "5229345a5bfba7dcad0d6aea76733785d1cc9d0c5fd4746ae0db80563b76355c"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "a50ac01fc7b75144ece886f0d2ee9f3a1b63c09c1ab01214da7bcd67b941b4fb"
+      "sha256": "4ebd2dccaf9f105f0e154fe1774877ed0863f9c0496670e5dc9bc3ca986daa96"
     }
   },
   "table": [
@@ -2171,8 +2171,9 @@
       "strHomeTeam": "България",
       "strAwayTeam": "Малта",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "0",
+      "halftime": "3:0",
       "competition": "Международни приятелски срещи за юноши (до 17 г.) 2026"
     },
     {
@@ -2222,19 +2223,6 @@
       "roundLabel": "Приятелски срещи: Лято-есен",
       "strHomeTeam": "Фортуна",
       "strAwayTeam": "Ювентус 95",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Приятелски срещи: Лято-есен"
-    },
-    {
-      "id": "bf-513eabb71c56",
-      "dateEvent": "2026-10-02",
-      "strTime": "16:30:00",
-      "intRound": "",
-      "roundLabel": "Приятелски срещи: Лято-есен",
-      "strHomeTeam": "Пловдив 2015",
-      "strAwayTeam": "Марица 1921",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
