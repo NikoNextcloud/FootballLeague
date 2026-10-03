@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-03T12:05:57.516820+00:00",
+  "updatedAt": "2026-10-03T16:13:35.713382+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "877a04d0fa0b7adb2a9b3dec78dcc5c65f52401b0017cebac736ccac3b38d501"
+      "sha256": "b6c30e5aeaf77956ad29c0cca006d34d56854a3810eb231bcbb1d89d405a13b8"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "2d94f46a2b7c13d8a7fc883c2ca191be61f1b46b9f285de96a7d403453d94e4d"
+      "sha256": "756945f5e1f326cef09c623259fe1e5272de2ffb008e0954d694812bc15680b8"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "71c013e1929d920dad9e5e0a45b6c023ee32db3752e6f30831c693e6e2f52a02"
+      "sha256": "36d8ca87613a3d380a2cf3418139cf8d6d7e60c683f22092d689d162fa07ba2b"
     }
   },
   "table": [
@@ -2236,8 +2236,9 @@
       "strHomeTeam": "ЦСКА",
       "strAwayTeam": "ДИТ (кв.Драгалевци, София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3238,8 +3239,9 @@
       "strHomeTeam": "Локомотив Сф 1929 (София)",
       "strAwayTeam": "Раднички",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3369,8 +3371,9 @@
       "strHomeTeam": "Балкан 1929",
       "strAwayTeam": "Фратрия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "0:2",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3382,8 +3385,9 @@
       "strHomeTeam": "Ботев",
       "strAwayTeam": "Вихрен",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "4",
+      "halftime": "0:1",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3408,8 +3412,9 @@
       "strHomeTeam": "Крумовград",
       "strAwayTeam": "Спартак",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "1:0",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3486,8 +3491,9 @@
       "strHomeTeam": "Черноморец",
       "strAwayTeam": "Етър ВТ",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "1:2",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3525,8 +3531,9 @@
       "strHomeTeam": "НСА (София)",
       "strAwayTeam": "Локомотив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "1:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3590,8 +3597,9 @@
       "strHomeTeam": "АФР (София)",
       "strAwayTeam": "Севлиево лейдис",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "5",
+      "halftime": "0:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3629,8 +3637,9 @@
       "strHomeTeam": "Пълдин",
       "strAwayTeam": "Етър ВТ",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "3",
+      "halftime": "1:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3642,8 +3651,9 @@
       "strHomeTeam": "Спортика",
       "strAwayTeam": "Лудогорец",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "12",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3707,8 +3717,9 @@
       "strHomeTeam": "Атлетик",
       "strAwayTeam": "Розова долина",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "3",
+      "halftime": "2:1",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -4071,8 +4082,9 @@
       "strHomeTeam": "Девня 2005",
       "strAwayTeam": "Устрем Д",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "0:1",
       "competition": "Североизточна Трета лига"
     },
     {
@@ -4097,8 +4109,9 @@
       "strHomeTeam": "Димитровград 1947",
       "strAwayTeam": "Марица 1921",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -4110,8 +4123,9 @@
       "strHomeTeam": "Доростол Силистра",
       "strAwayTeam": "Фратрия II",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:1",
       "competition": "Североизточна Трета лига"
     },
     {
@@ -4201,8 +4215,9 @@
       "strHomeTeam": "Етрополе",
       "strAwayTeam": "Сливнишки герой",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "0:1",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -4349,19 +4364,6 @@
       "competition": "Югоизточна Трета лига"
     },
     {
-      "id": "bf-8d9252e729d8",
-      "dateEvent": "2026-10-03",
-      "strTime": "16:00:00",
-      "intRound": "",
-      "roundLabel": "Югоизточна Трета лига",
-      "strHomeTeam": "Левски 1923",
-      "strAwayTeam": "Левски",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югоизточна Трета лига"
-    },
-    {
       "id": "bf-66deb4e65c07",
       "dateEvent": "2026-10-03",
       "strTime": "16:00:00",
@@ -4409,8 +4411,9 @@
       "strHomeTeam": "Марица",
       "strAwayTeam": "Созопол",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "2",
+      "halftime": "2:1",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -4552,8 +4555,9 @@
       "strHomeTeam": "Пирин 1941",
       "strAwayTeam": "Левски II (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:1",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -4617,8 +4621,9 @@
       "strHomeTeam": "Светкавица 2014",
       "strAwayTeam": "Черно море",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Североизточна Трета лига"
     },
     {
@@ -4656,8 +4661,9 @@
       "strHomeTeam": "Септември 98",
       "strAwayTeam": "Септември",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "2:0",
       "competition": "Североизточна Трета лига"
     },
     {
@@ -4708,8 +4714,9 @@
       "strHomeTeam": "Струмска слава 1927",
       "strAwayTeam": "Септември",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "1:1",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -4838,8 +4845,9 @@
       "strHomeTeam": "ЦСКА III (София)",
       "strAwayTeam": "ОФК Костинброд 2012",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -4915,6 +4923,19 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Янтра",
       "strAwayTeam": "Дунарит",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-8d9252e729d8",
+      "dateEvent": "2026-10-03",
+      "strTime": "16:40:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Левски 1923",
+      "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
