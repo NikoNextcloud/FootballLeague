@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-03T06:48:08.242806+00:00",
+  "updatedAt": "2026-10-03T12:05:57.516820+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "26c7351448e8d64883c3988dede824bcadbeb334771adebc6e9193c23d645c41"
+      "sha256": "877a04d0fa0b7adb2a9b3dec78dcc5c65f52401b0017cebac736ccac3b38d501"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "1f7086fd047c9a3964fe3b1e08a4e6c941e81890489946c66f6936c5999365a3"
+      "sha256": "2d94f46a2b7c13d8a7fc883c2ca191be61f1b46b9f285de96a7d403453d94e4d"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "93dae91511322a2355cd8cb0fd1feda25badaccd8269e7737335d3f7c0f7c182"
+      "sha256": "71c013e1929d920dad9e5e0a45b6c023ee32db3752e6f30831c693e6e2f52a02"
     }
   },
   "table": [
@@ -3055,8 +3055,9 @@
       "strHomeTeam": "Ботев Враца",
       "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3250,8 +3251,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Дунав Русе",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:1",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
