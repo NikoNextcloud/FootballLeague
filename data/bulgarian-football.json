@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-04T12:42:12.784872+00:00",
+  "updatedAt": "2026-10-04T17:03:58.987250+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "edbd56861b605d2d3e4d1d5f818847f0139e5c4a25e81dd1b776db6697b219cb"
+      "sha256": "a8d8b541c1cbd6630a07741712696a41d67f27b177dbb331cbcaa5948c859988"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "443ad5c3fc004cbd55a82971f33937c7578e4b46b8beffce4f3dd8a8efa6250e"
+      "sha256": "255d5ba9a8a58d396238afd6fa8b47c77178399fd5c2b6d6eaeee6a36b56eb9c"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "8a5a929283db1da0ce9fc4ff9d05f8e934960c7d899239505bf9f9f361f2efca"
+      "sha256": "be1e40489d5dc13a6dfa7fc2317409d6f6452ad11ccb955af1829c2d939e692b"
     }
   },
   "table": [
@@ -2500,8 +2500,9 @@
       "strHomeTeam": "Спартак Варна",
       "strAwayTeam": "Черно море",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3128,8 +3129,9 @@
       "strHomeTeam": "Етър ВТ",
       "strAwayTeam": "Локомотив София",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3573,8 +3575,9 @@
       "strHomeTeam": "Миньор",
       "strAwayTeam": "Берое",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "1:1",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3599,8 +3602,9 @@
       "strHomeTeam": "Оборище",
       "strAwayTeam": "Янтра 2019",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "3",
+      "halftime": "0:1",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3664,8 +3668,9 @@
       "strHomeTeam": "Етър ВТ",
       "strAwayTeam": "Пирин 22",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
@@ -3742,8 +3747,9 @@
       "strHomeTeam": "Бдин 1923",
       "strAwayTeam": "Монтана 1921",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:0, 0:0",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3755,8 +3761,9 @@
       "strHomeTeam": "Бенковски",
       "strAwayTeam": "Академик",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "0:0",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3768,8 +3775,9 @@
       "strHomeTeam": "Волов Шумен 2007",
       "strAwayTeam": "Черноморец 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:0",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3781,8 +3789,9 @@
       "strHomeTeam": "Загорец",
       "strAwayTeam": "Рилски спортист 2011",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "4",
+      "halftime": "0:2",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3807,8 +3816,9 @@
       "strHomeTeam": "Национал (София)",
       "strAwayTeam": "Локомотив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "3",
+      "halftime": "1:2",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3820,8 +3830,9 @@
       "strHomeTeam": "Нефтохимик 1962",
       "strAwayTeam": "Спортист 2009",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:1, 1:1",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3833,8 +3844,9 @@
       "strHomeTeam": "ОФК Локомотив",
       "strAwayTeam": "Пирин 22",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "3",
+      "halftime": "1:0, 2:2",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3846,8 +3858,9 @@
       "strHomeTeam": "Родопа Смолян",
       "strAwayTeam": "Несебър",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "3",
+      "halftime": "1:0, 1:1",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3859,8 +3872,9 @@
       "strHomeTeam": "Спартак 1947",
       "strAwayTeam": "Ботев 1937",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3872,8 +3886,9 @@
       "strHomeTeam": "ФК Ямбол 1915",
       "strAwayTeam": "Хебър 1918",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "5",
+      "halftime": "0:3",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -3885,8 +3900,9 @@
       "strHomeTeam": "Чавдар",
       "strAwayTeam": "Марек 1915",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "4",
+      "halftime": "0:3",
       "competition": "Купа на България - Предварителен кръг"
     },
     {
@@ -4119,8 +4135,9 @@
       "strHomeTeam": "България",
       "strAwayTeam": "Малта",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "2:0",
       "competition": "Международни приятелски срещи за юноши (до 17 г.) 2026"
     },
     {
@@ -5133,8 +5150,9 @@
       "strHomeTeam": "Спартак II",
       "strAwayTeam": "Партизан",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Северозападна Трета лига"
     },
     {
@@ -5627,8 +5645,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Черно море",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "0",
+      "halftime": "4:0",
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
