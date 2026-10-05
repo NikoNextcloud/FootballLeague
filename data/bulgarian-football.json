@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-05T17:30:24.252479+00:00",
+  "updatedAt": "2026-10-05T23:20:15.717901+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "fb135d998f0593dc6b6c7ffc0d8a4cd1f58cb19fde441ce5b2b81b8b6ec4e6c7"
+      "sha256": "977a6a9b49b4e108f74bb7af7c04dfec201102739a5d529ab4dd484dc6daa474"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "cbc2882aad14e172a8148a00d98c03ed1d700b0e1c917708adc35e93e1a2a694"
+      "sha256": "f230c11d4dbb6a804319a53f453e9afcb9b05f2495f6d072297194e361ceb00b"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "d1f2a08810b1a113cbbf6bd2ee522eab041d22da2c2d7fb340c1c3ff9b3977a2"
+      "sha256": "2bc77c44fae86fbecbf193027babe19ba6402aa0aa216d06340cf58763c2c94c"
     }
   },
   "table": [
@@ -2111,17 +2111,82 @@
   ],
   "today": [
     {
-      "id": "bf-a721c65445a1",
-      "dateEvent": "2026-10-05",
-      "strTime": "11:00:00",
+      "id": "bf-e88c3f56dbc1",
+      "dateEvent": "2026-10-06",
+      "strTime": "14:00:00",
       "intRound": "",
       "roundLabel": "Деца: Купа на БФС",
-      "strHomeTeam": "Марек 1915",
-      "strAwayTeam": "Авангард 1973",
+      "strHomeTeam": "Локомотив София",
+      "strAwayTeam": "Олимпия ФК (София)",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Деца: Купа на БФС"
+    },
+    {
+      "id": "bf-8e459be36480",
+      "dateEvent": "2026-10-06",
+      "strTime": "16:45:00",
+      "intRound": "",
+      "roundLabel": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4",
+      "strHomeTeam": "Азербайджан",
+      "strAwayTeam": "Гибралтар",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4"
+    },
+    {
+      "id": "bf-b7fd9a63c533",
+      "dateEvent": "2026-10-06",
+      "strTime": "19:30:00",
+      "intRound": "",
+      "roundLabel": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4",
+      "strHomeTeam": "България",
+      "strAwayTeam": "Шотландия",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4"
+    },
+    {
+      "id": "bf-862425dd0ebc",
+      "dateEvent": "2026-10-06",
+      "strTime": "19:30:00",
+      "intRound": "",
+      "roundLabel": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4",
+      "strHomeTeam": "Португалия",
+      "strAwayTeam": "Чехия",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4"
+    },
+    {
+      "id": "bf-fd4ef97d244d",
+      "dateEvent": "2026-10-06",
+      "strTime": "21:45:00",
+      "intRound": "",
+      "roundLabel": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4",
+      "strHomeTeam": "Естония",
+      "strAwayTeam": "Исландия",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4"
+    },
+    {
+      "id": "bf-8011542b0e10",
+      "dateEvent": "2026-10-06",
+      "strTime": "21:45:00",
+      "intRound": "",
+      "roundLabel": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4",
+      "strHomeTeam": "Люксембург",
+      "strAwayTeam": "България",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4"
     }
   ],
   "europe": {
