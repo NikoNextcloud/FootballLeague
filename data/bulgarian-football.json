@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-07T06:49:45.879931+00:00",
+  "updatedAt": "2026-10-07T14:00:40.642656+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "31a3525ac43fae49eb3439997d747990cd2baa49ad056293d9ef6a73cd587d84"
+      "sha256": "49e1a504f1423fedf4a9ccc44f06f1b0c7273bf0a959c4bc1b783e12bc36e839"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "511273b52bb67af3eb3df0895e72a1b039ddc22a5943ddfafeb329ca1a33e96b"
+      "sha256": "8fb1b691633f4f268428b796a657f60541c756f22914b5c8255eee251091587f"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "ac0ef0b11343cf903ab29a92b751b10ab44d0571003348357f9302e6ede06db2"
+      "sha256": "338116d1a0334b5948b79ef8b1dffdbbe6cd17463f82f30aab5a5be4a4fe7ddf"
     }
   },
   "table": [
@@ -2119,8 +2119,9 @@
       "strHomeTeam": "Грузия",
       "strAwayTeam": "България",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Деца: Купа на БФС (квалификации) - Югоизточна България, Финален бараж"
     },
     {
