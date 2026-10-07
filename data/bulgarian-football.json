@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-07T14:00:40.642656+00:00",
+  "updatedAt": "2026-10-07T19:54:11.591396+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "49e1a504f1423fedf4a9ccc44f06f1b0c7273bf0a959c4bc1b783e12bc36e839"
+      "sha256": "d949fa4fb4a95c7351ff5798986e5648f8001290bad14b08025a6e869cfa1142"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "8fb1b691633f4f268428b796a657f60541c756f22914b5c8255eee251091587f"
+      "sha256": "4181cc5d2e599d218bd0c9fb4a40e423fb88c00445c8aad4e4331bffa38129f2"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "338116d1a0334b5948b79ef8b1dffdbbe6cd17463f82f30aab5a5be4a4fe7ddf"
+      "sha256": "48b555462bbf4009ade9a037a342ae679ece38f79d361aae3c3aebec9cbcc0b8"
     }
   },
   "table": [
@@ -2111,6 +2111,20 @@
   ],
   "today": [
     {
+      "id": "bf-270effd58a50",
+      "dateEvent": "2026-10-07",
+      "strTime": "11:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Югоизточна България, Финален бараж",
+      "strHomeTeam": "Бургас спорт",
+      "strAwayTeam": "Несебър",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "8",
+      "intAwayScore": "1",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС (квалификации) - Югоизточна България, Финален бараж"
+    },
+    {
       "id": "bf-9dcdb08a24e6",
       "dateEvent": "2026-10-07",
       "strTime": "11:00:00",
@@ -2177,6 +2191,20 @@
       "competition": "Деца: Купа на БФС (квалификации) - Югоизточна България, Финален бараж"
     },
     {
+      "id": "bf-58db1b785129",
+      "dateEvent": "2026-10-07",
+      "strTime": "15:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС (квалификации) - Югоизточна България, Финален бараж",
+      "strHomeTeam": "Берое",
+      "strAwayTeam": "Спартак",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "10",
+      "intAwayScore": "0",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС (квалификации) - Югоизточна България, Финален бараж"
+    },
+    {
       "id": "bf-491634e2d752",
       "dateEvent": "2026-10-07",
       "strTime": "16:00:00",
@@ -2185,8 +2213,9 @@
       "strHomeTeam": "Банско тийм",
       "strAwayTeam": "Ботев 1937",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -2198,21 +2227,9 @@
       "strHomeTeam": "Беласица",
       "strAwayTeam": "Балкан 1929",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югозападна Трета лига"
-    },
-    {
-      "id": "bf-de97feaafc21",
-      "dateEvent": "2026-10-07",
-      "strTime": "16:00:00",
-      "intRound": "",
-      "roundLabel": "Югозападна Трета лига",
-      "strHomeTeam": "Ветрен",
-      "strAwayTeam": "Беласица",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "1:0",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -2237,8 +2254,9 @@
       "strHomeTeam": "Ирландия",
       "strAwayTeam": "Армения",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "11",
+      "intAwayScore": "0",
+      "halftime": "9:0",
       "competition": "Деца: Купа на БФС (квалификации) - Югоизточна България, Финален бараж"
     },
     {
@@ -2263,8 +2281,9 @@
       "strHomeTeam": "Миньор",
       "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -2276,8 +2295,9 @@
       "strHomeTeam": "Национал (София)",
       "strAwayTeam": "Септември II (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:0",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -2289,8 +2309,9 @@
       "strHomeTeam": "Оборище",
       "strAwayTeam": "Кюстендил",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "0:1",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -2307,19 +2328,6 @@
       "competition": "Деца: Купа на БФС (квалификации) - Югоизточна България, Финален бараж"
     },
     {
-      "id": "bf-6b1b1e73a270",
-      "dateEvent": "2026-10-07",
-      "strTime": "16:00:00",
-      "intRound": "",
-      "roundLabel": "Югозападна Трета лига",
-      "strHomeTeam": "Стрела 2003",
-      "strAwayTeam": "Банско тийм",
-      "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Югозападна Трета лига"
-    },
-    {
       "id": "bf-ffea6e0f6d14",
       "dateEvent": "2026-10-07",
       "strTime": "16:00:00",
@@ -2328,8 +2336,9 @@
       "strHomeTeam": "ФК Спортист 1959",
       "strAwayTeam": "Септември",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "4",
+      "halftime": "0:3",
       "competition": "Югозападна Трета лига"
     },
     {
