@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-08T05:52:04.737415+00:00",
+  "updatedAt": "2026-10-08T12:35:17.416834+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "47d28e99817488993f6f7db94a745710afa5df929dde8df5b9141b88cd6bfd4a"
+      "sha256": "373f42862119ebd90529dacd3d075437b052e685835f08896766a5708531d0a6"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "6210d2f88db51749d7666eab3a0cb6f39ceb6a74db36ff3a0d7a88bcefdc4880"
+      "sha256": "26486ded031bdb7436ec3916b4060cfd475572628bcb0291d2c8c7f5e82e6f33"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "c4d05e966d70134c87fb64cbc24d93917556d51f4546f9e34312b5b758cb5f2e"
+      "sha256": "382eb1d75e3333be8a43bce1b3eda828dc6449996110b31c3983f17e8f4e58c2"
     }
   },
   "table": [
@@ -2111,6 +2111,33 @@
   ],
   "today": [
     {
+      "id": "bf-bb692dd68436",
+      "dateEvent": "2026-10-08",
+      "strTime": "14:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Кюстендил",
+      "strAwayTeam": "Олимпия ФК (София)",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС"
+    },
+    {
+      "id": "bf-589488363df0",
+      "dateEvent": "2026-10-08",
+      "strTime": "14:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Марица",
+      "strAwayTeam": "Марица 1921",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "",
+      "competition": "Деца: Купа на БФС"
+    },
+    {
       "id": "bf-66507213c13a",
       "dateEvent": "2026-10-08",
       "strTime": "14:00:00",
@@ -2118,6 +2145,19 @@
       "roundLabel": "Деца: Купа на БФС",
       "strHomeTeam": "ОФК Поморие",
       "strAwayTeam": "Тунджа 2009",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС"
+    },
+    {
+      "id": "bf-926fd8a5c5b1",
+      "dateEvent": "2026-10-08",
+      "strTime": "14:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Садово",
+      "strAwayTeam": "ФК Вихър 1965",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
@@ -2144,6 +2184,19 @@
       "roundLabel": "Деца: Купа на БФС",
       "strHomeTeam": "Самуил 2006",
       "strAwayTeam": "ФК Сливен",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС"
+    },
+    {
+      "id": "bf-6703081fbdec",
+      "dateEvent": "2026-10-08",
+      "strTime": "15:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Спартак 1947",
+      "strAwayTeam": "Металик 1938",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
