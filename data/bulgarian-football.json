@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-09T10:28:25.139350+00:00",
+  "updatedAt": "2026-10-09T17:09:18.921104+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "17d1a632825229212904cdf6e807532c8a3b03b7d302420715ea2f70b098b59f"
+      "sha256": "356ba8090a763114305876d3aec382b8709bb8acfc6f264877a5e93e0ee3f5d7"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "f1ae471bc9b9bc29f0c9c00e898a65e1471bda5d1588120ed0f7bfb6ef0b150c"
+      "sha256": "e928fcacce379cfec864a16a98fa0560157960136c1c93eff9e36fc95bc0b52f"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "ea9f11ff74e1e1397a83148b61b6d5d7a25e1596736c48d550dca98d01b9c746"
+      "sha256": "e870968aa7699ccb0cdf7b2e30f145961d9f9ea192341caa0e8a619808f6ba1e"
     }
   },
   "table": [
@@ -2311,8 +2311,9 @@
       "strHomeTeam": "Септември София",
       "strAwayTeam": "УФК Ботев (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Втора професионална лига"
     },
     {
@@ -2324,8 +2325,9 @@
       "strHomeTeam": "Пловдив 2015",
       "strAwayTeam": "Родопа Смолян",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "5",
+      "halftime": "",
       "competition": "Втора професионална лига"
     },
     {
@@ -2376,8 +2378,9 @@
       "strHomeTeam": "Миньор",
       "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Втора професионална лига"
     },
     {
@@ -2394,16 +2397,17 @@
       "competition": "Втора професионална лига"
     },
     {
-      "id": "bf-f390e231b8fb",
+      "id": "bf-c274888839ad",
       "dateEvent": "2026-10-09",
       "strTime": "16:00:00",
       "intRound": "",
       "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Спартак",
+      "strHomeTeam": "ФК Спартак 1919",
       "strAwayTeam": "Ботев",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Втора професионална лига"
     },
     {
@@ -2428,8 +2432,9 @@
       "strHomeTeam": "Шипка старс 2015",
       "strAwayTeam": "Юнайтед",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "11",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Втора професионална лига"
     },
     {
@@ -2454,8 +2459,9 @@
       "strHomeTeam": "Ботев Пловдив",
       "strAwayTeam": "Арда",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Втора професионална лига"
     },
     {
@@ -2467,8 +2473,9 @@
       "strHomeTeam": "Вихрен",
       "strAwayTeam": "Пирин 1941",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Втора професионална лига"
     },
     {
@@ -2480,8 +2487,9 @@
       "strHomeTeam": "Янтра 2019",
       "strAwayTeam": "Вихрен",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
