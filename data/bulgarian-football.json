@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-09T21:40:39.616258+00:00",
+  "updatedAt": "2026-10-10T01:17:22.765796+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "f20b9fa1a74773ce6b6f18991ccbcb579620cc1ee373f1f3c7837342b26f2c70"
+      "sha256": "f7c7831128ab5fd2d875405bb1b1d4a6f1a2a26d04c0210bc75e4964e2f8c594"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "82501b74c2d0377328f06821af0249a085ce99d2d9c38693e0b41102eb9e9d41"
+      "sha256": "64af713c6e15934a8ac543bf529765403e9f53f2cd52017cba02449b1da4f2a7"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "681579f8fdc17eaa187e3b904c9db824aabf2e1b590160c6263bb4c1b06e2af6"
+      "sha256": "d62b821eb04ec512c4f1d2f2afb7e52d4713f7349f4381df51015bc9bf04f0dd"
     }
   },
   "table": [
@@ -3558,6 +3558,19 @@
       "roundLabel": "Югоизточна Трета лига",
       "strHomeTeam": "Берое",
       "strAwayTeam": "Марица 1921",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-7c4e28409cfa",
+      "dateEvent": "2026-10-10",
+      "strTime": "14:00:00",
+      "intRound": "",
+      "roundLabel": "Югоизточна Трета лига",
+      "strHomeTeam": "Дунав Русе",
+      "strAwayTeam": "Ботев Пловдив",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
