@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-11T06:21:39.252373+00:00",
+  "updatedAt": "2026-10-11T13:11:22.530147+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "19194f4ff2a5fbd50cbc60cbd5a8ff894185c01722295fbd40aa361a970a07e6"
+      "sha256": "96eec30251d5e69eca66e5544a2ef7241d5f647c0a09f809ffff9ed3bdd8dc17"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "7783466eed57738b6427c9553e7e8170deb04145eeb1186ee99196632cff5fb8"
+      "sha256": "b034ccab1a74379a14f2400af106c24f6287cf15573470486ad420d19f6416ee"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "88ee781c39079cbcebb1539157e49a3ab14f01371c3cfe1d35a0637c43e66861"
+      "sha256": "3495ba4a86c9e0afd724bc28250c9fcfa321511fc6fc2a4a7af7a52d0109646b"
     }
   },
   "table": [
@@ -2423,8 +2423,9 @@
       "strHomeTeam": "Академик",
       "strAwayTeam": "Черноморец 1919",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "4",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -2553,8 +2554,9 @@
       "strHomeTeam": "Марица 1921",
       "strAwayTeam": "Спартак Варна",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
