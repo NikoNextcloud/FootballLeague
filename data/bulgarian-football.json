@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-12T16:44:43.564269+00:00",
+  "updatedAt": "2026-10-12T23:15:47.283033+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "1f41c77f2d27999af351e3091694571e68483c90d4e26df049dc7ade761fc4f2"
+      "sha256": "1690dcce43b2c45bc15a8ca38d63a4b56f79f0efed9f6857b14badc79e820521"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "ad94b07e4ab3a4e432205f66d5021ac3a46d29e76bb37f2cff1babfd95c0b29d"
+      "sha256": "5cb4276b3683aa78324700def03b375c06f9204b87662a0144e2a74b2d61f41a"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "784df9c0c88b28dec5c8a41a0f5e44938a41e1edb739ba8c5325935d41368c54"
+      "sha256": "aceaf9d1c414c5db37a574d0ec9199818cf431b8fdb734a8e9708b6f62a80905"
     }
   },
   "table": [
@@ -44,14 +44,14 @@
     {
       "intRank": 3,
       "strTeam": "Лудогорец",
-      "intPlayed": 9,
-      "intWin": 7,
+      "intPlayed": 10,
+      "intWin": 8,
       "intDraw": 2,
       "intLoss": 0,
-      "intGoalsFor": 16,
+      "intGoalsFor": 21,
       "intGoalsAgainst": 7,
-      "intGoalDifference": 9,
-      "intPoints": 23
+      "intGoalDifference": 14,
+      "intPoints": 26
     },
     {
       "intRank": 4,
@@ -80,13 +80,13 @@
     {
       "intRank": 6,
       "strTeam": "Арда",
-      "intPlayed": 10,
+      "intPlayed": 11,
       "intWin": 5,
       "intDraw": 2,
-      "intLoss": 3,
+      "intLoss": 4,
       "intGoalsFor": 15,
-      "intGoalsAgainst": 12,
-      "intGoalDifference": 3,
+      "intGoalsAgainst": 17,
+      "intGoalDifference": -2,
       "intPoints": 17
     },
     {
@@ -1184,8 +1184,9 @@
       "strHomeTeam": "Лудогорец",
       "strAwayTeam": "Арда",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "5",
+      "intAwayScore": "0",
+      "halftime": "3:0"
     },
     {
       "id": "bf-ef3db030bab6",
@@ -1817,13 +1818,13 @@
       "goals": 6
     },
     {
-      "player": "Фредерик Масиел",
-      "team": "ЦСКА 1948",
-      "goals": 5
-    },
-    {
       "player": "Руан Круз",
       "team": "Лудогорец",
+      "goals": 6
+    },
+    {
+      "player": "Фредерик Масиел",
+      "team": "ЦСКА 1948",
       "goals": 5
     },
     {
@@ -1859,6 +1860,11 @@
     {
       "player": "Елиас Франко",
       "team": "ЦСКА 1948",
+      "goals": 4
+    },
+    {
+      "player": "Бърнард Текпетей",
+      "team": "Лудогорец",
       "goals": 4
     },
     {
@@ -1914,11 +1920,6 @@
     {
       "player": "Акрам Бурас",
       "team": "Левски",
-      "goals": 2
-    },
-    {
-      "player": "Бърнард Текпетей",
-      "team": "Лудогорец",
       "goals": 2
     },
     {
@@ -2330,60 +2331,135 @@
       "player": "Мехди Мубарик",
       "team": "Левски",
       "goals": 1
+    },
+    {
+      "player": "Иван Желизко",
+      "team": "Лудогорец",
+      "goals": 1
+    },
+    {
+      "player": "Кайо Видал",
+      "team": "Лудогорец",
+      "goals": 1
     }
   ],
   "today": [
     {
-      "id": "bf-67185e6af3a5",
-      "dateEvent": "2026-10-12",
+      "id": "bf-69ca4738c804",
+      "dateEvent": "2026-10-13",
+      "strTime": "13:00:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Армения",
+      "strAwayTeam": "Грузия",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-2223bcf2be60",
+      "dateEvent": "2026-10-13",
+      "strTime": "13:00:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "България",
+      "strAwayTeam": "Ирландия",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-4cdf42fe6742",
+      "dateEvent": "2026-10-13",
       "strTime": "14:00:00",
       "intRound": "",
-      "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "Пловдив 2015",
-      "strAwayTeam": "Оборище",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Априлец 2017",
+      "strAwayTeam": "Черноморец 1919",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Първа професионална лига - Първа фаза"
+      "competition": "Втора професионална лига"
     },
     {
-      "id": "bf-36f27e196687",
-      "dateEvent": "2026-10-12",
+      "id": "bf-bc88eeb7cdaa",
+      "dateEvent": "2026-10-13",
       "strTime": "15:00:00",
       "intRound": "",
-      "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "ФК Ямбол 1915",
-      "strAwayTeam": "ФК Сливен",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Арсенал 2000",
+      "strAwayTeam": "Локомотив",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Първа професионална лига - Първа фаза"
+      "competition": "Втора професионална лига"
     },
     {
-      "id": "bf-8fded234570f",
-      "dateEvent": "2026-10-12",
-      "strTime": "16:30:00",
+      "id": "bf-3f462144ff8d",
+      "dateEvent": "2026-10-13",
+      "strTime": "15:00:00",
       "intRound": "",
-      "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "Левски",
-      "strAwayTeam": "Ботев",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Загорец",
+      "strAwayTeam": "Спартак",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Първа професионална лига - Първа фаза"
+      "competition": "Втора професионална лига"
     },
     {
-      "id": "bf-b2d60ac02274",
-      "dateEvent": "2026-10-12",
-      "strTime": "20:00:00",
+      "id": "bf-b2c2cd202466",
+      "dateEvent": "2026-10-13",
+      "strTime": "15:00:00",
       "intRound": "",
-      "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "Лудогорец",
-      "strAwayTeam": "Арда",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Тунджа 2009",
+      "strAwayTeam": "Бургас спорт",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Първа професионална лига - Първа фаза"
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-046edb64d158",
+      "dateEvent": "2026-10-13",
+      "strTime": "15:00:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "ФК Сливен",
+      "strAwayTeam": "Вихър",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-0d4e8625ebc2",
+      "dateEvent": "2026-10-13",
+      "strTime": "15:00:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Чирпан 1929",
+      "strAwayTeam": "ОФК Хасково",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
+    },
+    {
+      "id": "bf-52e651a56a6c",
+      "dateEvent": "2026-10-13",
+      "strTime": "18:00:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Монтана 1921",
+      "strAwayTeam": "Лудогорец",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
     }
   ],
   "europe": {
