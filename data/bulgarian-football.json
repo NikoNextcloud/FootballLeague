@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-13T11:06:43.723953+00:00",
+  "updatedAt": "2026-10-13T18:15:25.464393+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "f638e11ea5f1787b122485c15f7418a58043149d871515263fa4236dcb4c4ec5"
+      "sha256": "9b0215777108cd5ff7073a8f81f4be16453defb2edecbae8811a280716eb178d"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e9b04148133a1b1ccfdde01ec4521ec75e192949455d259aa4c042f33a2b5001"
+      "sha256": "9ee4448720cf4af47a6c7840d52de782318807e4f57539958621f7936a4b407d"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "dd0d14e3a7aa3716bb58ac7e9e7d9d420941d9492f8db7aa8845282a3bf00bb6"
+      "sha256": "c0fd2f8eb3526c8f3f59ba27c60d9fbd056f0d79437bf6e940b306a02cb9cf8c"
     }
   },
   "table": [
@@ -2353,8 +2353,9 @@
       "strHomeTeam": "Армения",
       "strAwayTeam": "Грузия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "7",
+      "halftime": "0:4",
       "competition": "Втора професионална лига"
     },
     {
@@ -2366,8 +2367,9 @@
       "strHomeTeam": "България",
       "strAwayTeam": "Ирландия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:0",
       "competition": "Втора професионална лига"
     },
     {
