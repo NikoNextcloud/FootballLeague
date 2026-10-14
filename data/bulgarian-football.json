@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-14T17:30:05.506348+00:00",
+  "updatedAt": "2026-10-14T20:55:33.839818+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "3d8a0637fd3a89481509d85f2310a34438e85fa2a6121afa5d4df62c6051ec86"
+      "sha256": "f38ccec68fe9453cf1bab8e545a44ab719a7190b6c17200fdf000b34ff0e98c0"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "fba5f5042c07a12d4e77b05e4ca153d76d2acbad2f3c88e0cff5189913033636"
+      "sha256": "58dced0f637fb772298c6cd363a0f1e654efb09c9694956cb7ee0b09f34a4aa7"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "04116cc1cd5bdbe356e1414b91cde82bc7d74a3085358863d54f1db8c00bf5e4"
+      "sha256": "8d0219ad5b856c179b8ef8dd4ad11d505992bfb64fd636210328d507f76961ca"
     }
   },
   "table": [
@@ -2593,8 +2593,9 @@
       "strHomeTeam": "Ботев Пловдив",
       "strAwayTeam": "Ботев Враца",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Купа на елита - 1/4 финали"
     },
     {
@@ -2606,8 +2607,9 @@
       "strHomeTeam": "Грузия",
       "strAwayTeam": "България",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:0",
       "competition": "Купа на регионите 2027 - Междинен кръг, Група 4"
     }
   ],
