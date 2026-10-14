@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-14T12:26:22.675973+00:00",
+  "updatedAt": "2026-10-14T17:30:05.506348+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "ace249fe482f2a1346c0a9581aa45c7d88d007cd328e0f9b0e0ce5a753391e28"
+      "sha256": "3d8a0637fd3a89481509d85f2310a34438e85fa2a6121afa5d4df62c6051ec86"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "4e13ba18ce25d8a7aac55b3c5770ff56295ddc6e816f53ff2c141908f4fdaf9a"
+      "sha256": "fba5f5042c07a12d4e77b05e4ca153d76d2acbad2f3c88e0cff5189913033636"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "6b71336b8d9b1afcbc5a40b6c1fbd2934dec6f72721d5a71461b445d48e5f761"
+      "sha256": "04116cc1cd5bdbe356e1414b91cde82bc7d74a3085358863d54f1db8c00bf5e4"
     }
   },
   "table": [
@@ -2345,17 +2345,17 @@
   ],
   "today": [
     {
-      "id": "bf-bab59f09c950",
+      "id": "bf-a1d44a9cc26e",
       "dateEvent": "2026-10-14",
       "strTime": "13:00:00",
       "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал",
       "strHomeTeam": "ДИТ (кв.Драгалевци, София)",
       "strAwayTeam": "Тракиец 2005",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал"
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал"
     },
     {
       "id": "bf-7995d7b6b236",
@@ -2366,87 +2366,88 @@
       "strHomeTeam": "Чехия",
       "strAwayTeam": "Казахстан",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "8",
+      "intAwayScore": "0",
+      "halftime": "5:0",
       "competition": "Купа на регионите 2027 - Междинен кръг, Група 4"
     },
     {
-      "id": "bf-beccfc69ebb6",
+      "id": "bf-9767e65f2436",
       "dateEvent": "2026-10-14",
       "strTime": "15:00:00",
       "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал",
       "strHomeTeam": "Академик",
       "strAwayTeam": "Павликени",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал"
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал"
     },
     {
-      "id": "bf-4aa2558fcd7c",
+      "id": "bf-d2f33520beb7",
       "dateEvent": "2026-10-14",
       "strTime": "15:00:00",
       "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал",
       "strHomeTeam": "Ботев Враца",
       "strAwayTeam": "Локомотив",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал"
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал"
     },
     {
-      "id": "bf-650e8c5a90e7",
+      "id": "bf-983ed80153be",
       "dateEvent": "2026-10-14",
       "strTime": "15:00:00",
       "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал",
       "strHomeTeam": "Спартак",
       "strAwayTeam": "Монтана 1921",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал"
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал"
     },
     {
-      "id": "bf-6ba7af52c8c6",
+      "id": "bf-c933c70230fa",
       "dateEvent": "2026-10-14",
       "strTime": "15:00:00",
       "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал",
       "strHomeTeam": "Чавдар 2020",
       "strAwayTeam": "Ком",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал"
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал"
     },
     {
-      "id": "bf-1f5b93f1669e",
+      "id": "bf-700da74b6c10",
       "dateEvent": "2026-10-14",
       "strTime": "15:30:00",
       "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал",
       "strHomeTeam": "Верея",
       "strAwayTeam": "Берое",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал"
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал"
     },
     {
-      "id": "bf-930729255f7e",
+      "id": "bf-cf0fe61b42ee",
       "dateEvent": "2026-10-14",
       "strTime": "15:45:00",
       "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал",
       "strHomeTeam": "Черноломец 1919",
       "strAwayTeam": "Лудогорец",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал"
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал"
     },
     {
       "id": "bf-2ae32df3f51b",
@@ -2457,35 +2458,36 @@
       "strHomeTeam": "Ветрен",
       "strAwayTeam": "Беласица",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Купа на елита - 1/4 финали"
     },
     {
-      "id": "bf-55cf67306c28",
+      "id": "bf-b90df1d1c04a",
       "dateEvent": "2026-10-14",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал",
       "strHomeTeam": "ДИТ (кв.Драгалевци, София)",
       "strAwayTeam": "УФК Ботев (София)",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал"
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал"
     },
     {
-      "id": "bf-56c74e330ce5",
+      "id": "bf-c769446816ef",
       "dateEvent": "2026-10-14",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал",
       "strHomeTeam": "Добруджа 1919",
       "strAwayTeam": "Кубрат 2016",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал"
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал"
     },
     {
       "id": "bf-138dfeab6067",
@@ -2496,22 +2498,23 @@
       "strHomeTeam": "Житен",
       "strAwayTeam": "Национал (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Купа на елита - 1/4 финали"
     },
     {
-      "id": "bf-f8941a12efd9",
+      "id": "bf-011f16a92a45",
       "dateEvent": "2026-10-14",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал",
       "strHomeTeam": "Карнобат",
       "strAwayTeam": "ОФК Поморие",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал"
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал"
     },
     {
       "id": "bf-18e7b1984d59",
@@ -2522,22 +2525,23 @@
       "strHomeTeam": "Копие",
       "strAwayTeam": "Кюстендил",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "7",
+      "halftime": "0:4",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал"
     },
     {
-      "id": "bf-1d2652f2a2ec",
+      "id": "bf-528b07546ad9",
       "dateEvent": "2026-10-14",
       "strTime": "16:00:00",
       "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал",
       "strHomeTeam": "Олимпик",
       "strAwayTeam": "Светкавица 2014",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал"
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал"
     },
     {
       "id": "bf-12777316c143",
@@ -2548,22 +2552,37 @@
       "strHomeTeam": "Стрела 2003",
       "strAwayTeam": "Банско тийм",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "10",
+      "halftime": "",
       "competition": "Купа на елита - 1/4 финали"
     },
     {
-      "id": "bf-ab2b8fad5722",
+      "id": "bf-a9b7aec1cc44",
+      "dateEvent": "2026-10-14",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал",
+      "strHomeTeam": "ФК Вихър 1965",
+      "strAwayTeam": "Родопа Смолян",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "0",
+      "intAwayScore": "7",
+      "halftime": "",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал"
+    },
+    {
+      "id": "bf-b93e3874c702",
       "dateEvent": "2026-10-14",
       "strTime": "16:30:00",
       "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал",
       "strHomeTeam": "Огражден 1955",
       "strAwayTeam": "Пирин 1941",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Кюстендил, Финал"
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Смолян, Финал"
     },
     {
       "id": "bf-699c6bac5fc1",
