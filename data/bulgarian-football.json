@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-15T17:18:05.894782+00:00",
+  "updatedAt": "2026-10-15T20:24:37.455992+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "cf055e47bfb63df6ace16d260e2a63c662a756439553d90b21d011fcd3d0902c"
+      "sha256": "8eaf39f4e95c81fc31392c8ba000faa5037feaf66e19b945feff8bfecd5db669"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "c5965a8e4b907023018cf798569b1021d4cbfed1d8fd23976204e9cf2330f148"
+      "sha256": "0aedcd6ca246de769a5eb9e7f04f97be7a6dcd6d34645f53b4725ed0527e2269"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "3df08c83f90e6b5ee0d02e5d32cbfcbefa48d9481393b2405b1f2a3e2a575cbe"
+      "sha256": "28a8decb542d8cd4f8e377d71581476406e1a1c87258e51a0971fa907d94f049"
     }
   },
   "table": [
@@ -2628,8 +2628,9 @@
       "strHomeTeam": "ЦСКА",
       "strAwayTeam": "Монако",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:2",
       "competition": "Лига на конференциите - Шампионатна фаза"
     },
     {
@@ -3694,8 +3695,9 @@
         "strHomeTeam": "ЦСКА",
         "strAwayTeam": "Монако",
         "source": "bulgarian-football.com",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "1",
+        "intAwayScore": "2",
+        "halftime": "0:2",
         "competition": "Лига на конференциите"
       },
       {
