@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-15T06:55:11.127074+00:00",
+  "updatedAt": "2026-10-15T12:29:54.168839+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "a03ce957483b8e8a048086441d684c6b535dfcc4e8851051f997e9b336faf4c7"
+      "sha256": "353d7f087a01a67017487797ce386a21ad382d139617dbba3b2492c249ff6e54"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "0a6389a41aad64f95d48a2feee7c8c1c45cc6ac35ecae0de4ed0f5a4c2ba14f8"
+      "sha256": "93d91b4ff2efa7588bb07ab8a8514d9a1bf8f6e9afc7e198489a914303a6f874"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "68ad554727abb941cd16a1c18fc6d6b2fbbf0ce9cb81af03b10292dc3423c35c"
+      "sha256": "09658ae9db303ae1b4d538edbcdcdbca98a331f2041771f2f04f4f654e5b6b86"
     }
   },
   "table": [
@@ -2347,14 +2347,15 @@
     {
       "id": "bf-9dca5ee830b2",
       "dateEvent": "2026-10-15",
-      "strTime": "11:00:00",
+      "strTime": "12:00:00",
       "intRound": "",
       "roundLabel": "Лига на конференциите - Шампионатна фаза",
       "strHomeTeam": "България",
       "strAwayTeam": "Армения",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "8",
+      "intAwayScore": "0",
+      "halftime": "3:0",
       "competition": "Лига на конференциите - Шампионатна фаза"
     },
     {
