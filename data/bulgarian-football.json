@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-15T12:29:54.168839+00:00",
+  "updatedAt": "2026-10-15T17:18:05.894782+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "353d7f087a01a67017487797ce386a21ad382d139617dbba3b2492c249ff6e54"
+      "sha256": "cf055e47bfb63df6ace16d260e2a63c662a756439553d90b21d011fcd3d0902c"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "93d91b4ff2efa7588bb07ab8a8514d9a1bf8f6e9afc7e198489a914303a6f874"
+      "sha256": "c5965a8e4b907023018cf798569b1021d4cbfed1d8fd23976204e9cf2330f148"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "09658ae9db303ae1b4d538edbcdcdbca98a331f2041771f2f04f4f654e5b6b86"
+      "sha256": "3df08c83f90e6b5ee0d02e5d32cbfcbefa48d9481393b2405b1f2a3e2a575cbe"
     }
   },
   "table": [
@@ -2367,8 +2367,9 @@
       "strHomeTeam": "Ботев Пловдив",
       "strAwayTeam": "ОФК София 1992 (София)",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "3",
+      "halftime": "",
       "competition": "Лига на конференциите - Шампионатна фаза"
     },
     {
