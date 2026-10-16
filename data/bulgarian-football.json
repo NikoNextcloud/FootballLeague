@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-16T06:03:54.460048+00:00",
+  "updatedAt": "2026-10-16T11:15:06.334234+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "22c446d45ef671b5bc0a06a8e1ba64257345359cc7097479d0cb38be7cdd2451"
+      "sha256": "399389c2c40dbbc5fe9261c6cb62f157aa4cd61fe4b39fa96251062871252730"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "f1c5f590d69789a261ddf6055f0cf355acd3fbf46aba45b37ac400fc60d90812"
+      "sha256": "c207db74bafc0a15f06bda278a79fed0b1bf8384077127637dc8dee600d3cd7a"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "0c8a8ea1e9297235af008ce3cc2bc88dd794e35f8c33383b1cf8459255a5c414"
+      "sha256": "f1000e9cd51c96640fc84dd7905a54293ec46d13b9984cf4a12e88c5eaa4a0ac"
     }
   },
   "table": [
@@ -2352,6 +2352,19 @@
       "roundLabel": "Купа на България - Първи кръг (1/16 финали)",
       "strHomeTeam": "Нефтохимик 1962",
       "strAwayTeam": "ЦСКА 1948",
+      "source": "bulgarian-football.com",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на България - Първи кръг (1/16 финали)"
+    },
+    {
+      "id": "bf-459c0fd89869",
+      "dateEvent": "2026-10-16",
+      "strTime": "15:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на България - Първи кръг (1/16 финали)",
+      "strHomeTeam": "Септември",
+      "strAwayTeam": "Добруджа 1919",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
