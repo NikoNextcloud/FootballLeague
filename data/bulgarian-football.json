@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-16T15:23:54.669237+00:00",
+  "updatedAt": "2026-10-16T18:54:12.140288+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "a43cc5c3187be4d4f72b737cab1cf91a91b814f857c7a8db7434f8049a07805f"
+      "sha256": "e844435f0d1eec4b05f241314d6b9fa8a66fd1a4cbe982ace7e04a08e54edc10"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "c9f761ee8541d040687a29acd30013d5268eb9e7bf67f67b4d92271a1ae1cea5"
+      "sha256": "8cde1866e933ef174e7f146ed8af3d45d8ec575362db30d1d9ce538405c3d917"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "9ad29fa59b5328b1ae59a9b7cda5794f1451cb33754f7c382a76ae10109dcb0a"
+      "sha256": "52d7d37775565e90eeb264b97015ad41d1431052e555a03efd0af9a25124ab7a"
     }
   },
   "table": [
@@ -2359,17 +2359,31 @@
       "competition": "Купа на България - Първи кръг (1/16 финали)"
     },
     {
-      "id": "bf-459c0fd89869",
+      "id": "bf-340d95d5b9ce",
       "dateEvent": "2026-10-16",
       "strTime": "15:30:00",
       "intRound": "",
-      "roundLabel": "Купа на България - Първи кръг (1/16 финали)",
+      "roundLabel": "Приятелски срещи: Лято-есен",
       "strHomeTeam": "Септември",
       "strAwayTeam": "Добруджа 1919",
       "source": "bulgarian-football.com",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на България - Първи кръг (1/16 финали)"
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
+      "id": "bf-48fda7705145",
+      "dateEvent": "2026-10-16",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Спортист 2009",
+      "strAwayTeam": "ОФК Локомотив",
+      "source": "bulgarian-football.com",
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "1:0",
+      "competition": "Приятелски срещи: Лято-есен"
     },
     {
       "id": "bf-321bad15b69f",
@@ -2380,8 +2394,9 @@
       "strHomeTeam": "Янтра 2019",
       "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:1",
       "competition": "Купа на България - Първи кръг (1/16 финали)"
     }
   ],
