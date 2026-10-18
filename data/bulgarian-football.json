@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-18T09:10:00.251243+00:00",
+  "updatedAt": "2026-10-18T13:18:08.840497+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "c7ffa0a36851db7570ff0f636f8f3f787ad9da27f83dbf68016be4dcffdc295d"
+      "sha256": "f9ea7b61d3059d62732df5365e4d599591406f37cfb19adf6009459a0a72e6e1"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "ea1d84cd3c3084dc4c73e05600a736dfc6a6ff342549f0fb6e9c7b777748bf46"
+      "sha256": "6c55e0a7f64d5126f990b7121f98e3d516bf102427305db1dec57fdf117514e4"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "33a9b8b1d9d919ecfb02b8e1497b315d6cfbda5dfb7e88df45980cc391c1990a"
+      "sha256": "0b0c57acf7e4bba680eefca7636d900bf96b9466f90356f030028343860a1a0d"
     }
   },
   "table": [
@@ -2945,14 +2945,15 @@
     {
       "id": "bf-77e42ace8f8c",
       "dateEvent": "2026-10-18",
-      "strTime": "12:00:00",
+      "strTime": "12:15:00",
       "intRound": "",
       "roundLabel": "Купа на България - Първи кръг (1/16 финали)",
       "strHomeTeam": "Черноморец 1919",
       "strAwayTeam": "Ботев Пловдив",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "4",
+      "halftime": "0:1",
       "competition": "Купа на България - Първи кръг (1/16 финали)"
     },
     {
@@ -3367,8 +3368,9 @@
       "strHomeTeam": "ЦСКА",
       "strAwayTeam": "Славия",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "9",
+      "intAwayScore": "0",
+      "halftime": "3:0",
       "competition": "Купа на България - Първи кръг (1/16 финали)"
     },
     {
@@ -3393,8 +3395,9 @@
       "strHomeTeam": "Обнова 2022",
       "strAwayTeam": "Гигант 1947",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Югозападна Трета лига"
     },
     {
