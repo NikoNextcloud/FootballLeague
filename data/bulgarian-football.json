@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "bulgarian-football.com",
-  "updatedAt": "2026-10-18T16:37:04.131368+00:00",
+  "updatedAt": "2026-10-18T18:56:14.570292+00:00",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "7718fae8dd1472f8ee74c5cc452002ec4921ba6a11e1aeda4a4ed7a07f692155"
+      "sha256": "9f23aac8fff4bba592d076863eedf61e821bb0d350b63b7d4e3b03277fb01f97"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "1cb676670ee617cfc37d6c87bb296d5607c61ff5729cd6292a2806ed3e54287e"
+      "sha256": "edabc60ccecaef73744eb97dfb00098b7db175d4547f260e2d93e54c0f1176d7"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "f9b0f8498b5812fdbf9a22240e7fdb3d3d44a83de9e9a6ce8e6da82af27016cd"
+      "sha256": "76565f60572bf64c8a5448dd867a20515251265688bfcd8168892f050e36cb76"
     }
   },
   "table": [
@@ -3503,8 +3503,9 @@
       "strHomeTeam": "Севлиево лейдис",
       "strAwayTeam": "Спортика",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Купа на България - Първи кръг (1/16 финали)"
     },
     {
@@ -5258,8 +5259,9 @@
       "strHomeTeam": "Спартак",
       "strAwayTeam": "Левски",
       "source": "bulgarian-football.com",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "2",
+      "halftime": "0:0",
       "competition": "Купа на България - Първи кръг (1/16 финали)"
     }
   ],
