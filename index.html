@@ -1,5 +1,48 @@
-<!doctype html><html lang="bg"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#09231b"><meta name="description" content="А Група — мачове, резултати, класиране и отбори от българския футболен елит."><title>А Група</title><link rel="icon" href="assets/logos/favicon-32.png"><link rel="apple-touch-icon" href="assets/logos/apple-touch-icon.png"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"></head><body>
-<header class="site-header"><div class="header-inner"><div class="brand"><img class="site-logo" src="assets/logos/logo.png" alt="Лого А Група"><span>А Група</span></div><div id="data-status" class="status"><i></i>Зареждаме данните</div><nav class="desktop-nav"><button class="nav-item active" data-page="home">Начало</button><button class="nav-item" data-page="standings">Класиране</button><button class="nav-item" data-page="matches">Мачове</button><button class="nav-item" data-page="teams">Отбори</button><button class="nav-item" data-page="europe">Европа</button><a class="nav-item live-link" href="https://niko-hp-z400-workstation.tail1da40a.ts.net:8443/web/#/login" target="_blank" rel="noopener noreferrer">На живо</a></nav><button id="notify" class="icon-btn notify-btn" title="Включи известия за мачове" aria-label="Включи известия за мачове">🔔</button><button id="refresh" class="icon-btn" title="Обнови данните">↻</button></div></header>
-<main id="app" class="shell"></main>
-<nav class="bottom-nav"><button class="nav-item active" data-page="home"><span>⌂</span>Начало</button><button class="nav-item" data-page="standings"><span>▤</span>Класиране</button><button class="nav-item" data-page="matches"><span>⚽</span>Мачове</button><button class="nav-item" data-page="europe"><span>◆</span>Европа</button><a class="nav-item live-link" href="https://niko-hp-z400-workstation.tail1da40a.ts.net:8443/web/#/login" target="_blank" rel="noopener noreferrer"><span>●</span>На живо</a></nav>
-<script src="app.js?v=29"></script></body></html>
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#08121c">
+  <meta name="description" content="Българският футбол на едно място — предстоящи мачове, резултати, класиране, отбори и евротурнири.">
+  <title>А Група — Българският футбол</title>
+  <link rel="icon" href="assets/logos/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/logos/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" href="assets/fonts/Inter-400-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a href="#app" class="skip-link">Към съдържанието</a>
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand"><img class="site-logo" src="assets/logos/logo.png" alt="" width="54" height="54"><div class="brand-name"><span>А Група</span><small>БЪЛГАРСКИЯТ ФУТБОЛ</small></div></div>
+    <div id="data-status" class="status" role="status" aria-live="polite"><i></i>Зареждаме данните</div>
+    <nav class="desktop-nav" aria-label="Основна навигация">
+      <button class="nav-item active" data-page="home" type="button">Начало</button>
+      <button class="nav-item" data-page="standings" type="button">Класиране</button>
+      <button class="nav-item" data-page="matches" type="button">Мачове</button>
+      <button class="nav-item" data-page="teams" type="button">Отбори</button>
+      <button class="nav-item" data-page="europe" type="button">Европа</button>
+      <a class="nav-item live-link" href="https://niko-hp-z400-workstation.tail1da40a.ts.net:8443/web/#/login" target="_blank" rel="noopener noreferrer">На живо ↗</a>
+    </nav>
+    <div class="header-actions">
+      <button id="notify" class="icon-btn notify-btn" title="Включи известия за мачове" aria-label="Включи известия за мачове" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button id="refresh" class="icon-btn" title="Обнови данните" aria-label="Обнови данните" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20 7v5h-5M4 17v-5h5M19 11a7 7 0 0 0-12-5L4 9m16 6-3 3a7 7 0 0 1-12-5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+  </div>
+</header>
+<main id="app" class="shell" tabindex="-1"></main>
+<footer class="site-footer"><p><b class="footer-mark">А ГРУПА</b> &nbsp; Българският футбол, подреден.</p><p>Програмата може да се променя. Часовете са за България.</p></footer>
+<nav class="bottom-nav" aria-label="Мобилна навигация">
+  <button class="nav-item active" data-page="home" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="m3 10 9-7 9 7v10H3ZM9 20v-7h6v7" stroke-linejoin="round"/></svg>Начало</button>
+  <button class="nav-item" data-page="standings" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M4 4h16v16H4ZM4 9h16M9 4v16M4 14h16" stroke-linejoin="round"/></svg>Класиране</button>
+  <button class="nav-item" data-page="matches" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 11h18m-14 4h3m4 0h3M7 18h3" stroke-linecap="round"/></svg>Мачове</button>
+  <button class="nav-item" data-page="teams" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="m12 3 8 3v5c0 5-8 10-8 10S4 16 4 11V6Z" stroke-linejoin="round"/><path d="m9 11 2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>Отбори</button>
+  <button class="nav-item" data-page="europe" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg>Европа</button>
+  <a class="nav-item live-link" href="https://niko-hp-z400-workstation.tail1da40a.ts.net:8443/web/#/login" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m10 9 5 3-5 3Z" stroke-linejoin="round"/></svg>На живо ↗</a>
+</nav>
+<script src="football-data.js?v=30"></script>
+<script src="app.js?v=30"></script>
+</body>
+</html>
