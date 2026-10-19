@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-10-19T11:55:55.228740+00:00",
-  "lastSuccessAt": "2026-10-19T11:55:55.228740+00:00",
+  "updatedAt": "2026-10-19T17:48:17.075479+00:00",
+  "lastSuccessAt": "2026-10-19T17:48:17.075479+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "ee44a15a9285d7387058cfff9f608dbad190713fe8af3f4b736e711e75b1c374",
-      "checkedAt": "2026-10-19T11:55:55.228740+00:00"
+      "sha256": "53b4bf1a57d92214bd737c63a1399d50189558c086643f2543eb670ebfe6466d",
+      "checkedAt": "2026-10-19T17:48:17.075479+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "ceea3a7f4cfe79f9a509c8ff4fd349957ac4239d604eb0bdc0eefad369eefc10",
-      "checkedAt": "2026-10-19T11:55:55.228740+00:00"
+      "sha256": "fd38d6678fa262b2b895fe3babc5b6eec4d59f399655b3c612b7e08eaac36e20",
+      "checkedAt": "2026-10-19T17:48:17.075479+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "8467de83349f7bd50a44ff68da934fd36d851fb241e4fa83a20785d46554ef29",
-      "checkedAt": "2026-10-19T11:55:55.228740+00:00"
+      "sha256": "110d78eb28fcfe491d37f061fdda36fe63b864c6d8c5b784d1eff2a9427f2165",
+      "checkedAt": "2026-10-19T17:48:17.075479+00:00"
     }
   },
   "table": [
@@ -3668,10 +3668,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-19T18:00:00+03:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Купа на България - Първи кръг (1/16 финали)"
     },
     {
