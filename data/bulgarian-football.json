@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-10-19T17:48:17.075479+00:00",
-  "lastSuccessAt": "2026-10-19T17:48:17.075479+00:00",
+  "updatedAt": "2026-10-19T21:45:53.953978+00:00",
+  "lastSuccessAt": "2026-10-19T21:45:53.953978+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "53b4bf1a57d92214bd737c63a1399d50189558c086643f2543eb670ebfe6466d",
-      "checkedAt": "2026-10-19T17:48:17.075479+00:00"
+      "sha256": "59948f718e2e300fc89d865bb5830deca0fbb4a299772b9f509f505ec4aa7850",
+      "checkedAt": "2026-10-19T21:45:53.953978+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "fd38d6678fa262b2b895fe3babc5b6eec4d59f399655b3c612b7e08eaac36e20",
-      "checkedAt": "2026-10-19T17:48:17.075479+00:00"
+      "sha256": "6757ff34a04e7de5e886b9da58a6dffd1a273dcd447f83b5c77e926d41805684",
+      "checkedAt": "2026-10-19T21:45:53.953978+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "110d78eb28fcfe491d37f061fdda36fe63b864c6d8c5b784d1eff2a9427f2165",
-      "checkedAt": "2026-10-19T17:48:17.075479+00:00"
+      "sha256": "30b3e07e02d28fd7b78fd56c27810ed3210886d8a3ac7abb4fc4a4c60779e9b7",
+      "checkedAt": "2026-10-19T21:45:53.953978+00:00"
     }
   },
   "table": [
@@ -3658,39 +3658,89 @@
   ],
   "today": [
     {
-      "id": "bf-ebb96c3c0dea",
-      "dateEvent": "2026-10-19",
-      "strTime": "18:00:00",
+      "id": "bf-95194c323567",
+      "dateEvent": "2026-10-20",
+      "strTime": "10:00:00",
       "intRound": "",
-      "roundLabel": "Купа на България - Първи кръг (1/16 финали)",
-      "strHomeTeam": "Добруджа 1919",
-      "strAwayTeam": "Монтана 1921",
-      "source": "bulgarian-football.com",
-      "timezone": "Europe/Sofia",
-      "timeConfirmed": true,
-      "status": "finished",
-      "kickoffAt": "2026-10-19T18:00:00+03:00",
-      "intHomeScore": "2",
-      "intAwayScore": "1",
-      "halftime": "0:0",
-      "competition": "Купа на България - Първи кръг (1/16 финали)"
-    },
-    {
-      "id": "bf-53e4e92677a4",
-      "dateEvent": "2026-10-19",
-      "strTime": "19:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на България - Първи кръг (1/16 финали)",
-      "strHomeTeam": "Етър ВТ",
-      "strAwayTeam": "Спартак Варна",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Армения",
+      "strAwayTeam": "Молдова",
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
       "status": "scheduled",
-      "kickoffAt": "2026-10-19T19:00:00+03:00",
+      "kickoffAt": "2026-10-20T10:00:00+03:00",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Купа на България - Първи кръг (1/16 финали)"
+      "competition": "Деца: Купа на БФС"
+    },
+    {
+      "id": "bf-aa1334a98028",
+      "dateEvent": "2026-10-20",
+      "strTime": "11:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "България",
+      "strAwayTeam": "Косово",
+      "source": "bulgarian-football.com",
+      "timezone": "Europe/Sofia",
+      "timeConfirmed": true,
+      "status": "scheduled",
+      "kickoffAt": "2026-10-20T11:00:00+03:00",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС"
+    },
+    {
+      "id": "bf-aa0b1fef9acd",
+      "dateEvent": "2026-10-20",
+      "strTime": "15:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Чавдар 2020",
+      "strAwayTeam": "ОФК Локомотив",
+      "source": "bulgarian-football.com",
+      "timezone": "Europe/Sofia",
+      "timeConfirmed": true,
+      "status": "scheduled",
+      "kickoffAt": "2026-10-20T15:00:00+03:00",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС"
+    },
+    {
+      "id": "bf-8d6f3c8b16f6",
+      "dateEvent": "2026-10-20",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на регионите 2027 - Междинен кръг, Група 4",
+      "strHomeTeam": "България",
+      "strAwayTeam": "Чехия",
+      "source": "bulgarian-football.com",
+      "timezone": "Europe/Sofia",
+      "timeConfirmed": true,
+      "status": "scheduled",
+      "kickoffAt": "2026-10-20T16:00:00+03:00",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на регионите 2027 - Междинен кръг, Група 4"
+    },
+    {
+      "id": "bf-55472b5d99f4",
+      "dateEvent": "2026-10-20",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на регионите 2027 - Междинен кръг, Група 4",
+      "strHomeTeam": "Казахстан",
+      "strAwayTeam": "Грузия",
+      "source": "bulgarian-football.com",
+      "timezone": "Europe/Sofia",
+      "timeConfirmed": true,
+      "status": "scheduled",
+      "kickoffAt": "2026-10-20T16:00:00+03:00",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на регионите 2027 - Междинен кръг, Група 4"
     }
   ],
   "europe": {
