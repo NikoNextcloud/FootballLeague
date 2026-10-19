@@ -8,7 +8,7 @@ const http = require('node:http');
 const os = require('node:os');
 const { chromium } = require('playwright');
 const root = path.resolve(__dirname, '..');
-const types = {'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.webmanifest':'application/manifest+json','.woff2':'font/woff2','.png':'image/png','.jpg':'image/jpeg'};
+const types = {'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.webmanifest':'application/manifest+json','.woff2':'font/woff2','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp'};
 const server = http.createServer((req,res) => {
   const name = decodeURIComponent(new URL(req.url,'http://localhost').pathname);
   const file = path.resolve(root, '.' + (name === '/' ? '/index.html' : name));

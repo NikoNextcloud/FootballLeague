@@ -1,12 +1,12 @@
 // Cache ownership includes the deployment path: another app on this origin is untouched.
 const CACHE_PREFIX = `a-grupa:${new URL(self.registration.scope).pathname}:`;
-const CACHE = `${CACHE_PREFIX}shell-v28`;
+const CACHE = `${CACHE_PREFIX}shell-v29`;
 const SCOPE = new URL(self.registration.scope);
 const ASSETS = [
   "./", "index.html", "styles.css", "app.js", "football-data.js", "manifest.webmanifest",
   "data/bulgarian-football.json",
   "assets/logos/desktop-192.png", "assets/logos/desktop-512.png",
-  "assets/logos/favicon-32.png", "assets/logos/logo.png",
+  "assets/logos/favicon-32.png", "assets/logos/brand-mark.webp",
   "assets/backgrounds/stadium.jpg"
 ].map(path => new URL(path, SCOPE).href);
 const MAX_ENTRIES = 120;
