@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+node_modules/
+package-lock.json
+_site/
+playwright-report/
+test-results/
