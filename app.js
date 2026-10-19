@@ -1,4 +1,5 @@
 const SEASON = "2026-2027";
+const DATA_REFRESH_MS = 5 * 60_000;
 const CACHE_KEY = "a-grupa-data-v10";
 const LIVE_LINKS_KEY = "a-grupa-live-links-v1";
 
@@ -161,6 +162,7 @@ function enrichWithFile(normalized, file) {
 }
 
 async function loadData(force = false) {
+  if (state.loading && state.data) return;
   state.loading = true; render();
   const cached = JSON.parse(localStorage.getItem(CACHE_KEY) || "null");
   if (!force && cached && Date.now() - new Date(cached.updatedAt).getTime() < 15 * 60_000) {
@@ -169,6 +171,7 @@ async function loadData(force = false) {
   const file = await loadLocalFile();
   if (file?.table?.length || file?.events?.length) {
     state.data = file;
+    state.europeLoaded = false;
     state.data.live = true;
     localStorage.setItem(CACHE_KEY, JSON.stringify(state.data));
   } else {
@@ -706,10 +709,16 @@ $("#notify")?.addEventListener("click", async () => {
     $("#notify").title="Известията са включени";
   }
 });
-loadData();
+loadData(true);
 if ("Notification" in window && Notification.permission === "granted") {
   $("#notify")?.classList.add("enabled");
   $("#notify").title="Известията са включени";
 }
+// Check the published JSON while open and when returning to the tab.
+function refreshPublishedData() {
+  if (!document.hidden && !state.loading) return loadData(true);
+}
+setInterval(refreshPublishedData, DATA_REFRESH_MS);
+document.addEventListener("visibilitychange", refreshPublishedData);
 setInterval(checkMatchNotifications, 60_000);
 if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("service-worker.js");
