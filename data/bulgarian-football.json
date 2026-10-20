@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-10-20T10:24:04.842614+00:00",
-  "lastSuccessAt": "2026-10-20T10:24:04.842614+00:00",
+  "updatedAt": "2026-10-20T15:21:36.477395+00:00",
+  "lastSuccessAt": "2026-10-20T15:21:36.477395+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "1d09567ad86599e06120e625ee21c5cff1d58ac326f8d7ea768f33ead72fbf8f",
-      "checkedAt": "2026-10-20T10:24:04.842614+00:00"
+      "sha256": "2ad197924c044a02c3e0167691c0bf06044fa11bf6574d6a1fb702137b0e8d97",
+      "checkedAt": "2026-10-20T15:21:36.477395+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "3495b43937866c9afdfc8171c04f3b13c4687503643c294c6e1f4fe4204b3557",
-      "checkedAt": "2026-10-20T10:24:04.842614+00:00"
+      "sha256": "4cd036d8eafd39cca83e24531e912483005d26fd8b8bf7948c0a66cb62847af9",
+      "checkedAt": "2026-10-20T15:21:36.477395+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "2050f9ad24e51b3fd7e09722d59c15fc47af50d70cb44d6351679f2da62417ac",
-      "checkedAt": "2026-10-20T10:24:04.842614+00:00"
+      "sha256": "582ae9d9e2a004cb8a2244ebc070aa174c90530bf0d9f8c209eb533b5934abf3",
+      "checkedAt": "2026-10-20T15:21:36.477395+00:00"
     }
   },
   "table": [
@@ -3668,10 +3668,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-20T10:00:00+03:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "5",
+      "halftime": "",
       "competition": "Деца: Купа на БФС"
     },
     {
@@ -3685,10 +3686,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-20T11:00:00+03:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Деца: Купа на БФС"
     },
     {
@@ -3719,10 +3721,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-20T16:00:00+03:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "4",
+      "halftime": "0:4",
       "competition": "Купа на регионите 2027 - Междинен кръг, Група 4"
     },
     {
@@ -3736,10 +3739,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-20T16:00:00+03:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "6",
+      "intAwayScore": "0",
+      "halftime": "2:0",
       "competition": "Купа на регионите 2027 - Междинен кръг, Група 4"
     }
   ],
