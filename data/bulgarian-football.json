@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-10-21T05:59:11.908154+00:00",
-  "lastSuccessAt": "2026-10-21T05:59:11.908154+00:00",
+  "updatedAt": "2026-10-21T11:40:44.721287+00:00",
+  "lastSuccessAt": "2026-10-21T11:40:44.721287+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "e0f3696c0231666376ed03ab30888a65a78b3efa499cb6a6809bc6b1d3ab372e",
-      "checkedAt": "2026-10-21T05:59:11.908154+00:00"
+      "sha256": "633f38b071110302949bc845a77753ea8aaaac6dde7291375ee3f1da34be9d57",
+      "checkedAt": "2026-10-21T11:40:44.721287+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "5a44bf24d3cb33348b4fe80271811775f77fdbcc1a704d7664550fbcb4271782",
-      "checkedAt": "2026-10-21T05:59:11.908154+00:00"
+      "sha256": "c36515453ae5972033dca934b807739c122a9634e5b1762e20b2bbe8111ac599",
+      "checkedAt": "2026-10-21T11:40:44.721287+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "e05bd64edc48e2df264ede70dd22d855318f79c18d45d2068ee23d0c935d6635",
-      "checkedAt": "2026-10-21T05:59:11.908154+00:00"
+      "sha256": "519029b74029cc20a287c113b627f9aed3e55af51d567ee031d9c00ca7a8993d",
+      "checkedAt": "2026-10-21T11:40:44.721287+00:00"
     }
   },
   "table": [
@@ -3668,10 +3668,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-21T09:00:00+03:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Деца: Купа на БФС - 1/8 финали"
     },
     {
@@ -3719,10 +3720,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-21T12:00:00+03:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "7",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Деца: Купа на БФС - 1/8 финали"
     },
     {
@@ -3794,6 +3796,23 @@
       "competition": "Деца: Купа на БФС - 1/8 финали"
     },
     {
+      "id": "bf-1add4aecad22",
+      "dateEvent": "2026-10-21",
+      "strTime": "14:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС - 1/8 финали",
+      "strHomeTeam": "Марица 1921",
+      "strAwayTeam": "ФК Вихър 1965",
+      "source": "bulgarian-football.com",
+      "timezone": "Europe/Sofia",
+      "timeConfirmed": true,
+      "status": "scheduled",
+      "kickoffAt": "2026-10-21T14:00:00+03:00",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС - 1/8 финали"
+    },
+    {
       "id": "bf-02fda29a9d8d",
       "dateEvent": "2026-10-21",
       "strTime": "14:00:00",
@@ -3801,6 +3820,23 @@
       "roundLabel": "Деца: Купа на БФС - 1/8 финали",
       "strHomeTeam": "Национал (София)",
       "strAwayTeam": "Етър ВТ",
+      "source": "bulgarian-football.com",
+      "timezone": "Europe/Sofia",
+      "timeConfirmed": true,
+      "status": "scheduled",
+      "kickoffAt": "2026-10-21T14:00:00+03:00",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС - 1/8 финали"
+    },
+    {
+      "id": "bf-aea79d073284",
+      "dateEvent": "2026-10-21",
+      "strTime": "14:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС - 1/8 финали",
+      "strHomeTeam": "Садово",
+      "strAwayTeam": "Металик 1938",
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
@@ -4098,6 +4134,23 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Югоизточна Трета лига"
+    },
+    {
+      "id": "bf-3dfadec70825",
+      "dateEvent": "2026-10-21",
+      "strTime": "16:00:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС - 1/8 финали",
+      "strHomeTeam": "Марица",
+      "strAwayTeam": "ФК Арда 1924",
+      "source": "bulgarian-football.com",
+      "timezone": "Europe/Sofia",
+      "timeConfirmed": true,
+      "status": "scheduled",
+      "kickoffAt": "2026-10-21T16:00:00+03:00",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС - 1/8 финали"
     },
     {
       "id": "bf-f657f0d03019",
