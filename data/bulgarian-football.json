@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-10-22T06:42:18.156670+00:00",
-  "lastSuccessAt": "2026-10-22T06:42:18.156670+00:00",
+  "updatedAt": "2026-10-22T12:32:41.425271+00:00",
+  "lastSuccessAt": "2026-10-22T12:32:41.425271+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "26a9c195a626bf2fd4630a8d5049ce0dd8f946486cbc5014b5c5b6c1757cc8a2",
-      "checkedAt": "2026-10-22T06:42:18.156670+00:00"
+      "sha256": "da2186c88604598b99d43d2f59c21d15608dc0a05da83ef0cdc05185f4f7f35a",
+      "checkedAt": "2026-10-22T12:32:41.425271+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "9a9f58a8655b236f801ff8d659d655790a98d0a7d97de84f45d844bf86dc8de2",
-      "checkedAt": "2026-10-22T06:42:18.156670+00:00"
+      "sha256": "f79451f08f0a68006be6daa8d43c23953ac787105579083f6f963a42f7a093a8",
+      "checkedAt": "2026-10-22T12:32:41.425271+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "9cdec4ccfb9a3ade6a0326d80c74a0c06f7461f506db7626d013741e52033e35",
-      "checkedAt": "2026-10-22T06:42:18.156670+00:00"
+      "sha256": "83b0568c1d08814ffe745281a1176e46ea14e79bae6af0dc293a321a883d792e",
+      "checkedAt": "2026-10-22T12:32:41.425271+00:00"
     }
   },
   "table": [
@@ -3826,6 +3826,23 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "competition": "Лига на конференциите - Шампионатна фаза"
+    },
+    {
+      "id": "bf-1afaabedf017",
+      "dateEvent": "2026-10-22",
+      "strTime": "19:00:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Пловдив, Първи кръг",
+      "strHomeTeam": "Сокол",
+      "strAwayTeam": "Лидер",
+      "source": "bulgarian-football.com",
+      "timezone": "Europe/Sofia",
+      "timeConfirmed": true,
+      "status": "scheduled",
+      "kickoffAt": "2026-10-22T19:00:00+03:00",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Пловдив, Първи кръг"
     },
     {
       "id": "bf-664e691182c8",
