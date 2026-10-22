@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-10-21T23:28:02.764542+00:00",
-  "lastSuccessAt": "2026-10-21T23:28:02.764542+00:00",
+  "updatedAt": "2026-10-22T01:48:34.572039+00:00",
+  "lastSuccessAt": "2026-10-22T01:48:34.572039+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "d48ba0f7236ba2efe588e983cc8bbfaa0e2fbe9470e83c08da55e6a89627384c",
-      "checkedAt": "2026-10-21T23:28:02.764542+00:00"
+      "sha256": "c097c64462704cd0325f53773cd073b7490db31d084edc38812de834df5423f9",
+      "checkedAt": "2026-10-22T01:48:34.572039+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "1ce9e9dbbcf079ec2b21265fdf3833d81ad24a2a740cb722238e4b17e607b20a",
-      "checkedAt": "2026-10-21T23:28:02.764542+00:00"
+      "sha256": "b755629a84725ee17ee3b15fe585dbfceeb77eaf4bf0977ef0572ede530e709f",
+      "checkedAt": "2026-10-22T01:48:34.572039+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "8605b65313c4687cbbd5cb3f2d9f760d2fc4886bf78052363ec86bfa7f0be9b0",
-      "checkedAt": "2026-10-21T23:28:02.764542+00:00"
+      "sha256": "b773ba946f719cf5902adf22ac0e1b3d58d02d5c3d93dfaa6f6c65440551681c",
+      "checkedAt": "2026-10-22T01:48:34.572039+00:00"
     }
   },
   "table": [
