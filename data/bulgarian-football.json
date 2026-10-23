@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-10-23T07:24:40.258969+00:00",
-  "lastSuccessAt": "2026-10-23T07:24:40.258969+00:00",
+  "updatedAt": "2026-10-23T12:51:24.094826+00:00",
+  "lastSuccessAt": "2026-10-23T12:51:24.094826+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "e510eec43f0ce6a6b5fc69cf5d212d5fec6fe24e647bc5c46dbaff87b9030506",
-      "checkedAt": "2026-10-23T07:24:40.258969+00:00"
+      "sha256": "bf27e3ddb0fb181b964c52482793c90b726bf4e0148ea39429357d2190a0a7cb",
+      "checkedAt": "2026-10-23T12:51:24.094826+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "a96213e870db998d8901d08d4123b33d0ba0d15d54ab47b105fe042b9bf11e73",
-      "checkedAt": "2026-10-23T07:24:40.258969+00:00"
+      "sha256": "1e9d8084bcc896078500ec85e7d7a8ab9cf2ba7df150bcb23f6bcd9b073ab7c8",
+      "checkedAt": "2026-10-23T12:51:24.094826+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "3d746974b1fdb3915f7af7d85d3c5566da3d31da442b1b6cbbab6c6a5ded66e5",
-      "checkedAt": "2026-10-23T07:24:40.258969+00:00"
+      "sha256": "b4bf761331d09ef830509106f24298a82ab7c3cdcf739c9a6b075445f3e33a3c",
+      "checkedAt": "2026-10-23T12:51:24.094826+00:00"
     }
   },
   "table": [
@@ -4723,15 +4723,16 @@
       {
         "id": "bf-e263f6e0c3dc",
         "dateEvent": "2026-10-28",
-        "strTime": "",
+        "strTime": "15:30:00",
         "intRound": "",
         "roundLabel": "Първа среща",
         "strHomeTeam": "Фиорентина",
         "strAwayTeam": "Септември София",
         "source": "bulgarian-football.com",
         "timezone": "Europe/Sofia",
-        "timeConfirmed": false,
+        "timeConfirmed": true,
         "status": "scheduled",
+        "kickoffAt": "2026-10-28T15:30:00+02:00",
         "intHomeScore": null,
         "intAwayScore": null,
         "competition": "Юношеска лига"
@@ -4739,15 +4740,16 @@
       {
         "id": "bf-411571cdf803",
         "dateEvent": "2026-11-04",
-        "strTime": "",
+        "strTime": "12:30:00",
         "intRound": "",
         "roundLabel": "Реванш",
         "strHomeTeam": "Септември София",
         "strAwayTeam": "Фиорентина",
         "source": "bulgarian-football.com",
         "timezone": "Europe/Sofia",
-        "timeConfirmed": false,
+        "timeConfirmed": true,
         "status": "scheduled",
+        "kickoffAt": "2026-11-04T12:30:00+02:00",
         "intHomeScore": null,
         "intAwayScore": null,
         "competition": "Юношеска лига"
