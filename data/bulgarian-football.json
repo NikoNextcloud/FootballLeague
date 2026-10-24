@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-10-24T01:57:48.759996+00:00",
-  "lastSuccessAt": "2026-10-24T01:57:48.759996+00:00",
+  "updatedAt": "2026-10-24T07:14:04.849602+00:00",
+  "lastSuccessAt": "2026-10-24T07:14:04.849602+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "8dbf63eedf5bf03fd94efcff5e15488e61c1bd2056a2bda9d59a46fe2c4df733",
-      "checkedAt": "2026-10-24T01:57:48.759996+00:00"
+      "sha256": "64d513f29a87386e410ed34e006a020d24373b94adda7d0507dea5409ba08e58",
+      "checkedAt": "2026-10-24T07:14:04.849602+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "7c176d4f4a4c52440ab323e500b679535a47fabe246f674ef1d30142b170412b",
-      "checkedAt": "2026-10-24T01:57:48.759996+00:00"
+      "sha256": "3ac2392bb6b35397d72956087e6efb8689dcde58cc844b7aa062d6712975f558",
+      "checkedAt": "2026-10-24T07:14:04.849602+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "dc6ec3ef7d54d9dec9c66f96c47abbd086827a5fb942b6519911b9cb1ac4d46b",
-      "checkedAt": "2026-10-24T01:57:48.759996+00:00"
+      "sha256": "bdc3f6d5120b365e5bca1c0129b198bbefe3ed398859009829b95d2efedcd9e9",
+      "checkedAt": "2026-10-24T07:14:04.849602+00:00"
     }
   },
   "table": [
@@ -3147,6 +3147,11 @@
       "goals": 5
     },
     {
+      "player": "Елиас Франко",
+      "team": "ЦСКА 1948",
+      "goals": 5
+    },
+    {
       "player": "Армстронг Око-Флекс",
       "team": "Левски",
       "goals": 4
@@ -3168,11 +3173,6 @@
     },
     {
       "player": "Атанас Илиев",
-      "team": "ЦСКА 1948",
-      "goals": 4
-    },
-    {
-      "player": "Елиас Франко",
       "team": "ЦСКА 1948",
       "goals": 4
     },
@@ -3654,6 +3654,16 @@
     {
       "player": "Кайо Видал",
       "team": "Лудогорец",
+      "goals": 1
+    },
+    {
+      "player": "Моатаз Земземи",
+      "team": "ЦСКА 1948",
+      "goals": 1
+    },
+    {
+      "player": "Петър Витанов",
+      "team": "ЦСКА 1948",
       "goals": 1
     }
   ],
