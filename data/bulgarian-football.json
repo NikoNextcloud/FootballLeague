@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-10-26T11:00:34.725190+00:00",
-  "lastSuccessAt": "2026-10-26T11:00:34.725190+00:00",
+  "updatedAt": "2026-10-26T17:18:44.595156+00:00",
+  "lastSuccessAt": "2026-10-26T17:18:44.595156+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "23e30a0c57144a936c1ac6ef1891c4e96519cdb7e896895beaf3d222c49e1848",
-      "checkedAt": "2026-10-26T11:00:34.725190+00:00"
+      "sha256": "a476029c52b0f99e317b18fdda38eff40b94add0c8b62cdb9ded216f5efcfb67",
+      "checkedAt": "2026-10-26T17:18:44.595156+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "9b940828a7f7daca46ab88bec679e7d56544b98026fc2fc017571bc21ada58d5",
-      "checkedAt": "2026-10-26T11:00:34.725190+00:00"
+      "sha256": "32fd649c436a0c401a830d2c749c11872f9dc5209ad09de217cc9b25f09e7dac",
+      "checkedAt": "2026-10-26T17:18:44.595156+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "751b442e26269d737fb299f21767a80f83145e1c3462797b9667c4815960e997",
-      "checkedAt": "2026-10-26T11:00:34.725190+00:00"
+      "sha256": "a4caf226bc3a891439b5ce995bdbac2d57c80f61b0e7c41d8036b0cb936f2272",
+      "checkedAt": "2026-10-26T17:18:44.595156+00:00"
     }
   },
   "table": [
@@ -112,14 +112,14 @@
     {
       "intRank": 8,
       "strTeam": "Славия",
-      "intPlayed": 11,
+      "intPlayed": 12,
       "intWin": 2,
-      "intDraw": 5,
+      "intDraw": 6,
       "intLoss": 4,
       "intGoalsFor": 9,
       "intGoalsAgainst": 9,
       "intGoalDifference": 0,
-      "intPoints": 11
+      "intPoints": 12
     },
     {
       "intRank": 9,
@@ -147,6 +147,18 @@
     },
     {
       "intRank": 11,
+      "strTeam": "Локомотив Пловдив",
+      "intPlayed": 12,
+      "intWin": 2,
+      "intDraw": 3,
+      "intLoss": 7,
+      "intGoalsFor": 6,
+      "intGoalsAgainst": 14,
+      "intGoalDifference": -8,
+      "intPoints": 9
+    },
+    {
+      "intRank": 12,
       "strTeam": "Локомотив София",
       "intPlayed": 12,
       "intWin": 1,
@@ -156,18 +168,6 @@
       "intGoalsAgainst": 20,
       "intGoalDifference": -7,
       "intPoints": 9
-    },
-    {
-      "intRank": 12,
-      "strTeam": "Локомотив Пловдив",
-      "intPlayed": 11,
-      "intWin": 2,
-      "intDraw": 2,
-      "intLoss": 7,
-      "intGoalsFor": 6,
-      "intGoalsAgainst": 14,
-      "intGoalDifference": -8,
-      "intPoints": 8
     },
     {
       "intRank": 13,
@@ -1549,10 +1549,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-26T17:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": ""
     },
     {
       "id": "bf-c3e4f223cfe9",
@@ -3890,10 +3891,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-26T17:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
@@ -4625,7 +4627,7 @@
   "integrity": {
     "status": "consistent",
     "checkedTeams": 14,
-    "completedMatches": 79,
+    "completedMatches": 80,
     "comparedFields": [
       "intPlayed",
       "intWin",
