@@ -4,29 +4,41 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-10-26T17:18:44.595156+00:00",
-  "lastSuccessAt": "2026-10-26T17:18:44.595156+00:00",
+  "updatedAt": "2026-10-26T21:43:07.805898+00:00",
+  "lastSuccessAt": "2026-10-26T21:43:07.805898+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "a476029c52b0f99e317b18fdda38eff40b94add0c8b62cdb9ded216f5efcfb67",
-      "checkedAt": "2026-10-26T17:18:44.595156+00:00"
+      "sha256": "f938aaa0a4a11bf1a68d6c109e9abb3afb432983cfbdbdb3f4a9eca39d80f2e9",
+      "checkedAt": "2026-10-26T21:43:07.805898+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "32fd649c436a0c401a830d2c749c11872f9dc5209ad09de217cc9b25f09e7dac",
-      "checkedAt": "2026-10-26T17:18:44.595156+00:00"
+      "sha256": "3c450070438496765bef322e25f55e5b2cb629e4598118dcea84e9e62b06c3d2",
+      "checkedAt": "2026-10-26T21:43:07.805898+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "a4caf226bc3a891439b5ce995bdbac2d57c80f61b0e7c41d8036b0cb936f2272",
-      "checkedAt": "2026-10-26T17:18:44.595156+00:00"
+      "sha256": "5d0c34c126ef231b7017ae469d9147b1573972d2f97ce587513ed424ed607a87",
+      "checkedAt": "2026-10-26T21:43:07.805898+00:00"
     }
   },
   "table": [
     {
       "intRank": 1,
+      "strTeam": "ЦСКА",
+      "intPlayed": 12,
+      "intWin": 9,
+      "intDraw": 3,
+      "intLoss": 0,
+      "intGoalsFor": 29,
+      "intGoalsAgainst": 9,
+      "intGoalDifference": 20,
+      "intPoints": 30
+    },
+    {
+      "intRank": 2,
       "strTeam": "Левски",
       "intPlayed": 10,
       "intWin": 9,
@@ -38,27 +50,15 @@
       "intPoints": 28
     },
     {
-      "intRank": 2,
-      "strTeam": "ЦСКА",
-      "intPlayed": 11,
-      "intWin": 8,
-      "intDraw": 3,
-      "intLoss": 0,
-      "intGoalsFor": 27,
-      "intGoalsAgainst": 9,
-      "intGoalDifference": 18,
-      "intPoints": 27
-    },
-    {
       "intRank": 3,
       "strTeam": "Лудогорец",
-      "intPlayed": 10,
+      "intPlayed": 11,
       "intWin": 8,
       "intDraw": 2,
-      "intLoss": 0,
+      "intLoss": 1,
       "intGoalsFor": 21,
-      "intGoalsAgainst": 7,
-      "intGoalDifference": 14,
+      "intGoalsAgainst": 9,
+      "intGoalDifference": 12,
       "intPoints": 26
     },
     {
@@ -1566,10 +1566,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-26T19:30:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "1:0"
     },
     {
       "id": "bf-92aff75d61df",
@@ -3192,7 +3193,7 @@
     {
       "player": "Сантиаго Годой",
       "team": "ЦСКА",
-      "goals": 3
+      "goals": 4
     },
     {
       "player": "Хуан Переа",
@@ -3673,6 +3674,11 @@
       "player": "Хосе Гайегос",
       "team": "Ботев Враца",
       "goals": 1
+    },
+    {
+      "player": "Анджело Мартино",
+      "team": "ЦСКА",
+      "goals": 1
     }
   ],
   "today": [
@@ -3909,10 +3915,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-26T19:30:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
@@ -4627,7 +4634,7 @@
   "integrity": {
     "status": "consistent",
     "checkedTeams": 14,
-    "completedMatches": 80,
+    "completedMatches": 81,
     "comparedFields": [
       "intPlayed",
       "intWin",
