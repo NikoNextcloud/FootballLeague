@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-10-27T12:28:12.655624+00:00",
-  "lastSuccessAt": "2026-10-27T12:28:12.655624+00:00",
+  "updatedAt": "2026-10-27T18:14:32.578763+00:00",
+  "lastSuccessAt": "2026-10-27T18:14:32.578763+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "cabf988172e34f7c186a308e935bf4fe2ff9b27d574bf294f2d9f9f2a5d2488c",
-      "checkedAt": "2026-10-27T12:28:12.655624+00:00"
+      "sha256": "9bc3b8225950b0dc2cb29f84388b6f0211b8bb193ddc6a3e1343f87a168741b5",
+      "checkedAt": "2026-10-27T18:14:32.578763+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "0903a79a7399e554750a6e7895aba3bbe9e6c2c5beba9d1c86af26b5a4cb39bb",
-      "checkedAt": "2026-10-27T12:28:12.655624+00:00"
+      "sha256": "df3b574b351398e6be05b5c5ea69a39c3947dea9397a9e562a3666fa49385ff2",
+      "checkedAt": "2026-10-27T18:14:32.578763+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "006aa556ab7d9149ee75c2519e1679f158b81760ef646c466a5f32ece7496a19",
-      "checkedAt": "2026-10-27T12:28:12.655624+00:00"
+      "sha256": "dc264f4686f52d38e5aeccb54da5cd646cb1d3de7047b249f078ace2f0ab6449",
+      "checkedAt": "2026-10-27T18:14:32.578763+00:00"
     }
   },
   "table": [
@@ -171,27 +171,27 @@
     },
     {
       "intRank": 13,
-      "strTeam": "Септември София",
-      "intPlayed": 11,
+      "strTeam": "Черно море",
+      "intPlayed": 12,
       "intWin": 2,
-      "intDraw": 2,
+      "intDraw": 3,
       "intLoss": 7,
-      "intGoalsFor": 10,
-      "intGoalsAgainst": 21,
-      "intGoalDifference": -11,
-      "intPoints": 8
+      "intGoalsFor": 13,
+      "intGoalsAgainst": 22,
+      "intGoalDifference": -9,
+      "intPoints": 9
     },
     {
       "intRank": 14,
-      "strTeam": "Черно море",
-      "intPlayed": 11,
-      "intWin": 1,
-      "intDraw": 3,
-      "intLoss": 7,
-      "intGoalsFor": 11,
-      "intGoalsAgainst": 22,
-      "intGoalDifference": -11,
-      "intPoints": 6
+      "strTeam": "Септември София",
+      "intPlayed": 12,
+      "intWin": 2,
+      "intDraw": 2,
+      "intLoss": 8,
+      "intGoalsFor": 10,
+      "intGoalsAgainst": 23,
+      "intGoalDifference": -13,
+      "intPoints": 8
     }
   ],
   "events": [
@@ -1583,10 +1583,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-27T17:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "2:0"
     },
     {
       "id": "bf-9680da3e2f3e",
@@ -3226,6 +3227,11 @@
       "goals": 3
     },
     {
+      "player": "Георги Лазаров",
+      "team": "Черно море",
+      "goals": 3
+    },
+    {
       "player": "Мартин Петков",
       "team": "Ботев Враца",
       "goals": 2
@@ -3321,11 +3327,6 @@
       "goals": 2
     },
     {
-      "player": "Георги Лазаров",
-      "team": "Черно море",
-      "goals": 2
-    },
-    {
       "player": "Бубакар Ан",
       "team": "Спартак Варна",
       "goals": 2
@@ -3361,6 +3362,11 @@
       "goals": 2
     },
     {
+      "player": "Васил Панайотов",
+      "team": "Черно море",
+      "goals": 2
+    },
+    {
       "player": "Джойс Читоку",
       "team": "Спартак Варна",
       "goals": 1
@@ -3378,11 +3384,6 @@
     {
       "player": "Себастиан Уейд",
       "team": "Септември София",
-      "goals": 1
-    },
-    {
-      "player": "Васил Панайотов",
-      "team": "Черно море",
       "goals": 1
     },
     {
@@ -3761,10 +3762,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-27T17:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "2:0",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
@@ -3778,10 +3780,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-27T18:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "5",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -4513,7 +4516,7 @@
   "integrity": {
     "status": "consistent",
     "checkedTeams": 14,
-    "completedMatches": 81,
+    "completedMatches": 82,
     "comparedFields": [
       "intPlayed",
       "intWin",
