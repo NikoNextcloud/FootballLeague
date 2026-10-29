@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-10-29T16:32:10.186299+00:00",
-  "lastSuccessAt": "2026-10-29T16:32:10.186299+00:00",
+  "updatedAt": "2026-10-29T21:24:41.113231+00:00",
+  "lastSuccessAt": "2026-10-29T21:24:41.113231+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "71a5fc618e3a6adaf1794d4d618834cc9319e653039275b4d8fa4e897a0c07ca",
-      "checkedAt": "2026-10-29T16:32:10.186299+00:00"
+      "sha256": "dddbde6ec0f45a6e6b45736ac0958b0f6e2caa6d7d5ee92efa8cd1f098c14a2d",
+      "checkedAt": "2026-10-29T21:24:41.113231+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "b857e7f3e33284eee41c4fec85aaf4e03dff39b4ca29a64b0cbffb549e596828",
-      "checkedAt": "2026-10-29T16:32:10.186299+00:00"
+      "sha256": "19fe61e02dce4b7570b3199e2fd8a3d8d8414b455232c6554b96225ea6f2dd41",
+      "checkedAt": "2026-10-29T21:24:41.113231+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "92881994181efd482f45614d6ea0331610ffc2eaf8dd1b32b9f9a689019b4f99",
-      "checkedAt": "2026-10-29T16:32:10.186299+00:00"
+      "sha256": "1719688963cd65958a5e81fa4eae05ddd96ccada2207e02728130a69d0cdd683",
+      "checkedAt": "2026-10-29T21:24:41.113231+00:00"
     }
   },
   "table": [
@@ -3712,6 +3712,24 @@
       "competition": "Втора професионална лига"
     },
     {
+      "id": "bf-21f9f2064c89",
+      "dateEvent": "2026-10-29",
+      "strTime": "14:00:00",
+      "intRound": "",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Локомотив",
+      "strAwayTeam": "ОФК Хасково",
+      "source": "bulgarian-football.com",
+      "timezone": "Europe/Sofia",
+      "timeConfirmed": true,
+      "status": "finished",
+      "kickoffAt": "2026-10-29T14:00:00+02:00",
+      "intHomeScore": "3",
+      "intAwayScore": "1",
+      "halftime": "",
+      "competition": "Втора професионална лига"
+    },
+    {
       "id": "bf-da2ef3496706",
       "dateEvent": "2026-10-29",
       "strTime": "15:00:00",
@@ -3729,43 +3747,9 @@
       "competition": "Втора професионална лига"
     },
     {
-      "id": "bf-b048f1f9773b",
-      "dateEvent": "2026-10-29",
-      "strTime": "15:00:00",
-      "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Загорец",
-      "strAwayTeam": "Верея",
-      "source": "bulgarian-football.com",
-      "timezone": "Europe/Sofia",
-      "timeConfirmed": true,
-      "status": "scheduled",
-      "kickoffAt": "2026-10-29T15:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Втора професионална лига"
-    },
-    {
-      "id": "bf-21f9f2064c89",
-      "dateEvent": "2026-10-29",
-      "strTime": "15:00:00",
-      "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Локомотив",
-      "strAwayTeam": "ОФК Хасково",
-      "source": "bulgarian-football.com",
-      "timezone": "Europe/Sofia",
-      "timeConfirmed": true,
-      "status": "scheduled",
-      "kickoffAt": "2026-10-29T15:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Втора професионална лига"
-    },
-    {
       "id": "bf-14e52de23841",
       "dateEvent": "2026-10-29",
-      "strTime": "15:00:00",
+      "strTime": "15:30:00",
       "intRound": "",
       "roundLabel": "Втора професионална лига",
       "strHomeTeam": "Чирпан 1929",
@@ -3773,10 +3757,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
-      "kickoffAt": "2026-10-29T15:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "status": "finished",
+      "kickoffAt": "2026-10-29T15:30:00+02:00",
+      "intHomeScore": "6",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Втора професионална лига"
     },
     {
@@ -3841,10 +3826,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-10-29T18:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "3:0",
       "competition": "Втора професионална лига"
     }
   ],
