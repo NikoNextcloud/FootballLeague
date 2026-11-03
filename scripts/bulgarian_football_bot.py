@@ -160,7 +160,12 @@ def parse_match_line(line: str, current_date: str = "", current_time: str = "", 
     match = pattern.search(clean)
     if not match:
         return None
+    # A clock time in source commentary (for example “насрочен за 17:00 ч”) can
+    # otherwise be mistaken for a 17:00 score because the score regex is a prefix match.
+    # Only accept a result when the score is the end of the fixture line.
     home, away, hs, away_score, halftime = match.groups()
+    if hs is not None and clean[match.end():].strip():
+        return None
     home = clean_team(home)
     away = clean_team(away)
     if not home or not away:
