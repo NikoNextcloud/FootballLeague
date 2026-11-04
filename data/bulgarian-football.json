@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-11-04T02:42:12.374890+00:00",
-  "lastSuccessAt": "2026-11-04T02:42:12.374890+00:00",
+  "updatedAt": "2026-11-04T09:58:52.225232+00:00",
+  "lastSuccessAt": "2026-11-04T09:58:52.225232+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "875b7e79ce610268ef534f00d3259ddbb6527b66567ee52b68d173e3c86289a0",
-      "checkedAt": "2026-11-04T02:42:12.374890+00:00"
+      "sha256": "96e48e45fe1be447a5ad6567f14a1bb453fe8cd10b55ceb7c65b65ff7d3bb40e",
+      "checkedAt": "2026-11-04T09:58:52.225232+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "7e4c2fe35b7ac166b784b707e3c29d957051f479badd5f9fcf274e87a5992af5",
-      "checkedAt": "2026-11-04T02:42:12.374890+00:00"
+      "sha256": "d32818e423bff44ee6d10dc1916c12a1eee12722d6c131177cde70c76938b08a",
+      "checkedAt": "2026-11-04T09:58:52.225232+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "a6b13f53303b7a581f2c9f7c3807b1308a698316f6eb1535d38805da98e68628",
-      "checkedAt": "2026-11-04T02:42:12.374890+00:00"
+      "sha256": "e749afb3324770d2ae7c3eda6bf042544a987b59bdb305ab7ff7928e71d80482",
+      "checkedAt": "2026-11-04T09:58:52.225232+00:00"
     }
   },
   "table": [
@@ -3680,23 +3680,6 @@
     }
   ],
   "today": [
-    {
-      "id": "bf-461139d29ed8",
-      "dateEvent": "2026-11-04",
-      "strTime": "09:00:00",
-      "intRound": "",
-      "roundLabel": "Юношеска лига - Втори кръг",
-      "strHomeTeam": "България",
-      "strAwayTeam": "Турция",
-      "source": "bulgarian-football.com",
-      "timezone": "Europe/Sofia",
-      "timeConfirmed": true,
-      "status": "scheduled",
-      "kickoffAt": "2026-11-04T09:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Юношеска лига - Втори кръг"
-    },
     {
       "id": "bf-509add1134e9",
       "dateEvent": "2026-11-04",
