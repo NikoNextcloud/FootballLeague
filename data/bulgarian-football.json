@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-11-06T14:57:55.375149+00:00",
-  "lastSuccessAt": "2026-11-06T14:57:55.375149+00:00",
+  "updatedAt": "2026-11-06T20:51:02.370960+00:00",
+  "lastSuccessAt": "2026-11-06T20:51:02.370960+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "bd8b3fdbd8b9653ab1aa3c9f0df9c4cfa4930646b6cd0560d7761f9b26ea695a",
-      "checkedAt": "2026-11-06T14:57:55.375149+00:00"
+      "sha256": "c553b4059f2c316b5fc29c4c2986b850b41051d44929c215d02b80bca1c89123",
+      "checkedAt": "2026-11-06T20:51:02.370960+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "badadc7fa8e330cd1af0db94ac08608489f22c1dc40cee1c9085a3c7abac41bd",
-      "checkedAt": "2026-11-06T14:57:55.375149+00:00"
+      "sha256": "32c50ee0375c578ff5996b282553b88d1128c9e46b44e625456b9e570841fed7",
+      "checkedAt": "2026-11-06T20:51:02.370960+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "908f1166dafd025edfd5b377f316801564ff88300ef8b80990bb610d99c4776a",
-      "checkedAt": "2026-11-06T14:57:55.375149+00:00"
+      "sha256": "7e671a7e49ea5b956848d5f1fcaca7cb16bdf692af65189ce2dc85a6b9701996",
+      "checkedAt": "2026-11-06T20:51:02.370960+00:00"
     }
   },
   "table": [
@@ -76,14 +76,14 @@
     {
       "intRank": 5,
       "strTeam": "Ботев Пловдив",
-      "intPlayed": 13,
+      "intPlayed": 14,
       "intWin": 7,
-      "intDraw": 1,
+      "intDraw": 2,
       "intLoss": 5,
-      "intGoalsFor": 22,
-      "intGoalsAgainst": 20,
+      "intGoalsFor": 23,
+      "intGoalsAgainst": 21,
       "intGoalDifference": 2,
-      "intPoints": 22
+      "intPoints": 23
     },
     {
       "intRank": 6,
@@ -136,17 +136,29 @@
     {
       "intRank": 10,
       "strTeam": "Дунав Русе",
-      "intPlayed": 13,
+      "intPlayed": 14,
       "intWin": 3,
-      "intDraw": 2,
+      "intDraw": 3,
       "intLoss": 8,
-      "intGoalsFor": 15,
-      "intGoalsAgainst": 22,
+      "intGoalsFor": 16,
+      "intGoalsAgainst": 23,
       "intGoalDifference": -7,
-      "intPoints": 11
+      "intPoints": 12
     },
     {
       "intRank": 11,
+      "strTeam": "Септември София",
+      "intPlayed": 14,
+      "intWin": 3,
+      "intDraw": 2,
+      "intLoss": 9,
+      "intGoalsFor": 12,
+      "intGoalsAgainst": 25,
+      "intGoalDifference": -13,
+      "intPoints": 11
+    },
+    {
+      "intRank": 12,
       "strTeam": "Ботев Враца",
       "intPlayed": 13,
       "intWin": 2,
@@ -158,7 +170,7 @@
       "intPoints": 10
     },
     {
-      "intRank": 12,
+      "intRank": 13,
       "strTeam": "Локомотив Пловдив",
       "intPlayed": 13,
       "intWin": 2,
@@ -170,28 +182,16 @@
       "intPoints": 9
     },
     {
-      "intRank": 13,
+      "intRank": 14,
       "strTeam": "Локомотив София",
-      "intPlayed": 13,
+      "intPlayed": 14,
       "intWin": 1,
       "intDraw": 6,
-      "intLoss": 6,
+      "intLoss": 7,
       "intGoalsFor": 15,
-      "intGoalsAgainst": 25,
-      "intGoalDifference": -10,
+      "intGoalsAgainst": 26,
+      "intGoalDifference": -11,
       "intPoints": 9
-    },
-    {
-      "intRank": 14,
-      "strTeam": "Септември София",
-      "intPlayed": 13,
-      "intWin": 2,
-      "intDraw": 2,
-      "intLoss": 9,
-      "intGoalsFor": 11,
-      "intGoalsAgainst": 25,
-      "intGoalDifference": -14,
-      "intPoints": 8
     }
   ],
   "events": [
@@ -1668,10 +1668,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-06T17:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0"
     },
     {
       "id": "bf-7eab510f7ec1",
@@ -1684,10 +1685,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-06T19:15:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0"
     },
     {
       "id": "bf-aa177b9c7b39",
@@ -3329,6 +3331,11 @@
       "goals": 2
     },
     {
+      "player": "Ибрахим Кейта",
+      "team": "Дунав Русе",
+      "goals": 2
+    },
+    {
       "player": "Джойс Читоку",
       "team": "Спартак Варна",
       "goals": 1
@@ -3451,11 +3458,6 @@
     {
       "player": "Лусиано Скуадроне",
       "team": "Черно море",
-      "goals": 1
-    },
-    {
-      "player": "Ибрахим Кейта",
-      "team": "Дунав Русе",
       "goals": 1
     },
     {
@@ -3677,6 +3679,16 @@
       "player": "Мартин Паскалев",
       "team": "Арда",
       "goals": 1
+    },
+    {
+      "player": "Педро Ферейра",
+      "team": "Септември София",
+      "goals": 1
+    },
+    {
+      "player": "Ехидже Укаки",
+      "team": "Ботев Пловдив",
+      "goals": 1
     }
   ],
   "today": [
@@ -3745,10 +3757,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-06T17:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
@@ -3762,10 +3775,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-06T19:15:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
@@ -4270,7 +4284,7 @@
   "integrity": {
     "status": "mismatch",
     "checkedTeams": 14,
-    "completedMatches": 86,
+    "completedMatches": 88,
     "comparedFields": [
       "intPlayed",
       "intWin",
@@ -4322,20 +4336,20 @@
         "team": "Ботев Пловдив",
         "differences": {
           "intPlayed": {
-            "published": 13,
-            "fromResults": 12
+            "published": 14,
+            "fromResults": 13
           },
           "intDraw": {
-            "published": 1,
-            "fromResults": 0
+            "published": 2,
+            "fromResults": 1
           },
           "intGoalsFor": {
-            "published": 22,
-            "fromResults": 21
+            "published": 23,
+            "fromResults": 22
           },
           "intGoalsAgainst": {
-            "published": 20,
-            "fromResults": 19
+            "published": 21,
+            "fromResults": 20
           }
         }
       },
@@ -4398,8 +4412,8 @@
         "team": "Локомотив София",
         "differences": {
           "intPlayed": {
-            "published": 13,
-            "fromResults": 12
+            "published": 14,
+            "fromResults": 13
           },
           "intDraw": {
             "published": 6,
@@ -4410,8 +4424,8 @@
             "fromResults": 14
           },
           "intGoalsAgainst": {
-            "published": 25,
-            "fromResults": 24
+            "published": 26,
+            "fromResults": 25
           }
         }
       }
