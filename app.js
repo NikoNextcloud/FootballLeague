@@ -479,15 +479,15 @@ function fullStandings(rows) {
     <th title="Вкарани голове">ВГ</th><th title="Допуснати голове">ДГ</th><th title="Голова разлика">ГР</th><th title="Точки">Т</th><th class="mobile-expand-column"><span class="sr-only">Детайли</span></th></tr></thead>
     <tbody>${rows.map(r => { const id=String(r.intRank), open=state.expandedStanding===id; return `<tr class="${standingZone(r.intRank, rows.length)} standing-main-row">
     <td><span class="rank rank-${r.intRank}">${r.intRank}</span></td>
-    <td><div class="table-team">${teamLogo(r.strTeam, r.strBadge)}<span>${escapeHtml(r.strTeam)}</span></div></td>
+    <td><div class="table-team">${teamLogo(r.strTeam, r.strBadge)}<span>${escapeHtml(r.strTeam)}</span></div>
+    <div class="standing-detail-inner${open?" is-open":""}" id="standing-detail-${id}" aria-hidden="${!open}"><div class="standing-detail-grid">
+    <span>Изиграни <b>${num(r.intPlayed)}</b></span><span>П <b>${num(r.intWin)}</b></span><span>Р <b>${num(r.intDraw)}</b></span><span>З <b>${num(r.intLoss)}</b></span>
+    <span>ГР <b>${num(r.intGoalDifference) > 0 ? "+" : ""}${num(r.intGoalDifference)}</b></span><span>Вкарани <b>${num(r.intGoalsFor)}</b></span><span>Получени <b>${num(r.intGoalsAgainst)}</b></span>
+    </div></div></td>
     <td>${num(r.intPlayed)}</td><td>${num(r.intWin)}</td><td>${num(r.intDraw)}</td><td>${num(r.intLoss)}</td>
     <td>${num(r.intGoalsFor)}</td><td>${num(r.intGoalsAgainst)}</td>
     <td>${num(r.intGoalDifference) > 0 ? "+" : ""}${num(r.intGoalDifference)}</td><td><b>${num(r.intPoints)}</b></td>
-    <td class="mobile-expand-column"><button type="button" class="standing-expand" data-standing-expand="${id}" aria-label="Детайли за ${escapeHtml(r.strTeam)}" aria-expanded="${open}" aria-controls="standing-detail-${id}">▶</button></td></tr>
-    <tr class="standing-detail-row${open?" is-open":""}" id="standing-detail-${id}" aria-hidden="${!open}"><td colspan="11"><div class="standing-detail-inner"><div class="standing-detail-grid">
-    <span>Изиграни <b>${num(r.intPlayed)}</b></span><span>П <b>${num(r.intWin)}</b></span><span>Р <b>${num(r.intDraw)}</b></span><span>З <b>${num(r.intLoss)}</b></span>
-    <span>ГР <b>${num(r.intGoalDifference) > 0 ? "+" : ""}${num(r.intGoalDifference)}</b></span><span>Вкарани <b>${num(r.intGoalsFor)}</b></span><span>Получени <b>${num(r.intGoalsAgainst)}</b></span>
-    </div></div></td></tr>`; }).join("")}</tbody></table></div>${standingsLegend()}`;
+    <td class="mobile-expand-column"><button type="button" class="standing-expand" data-standing-expand="${id}" aria-label="Детайли за ${escapeHtml(r.strTeam)}" aria-expanded="${open}" aria-controls="standing-detail-${id}">▶</button></td></tr>`; }).join("")}</tbody></table></div>${standingsLegend()}`;
 }
 function livescore() {
   return `<section class="page-intro"><span class="eyebrow">БЪЛГАРСКИЯТ ФУТБОЛЕН ЕЛИТ</span><h1>Класиране</h1><p>Публикуваната таблица за сезон ${escapeHtml(seasonLabel())}. Точките и подреждането се запазват според източника, включително при равенство.</p>

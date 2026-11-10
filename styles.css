@@ -566,3 +566,9 @@ th,td{padding-left:7px;padding-right:7px;font-size:11px}
 .reminder-item strong{color:var(--lime);font-size:14px}
 .reminder-item b{overflow-wrap:anywhere;font-size:12px}
 .reminder-item small,.reminders-empty{color:var(--muted);font-size:11px}
+
+/* Keep one table row per club; mobile expanded stats live inside its team cell. */
+.responsive-standings .standing-detail-inner{display:block;text-align:left}
+.responsive-standings .standing-detail-inner.is-open{max-height:320px}
+.responsive-standings .standing-detail-grid{grid-template-columns:1fr;padding:10px 0;gap:9px}
+@media(min-width:640px){.responsive-standings .standing-detail-inner{display:none}}
