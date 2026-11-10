@@ -45,6 +45,37 @@ function readStored(key, fallback = null) {
 function storeValue(key, value) {
   try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* Browsing still works without persistence. */ }
 }
+const REMINDERS_KEY = "footballReminders";
+function readReminders() {
+  const value=readStored(REMINDERS_KEY,[]);
+  return Array.isArray(value) ? value.filter(item=>item && typeof item.id==="string") : [];
+}
+function writeReminders(reminders) { storeValue(REMINDERS_KEY,reminders); }
+function reminderId(event) { return String(event.idEvent || event.id || [event.dateEvent,event.strTime,event.strHomeTeam,event.strAwayTeam].join("|")); }
+function reminderButton(event) {
+  if (!F.upcoming(event) || !Number.isFinite(F.kickoff(event))) return "";
+  const chosen=readReminders().some(item=>item.id===reminderId(event));
+  return `<button type="button" class="reminder-set ${chosen?"is-set":""}" data-reminder-add="${escapeHtml(reminderId(event))}" aria-pressed="${chosen}">${chosen?"🔔 Напомнянето е включено":"🔔 Напомни ми"}</button>`;
+}
+function drawReminders() {
+  const saved=readReminders();
+  const list=saved.map(item=>`<li class="reminder-item"><div><strong>${escapeHtml(item.time||"—")}</strong><b>${escapeHtml(item.home||"Домакин")} vs ${escapeHtml(item.away||"Гост")}</b><small>${escapeHtml(item.date||"—")}</small></div><button type="button" data-reminder-delete="${escapeHtml(item.id)}" aria-label="Изтрий напомняне">✕</button></li>`).join("");
+  const listNode=document.getElementById("reminders-list");
+  if(listNode) listNode.innerHTML=saved.length ? `<ul>${list}</ul>` : '<p class="reminders-empty">Няма зададени напомняния</p>';
+  const clear=document.getElementById("reminders-clear");
+  if(clear) clear.disabled=!saved.length;
+}
+function toggleReminders(open) {
+  const drawer=document.getElementById("reminders-drawer"),backdrop=document.getElementById("reminders-backdrop");
+  drawer?.classList.toggle("is-open",open);
+  backdrop?.classList.toggle("is-open",open);
+  drawer?.setAttribute("aria-hidden",String(!open));
+  document.getElementById("reminders-open")?.setAttribute("aria-expanded",String(open));
+  document.body.classList.toggle("reminders-visible",open);
+  if(open){ drawReminders();document.getElementById("reminders-close")?.focus(); }
+  else document.getElementById("reminders-open")?.focus();
+}
+
 let pendingRefresh = null;
 async function loadLocalFile() {
   const response = await fetch(`data/bulgarian-football.json?ts=${Date.now()}`, {
@@ -186,12 +217,14 @@ function matchCard(e) {
   const open = isPlayed && state.openMatches.has(e.idEvent);
   const toggle = isPlayed ? `<button class="detail-toggle" aria-expanded="${open}" data-detail="${escapeHtml(e.idEvent)}">${open ? "Скрий статистиката ▴" : "Голове и картони ▾"}</button>` : "";
   const detail = open ? `<div class="match-detail">${matchDetailHtml(e)}</div>` : "";
+  const remind = reminderButton(e);
   return `<article class="match-card${open ? " open" : ""}">
     <div class="match-meta"><span>Кръг ${escapeHtml(e.intRound || "—")} · ${escapeHtml(matchState(e))}</span><time>${formatDate(e)}</time></div>
     <div class="match-team home"><b>${escapeHtml(e.strHomeTeam)}</b>${teamLogo(e.strHomeTeam,e.strHomeTeamBadge)}</div>
     ${score}
     <div class="match-team away">${teamLogo(e.strAwayTeam,e.strAwayTeamBadge)}<b>${escapeHtml(e.strAwayTeam)}</b></div>
     ${toggle}
+    ${remind}
     ${detail}
   </article>`;
 }
@@ -557,6 +590,7 @@ function render({ preserve = false } = {}) {
     const restored=activeKey.startsWith("[") ? $(activeKey) : document.getElementById(activeKey);
     restored?.focus({preventScroll:true});
   }
+  drawReminders();
   $("#app").setAttribute("aria-busy", String(state.loading));
   $("#refresh").disabled = state.loading;
   $("#refresh").classList.toggle("refreshing", state.loading);
@@ -654,6 +688,17 @@ function checkMatchNotifications() {
     }
   });
   storeValue("a-grupa-notified", [...sent].slice(-500));
+  const reminded=new Set(readStored("footballRemindersNotified",[]));
+  for(const item of readReminders()) {
+    const event=state.data.events.find(e=>reminderId(e)===item.id);
+    if(!event || played(event))continue;
+    const start=F.kickoff(event);
+    if(start>=now-5*60_000 && start<=now+60_000 && !reminded.has(item.id)) {
+      sendMatchNotification(`${event.strHomeTeam} – ${event.strAwayTeam}`,{body:"Вашето напомняне: мачът започва.",tag:`football-reminder-${item.id}`}).catch(()=>{});
+      reminded.add(item.id);
+    }
+  }
+  storeValue("footballRemindersNotified",[...reminded].slice(-500));
 }
 
 async function sendMatchNotification(title, options={}) {
@@ -664,6 +709,28 @@ async function sendMatchNotification(title, options={}) {
   }
   return new Notification(title,config);
 }
+
+document.getElementById("reminders-open")?.addEventListener("click",()=>toggleReminders(true));
+document.getElementById("reminders-close")?.addEventListener("click",()=>toggleReminders(false));
+document.getElementById("reminders-backdrop")?.addEventListener("click",()=>toggleReminders(false));
+document.getElementById("reminders-clear")?.addEventListener("click",()=>{writeReminders([]);drawReminders();render({preserve:true});});
+document.addEventListener("keydown",event=>{if(event.key==="Escape" && document.getElementById("reminders-drawer")?.classList.contains("is-open"))toggleReminders(false);});
+document.addEventListener("click",event=>{
+  const add=event.target.closest("[data-reminder-add]");
+  if(add) {
+    const match=state.data?.events?.find(e=>reminderId(e)===add.dataset.reminderAdd);
+    if(!match)return;
+    const saved=readReminders(),id=reminderId(match);
+    const next=saved.some(item=>item.id===id) ? saved.filter(item=>item.id!==id) : [...saved,{
+      id, date:match.dateEvent, time:formatTime(match), home:match.strHomeTeam, away:match.strAwayTeam
+    }];
+    writeReminders(next);
+    render({preserve:true});
+    return;
+  }
+  const remove=event.target.closest("[data-reminder-delete]");
+  if(remove){writeReminders(readReminders().filter(item=>item.id!==remove.dataset.reminderDelete));drawReminders();render({preserve:true});}
+});
 
 $("#refresh").addEventListener("click", () => loadData(true));
 $("#notify")?.addEventListener("click", async () => {
