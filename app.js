@@ -603,9 +603,18 @@ function archive() {
   return `<section class="page-intro"><span class="eyebrow">СЕЗОН</span><h1>${escapeHtml(seasonLabel())}</h1><p>Показваме само публикуваните данни за текущия сезон.</p></section>${fullStandings(state.data.table)}`;
 }
 
+function skeletonHtml() {
+  const row='<div class="skeleton skeleton-row"></div>';
+  const card='<div class="skeleton skeleton-card"></div>';
+  return `<div class="skeleton-layout" aria-label="Зареждаме футболни данни" role="status">
+   <div class="skeleton skeleton-countdown"></div>
+   <div class="skeleton-section"><h2>Предстоящи мачове</h2><div class="skeleton-cards">${card.repeat(4)}</div></div>
+   <div class="skeleton-section"><h2>Класиране</h2><div class="skeleton-table">${row.repeat(10)}</div></div>
+  </div>`;
+}
 function content() {
   if(!state.loading && state.refreshError && !state.data?.table?.length) return `<section class="page-intro"><span class="eyebrow">НЯМА ВРЪЗКА С ДАННИТЕ</span><h1>Временно недостъпни данни.</h1><p>Не успяхме да заредим проверена програма и класиране. Използвай бутона за обновяване горе, за да опиташ отново.</p></section>`;
-  if (state.loading && !state.data) return `<div class="loader"><span></span><b>Зареждаме първенството…</b></div>`;
+  if (state.loading && !state.data) return skeletonHtml();
   if (state.page === "standings") return livescore();
   if (state.page === "matches") return matches();
   if (state.page === "teams") return teams();
@@ -617,6 +626,12 @@ function content() {
 }
 
 function render({ preserve = false } = {}) {
+  const skeleton=document.querySelector("#app .skeleton-layout");
+  if(state.data && skeleton && !skeleton.classList.contains("skeleton-exit")){
+    skeleton.classList.add("skeleton-exit");
+    setTimeout(()=>render({preserve}),210);
+    return;
+  }
   // Refreshes preserve in-progress form input and keyboard focus inside the content.
   const active=document.activeElement;
   const activeKey=active?.id || (active?.name ? `[name="${active.name}"]` : "");

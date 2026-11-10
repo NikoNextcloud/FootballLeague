@@ -640,3 +640,17 @@ th,td{padding-left:7px;padding-right:7px;font-size:11px}
 .form-empty{color:var(--muted)}
 @media(max-width:479px){.responsive-standings .form-column{display:none}}
 @media(min-width:480px) and (max-width:639px){.responsive-standings .form-column{display:table-cell;width:116px;min-width:116px}}
+
+/* First-load skeleton, no third-party animation library. */
+.skeleton-layout{display:grid;gap:28px;opacity:1;transition:opacity .2s ease}
+.skeleton-layout.skeleton-exit{opacity:0}
+.skeleton{background:linear-gradient(90deg,#1e293b 25%,#334155 50%,#1e293b 75%);background-size:200% 100%;animation:shimmer 1.5s infinite;border-radius:8px}
+@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+.skeleton-countdown{height:90px}
+.skeleton-section h2{font-size:17px;color:var(--muted)}
+.skeleton-cards{display:grid;grid-template-columns:1fr;gap:12px}
+.skeleton-card{height:170px}
+.skeleton-table{display:grid;gap:8px}
+.skeleton-row{height:42px}
+@media(min-width:768px){.skeleton-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(prefers-reduced-motion:reduce){.skeleton{animation:none}}
