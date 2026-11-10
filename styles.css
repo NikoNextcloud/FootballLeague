@@ -716,3 +716,8 @@ html[data-theme="light"] .rank{color:#334155}
 html[data-theme="light"] .rank-1{background:#365314;color:#ffffff}
 html[data-theme="light"] .rank-2,html[data-theme="light"] .rank-3{background:#dcfce7;color:#166534}
 html[data-theme="light"] .rank-4{background:#dbeafe;color:#1d4ed8}
+
+/* Light fixture controls: preserve minimum contrast in every filter state. */
+html[data-theme="light"] .chip.active{background:#047857;color:#ffffff;border-color:#047857}
+html[data-theme="light"] .fixture-center .rr-score{background:#e2e8f0;color:#0f172a;border-color:#94a3b8}
+html[data-theme="light"] .fixture-center .rr-score span{color:#334155}
