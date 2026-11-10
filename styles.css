@@ -302,7 +302,7 @@ tbody tr:hover{background:var(--palette-ffffff03)}
 .live-card{grid-template-columns:1fr auto}
 .table-team{min-width:175px}
 }
-@media(max-width:760px){html{scroll-padding-top:85px}
+@media(max-width:900px){html{scroll-padding-top:85px}
 .site-header{height:72px}
 .header-inner{padding:0 18px;gap:12px}
 .site-logo{width:43px;height:43px}
