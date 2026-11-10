@@ -532,3 +532,18 @@ th,td{padding-left:7px;padding-right:7px;font-size:11px}
   .responsive-standings .table-team .team-logo{width:28px;height:28px}
   .responsive-standings .mobile-expand-column,.responsive-standings .standing-detail-row{display:none}
 }
+
+/* European section: mobile-first navy panel, desktop always expanded. */
+.europe-shell{background:linear-gradient(145deg,#1e3a5f,#122a44);border:1px solid #42648a;border-radius:24px;padding:16px;margin-bottom:35px}
+.europe-toggle{display:flex;align-items:center;gap:10px;width:100%;padding:14px;border:1px solid #587a9d;border-radius:12px;background:#0c2544;color:#f2f7fc;font-weight:800;text-align:left}
+.europe-toggle svg{color:#f6d56b;flex:none}
+.europe-body{max-height:0;overflow:hidden;opacity:0;visibility:hidden;transition:max-height .36s ease,opacity .27s ease,visibility .27s ease}
+.europe-body.is-open{max-height:20000px;opacity:1;visibility:visible;margin-top:20px}
+.europe-shell .europe-intro{margin-top:0}
+.europe-shell .europe-card,.europe-shell .participant-card{background:#10243b;border-color:#385574}
+.europe-shell .euro-section{margin-bottom:26px}
+@media(min-width:640px){
+  .europe-shell{padding:30px}
+  .europe-toggle{display:none}
+  .europe-body,.europe-body.is-open{max-height:none;overflow:visible;opacity:1;visibility:visible;margin-top:0}
+}

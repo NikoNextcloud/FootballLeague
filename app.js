@@ -24,7 +24,7 @@ const EUROPE_LEAGUES = [
 ];
 const euroCompetition = strLeague => EUROPE_LEAGUES.find(c => c.test.test(strLeague || "")) || null;
 const state = { page: "home", filter: "all", team: "all", season: SEASON, selectedTeam: null, round: null, editingLiveLink: null,
-  europeUpdated:null, europe:[], europeLoaded:false, expandedStanding:null, openMatches:new Set(), loadingDetail:null, data: null, loading: true, refreshError: false, lastFetchAt: 0 };
+  europeUpdated:null, europe:[], europeLoaded:false, expandedStanding:null, europeOpen:false, openMatches:new Set(), loadingDetail:null, data: null, loading: true, refreshError: false, lastFetchAt: 0 };
 const $ = (s) => document.querySelector(s);
 const escapeHtml = (v = "") => String(v).replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
 const num = v => Number(v ?? 0);
@@ -352,14 +352,14 @@ function europeCard(e) {
 }
 
 function europeGroupsHtml() {
-  if (!state.europe.length && !state.europeLoaded) return `<div class="empty"><span>⚽</span><b>Зареждаме евротурнирите…</b><small>Четем локалните данни от bot-а.</small></div>`;
+  if (!state.europe.length && !state.europeLoaded) return `<div class="empty"><span>★</span><b>Няма активни european мачове</b></div>`;
   const html = EUROPE_LEAGUES.map(g => {
     const list = state.europe.filter(e => euroCompetitionMeta(e).cls === g.cls)
       .sort((a,b) => `${a.dateEvent}${a.strTime||""}`.localeCompare(`${b.dateEvent}${b.strTime||""}`));
     if (!list.length) return "";
     return `<section class="euro-section">${sectionTitle("ПРОГРАМА И РЕЗУЛТАТИ", g.name)}<div class="europe-grid">${list.map(europeCard).join("")}</div></section>`;
   }).join("");
-  return html || `<div class="empty"><span>⚽</span><b>Няма намерени европейски мачове.</b><small>Българските отбори нямат предстоящи или скорошни мачове в Европа.</small></div>`;
+  return html || `<div class="empty"><span>★</span><b>Няма активни european мачове</b></div>`;
 }
 
 function europeParticipantsHtml() {
@@ -371,7 +371,8 @@ function europeParticipantsHtml() {
 function loadEuropeFromLocal() {
   if (state.europeLoaded) return;
   const source = state.data?.europe || {};
-  state.europe = (source.events || []).map(event => {
+  const sourceEvents = Array.isArray(source.events) ? source.events : [];
+  state.europe = sourceEvents.filter(event => event && typeof event === "object").map(event => {
     const meta = euroCompetition(event.competition || "");
     return {
       id: event.id || event.idEvent,
@@ -388,12 +389,17 @@ function loadEuropeFromLocal() {
     };
   }).filter(event => event.home && event.away);
   state.europeLoaded = true;
-  state.europeUpdated = state.data?.pages?.europe?.checkedAt || state.data?.updatedAt || null;
+  state.europeUpdated = state.data?.pages?.europe?.checkedAt || null;
 }
 
 function europe() {
   loadEuropeFromLocal();
-  return `<section class="page-intro europe-intro"><span class="eyebrow">БЪЛГАРИЯ В ЕВРОПА</span><h1>Евротурнири</h1><p>Мачове и резултати на българските отбори в Шампионска лига, Лига Европа и Лига на конференциите.</p><div class="live-status ${state.data?.pages?.europe?.stale ? "warning" : ""}">Данни от bulgarian-football.com${state.europeUpdated?` · ${new Date(state.europeUpdated).toLocaleString("bg-BG",{timeZone:F.TIME_ZONE,day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}`:""}</div></section>
+  const euroDate = state.europeUpdated && Number.isFinite(Date.parse(state.europeUpdated))
+    ? new Date(state.europeUpdated).toLocaleString("bg-BG",{timeZone:F.TIME_ZONE,day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}) : "Няма дата на обновяване";
+  return `<section class="europe-shell">
+  <button type="button" id="europe-toggle" class="europe-toggle" aria-expanded="${state.europeOpen}" aria-controls="europe-body"><svg viewBox="0 0 24 24" width="21" height="21" aria-hidden="true"><path fill="currentColor" d="m12 2 2.8 6.4 7 .6-5.3 4.6 1.6 6.9-6.1-3.6-6.1 3.6 1.6-6.9L2.2 9l7-.6z"/></svg> Европейски турнири ▼</button>
+  <div id="europe-body" class="europe-body ${state.europeOpen?"is-open":""}">
+  <section class="page-intro europe-intro"><span class="eyebrow">★ БЪЛГАРИЯ В ЕВРОПА</span><h1>Евротурнири</h1><p>Мачове и резултати на българските отбори в Шампионска лига, Лига Европа и Лига на конференциите.</p><div class="live-status ${state.data?.pages?.europe?.stale ? "warning" : ""}">Европейски данни · ${escapeHtml(euroDate)}</div></section>
   ${state.data?.pages?.europe?.stale ? `<p class="data-note warning">Европейските данни са запазени от предишна проверка. Източникът временно е недостъпен.</p>` : ""}
   ${europeParticipantsHtml()}
   <section class="euro-shortcuts">
@@ -401,7 +407,7 @@ function europe() {
     <a href="https://www.uefa.com/uefaeuropaleague/fixtures-results/" target="_blank" rel="noopener"><span class="competition uel">UEL</span><b>Лига Европа</b><small>Програма и резултати ↗</small></a>
     <a href="https://www.uefa.com/uefaconferenceleague/fixtures-results/" target="_blank" rel="noopener"><span class="competition uecl">UECL</span><b>Лига на конференциите</b><small>Програма и резултати ↗</small></a>
   </section>
-  <div id="europe-results">${europeGroupsHtml()}</div>`;
+  <div id="europe-results">${europeGroupsHtml()}</div></div></section>`;
 }
 
 const clubDescriptions={
@@ -581,6 +587,13 @@ document.addEventListener("click", event => {
     detail?.classList.toggle("is-open",open);
     detail?.setAttribute("aria-hidden",String(!open));
   });
+});
+
+document.addEventListener("click", event => {
+  if (!event.target.closest("#europe-toggle")) return;
+  state.europeOpen=!state.europeOpen;
+  document.getElementById("europe-toggle")?.setAttribute("aria-expanded",String(state.europeOpen));
+  document.getElementById("europe-body")?.classList.toggle("is-open",state.europeOpen);
 });
 
 // One delegated listener: persistent navigation must not collect handlers on refresh.
