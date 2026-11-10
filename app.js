@@ -618,6 +618,7 @@ function render({ preserve = false } = {}) {
     restored?.focus({preventScroll:true});
   }
   drawReminders();
+  updateCountdown();
   const nextRound=state.data?.events?.filter(e=>F.upcoming(e)&&Number(e.intRound)>0).sort((x,y)=>F.kickoff(x)-F.kickoff(y))[0]?.intRound;
   const completedRounds=(state.data?.events||[]).filter(played).map(e=>Number(e.intRound)||0);
   const round=Number(nextRound)||Math.max(0,...completedRounds);
@@ -795,3 +796,22 @@ const siteHeader=document.querySelector(".site-header");
 function syncHeaderScroll(){siteHeader?.classList.toggle("is-scrolled",window.scrollY>50);}
 window.addEventListener("scroll",syncHeaderScroll,{passive:true});
 syncHeaderScroll();
+
+function updateCountdown(){
+  const panel=document.getElementById("next-match-countdown");
+  const clock=document.getElementById("countdown-time");
+  const teams=document.getElementById("countdown-teams");
+  if(!panel||!clock||!teams)return;
+  const now=Date.now();
+  const next=(state.data?.events||[]).filter(e=>F.upcoming(e,now)&&Number.isFinite(F.kickoff(e)))
+    .sort((x,y)=>F.kickoff(x)-F.kickoff(y))[0];
+  if(!next){panel.hidden=true;return;}
+  panel.hidden=false;
+  teams.textContent=`${next.strHomeTeam} vs ${next.strAwayTeam}`;
+  const diff=Math.max(0,F.kickoff(next)-now);
+  if(diff===0){clock.textContent="Мачът е започнал!";return;}
+  const days=Math.floor(diff/86400000),hours=Math.floor(diff/3600000)%24,mins=Math.floor(diff/60000)%60,secs=Math.floor(diff/1000)%60;
+  const compact=window.innerWidth<480&&diff<3600000;
+  clock.textContent=compact?`${mins}м  ${String(secs).padStart(2,"0")}с`:`${days}д  ${hours}ч  ${String(mins).padStart(2,"0")}м  ${String(secs).padStart(2,"0")}с`;
+}
+setInterval(updateCountdown,1000);

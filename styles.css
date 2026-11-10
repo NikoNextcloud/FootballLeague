@@ -621,3 +621,11 @@ th,td{padding-left:7px;padding-right:7px;font-size:11px}
 .fixture-status .live-dot{width:7px;height:7px;flex:0 0 7px;background:white;border-radius:50%;animation:live-pulse 1.4s ease-in-out infinite}
 @keyframes live-pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
 @media(prefers-reduced-motion:reduce){.fixture-status .live-dot{animation:none}}
+
+.countdown-panel{max-width:1288px;margin:18px auto 0;padding:17px 24px;border-radius:16px;border:1px solid #3c5269;background:linear-gradient(130deg,#101e2b,#1e293b);display:flex;justify-content:space-between;align-items:center;gap:15px;box-shadow:0 9px 28px #0003}
+.countdown-panel[hidden]{display:none}
+.countdown-copy{display:grid;gap:7px;min-width:0}
+.countdown-copy span{font-size:11px;color:#a9c5db;font-weight:700}
+.countdown-copy strong{font-size:13px;overflow-wrap:anywhere}
+.countdown-clock{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-variant-numeric:tabular-nums;font-size:clamp(16px,3vw,26px);white-space:nowrap;color:#d4f575}
+@media(max-width:639px){.countdown-panel{margin:10px 12px 0;padding:14px;flex-wrap:wrap;gap:9px}.countdown-clock{font-size:18px}}
