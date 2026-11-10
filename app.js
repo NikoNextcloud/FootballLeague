@@ -332,19 +332,20 @@ function defaultRound(events, rounds) {
 
 // Един ред за мач (като на efbet): дата · домакин · резултат/час · гост.
 function roundRow(e) {
-  const isPlayed = played(e);
-  const mid = isPlayed
-    ? `<strong class="rr-score">${escapeHtml(e.intHomeScore)}<span>:</span>${escapeHtml(e.intAwayScore)}</strong>`
-    : `<strong class="rr-time ${!e.strTime ? "time-pending" : ""}">${["postponed","cancelled","abandoned","suspended"].includes(e.status) ? escapeHtml(matchState(e)) : formatTime(e)}</strong>`;
-  const open = isPlayed && state.openMatches.has(e.idEvent);
-  const row = `<div class="round-row${isPlayed ? " rr-clickable" : ""}${open ? " open" : ""}"${isPlayed ? ` role="button" tabindex="0" aria-expanded="${open}" aria-label="${escapeHtml(e.strHomeTeam)} – ${escapeHtml(e.strAwayTeam)}, ${escapeHtml(e.intHomeScore)}:${escapeHtml(e.intAwayScore)}, статистика" data-detail="${escapeHtml(e.idEvent)}"` : ""}>
-    <span class="rr-date" title="${escapeHtml(matchState(e))}">${escapeHtml(formatDayShort(e))}</span>
-    <div class="rr-team rr-home"><b>${escapeHtml(e.strHomeTeam)}</b>${teamLogo(e.strHomeTeam, e.strHomeTeamBadge)}</div>
-    ${mid}
-    <div class="rr-team rr-away">${teamLogo(e.strAwayTeam, e.strAwayTeamBadge)}<b>${escapeHtml(e.strAwayTeam)}</b></div>
-  </div>`;
-  const detail = open ? `<div class="match-detail rr-detail">${matchDetailHtml(e)}</div>` : "";
-  return `<div class="rr-wrap">${row}${detail}</div>`;
+  const isPlayed=played(e), badge=fixtureBadge(e);
+  const score=isPlayed?`${escapeHtml(e.intHomeScore)} : ${escapeHtml(e.intAwayScore)}`:escapeHtml(formatTime(e));
+  const open=isPlayed&&state.openMatches.has(e.idEvent);
+  const interaction=isPlayed?` role="button" tabindex="0" aria-expanded="${open}" aria-label="${escapeHtml(e.strHomeTeam)} – ${escapeHtml(e.strAwayTeam)}, статистика" data-detail="${escapeHtml(e.idEvent)}"`:"";
+  const detail=open?`<div class="match-detail rr-detail">${matchDetailHtml(e)}</div>`:"";
+  return `<div class="rr-wrap"><article class="round-row fixture-card${open?" open":""}"${interaction}>
+    <div class="fixture-meta"><span>Кръг ${escapeHtml(e.intRound||"—")}</span><time>${escapeHtml(fixtureDate(e))}</time></div>
+    <div class="fixture-teams">
+      <div class="fixture-club">${initialsLogo(e.strHomeTeam,e.strHomeTeamBadge)}<b>${escapeHtml(e.strHomeTeam)}</b></div>
+      <div class="fixture-center"><small>VS</small><strong class="rr-score">${score}</strong></div>
+      <div class="fixture-club away">${initialsLogo(e.strAwayTeam,e.strAwayTeamBadge)}<b>${escapeHtml(e.strAwayTeam)}</b></div>
+    </div>
+    <div class="fixture-actions"><span class="fixture-status ${badge.cls}" title="${badge.unconfirmed?"По начален час, непотвърдено от източника":""}">${badge.cls==="live"?'<span class="live-dot" aria-hidden="true"></span>':""}${badge.label}</span>${reminderButton(e)}</div>
+  </article>${detail}</div>`;
 }
 
 function matches() {
@@ -696,7 +697,7 @@ document.addEventListener("click", event => {
 // One delegated listener: persistent navigation must not collect handlers on refresh.
 document.addEventListener("click", async event => {
   const el = event.target.closest("[data-page], [data-team], [data-detail], [data-filter], [data-round], [data-live-open], [data-live-edit], [data-live-delete], #cancel-live-edit");
-  if (!el) return;
+  if (!el || event.target.closest("[data-reminder-add]")) return;
   if (el.dataset.page) { state.page = el.dataset.page; scrollTo(0,0); }
   else if (el.dataset.team) { state.selectedTeam=el.dataset.team; state.page="team-detail"; scrollTo(0,0); }
   else if (el.dataset.detail) {
