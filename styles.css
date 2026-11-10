@@ -721,3 +721,31 @@ html[data-theme="light"] .rank-4{background:#dbeafe;color:#1d4ed8}
 html[data-theme="light"] .chip.active{background:#047857;color:#ffffff;border-color:#047857}
 html[data-theme="light"] .fixture-center .rr-score{background:#e2e8f0;color:#0f172a;border-color:#94a3b8}
 html[data-theme="light"] .fixture-center .rr-score span{color:#334155}
+
+/* Europe keeps its navy surfaces in both themes: explicit high-contrast text. */
+.europe-shell{color:#f8fafc}
+.europe-shell .participant-card b,
+.europe-shell .euro-teams>div>b,
+.europe-shell .euro-shortcuts b,
+.europe-shell .euro-shortcuts a{color:#f8fafc}
+.europe-shell .euro-meta,
+.europe-shell .euro-meta>span:nth-child(2),
+.europe-shell .europe-card>time,
+.europe-shell .euro-shortcuts small{color:#cbd5e1}
+.europe-shell .euro-teams .kickoff{color:#d4f575}
+.europe-shell .competition.ucl{background:#1e3a8a;color:#dbeafe}
+.europe-shell .competition.uel{background:#713f12;color:#fef3c7}
+.europe-shell .competition.uecl{background:#14532d;color:#dcfce7}
+html[data-theme="light"] .europe-shell,
+html[data-theme="light"] .europe-shell .europe-card,
+html[data-theme="light"] .europe-shell .participant-card,
+html[data-theme="light"] .europe-shell .euro-shortcuts a{color:#f8fafc}
+html[data-theme="light"] .europe-shell .euro-shortcuts a{background:#10243b;border-color:#385574}
+html[data-theme="light"] .europe-shell .participant-card b,
+html[data-theme="light"] .europe-shell .euro-teams>div>b,
+html[data-theme="light"] .europe-shell .euro-shortcuts b{color:#f8fafc}
+html[data-theme="light"] .europe-shell .euro-meta,
+html[data-theme="light"] .europe-shell .euro-meta>span:nth-child(2),
+html[data-theme="light"] .europe-shell .europe-card>time,
+html[data-theme="light"] .europe-shell .euro-shortcuts small{color:#cbd5e1}
+html[data-theme="light"] .europe-shell .euro-teams .kickoff{color:#d4f575}
