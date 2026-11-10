@@ -591,6 +591,11 @@ function render({ preserve = false } = {}) {
     restored?.focus({preventScroll:true});
   }
   drawReminders();
+  const nextRound=state.data?.events?.filter(e=>F.upcoming(e)&&Number(e.intRound)>0).sort((x,y)=>F.kickoff(x)-F.kickoff(y))[0]?.intRound;
+  const completedRounds=(state.data?.events||[]).filter(played).map(e=>Number(e.intRound)||0);
+  const round=Number(nextRound)||Math.max(0,...completedRounds);
+  const pill=document.getElementById("header-round");
+  if(pill){pill.hidden=!round;pill.textContent=round?`Кръг ${round}`:"";}
   $("#app").setAttribute("aria-busy", String(state.loading));
   $("#refresh").disabled = state.loading;
   $("#refresh").classList.toggle("refreshing", state.loading);
@@ -757,3 +762,9 @@ document.addEventListener("visibilitychange", () => { if(!document.hidden && Dat
 window.addEventListener("online", () => loadData(true));
 window.addEventListener("offline", () => { if(state.data) { state.data.offline=true; render(); } });
 if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("service-worker.js").catch(() => {});
+
+// Minimal scroll detection for glassmorphism; passive listener leaves scrolling responsive.
+const siteHeader=document.querySelector(".site-header");
+function syncHeaderScroll(){siteHeader?.classList.toggle("is-scrolled",window.scrollY>50);}
+window.addEventListener("scroll",syncHeaderScroll,{passive:true});
+syncHeaderScroll();
