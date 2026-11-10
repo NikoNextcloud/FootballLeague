@@ -10,6 +10,15 @@
   <link rel="apple-touch-icon" href="assets/logos/apple-touch-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="preload" href="assets/fonts/Inter-400-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <script>
+    (function(){
+      try {
+        var saved=localStorage.getItem("theme");
+        var preferred=window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";
+        document.documentElement.dataset.theme=(saved==="light"||saved==="dark")?saved:preferred;
+      } catch(e){document.documentElement.dataset.theme=window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";}
+    })();
+  </script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -28,6 +37,7 @@
     </nav>
     <div class="header-actions">
       <button id="notify" class="icon-btn notify-btn" title="Включи известия за мачове" aria-label="Включи известия за мачове" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Смени темата" title="Смени темата">🌙</button>
       <button id="reminders-open" class="icon-btn" title="Моите напомняния" aria-label="Моите напомняния" aria-controls="reminders-drawer" aria-expanded="false" type="button">🔔</button>
       <button id="refresh" class="icon-btn" title="Обнови данните" aria-label="Обнови данните" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20 7v5h-5M4 17v-5h5M19 11a7 7 0 0 0-12-5L4 9m16 6-3 3a7 7 0 0 1-12-5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
     </div>

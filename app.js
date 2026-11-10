@@ -844,3 +844,18 @@ function updateCountdown(){
   clock.textContent=compact?`${mins}м  ${String(secs).padStart(2,"0")}с`:`${days}д  ${hours}ч  ${String(mins).padStart(2,"0")}м  ${String(secs).padStart(2,"0")}с`;
 }
 setInterval(updateCountdown,1000);
+
+function syncThemeButton(){
+  const button=document.getElementById("theme-toggle");
+  if(!button)return;
+  const light=document.documentElement.dataset.theme==="light";
+  button.textContent=light?"☀️":"🌙";
+  button.setAttribute("aria-label",light?"Включи тъмна тема":"Включи светла тема");
+}
+document.getElementById("theme-toggle")?.addEventListener("click",()=>{
+  const next=document.documentElement.dataset.theme==="light"?"dark":"light";
+  document.documentElement.dataset.theme=next;
+  try{localStorage.setItem("theme",next)}catch{}
+  syncThemeButton();
+});
+syncThemeButton();
