@@ -68,7 +68,7 @@ CHECK_ACCESSIBILITY=1 node tests/browser-smoke.cjs
 python scripts/bulgarian_football_bot.py
 ```
 
-`fetch-data.mjs` и `data/2026-2027.json` са запазени наследени материали. Активното приложение и автоматичният workflow използват само `data/bulgarian-football.json`.
+Активното приложение и автоматичният workflow използват само `data/bulgarian-football.json`. Неизползваните наследени материали са премахнати.
 
 ## GitHub Pages
 

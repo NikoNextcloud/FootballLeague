@@ -1,6 +1,6 @@
 // Cache ownership includes the deployment path: another app on this origin is untouched.
 const CACHE_PREFIX = `a-grupa:${new URL(self.registration.scope).pathname}:`;
-const CACHE = `${CACHE_PREFIX}shell-v29`;
+const CACHE = `${CACHE_PREFIX}shell-v30`;
 const SCOPE = new URL(self.registration.scope);
 const ASSETS = [
   "./", "index.html", "styles.css", "app.js", "football-data.js", "manifest.webmanifest",

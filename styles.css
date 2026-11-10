@@ -487,3 +487,102 @@ th,td{padding-left:7px;padding-right:7px;font-size:11px}
 @media(max-width:400px){.bottom-nav .nav-item{font-size:8px}}
 
 .hero-actions{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-top:18px}.hero-actions a,.hero-actions button{font-size:11px;text-decoration:none;font-weight:700;min-height:36px;display:inline-flex;align-items:center}.hero-actions a{color:#b7cdc7}.hero-actions a:hover{color:var(--lime)}
+
+/* League zones: mobile-first, visual only; published order is untouched. */
+.table-wrap tbody tr[class*="zone-"] td:first-child{box-shadow:inset 4px 0 var(--zone-color)}
+.zone-champions{--zone-color:#22c55e}
+.zone-qualifiers{--zone-color:#86efac}
+.zone-conference{--zone-color:#3b82f6}
+.zone-relegation{--zone-color:#ef4444}
+.standings-legend{margin:12px 0 20px;padding:12px 16px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.standings-legend summary{cursor:pointer;color:var(--ink);font-weight:700;list-style:none}
+.standings-legend summary::-webkit-details-marker{display:none}
+.legend-items{display:grid;gap:12px;margin-top:16px;color:var(--muted);font-size:11px}
+.legend-items span{display:flex;align-items:center;gap:10px}
+.legend-items i{width:5px;height:22px;border-radius:4px;background:var(--zone-color);flex:none}
+@media(min-width:640px){.legend-items{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Mobile-first compact standings with one CSS-animated detail row. */
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.responsive-standings{min-width:0;width:100%;table-layout:fixed}
+.responsive-standings th,.responsive-standings td{padding:12px 5px}
+.responsive-standings th:first-child,.responsive-standings td:first-child{width:43px}
+.responsive-standings th:nth-child(2),.responsive-standings td:nth-child(2){width:auto;min-width:0;position:static}
+.responsive-standings .table-team{min-width:0;gap:7px;font-size:11px}
+.responsive-standings .table-team span{min-width:0;overflow-wrap:anywhere}
+.responsive-standings .table-team .team-logo{width:24px;height:24px}
+.responsive-standings th:nth-child(n+3):nth-child(-n+9),.responsive-standings .standing-main-row td:nth-child(n+3):nth-child(-n+9){display:none}
+.responsive-standings th:nth-child(10),.responsive-standings .standing-main-row td:nth-child(10){width:49px}
+.responsive-standings .mobile-expand-column{width:40px}
+.standing-expand{width:32px;height:36px;border:1px solid var(--line);border-radius:8px;background:#1a2f3b;color:var(--green);transition:transform .22s ease}
+.standing-expand[aria-expanded="true"]{transform:rotate(90deg)}
+.standing-detail-row{display:table-row}
+.standing-detail-row>td{padding:0!important;border:0!important}
+.standing-detail-inner{max-height:0;overflow:hidden;opacity:0;transition:max-height .3s ease,opacity .25s ease}
+.standing-detail-row.is-open .standing-detail-inner{max-height:240px;opacity:1}
+.standing-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;padding:14px 16px 18px;background:#152a38;text-align:left}
+.standing-detail-grid span{display:flex;justify-content:space-between;gap:8px;color:var(--muted);font-size:11px}
+.standing-detail-grid b{color:var(--ink)}
+@media(min-width:640px){
+  .responsive-standings{min-width:780px;table-layout:auto}
+  .responsive-standings th,.responsive-standings td{padding:17px 12px}
+  .responsive-standings th:nth-child(n+3):nth-child(-n+9),.responsive-standings .standing-main-row td:nth-child(n+3):nth-child(-n+9){display:table-cell}
+  .responsive-standings th:nth-child(2),.responsive-standings td:nth-child(2){min-width:240px;position:sticky;left:0}
+  .responsive-standings .table-team{min-width:190px;font-size:12px;gap:11px}
+  .responsive-standings .table-team .team-logo{width:28px;height:28px}
+  .responsive-standings .mobile-expand-column,.responsive-standings .standing-detail-row{display:none}
+}
+
+/* European section: mobile-first navy panel, desktop always expanded. */
+.europe-shell{background:linear-gradient(145deg,#1e3a5f,#122a44);border:1px solid #42648a;border-radius:24px;padding:16px;margin-bottom:35px}
+.europe-toggle{display:flex;align-items:center;gap:10px;width:100%;padding:14px;border:1px solid #587a9d;border-radius:12px;background:#0c2544;color:#f2f7fc;font-weight:800;text-align:left}
+.europe-toggle svg{color:#f6d56b;flex:none}
+.europe-body{max-height:0;overflow:hidden;opacity:0;visibility:hidden;transition:max-height .36s ease,opacity .27s ease,visibility .27s ease}
+.europe-body.is-open{max-height:20000px;opacity:1;visibility:visible;margin-top:20px}
+.europe-shell .europe-intro{margin-top:0}
+.europe-shell .europe-card,.europe-shell .participant-card{background:#10243b;border-color:#385574}
+.europe-shell .euro-section{margin-bottom:26px}
+@media(min-width:640px){
+  .europe-shell{padding:30px}
+  .europe-toggle{display:none}
+  .europe-body,.europe-body.is-open{max-height:none;overflow:visible;opacity:1;visibility:visible;margin-top:0}
+}
+
+/* Persistent reminders drawer: mobile-first, no external UI dependency. */
+.reminder-set{grid-column:1/-1;justify-self:center;border:1px solid #4be0a466;background:#15342e;color:#adf0ca;border-radius:10px;padding:9px 13px;font-size:11px;font-weight:700}
+.reminder-set.is-set{background:#244b3c;color:#f2fff5}
+.reminders-backdrop{position:fixed;inset:0;background:#0009;z-index:60;opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s}
+.reminders-backdrop.is-open{opacity:1;visibility:visible}
+.reminders-drawer{position:fixed;right:0;top:0;height:100dvh;width:min(300px,100vw);z-index:61;background:#101e2b;border-left:1px solid #39566a;box-shadow:-14px 0 48px #0007;transform:translateX(100%);visibility:hidden;transition:transform .28s ease,visibility .28s;overflow-y:auto;padding:22px 16px}
+.reminders-drawer.is-open{transform:translateX(0);visibility:visible}
+.reminders-visible{overflow:hidden}
+.reminders-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.reminders-head h2{font-size:20px;line-height:1.3;margin:0}
+.reminders-head button,.reminder-item button{background:#203447;border:1px solid #39566a;border-radius:9px;min-width:36px;min-height:36px}
+.reminders-clear{margin:20px 0 14px;padding:10px 14px;background:transparent;border:1px solid #de7880;border-radius:9px;color:#ffb0b7;font-size:12px}
+.reminders-list ul{padding:0;margin:0;list-style:none;display:grid;gap:12px}
+.reminder-item{padding:13px 9px;display:flex;justify-content:space-between;align-items:center;gap:9px;background:#182b3b;border:1px solid #2e475c;border-radius:12px}
+.reminder-item>div{min-width:0;display:grid;gap:7px}
+.reminder-item strong{color:var(--lime);font-size:14px}
+.reminder-item b{overflow-wrap:anywhere;font-size:12px}
+.reminder-item small,.reminders-empty{color:var(--muted);font-size:11px}
+
+/* Keep one table row per club; mobile expanded stats live inside its team cell. */
+.responsive-standings .standing-detail-inner{display:block;text-align:left}
+.responsive-standings .standing-detail-inner.is-open{max-height:320px}
+.responsive-standings .standing-detail-grid{grid-template-columns:1fr;padding:10px 0;gap:9px}
+@media(min-width:640px){.responsive-standings .standing-detail-inner{display:none}}
+
+/* Fit the original header and the added reminders control on 320px phones. */
+@media(max-width:359px){
+  .header-inner{padding-inline:8px;gap:6px}
+  .brand{gap:5px;min-width:0}
+  .site-logo{width:32px;height:32px;flex-shrink:0}
+  .brand-name>span{font-size:17px;letter-spacing:-.5px;white-space:nowrap}
+  .brand-name small{font-size:6px;letter-spacing:.5px;white-space:nowrap}
+  .header-actions{gap:4px;min-width:0}
+  .header-actions .icon-btn{width:34px;height:36px;font-size:17px}
+  .header-actions .icon-btn svg{width:17px;height:17px}
+  .hero-kpis{gap:12px;flex-wrap:wrap}
+  .hero-kpi{min-width:0}
+}
