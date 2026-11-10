@@ -648,6 +648,7 @@ function render({ preserve = false } = {}) {
   }
   drawReminders();
   updateCountdown();
+  updateFreshnessBar();
   const nextRound=state.data?.events?.filter(e=>F.upcoming(e)&&Number(e.intRound)>0).sort((x,y)=>F.kickoff(x)-F.kickoff(y))[0]?.intRound;
   const completedRounds=(state.data?.events||[]).filter(played).map(e=>Number(e.intRound)||0);
   const round=Number(nextRound)||Math.max(0,...completedRounds);
@@ -859,3 +860,18 @@ document.getElementById("theme-toggle")?.addEventListener("click",()=>{
   syncThemeButton();
 });
 syncThemeButton();
+
+function updateFreshnessBar() {
+  const label=document.getElementById("freshness-label"),dot=document.getElementById("freshness-dot");
+  if(!label||!dot)return;
+  const last=Date.parse(state.data?.lastSuccessAt||state.data?.updatedAt);
+  const mins=(Date.now()-last)/60000;
+  if(!Number.isFinite(mins)){label.textContent="Няма потвърдено обновяване";dot.dataset.level="stale";return;}
+  const level=mins<30?"fresh":mins<=360?"medium":"stale";
+  dot.dataset.level=state.data?.offline?"stale":level;
+  const elapsed=mins<1?"преди по-малко от минута":mins<60?`преди ${Math.floor(mins)} мин`:`преди ${Math.floor(mins/60)} ч`;
+  const stateLabel=state.data?.offline?"Без връзка":level==="fresh"?"Актуално":level==="medium"?"Проверете данните":"Остарели данни";
+  label.textContent=`${stateLabel} · Последно: ${elapsed}`;
+}
+document.getElementById("footer-refresh")?.addEventListener("click",()=>loadData(true));
+setInterval(updateFreshnessBar,60000);

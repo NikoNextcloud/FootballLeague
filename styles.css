@@ -674,3 +674,12 @@ html[data-theme="light"] .site-header .nav-item,html[data-theme="light"] .site-h
 html[data-theme="light"] .countdown-panel{background:#e6edf5;color:#0f172a}
 html[data-theme="light"] .countdown-clock{color:#166534}
 @media(max-width:359px){.header-actions .icon-btn{width:30px;height:33px}.header-actions{gap:3px}.brand-name>span{font-size:15px}.round-pill{left:37px}}
+
+/* Persistent source freshness: fixed above the mobile bottom navigation. */
+.freshness-bar{display:flex;align-items:center;justify-content:center;gap:10px;min-width:0;margin:0 auto 14px;padding:11px 16px;max-width:1288px;border:1px solid var(--border);border-radius:12px;background:var(--bg-card);color:var(--text-secondary);font-size:11px}
+.freshness-dot{width:9px;height:9px;border-radius:50%;flex:none;background:#22c55e}
+.freshness-dot[data-level="medium"]{background:#eab308}
+.freshness-dot[data-level="stale"]{background:#ef4444}
+.freshness-bar button{border:1px solid var(--border);background:var(--bg-secondary);border-radius:8px;padding:7px 9px;font-weight:800;white-space:nowrap;color:var(--text-primary)}
+@media(max-width:760px){.freshness-bar{position:fixed;left:8px;right:8px;bottom:72px;z-index:29;margin:0;border-radius:12px;box-shadow:0 5px 22px #0003;padding:8px 10px;gap:7px;justify-content:space-between}.freshness-bar span#freshness-label{flex:1;min-width:0;font-size:10px}.shell{padding-bottom:126px}}
+@media(max-width:359px){.freshness-bar button{font-size:10px;padding:6px}}
