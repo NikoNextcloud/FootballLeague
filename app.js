@@ -196,12 +196,24 @@ function matchCard(e) {
   </article>`;
 }
 
+function standingZone(rank, count) {
+  const position = Number(rank);
+  if (position <= 2) return "zone-champions";
+  if (position === 3) return "zone-qualifiers";
+  if (position === 4) return "zone-conference";
+  if (position > count - 2) return "zone-relegation";
+  return "";
+}
+function standingsLegend() {
+  return `<details class="standings-legend"><summary>Легенда ▼</summary><div class="legend-items"><span><i class="zone-champions"></i>Шампионска лига (1–2)</span><span><i class="zone-qualifiers"></i>Квалификации ШЛ (3)</span><span><i class="zone-conference"></i>Лига на конференциите (4)</span><span><i class="zone-relegation"></i>Изпадащи (последните 2)</span></div></details>`;
+}
+
 function standings(rows, compact = false) {
   if (!rows.length) return empty("Класирането още не е публикувано от източника.");
   const list = compact ? rows.slice(0,6) : rows;
-  return `<div class="table-wrap" tabindex="0" role="region" aria-label="Класиране — всички показатели"><table><thead><tr><th>#</th><th>Отбор</th><th>М</th><th>ГР</th><th>Т</th></tr></thead><tbody>${list.map(r => { const trend=teamTrend(r); return `<tr>
+  return `<div class="table-wrap" tabindex="0" role="region" aria-label="Класиране — всички показатели"><table><thead><tr><th>#</th><th>Отбор</th><th>М</th><th>ГР</th><th>Т</th></tr></thead><tbody>${list.map(r => { const trend=teamTrend(r); return `<tr class="${standingZone(r.intRank, rows.length)}">
     <td><span class="rank rank-${r.intRank}">${r.intRank}</span></td><td><div class="table-team">${teamLogo(r.strTeam,r.strBadge)}<span>${escapeHtml(r.strTeam)}</span>${trend.icon ? `<i class="trend ${trend.type}" title="${trend.label}">${trend.icon}</i>` : ""}</div></td>
-    <td>${r.intPlayed || 0}</td><td>${num(r.intGoalDifference) > 0 ? "+" : ""}${r.intGoalDifference || 0}</td><td><b>${r.intPoints || 0}</b></td></tr>`; }).join("")}</tbody></table></div>`;
+    <td>${r.intPlayed || 0}</td><td>${num(r.intGoalDifference) > 0 ? "+" : ""}${r.intGoalDifference || 0}</td><td><b>${r.intPoints || 0}</b></td></tr>`; }).join("")}</tbody></table></div>${standingsLegend()}`;
 }
 
 function teamTrend(row) {
@@ -426,12 +438,12 @@ function fullStandings(rows) {
   return `<div class="table-wrap" tabindex="0" role="region" aria-label="Класиране — всички показатели"><table class="full-table"><thead><tr><th>#</th><th>Отбор</th>
     <th title="Изиграни мачове">И</th><th title="Победи">П</th><th title="Равни">Р</th><th title="Загуби">З</th>
     <th title="Вкарани голове">ВГ</th><th title="Допуснати голове">ДГ</th><th title="Голова разлика">ГР</th><th title="Точки">Т</th></tr></thead>
-    <tbody>${rows.map(r => `<tr>
+    <tbody>${rows.map(r => `<tr class="${standingZone(r.intRank, rows.length)}">
     <td><span class="rank rank-${r.intRank}">${r.intRank}</span></td>
     <td><div class="table-team">${teamLogo(r.strTeam, r.strBadge)}<span>${escapeHtml(r.strTeam)}</span></div></td>
     <td>${num(r.intPlayed)}</td><td>${num(r.intWin)}</td><td>${num(r.intDraw)}</td><td>${num(r.intLoss)}</td>
     <td>${num(r.intGoalsFor)}</td><td>${num(r.intGoalsAgainst)}</td>
-    <td>${num(r.intGoalDifference) > 0 ? "+" : ""}${num(r.intGoalDifference)}</td><td><b>${num(r.intPoints)}</b></td></tr>`).join("")}</tbody></table></div>`;
+    <td>${num(r.intGoalDifference) > 0 ? "+" : ""}${num(r.intGoalDifference)}</td><td><b>${num(r.intPoints)}</b></td></tr>`).join("")}</tbody></table></div>${standingsLegend()}`;
 }
 function livescore() {
   return `<section class="page-intro"><span class="eyebrow">БЪЛГАРСКИЯТ ФУТБОЛЕН ЕЛИТ</span><h1>Класиране</h1><p>Публикуваната таблица за сезон ${escapeHtml(seasonLabel())}. Точките и подреждането се запазват според източника, включително при равенство.</p>
