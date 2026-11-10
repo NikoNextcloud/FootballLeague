@@ -594,3 +594,25 @@ th,td{padding-left:7px;padding-right:7px;font-size:11px}
 .round-pill[hidden]{display:none}
 @media(max-width:639px){.round-pill{padding:4px 6px;font-size:9px}.brand{gap:5px}}
 @media(max-width:359px){.round-pill{position:absolute;left:40px;top:62px;font-size:8px;padding:2px 6px}}
+
+/* Fixture cards: one column mobile, two columns at 768px. */
+.fixture-card{display:flex;flex-direction:column;gap:16px;min-width:0;padding:20px;border-radius:18px;background:var(--card);border:1px solid var(--line);box-shadow:0 6px 18px #0002;transition:transform .2s ease,box-shadow .2s ease}
+.fixture-card:hover{transform:translateY(-2px);box-shadow:0 16px 35px #0005}
+.fixture-meta{width:100%;display:flex;flex-wrap:wrap;justify-content:space-between;gap:7px;font-size:11px;color:var(--muted)}
+.fixture-meta span{font-weight:800;color:var(--green)}
+.fixture-teams{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:center;width:100%}
+.fixture-club{display:grid;justify-items:center;gap:9px;text-align:center;min-width:0;font-size:12px}
+.fixture-club b{overflow-wrap:anywhere}
+.fixture-center{display:grid;gap:6px;text-align:center;justify-items:center}
+.fixture-center small{font-size:10px;color:var(--muted)}
+.fixture-center strong{font-size:clamp(14px,3vw,22px);font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--lime)}
+.fixture-club .team-logo,.initials-logo{height:46px;width:46px;object-fit:contain}
+.initials-logo{display:inline-grid;place-items:center;border-radius:50%;background:hsl(var(--team-hue) 55% 34%);color:white;font-weight:800;font-size:13px}
+.fixture-actions{display:flex;align-items:center;justify-content:space-between;gap:9px;width:100%;flex-wrap:wrap}
+.fixture-status{display:inline-flex;align-items:center;gap:7px;padding:7px 10px;border-radius:999px;font-size:10px;font-weight:800;letter-spacing:.4px}
+.fixture-status.scheduled{color:#e2e8f0;background:#64748b}
+.fixture-status.finished{color:#fff;background:#166534}
+.fixture-status.live{color:#fff;background:#ef4444}
+.fixture-actions .reminder-set{grid-column:auto}
+@media(min-width:768px){.match-grid,.page-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:767px){.match-grid,.page-grid{grid-template-columns:1fr}}

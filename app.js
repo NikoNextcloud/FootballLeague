@@ -211,22 +211,49 @@ function matchDetailHtml(e) {
   return `<div class="md-grid"><div class="md-col">${side("H")}</div><div class="md-col md-away">${side("A")}</div></div>`;
 }
 
+function initialsLogo(name, src) {
+  const badge=src||fallbackTeams.find(t=>t.strTeam===name)?.strBadge;
+  if(badge && badge!=="assets/logos/icon-192.png") return teamLogo(name,badge);
+  const initials=String(name).split(/\s+/).filter(Boolean).map(word=>word[0]).join("").slice(0,3).toUpperCase() || String(name).slice(0,2).toUpperCase();
+  let hash=0;
+  for(const c of String(name)) hash=(hash*31+c.charCodeAt(0))>>>0;
+  return `<span class="initials-logo" style="--team-hue:${hash%360}" aria-label="${escapeHtml(name)}">${escapeHtml(initials)}</span>`;
+}
+function fixtureDate(e) {
+  const time=F.kickoff(e);
+  const date=Number.isFinite(time)?new Date(time):new Date(`${e.dateEvent}T12:00:00Z`);
+  if(!Number.isFinite(date.getTime()))return "Дата предстои";
+  const day=new Intl.DateTimeFormat("bg-BG",{timeZone:F.TIME_ZONE,weekday:"long",day:"numeric",month:"long"}).format(date);
+  return `${day} · ${formatTime(e)}`;
+}
+// Live status is time-based, not confirmed from source
+function fixtureBadge(e) {
+  if(played(e))return {label:"ПРИКЛЮЧИ",cls:"finished"};
+  const kickoff=F.kickoff(e);
+  const active=state.data?.events?.filter(x=>F.upcoming(x)&&Number(x.intRound)>0).sort((x,y)=>F.kickoff(x)-F.kickoff(y))[0];
+  const latestFinished=Math.max(0,...(state.data?.events||[]).filter(played).map(x=>Number(x.intRound)||0));
+  const currentRound=Number(active?.intRound)||latestFinished;
+  const elapsed=Date.now()-kickoff;
+  if(Number(e.intRound)===currentRound && Number.isFinite(kickoff)&&elapsed>=0&&elapsed<3*60*60_000&&!["postponed","cancelled","abandoned","suspended"].includes(e.status))
+    return {label:"НА ЖИВО",cls:"live",unconfirmed:true};
+  return {label:"ПРЕДСТОИ",cls:"scheduled"};
+}
+
 function matchCard(e) {
-  const isPlayed = played(e);
-  const score = isPlayed ? `<strong class="score">${escapeHtml(e.intHomeScore)}<span>:</span>${escapeHtml(e.intAwayScore)}</strong>` : `<strong class="kickoff ${!e.strTime ? "time-pending" : ""}">${formatTime(e)}</strong>`;
-  const open = isPlayed && state.openMatches.has(e.idEvent);
-  const toggle = isPlayed ? `<button class="detail-toggle" aria-expanded="${open}" data-detail="${escapeHtml(e.idEvent)}">${open ? "Скрий статистиката ▴" : "Голове и картони ▾"}</button>` : "";
-  const detail = open ? `<div class="match-detail">${matchDetailHtml(e)}</div>` : "";
-  const remind = reminderButton(e);
-  return `<article class="match-card${open ? " open" : ""}">
-    <div class="match-meta"><span>Кръг ${escapeHtml(e.intRound || "—")} · ${escapeHtml(matchState(e))}</span><time>${formatDate(e)}</time></div>
-    <div class="match-team home"><b>${escapeHtml(e.strHomeTeam)}</b>${teamLogo(e.strHomeTeam,e.strHomeTeamBadge)}</div>
-    ${score}
-    <div class="match-team away">${teamLogo(e.strAwayTeam,e.strAwayTeamBadge)}<b>${escapeHtml(e.strAwayTeam)}</b></div>
-    ${toggle}
-    ${remind}
-    ${detail}
-  </article>`;
+  const isPlayed=played(e), badge=fixtureBadge(e);
+  const mid=isPlayed?`${escapeHtml(e.intHomeScore)} : ${escapeHtml(e.intAwayScore)}`:escapeHtml(formatTime(e));
+  const open=isPlayed&&state.openMatches.has(e.idEvent);
+  const toggle=isPlayed?`<button class="detail-toggle" aria-expanded="${open}" data-detail="${escapeHtml(e.idEvent)}">${open?"Скрий статистиката ▴":"Голове и картони ▾"}</button>`:"";
+  const detail=open?`<div class="match-detail">${matchDetailHtml(e)}</div>`:"";
+  return `<article class="match-card fixture-card">
+    <div class="fixture-meta"><span>Кръг ${escapeHtml(e.intRound||"—")}</span><time>${escapeHtml(fixtureDate(e))}</time></div>
+    <div class="fixture-teams">
+      <div class="fixture-club">${initialsLogo(e.strHomeTeam,e.strHomeTeamBadge)}<b>${escapeHtml(e.strHomeTeam)}</b></div>
+      <div class="fixture-center"><small>VS</small><strong>${mid}</strong></div>
+      <div class="fixture-club away">${initialsLogo(e.strAwayTeam,e.strAwayTeamBadge)}<b>${escapeHtml(e.strAwayTeam)}</b></div>
+    </div>
+    <div class="fixture-actions"><span class="fixture-status ${badge.cls}" title="${badge.unconfirmed?"По начален час, непотвърдено от източника":""}">${badge.cls==="live"?'<span class="live-dot" aria-hidden="true"></span>':""}${badge.label}</span>${reminderButton(e)}</div>
+    ${toggle}${detail}</article>`;
 }
 
 function standingZone(rank, count) {
