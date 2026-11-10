@@ -499,11 +499,25 @@ function teamProfile() {
 
 // Published source ordering is retained; the league site is an independent comparison link.
 const LIVESCORE_URL = "https://efbetleague.com/standings";
+function formBadges(team) {
+  const games=(state.data?.events||[]).filter(e=>played(e)&&(e.strHomeTeam===team||e.strAwayTeam===team))
+    .sort((x,y)=>(F.kickoff(x)||0)-(F.kickoff(y)||0)).slice(-5);
+  const result=games.map(e=>{
+    const home=e.strHomeTeam===team,own=Number(home?e.intHomeScore:e.intAwayScore),opp=Number(home?e.intAwayScore:e.intHomeScore);
+    const type=own>opp?"win":own===opp?"draw":"loss";
+    const label=type==="win"?"Победа":type==="draw"?"Равенство":"Загуба";
+    const rival=home?e.strAwayTeam:e.strHomeTeam;
+    const date=new Intl.DateTimeFormat("en-GB",{timeZone:F.TIME_ZONE,day:"numeric",month:"short"}).format(new Date(`${e.dateEvent}T12:00:00Z`));
+    return `<span class="form-dot ${type}" title="${escapeHtml(`${label} срещу ${rival} ${own}:${opp} (${date})`)}" aria-label="${escapeHtml(label)}">${type==="win"?"W":type==="draw"?"D":"L"}</span>`;
+  }).join("");
+  return `<div class="form-dots" aria-label="Последни ${games.length} мача">${result||'<span class="form-empty">—</span>'}</div>`;
+}
+
 function fullStandings(rows) {
   if (!rows.length) return empty("Класирането още не е налично.");
   return `<div class="table-wrap standings-table-wrap" tabindex="0" role="region" aria-label="Класиране — всички показатели"><table class="full-table responsive-standings"><thead><tr><th>#</th><th>Отбор</th>
     <th title="Изиграни мачове">И</th><th title="Победи">П</th><th title="Равни">Р</th><th title="Загуби">З</th>
-    <th title="Вкарани голове">ВГ</th><th title="Допуснати голове">ДГ</th><th title="Голова разлика">ГР</th><th title="Точки">Т</th><th class="mobile-expand-column"><span class="sr-only">Детайли</span></th></tr></thead>
+    <th title="Вкарани голове">ВГ</th><th title="Допуснати голове">ДГ</th><th title="Голова разлика">ГР</th><th title="Точки">Т</th><th class="form-column">Форма</th><th class="mobile-expand-column"><span class="sr-only">Детайли</span></th></tr></thead>
     <tbody>${rows.map(r => { const id=String(r.intRank), open=state.expandedStanding===id; return `<tr class="${standingZone(r.intRank, rows.length)} standing-main-row">
     <td><span class="rank rank-${r.intRank}">${r.intRank}</span></td>
     <td><div class="table-team">${teamLogo(r.strTeam, r.strBadge)}<span>${escapeHtml(r.strTeam)}</span></div>
@@ -513,7 +527,7 @@ function fullStandings(rows) {
     </div></div></td>
     <td>${num(r.intPlayed)}</td><td>${num(r.intWin)}</td><td>${num(r.intDraw)}</td><td>${num(r.intLoss)}</td>
     <td>${num(r.intGoalsFor)}</td><td>${num(r.intGoalsAgainst)}</td>
-    <td>${num(r.intGoalDifference) > 0 ? "+" : ""}${num(r.intGoalDifference)}</td><td><b>${num(r.intPoints)}</b></td>
+    <td>${num(r.intGoalDifference) > 0 ? "+" : ""}${num(r.intGoalDifference)}</td><td><b>${num(r.intPoints)}</b></td><td class="form-column">${formBadges(r.strTeam)}</td>
     <td class="mobile-expand-column"><button type="button" class="standing-expand" data-standing-expand="${id}" aria-label="Детайли за ${escapeHtml(r.strTeam)}" aria-expanded="${open}" aria-controls="standing-detail-${id}">▶</button></td></tr>`; }).join("")}</tbody></table></div>${standingsLegend()}`;
 }
 function livescore() {
