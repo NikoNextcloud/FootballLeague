@@ -10,13 +10,22 @@
   <link rel="apple-touch-icon" href="assets/logos/apple-touch-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="preload" href="assets/fonts/Inter-400-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <script>
+    (function(){
+      try {
+        var saved=localStorage.getItem("theme");
+        var preferred=window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";
+        document.documentElement.dataset.theme=(saved==="light"||saved==="dark")?saved:preferred;
+      } catch(e){document.documentElement.dataset.theme=window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";}
+    })();
+  </script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <a href="#app" class="skip-link">Към съдържанието</a>
 <header class="site-header">
   <div class="header-inner">
-    <div class="brand"><img class="site-logo" src="assets/logos/brand-mark.webp" alt="" width="54" height="54"><div class="brand-name"><span>А Група</span><small>БЪЛГАРСКИЯТ ФУТБОЛ</small></div></div>
+    <div class="brand"><img class="site-logo" src="assets/logos/brand-mark.webp" alt="" width="54" height="54"><div class="brand-name"><span>А Група</span><small>БЪЛГАРСКИЯТ ФУТБОЛ</small></div><span class="round-pill" id="header-round" hidden></span></div>
     <div id="data-status" class="status" role="status" aria-live="polite"><i></i>Зареждаме данните</div>
     <nav class="desktop-nav" aria-label="Основна навигация">
       <button class="nav-item active" data-page="home" type="button">Начало</button>
@@ -28,11 +37,13 @@
     </nav>
     <div class="header-actions">
       <button id="notify" class="icon-btn notify-btn" title="Включи известия за мачове" aria-label="Включи известия за мачове" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Смени темата" title="Смени темата">🌙</button>
       <button id="reminders-open" class="icon-btn" title="Моите напомняния" aria-label="Моите напомняния" aria-controls="reminders-drawer" aria-expanded="false" type="button">🔔</button>
       <button id="refresh" class="icon-btn" title="Обнови данните" aria-label="Обнови данните" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20 7v5h-5M4 17v-5h5M19 11a7 7 0 0 0-12-5L4 9m16 6-3 3a7 7 0 0 1-12-5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
     </div>
   </div>
 </header>
+<section id="next-match-countdown" class="countdown-panel" aria-label="До следващия мач" hidden><div class="countdown-copy"><span>⏱ До следващия мач</span><strong id="countdown-teams"></strong></div><strong id="countdown-time" class="countdown-clock" aria-live="off"></strong></section>
 <div id="reminders-backdrop" class="reminders-backdrop"></div>
 <aside id="reminders-drawer" class="reminders-drawer" aria-label="Моите напомняния" aria-hidden="true">
   <div class="reminders-head"><h2>Моите напомняния</h2><button id="reminders-close" type="button" aria-label="Затвори панела">✕</button></div>
@@ -40,6 +51,7 @@
   <div id="reminders-list" class="reminders-list"><p class="reminders-empty">Няма зададени напомняния</p></div>
 </aside>
 <main id="app" class="shell" tabindex="-1"></main>
+<aside id="freshness-bar" class="freshness-bar" aria-label="Актуалност на данните" role="status"><span id="freshness-dot" class="freshness-dot"></span><span id="freshness-label">Зареждане…</span><button id="footer-refresh" type="button">↻ Провери</button></aside>
 <footer class="site-footer"><p><b class="footer-mark">А ГРУПА</b> &nbsp; Българският футбол, подреден.</p><p>Програмата може да се променя. Часовете са за България.</p></footer>
 <nav class="bottom-nav" aria-label="Мобилна навигация">
   <button class="nav-item active" data-page="home" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="m3 10 9-7 9 7v10H3ZM9 20v-7h6v7" stroke-linejoin="round"/></svg>Начало</button>
@@ -49,7 +61,7 @@
   <button class="nav-item" data-page="europe" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg>Европа</button>
   <a class="nav-item live-link" href="https://niko-hp-z400-workstation.tail1da40a.ts.net:8443/web/#/login" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m10 9 5 3-5 3Z" stroke-linejoin="round"/></svg>На живо ↗</a>
 </nav>
-<script src="football-data.js?v=31"></script>
-<script src="app.js?v=31"></script>
+<script src="football-data.js?v=32"></script>
+<script src="app.js?v=32"></script>
 </body>
 </html>

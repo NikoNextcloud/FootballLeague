@@ -59,11 +59,25 @@ function reminderButton(event) {
 }
 function drawReminders() {
   const saved=readReminders();
-  const list=saved.map(item=>`<li class="reminder-item"><div><strong>${escapeHtml(item.time||"—")}</strong><b>${escapeHtml(item.home||"Домакин")} vs ${escapeHtml(item.away||"Гост")}</b><small>${escapeHtml(item.date||"—")}</small></div><button type="button" data-reminder-delete="${escapeHtml(item.id)}" aria-label="Изтрий напомняне">✕</button></li>`).join("");
   const listNode=document.getElementById("reminders-list");
-  if(listNode) listNode.innerHTML=saved.length ? `<ul>${list}</ul>` : '<p class="reminders-empty">Няма зададени напомняния</p>';
+  if(listNode){
+    const root=document.createElement(saved.length?"ul":"p");
+    if(!saved.length){root.className="reminders-empty";root.textContent="Няма зададени напомняния";}
+    for(const item of saved){
+      const li=document.createElement("li");li.className="reminder-item";
+      const description=document.createElement("div");
+      const time=document.createElement("strong");time.textContent=String(item.time||"—");
+      const teams=document.createElement("b");teams.textContent=`${item.home||"Домакин"} vs ${item.away||"Гост"}`;
+      const date=document.createElement("small");date.textContent=String(item.date||"—");
+      description.append(time,teams,date);
+      const remove=document.createElement("button");remove.type="button";
+      remove.dataset.reminderDelete=item.id;remove.setAttribute("aria-label","Изтрий напомняне");remove.textContent="✕";
+      li.append(description,remove);root.append(li);
+    }
+    listNode.replaceChildren(root);
+  }
   const clear=document.getElementById("reminders-clear");
-  if(clear) clear.disabled=!saved.length;
+  if(clear)clear.disabled=!saved.length;
 }
 function toggleReminders(open) {
   const drawer=document.getElementById("reminders-drawer"),backdrop=document.getElementById("reminders-backdrop");
@@ -211,22 +225,49 @@ function matchDetailHtml(e) {
   return `<div class="md-grid"><div class="md-col">${side("H")}</div><div class="md-col md-away">${side("A")}</div></div>`;
 }
 
+function initialsLogo(name, src) {
+  const badge=src||fallbackTeams.find(t=>t.strTeam===name)?.strBadge;
+  if(badge && badge!=="assets/logos/icon-192.png") return teamLogo(name,badge);
+  const initials=String(name).split(/\s+/).filter(Boolean).map(word=>word[0]).join("").slice(0,3).toUpperCase() || String(name).slice(0,2).toUpperCase();
+  let hash=0;
+  for(const c of String(name)) hash=(hash*31+c.charCodeAt(0))>>>0;
+  return `<span class="initials-logo" style="--team-hue:${hash%360}" aria-label="${escapeHtml(name)}">${escapeHtml(initials)}</span>`;
+}
+function fixtureDate(e) {
+  const time=F.kickoff(e);
+  const date=Number.isFinite(time)?new Date(time):new Date(`${e.dateEvent}T12:00:00Z`);
+  if(!Number.isFinite(date.getTime()))return "Дата предстои";
+  const day=new Intl.DateTimeFormat("bg-BG",{timeZone:F.TIME_ZONE,weekday:"long",day:"numeric",month:"long"}).format(date);
+  return `${day} · ${formatTime(e)}`;
+}
+// Live status is time-based, not confirmed from source
+function fixtureBadge(e) {
+  if(played(e))return {label:"ПРИКЛЮЧИ",cls:"finished"};
+  const kickoff=F.kickoff(e);
+  const active=state.data?.events?.filter(x=>F.upcoming(x)&&Number(x.intRound)>0).sort((x,y)=>F.kickoff(x)-F.kickoff(y))[0];
+  const latestFinished=Math.max(0,...(state.data?.events||[]).filter(played).map(x=>Number(x.intRound)||0));
+  const currentRound=Number(active?.intRound)||latestFinished;
+  const elapsed=Date.now()-kickoff;
+  if(Number(e.intRound)===currentRound && Number.isFinite(kickoff)&&elapsed>=0&&elapsed<3*60*60_000&&!["postponed","cancelled","abandoned","suspended"].includes(e.status))
+    return {label:"НА ЖИВО",cls:"live",unconfirmed:true};
+  return {label:"ПРЕДСТОИ",cls:"scheduled"};
+}
+
 function matchCard(e) {
-  const isPlayed = played(e);
-  const score = isPlayed ? `<strong class="score">${escapeHtml(e.intHomeScore)}<span>:</span>${escapeHtml(e.intAwayScore)}</strong>` : `<strong class="kickoff ${!e.strTime ? "time-pending" : ""}">${formatTime(e)}</strong>`;
-  const open = isPlayed && state.openMatches.has(e.idEvent);
-  const toggle = isPlayed ? `<button class="detail-toggle" aria-expanded="${open}" data-detail="${escapeHtml(e.idEvent)}">${open ? "Скрий статистиката ▴" : "Голове и картони ▾"}</button>` : "";
-  const detail = open ? `<div class="match-detail">${matchDetailHtml(e)}</div>` : "";
-  const remind = reminderButton(e);
-  return `<article class="match-card${open ? " open" : ""}">
-    <div class="match-meta"><span>Кръг ${escapeHtml(e.intRound || "—")} · ${escapeHtml(matchState(e))}</span><time>${formatDate(e)}</time></div>
-    <div class="match-team home"><b>${escapeHtml(e.strHomeTeam)}</b>${teamLogo(e.strHomeTeam,e.strHomeTeamBadge)}</div>
-    ${score}
-    <div class="match-team away">${teamLogo(e.strAwayTeam,e.strAwayTeamBadge)}<b>${escapeHtml(e.strAwayTeam)}</b></div>
-    ${toggle}
-    ${remind}
-    ${detail}
-  </article>`;
+  const isPlayed=played(e), badge=fixtureBadge(e);
+  const mid=isPlayed?`${escapeHtml(e.intHomeScore)} : ${escapeHtml(e.intAwayScore)}`:escapeHtml(formatTime(e));
+  const open=isPlayed&&state.openMatches.has(e.idEvent);
+  const toggle=isPlayed?`<button class="detail-toggle" aria-expanded="${open}" data-detail="${escapeHtml(e.idEvent)}">${open?"Скрий статистиката ▴":"Голове и картони ▾"}</button>`:"";
+  const detail=open?`<div class="match-detail">${matchDetailHtml(e)}</div>`:"";
+  return `<article class="match-card fixture-card">
+    <div class="fixture-meta"><span>Кръг ${escapeHtml(e.intRound||"—")}</span><time>${escapeHtml(fixtureDate(e))}</time></div>
+    <div class="fixture-teams">
+      <div class="fixture-club">${initialsLogo(e.strHomeTeam,e.strHomeTeamBadge)}<b>${escapeHtml(e.strHomeTeam)}</b></div>
+      <div class="fixture-center"><small>VS</small><strong>${mid}</strong></div>
+      <div class="fixture-club away">${initialsLogo(e.strAwayTeam,e.strAwayTeamBadge)}<b>${escapeHtml(e.strAwayTeam)}</b></div>
+    </div>
+    <div class="fixture-actions"><span class="fixture-status ${badge.cls}" title="${badge.unconfirmed?"По начален час, непотвърдено от източника":""}">${badge.cls==="live"?'<span class="live-dot" aria-hidden="true"></span>':""}${badge.label}</span>${reminderButton(e)}</div>
+    ${toggle}${detail}</article>`;
 }
 
 function standingZone(rank, count) {
@@ -305,19 +346,20 @@ function defaultRound(events, rounds) {
 
 // Един ред за мач (като на efbet): дата · домакин · резултат/час · гост.
 function roundRow(e) {
-  const isPlayed = played(e);
-  const mid = isPlayed
-    ? `<strong class="rr-score">${escapeHtml(e.intHomeScore)}<span>:</span>${escapeHtml(e.intAwayScore)}</strong>`
-    : `<strong class="rr-time ${!e.strTime ? "time-pending" : ""}">${["postponed","cancelled","abandoned","suspended"].includes(e.status) ? escapeHtml(matchState(e)) : formatTime(e)}</strong>`;
-  const open = isPlayed && state.openMatches.has(e.idEvent);
-  const row = `<div class="round-row${isPlayed ? " rr-clickable" : ""}${open ? " open" : ""}"${isPlayed ? ` role="button" tabindex="0" aria-expanded="${open}" aria-label="${escapeHtml(e.strHomeTeam)} – ${escapeHtml(e.strAwayTeam)}, ${escapeHtml(e.intHomeScore)}:${escapeHtml(e.intAwayScore)}, статистика" data-detail="${escapeHtml(e.idEvent)}"` : ""}>
-    <span class="rr-date" title="${escapeHtml(matchState(e))}">${escapeHtml(formatDayShort(e))}</span>
-    <div class="rr-team rr-home"><b>${escapeHtml(e.strHomeTeam)}</b>${teamLogo(e.strHomeTeam, e.strHomeTeamBadge)}</div>
-    ${mid}
-    <div class="rr-team rr-away">${teamLogo(e.strAwayTeam, e.strAwayTeamBadge)}<b>${escapeHtml(e.strAwayTeam)}</b></div>
-  </div>`;
-  const detail = open ? `<div class="match-detail rr-detail">${matchDetailHtml(e)}</div>` : "";
-  return `<div class="rr-wrap">${row}${detail}</div>`;
+  const isPlayed=played(e), badge=fixtureBadge(e);
+  const score=isPlayed?`${escapeHtml(e.intHomeScore)} : ${escapeHtml(e.intAwayScore)}`:escapeHtml(formatTime(e));
+  const open=isPlayed&&state.openMatches.has(e.idEvent);
+  const interaction=isPlayed?` role="button" tabindex="0" aria-expanded="${open}" aria-label="${escapeHtml(e.strHomeTeam)} – ${escapeHtml(e.strAwayTeam)}, статистика" data-detail="${escapeHtml(e.idEvent)}"`:"";
+  const detail=open?`<div class="match-detail rr-detail">${matchDetailHtml(e)}</div>`:"";
+  return `<div class="rr-wrap"><article class="round-row fixture-card${open?" open":""}"${interaction}>
+    <div class="fixture-meta"><span>Кръг ${escapeHtml(e.intRound||"—")}</span><time>${escapeHtml(fixtureDate(e))}</time></div>
+    <div class="fixture-teams">
+      <div class="fixture-club">${initialsLogo(e.strHomeTeam,e.strHomeTeamBadge)}<b>${escapeHtml(e.strHomeTeam)}</b></div>
+      <div class="fixture-center"><small>VS</small><strong class="rr-score">${score}</strong></div>
+      <div class="fixture-club away">${initialsLogo(e.strAwayTeam,e.strAwayTeamBadge)}<b>${escapeHtml(e.strAwayTeam)}</b></div>
+    </div>
+    <div class="fixture-actions"><span class="fixture-status ${badge.cls}" title="${badge.unconfirmed?"По начален час, непотвърдено от източника":""}">${badge.cls==="live"?'<span class="live-dot" aria-hidden="true"></span>':""}${badge.label}</span>${reminderButton(e)}</div>
+  </article>${detail}</div>`;
 }
 
 function matches() {
@@ -472,11 +514,25 @@ function teamProfile() {
 
 // Published source ordering is retained; the league site is an independent comparison link.
 const LIVESCORE_URL = "https://efbetleague.com/standings";
+function formBadges(team) {
+  const games=(state.data?.events||[]).filter(e=>played(e)&&(e.strHomeTeam===team||e.strAwayTeam===team))
+    .sort((x,y)=>(F.kickoff(x)||0)-(F.kickoff(y)||0)).slice(-5);
+  const result=games.map(e=>{
+    const home=e.strHomeTeam===team,own=Number(home?e.intHomeScore:e.intAwayScore),opp=Number(home?e.intAwayScore:e.intHomeScore);
+    const type=own>opp?"win":own===opp?"draw":"loss";
+    const label=type==="win"?"Победа":type==="draw"?"Равенство":"Загуба";
+    const rival=home?e.strAwayTeam:e.strHomeTeam;
+    const date=new Intl.DateTimeFormat("en-GB",{timeZone:F.TIME_ZONE,day:"numeric",month:"short"}).format(new Date(`${e.dateEvent}T12:00:00Z`));
+    return `<span class="form-dot ${type}" title="${escapeHtml(`${label} срещу ${rival} ${own}:${opp} (${date})`)}" aria-label="${escapeHtml(label)}">${type==="win"?"W":type==="draw"?"D":"L"}</span>`;
+  }).join("");
+  return `<div class="form-dots" aria-label="Последни ${games.length} мача">${result||'<span class="form-empty">—</span>'}</div>`;
+}
+
 function fullStandings(rows) {
   if (!rows.length) return empty("Класирането още не е налично.");
   return `<div class="table-wrap standings-table-wrap" tabindex="0" role="region" aria-label="Класиране — всички показатели"><table class="full-table responsive-standings"><thead><tr><th>#</th><th>Отбор</th>
     <th title="Изиграни мачове">И</th><th title="Победи">П</th><th title="Равни">Р</th><th title="Загуби">З</th>
-    <th title="Вкарани голове">ВГ</th><th title="Допуснати голове">ДГ</th><th title="Голова разлика">ГР</th><th title="Точки">Т</th><th class="mobile-expand-column"><span class="sr-only">Детайли</span></th></tr></thead>
+    <th title="Вкарани голове">ВГ</th><th title="Допуснати голове">ДГ</th><th title="Голова разлика">ГР</th><th title="Точки">Т</th><th class="form-column">Форма</th><th class="mobile-expand-column"><span class="sr-only">Детайли</span></th></tr></thead>
     <tbody>${rows.map(r => { const id=String(r.intRank), open=state.expandedStanding===id; return `<tr class="${standingZone(r.intRank, rows.length)} standing-main-row">
     <td><span class="rank rank-${r.intRank}">${r.intRank}</span></td>
     <td><div class="table-team">${teamLogo(r.strTeam, r.strBadge)}<span>${escapeHtml(r.strTeam)}</span></div>
@@ -486,7 +542,7 @@ function fullStandings(rows) {
     </div></div></td>
     <td>${num(r.intPlayed)}</td><td>${num(r.intWin)}</td><td>${num(r.intDraw)}</td><td>${num(r.intLoss)}</td>
     <td>${num(r.intGoalsFor)}</td><td>${num(r.intGoalsAgainst)}</td>
-    <td>${num(r.intGoalDifference) > 0 ? "+" : ""}${num(r.intGoalDifference)}</td><td><b>${num(r.intPoints)}</b></td>
+    <td>${num(r.intGoalDifference) > 0 ? "+" : ""}${num(r.intGoalDifference)}</td><td><b>${num(r.intPoints)}</b></td><td class="form-column">${formBadges(r.strTeam)}</td>
     <td class="mobile-expand-column"><button type="button" class="standing-expand" data-standing-expand="${id}" aria-label="Детайли за ${escapeHtml(r.strTeam)}" aria-expanded="${open}" aria-controls="standing-detail-${id}">▶</button></td></tr>`; }).join("")}</tbody></table></div>${standingsLegend()}`;
 }
 function livescore() {
@@ -562,9 +618,18 @@ function archive() {
   return `<section class="page-intro"><span class="eyebrow">СЕЗОН</span><h1>${escapeHtml(seasonLabel())}</h1><p>Показваме само публикуваните данни за текущия сезон.</p></section>${fullStandings(state.data.table)}`;
 }
 
+function skeletonHtml() {
+  const row='<div class="skeleton skeleton-row"></div>';
+  const card='<div class="skeleton skeleton-card"></div>';
+  return `<div class="skeleton-layout" aria-label="Зареждаме футболни данни" role="status">
+   <div class="skeleton skeleton-countdown"></div>
+   <div class="skeleton-section"><h2>Предстоящи мачове</h2><div class="skeleton-cards">${card.repeat(4)}</div></div>
+   <div class="skeleton-section"><h2>Класиране</h2><div class="skeleton-table">${row.repeat(10)}</div></div>
+  </div>`;
+}
 function content() {
   if(!state.loading && state.refreshError && !state.data?.table?.length) return `<section class="page-intro"><span class="eyebrow">НЯМА ВРЪЗКА С ДАННИТЕ</span><h1>Временно недостъпни данни.</h1><p>Не успяхме да заредим проверена програма и класиране. Използвай бутона за обновяване горе, за да опиташ отново.</p></section>`;
-  if (state.loading && !state.data) return `<div class="loader"><span></span><b>Зареждаме първенството…</b></div>`;
+  if (state.loading && !state.data) return skeletonHtml();
   if (state.page === "standings") return livescore();
   if (state.page === "matches") return matches();
   if (state.page === "teams") return teams();
@@ -576,6 +641,12 @@ function content() {
 }
 
 function render({ preserve = false } = {}) {
+  const skeleton=document.querySelector("#app .skeleton-layout");
+  if(state.data && skeleton && !skeleton.classList.contains("skeleton-exit")){
+    skeleton.classList.add("skeleton-exit");
+    setTimeout(()=>render({preserve}),210);
+    return;
+  }
   // Refreshes preserve in-progress form input and keyboard focus inside the content.
   const active=document.activeElement;
   const activeKey=active?.id || (active?.name ? `[name="${active.name}"]` : "");
@@ -591,6 +662,13 @@ function render({ preserve = false } = {}) {
     restored?.focus({preventScroll:true});
   }
   drawReminders();
+  updateCountdown();
+  updateFreshnessBar();
+  const nextRound=state.data?.events?.filter(e=>F.upcoming(e)&&Number(e.intRound)>0).sort((x,y)=>F.kickoff(x)-F.kickoff(y))[0]?.intRound;
+  const completedRounds=(state.data?.events||[]).filter(played).map(e=>Number(e.intRound)||0);
+  const round=Number(nextRound)||Math.max(0,...completedRounds);
+  const pill=document.getElementById("header-round");
+  if(pill){pill.hidden=!round;pill.textContent=round?`Кръг ${round}`:"";}
   $("#app").setAttribute("aria-busy", String(state.loading));
   $("#refresh").disabled = state.loading;
   $("#refresh").classList.toggle("refreshing", state.loading);
@@ -633,7 +711,7 @@ document.addEventListener("click", event => {
 // One delegated listener: persistent navigation must not collect handlers on refresh.
 document.addEventListener("click", async event => {
   const el = event.target.closest("[data-page], [data-team], [data-detail], [data-filter], [data-round], [data-live-open], [data-live-edit], [data-live-delete], #cancel-live-edit");
-  if (!el) return;
+  if (!el || event.target.closest("[data-reminder-add]")) return;
   if (el.dataset.page) { state.page = el.dataset.page; scrollTo(0,0); }
   else if (el.dataset.team) { state.selectedTeam=el.dataset.team; state.page="team-detail"; scrollTo(0,0); }
   else if (el.dataset.detail) {
@@ -757,3 +835,58 @@ document.addEventListener("visibilitychange", () => { if(!document.hidden && Dat
 window.addEventListener("online", () => loadData(true));
 window.addEventListener("offline", () => { if(state.data) { state.data.offline=true; render(); } });
 if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("service-worker.js").catch(() => {});
+
+// Minimal scroll detection for glassmorphism; passive listener leaves scrolling responsive.
+const siteHeader=document.querySelector(".site-header");
+function syncHeaderScroll(){siteHeader?.classList.toggle("is-scrolled",window.scrollY>50);}
+window.addEventListener("scroll",syncHeaderScroll,{passive:true});
+syncHeaderScroll();
+
+function updateCountdown(){
+  const panel=document.getElementById("next-match-countdown");
+  const clock=document.getElementById("countdown-time");
+  const teams=document.getElementById("countdown-teams");
+  if(!panel||!clock||!teams)return;
+  const now=Date.now();
+  const next=(state.data?.events||[]).filter(e=>F.upcoming(e,now)&&Number.isFinite(F.kickoff(e)))
+    .sort((x,y)=>F.kickoff(x)-F.kickoff(y))[0];
+  if(!next){panel.hidden=true;return;}
+  panel.hidden=false;
+  teams.textContent=`${next.strHomeTeam} vs ${next.strAwayTeam}`;
+  const diff=Math.max(0,F.kickoff(next)-now);
+  if(diff===0){clock.textContent="Мачът е започнал!";return;}
+  const days=Math.floor(diff/86400000),hours=Math.floor(diff/3600000)%24,mins=Math.floor(diff/60000)%60,secs=Math.floor(diff/1000)%60;
+  const compact=window.innerWidth<480&&diff<3600000;
+  clock.textContent=compact?`${mins}м  ${String(secs).padStart(2,"0")}с`:`${days}д  ${hours}ч  ${String(mins).padStart(2,"0")}м  ${String(secs).padStart(2,"0")}с`;
+}
+setInterval(updateCountdown,1000);
+
+function syncThemeButton(){
+  const button=document.getElementById("theme-toggle");
+  if(!button)return;
+  const light=document.documentElement.dataset.theme==="light";
+  button.textContent=light?"☀️":"🌙";
+  button.setAttribute("aria-label",light?"Включи тъмна тема":"Включи светла тема");
+}
+document.getElementById("theme-toggle")?.addEventListener("click",()=>{
+  const next=document.documentElement.dataset.theme==="light"?"dark":"light";
+  document.documentElement.dataset.theme=next;
+  try{localStorage.setItem("theme",next)}catch{}
+  syncThemeButton();
+});
+syncThemeButton();
+
+function updateFreshnessBar() {
+  const label=document.getElementById("freshness-label"),dot=document.getElementById("freshness-dot");
+  if(!label||!dot)return;
+  const last=Date.parse(state.data?.lastSuccessAt||state.data?.updatedAt);
+  const mins=(Date.now()-last)/60000;
+  if(!Number.isFinite(mins)){label.textContent="Няма потвърдено обновяване";dot.dataset.level="stale";return;}
+  const level=mins<30?"fresh":mins<=360?"medium":"stale";
+  dot.dataset.level=state.data?.offline?"stale":level;
+  const elapsed=mins<1?"преди по-малко от минута":mins<60?`преди ${Math.floor(mins)} мин`:`преди ${Math.floor(mins/60)} ч`;
+  const stateLabel=state.data?.offline?"Без връзка":level==="fresh"?"Актуално":level==="medium"?"Проверете данните":"Остарели данни";
+  label.textContent=`${stateLabel} · Последно: ${elapsed}`;
+}
+document.getElementById("footer-refresh")?.addEventListener("click",()=>loadData(true));
+setInterval(updateFreshnessBar,60000);
