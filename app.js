@@ -24,7 +24,7 @@ const EUROPE_LEAGUES = [
 ];
 const euroCompetition = strLeague => EUROPE_LEAGUES.find(c => c.test.test(strLeague || "")) || null;
 const state = { page: "home", filter: "all", team: "all", season: SEASON, selectedTeam: null, round: null, editingLiveLink: null,
-  europeUpdated:null, europe:[], europeLoaded:false, openMatches:new Set(), loadingDetail:null, data: null, loading: true, refreshError: false, lastFetchAt: 0 };
+  europeUpdated:null, europe:[], europeLoaded:false, expandedStanding:null, openMatches:new Set(), loadingDetail:null, data: null, loading: true, refreshError: false, lastFetchAt: 0 };
 const $ = (s) => document.querySelector(s);
 const escapeHtml = (v = "") => String(v).replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
 const num = v => Number(v ?? 0);
@@ -435,15 +435,20 @@ function teamProfile() {
 const LIVESCORE_URL = "https://efbetleague.com/standings";
 function fullStandings(rows) {
   if (!rows.length) return empty("Класирането още не е налично.");
-  return `<div class="table-wrap" tabindex="0" role="region" aria-label="Класиране — всички показатели"><table class="full-table"><thead><tr><th>#</th><th>Отбор</th>
+  return `<div class="table-wrap standings-table-wrap" tabindex="0" role="region" aria-label="Класиране — всички показатели"><table class="full-table responsive-standings"><thead><tr><th>#</th><th>Отбор</th>
     <th title="Изиграни мачове">И</th><th title="Победи">П</th><th title="Равни">Р</th><th title="Загуби">З</th>
-    <th title="Вкарани голове">ВГ</th><th title="Допуснати голове">ДГ</th><th title="Голова разлика">ГР</th><th title="Точки">Т</th></tr></thead>
-    <tbody>${rows.map(r => `<tr class="${standingZone(r.intRank, rows.length)}">
+    <th title="Вкарани голове">ВГ</th><th title="Допуснати голове">ДГ</th><th title="Голова разлика">ГР</th><th title="Точки">Т</th><th class="mobile-expand-column"><span class="sr-only">Детайли</span></th></tr></thead>
+    <tbody>${rows.map(r => { const id=String(r.intRank), open=state.expandedStanding===id; return `<tr class="${standingZone(r.intRank, rows.length)} standing-main-row">
     <td><span class="rank rank-${r.intRank}">${r.intRank}</span></td>
     <td><div class="table-team">${teamLogo(r.strTeam, r.strBadge)}<span>${escapeHtml(r.strTeam)}</span></div></td>
     <td>${num(r.intPlayed)}</td><td>${num(r.intWin)}</td><td>${num(r.intDraw)}</td><td>${num(r.intLoss)}</td>
     <td>${num(r.intGoalsFor)}</td><td>${num(r.intGoalsAgainst)}</td>
-    <td>${num(r.intGoalDifference) > 0 ? "+" : ""}${num(r.intGoalDifference)}</td><td><b>${num(r.intPoints)}</b></td></tr>`).join("")}</tbody></table></div>${standingsLegend()}`;
+    <td>${num(r.intGoalDifference) > 0 ? "+" : ""}${num(r.intGoalDifference)}</td><td><b>${num(r.intPoints)}</b></td>
+    <td class="mobile-expand-column"><button type="button" class="standing-expand" data-standing-expand="${id}" aria-label="Детайли за ${escapeHtml(r.strTeam)}" aria-expanded="${open}" aria-controls="standing-detail-${id}">▶</button></td></tr>
+    <tr class="standing-detail-row${open?" is-open":""}" id="standing-detail-${id}" aria-hidden="${!open}"><td colspan="11"><div class="standing-detail-inner"><div class="standing-detail-grid">
+    <span>Изиграни <b>${num(r.intPlayed)}</b></span><span>П <b>${num(r.intWin)}</b></span><span>Р <b>${num(r.intDraw)}</b></span><span>З <b>${num(r.intLoss)}</b></span>
+    <span>ГР <b>${num(r.intGoalDifference) > 0 ? "+" : ""}${num(r.intGoalDifference)}</b></span><span>Вкарани <b>${num(r.intGoalsFor)}</b></span><span>Получени <b>${num(r.intGoalsAgainst)}</b></span>
+    </div></div></td></tr>`; }).join("")}</tbody></table></div>${standingsLegend()}`;
 }
 function livescore() {
   return `<section class="page-intro"><span class="eyebrow">БЪЛГАРСКИЯТ ФУТБОЛЕН ЕЛИТ</span><h1>Класиране</h1><p>Публикуваната таблица за сезон ${escapeHtml(seasonLabel())}. Точките и подреждането се запазват според източника, включително при равенство.</p>
@@ -561,6 +566,22 @@ function render({ preserve = false } = {}) {
     status.innerHTML = `<i class="${health.level === "fresh" ? "" : "offline"}"></i>${state.loading ? "Проверяваме данните…" : escapeHtml(health.label)}`;
   }
 }
+
+// Expand one mobile standings row at a time without rebuilding the table (CSS transition).
+document.addEventListener("click", event => {
+  const button=event.target.closest("[data-standing-expand]");
+  if (!button) return;
+  const id=button.dataset.standingExpand;
+  const next=state.expandedStanding===id ? null : id;
+  state.expandedStanding=next;
+  document.querySelectorAll("[data-standing-expand]").forEach(toggle => {
+    const open=toggle.dataset.standingExpand===next;
+    toggle.setAttribute("aria-expanded",String(open));
+    const detail=document.getElementById(`standing-detail-${toggle.dataset.standingExpand}`);
+    detail?.classList.toggle("is-open",open);
+    detail?.setAttribute("aria-hidden",String(!open));
+  });
+});
 
 // One delegated listener: persistent navigation must not collect handlers on refresh.
 document.addEventListener("click", async event => {

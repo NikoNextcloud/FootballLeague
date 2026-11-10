@@ -501,3 +501,34 @@ th,td{padding-left:7px;padding-right:7px;font-size:11px}
 .legend-items span{display:flex;align-items:center;gap:10px}
 .legend-items i{width:5px;height:22px;border-radius:4px;background:var(--zone-color);flex:none}
 @media(min-width:640px){.legend-items{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Mobile-first compact standings with one CSS-animated detail row. */
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.responsive-standings{min-width:0;width:100%;table-layout:fixed}
+.responsive-standings th,.responsive-standings td{padding:12px 5px}
+.responsive-standings th:first-child,.responsive-standings td:first-child{width:43px}
+.responsive-standings th:nth-child(2),.responsive-standings td:nth-child(2){width:auto;min-width:0;position:static}
+.responsive-standings .table-team{min-width:0;gap:7px;font-size:11px}
+.responsive-standings .table-team span{min-width:0;overflow-wrap:anywhere}
+.responsive-standings .table-team .team-logo{width:24px;height:24px}
+.responsive-standings th:nth-child(n+3):nth-child(-n+9),.responsive-standings .standing-main-row td:nth-child(n+3):nth-child(-n+9){display:none}
+.responsive-standings th:nth-child(10),.responsive-standings .standing-main-row td:nth-child(10){width:49px}
+.responsive-standings .mobile-expand-column{width:40px}
+.standing-expand{width:32px;height:36px;border:1px solid var(--line);border-radius:8px;background:#1a2f3b;color:var(--green);transition:transform .22s ease}
+.standing-expand[aria-expanded="true"]{transform:rotate(90deg)}
+.standing-detail-row{display:table-row}
+.standing-detail-row>td{padding:0!important;border:0!important}
+.standing-detail-inner{max-height:0;overflow:hidden;opacity:0;transition:max-height .3s ease,opacity .25s ease}
+.standing-detail-row.is-open .standing-detail-inner{max-height:240px;opacity:1}
+.standing-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;padding:14px 16px 18px;background:#152a38;text-align:left}
+.standing-detail-grid span{display:flex;justify-content:space-between;gap:8px;color:var(--muted);font-size:11px}
+.standing-detail-grid b{color:var(--ink)}
+@media(min-width:640px){
+  .responsive-standings{min-width:780px;table-layout:auto}
+  .responsive-standings th,.responsive-standings td{padding:17px 12px}
+  .responsive-standings th:nth-child(n+3):nth-child(-n+9),.responsive-standings .standing-main-row td:nth-child(n+3):nth-child(-n+9){display:table-cell}
+  .responsive-standings th:nth-child(2),.responsive-standings td:nth-child(2){min-width:240px;position:sticky;left:0}
+  .responsive-standings .table-team{min-width:190px;font-size:12px;gap:11px}
+  .responsive-standings .table-team .team-logo{width:28px;height:28px}
+  .responsive-standings .mobile-expand-column,.responsive-standings .standing-detail-row{display:none}
+}
