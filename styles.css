@@ -707,3 +707,12 @@ html[data-theme="light"] .data-health{background:#f1f5f9;border-color:#cbd5e1;co
 html[data-theme="light"] .data-health b{color:#0f172a}
 html[data-theme="light"] .data-health small,html[data-theme="light"] .data-health span{color:#334155}
 html[data-theme="light"] .data-health a{color:#1d4ed8}
+
+/* Light theme contrast: standings labels, status warnings and action links. */
+html[data-theme="light"] .ls-open{background:#047857;color:#ffffff}
+html[data-theme="light"] .ls-open:hover{background:#065f46;color:#ffffff}
+html[data-theme="light"] .data-note.warning{background:#fffbeb;color:#92400e;border-color:#f59e0b}
+html[data-theme="light"] .rank{color:#334155}
+html[data-theme="light"] .rank-1{background:#365314;color:#ffffff}
+html[data-theme="light"] .rank-2,html[data-theme="light"] .rank-3{background:#dcfce7;color:#166534}
+html[data-theme="light"] .rank-4{background:#dbeafe;color:#1d4ed8}
