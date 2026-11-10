@@ -616,3 +616,8 @@ th,td{padding-left:7px;padding-right:7px;font-size:11px}
 .fixture-actions .reminder-set{grid-column:auto}
 @media(min-width:768px){.match-grid,.page-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:767px){.match-grid,.page-grid{grid-template-columns:1fr}}
+
+/* Only the status dot pulses; the LIVE label is stable. */
+.fixture-status .live-dot{width:7px;height:7px;flex:0 0 7px;background:white;border-radius:50%;animation:live-pulse 1.4s ease-in-out infinite}
+@keyframes live-pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
+@media(prefers-reduced-motion:reduce){.fixture-status .live-dot{animation:none}}
