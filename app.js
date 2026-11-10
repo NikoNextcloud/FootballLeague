@@ -59,11 +59,25 @@ function reminderButton(event) {
 }
 function drawReminders() {
   const saved=readReminders();
-  const list=saved.map(item=>`<li class="reminder-item"><div><strong>${escapeHtml(item.time||"—")}</strong><b>${escapeHtml(item.home||"Домакин")} vs ${escapeHtml(item.away||"Гост")}</b><small>${escapeHtml(item.date||"—")}</small></div><button type="button" data-reminder-delete="${escapeHtml(item.id)}" aria-label="Изтрий напомняне">✕</button></li>`).join("");
   const listNode=document.getElementById("reminders-list");
-  if(listNode) listNode.innerHTML=saved.length ? `<ul>${list}</ul>` : '<p class="reminders-empty">Няма зададени напомняния</p>';
+  if(listNode){
+    const root=document.createElement(saved.length?"ul":"p");
+    if(!saved.length){root.className="reminders-empty";root.textContent="Няма зададени напомняния";}
+    for(const item of saved){
+      const li=document.createElement("li");li.className="reminder-item";
+      const description=document.createElement("div");
+      const time=document.createElement("strong");time.textContent=String(item.time||"—");
+      const teams=document.createElement("b");teams.textContent=`${item.home||"Домакин"} vs ${item.away||"Гост"}`;
+      const date=document.createElement("small");date.textContent=String(item.date||"—");
+      description.append(time,teams,date);
+      const remove=document.createElement("button");remove.type="button";
+      remove.dataset.reminderDelete=item.id;remove.setAttribute("aria-label","Изтрий напомняне");remove.textContent="✕";
+      li.append(description,remove);root.append(li);
+    }
+    listNode.replaceChildren(root);
+  }
   const clear=document.getElementById("reminders-clear");
-  if(clear) clear.disabled=!saved.length;
+  if(clear)clear.disabled=!saved.length;
 }
 function toggleReminders(open) {
   const drawer=document.getElementById("reminders-drawer"),backdrop=document.getElementById("reminders-backdrop");
