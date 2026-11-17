@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-11-16T19:49:30.070788+00:00",
-  "lastSuccessAt": "2026-11-16T19:49:30.070788+00:00",
+  "updatedAt": "2026-11-17T02:41:03.779936+00:00",
+  "lastSuccessAt": "2026-11-17T02:41:03.779936+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "367a97196569bd49ba249af0a7b2cdb653c99a1d1e1fef1f0e01be365b6d77b8",
-      "checkedAt": "2026-11-16T19:49:30.070788+00:00"
+      "sha256": "6ab533be727b29b2ee2b499f130be719f71c469a65cf55f683a9fae95c7f88b1",
+      "checkedAt": "2026-11-17T02:41:03.779936+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "d232838f1b381f94c302e3e6a640c587c24ed6784b6c3230c6ea5ab6990717de",
-      "checkedAt": "2026-11-16T19:49:30.070788+00:00"
+      "sha256": "c4e0522d79dc8f388dfa06e060d068671b749c3cc4c5ee49cf94add142695a50",
+      "checkedAt": "2026-11-17T02:41:03.779936+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "d28b1e5e69de97d226b70d9943c357937b4b7287d81e1ae8888d96f22e0709c8",
-      "checkedAt": "2026-11-16T19:49:30.070788+00:00"
+      "sha256": "22c7b77b04adc2e90ec029da746b06428e5388c7c43c64c4e4664f7a521b6156",
+      "checkedAt": "2026-11-17T02:41:03.779936+00:00"
     }
   },
   "table": [
@@ -3723,40 +3723,72 @@
   ],
   "today": [
     {
-      "id": "bf-590d335f9a0e",
-      "dateEvent": "2026-11-16",
-      "strTime": "19:00:00",
+      "id": "bf-e530e3462839",
+      "dateEvent": "2026-11-17",
+      "strTime": "13:00:00",
       "intRound": "",
-      "roundLabel": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4",
-      "strHomeTeam": "Естония",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Андора",
       "strAwayTeam": "България",
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "finished",
-      "kickoffAt": "2026-11-16T19:00:00+02:00",
-      "intHomeScore": "2",
-      "intAwayScore": "1",
-      "halftime": "1:1",
-      "competition": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4"
+      "status": "scheduled",
+      "kickoffAt": "2026-11-17T13:00:00+02:00",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС"
     },
     {
-      "id": "bf-90d11d66782d",
-      "dateEvent": "2026-11-16",
-      "strTime": "19:00:00",
+      "id": "bf-deeac99b0b36",
+      "dateEvent": "2026-11-17",
+      "strTime": "13:00:00",
       "intRound": "",
-      "roundLabel": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4",
-      "strHomeTeam": "Исландия",
-      "strAwayTeam": "Люксембург",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Сърбия",
+      "strAwayTeam": "Португалия",
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "finished",
-      "kickoffAt": "2026-11-16T19:00:00+02:00",
-      "intHomeScore": "3",
-      "intAwayScore": "0",
-      "halftime": "2:0",
-      "competition": "Лига на нациите на УЕФА 2027 - Лига \"C\", Група 4"
+      "status": "scheduled",
+      "kickoffAt": "2026-11-17T13:00:00+02:00",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС"
+    },
+    {
+      "id": "bf-3def59b99419",
+      "dateEvent": "2026-11-17",
+      "strTime": "14:30:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Гибралтар",
+      "strAwayTeam": "Латвия",
+      "source": "bulgarian-football.com",
+      "timezone": "Europe/Sofia",
+      "timeConfirmed": true,
+      "status": "scheduled",
+      "kickoffAt": "2026-11-17T14:30:00+02:00",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС"
+    },
+    {
+      "id": "bf-f6e2b66cbfef",
+      "dateEvent": "2026-11-17",
+      "strTime": "14:30:00",
+      "intRound": "",
+      "roundLabel": "Деца: Купа на БФС",
+      "strHomeTeam": "Молдова",
+      "strAwayTeam": "България",
+      "source": "bulgarian-football.com",
+      "timezone": "Europe/Sofia",
+      "timeConfirmed": true,
+      "status": "scheduled",
+      "kickoffAt": "2026-11-17T14:30:00+02:00",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Деца: Купа на БФС"
     }
   ],
   "europe": {
