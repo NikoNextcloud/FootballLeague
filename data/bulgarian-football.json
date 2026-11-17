@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-11-17T11:14:47.658947+00:00",
-  "lastSuccessAt": "2026-11-17T11:14:47.658947+00:00",
+  "updatedAt": "2026-11-17T19:55:45.474924+00:00",
+  "lastSuccessAt": "2026-11-17T19:55:45.474924+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "0f8df8f6d7542f6dd606488a2d3884ca8a2986794df63702880c5eac2d18541d",
-      "checkedAt": "2026-11-17T11:14:47.658947+00:00"
+      "sha256": "bc64b85125519284d74dda856285b87d77f4fced2cb5accd83dadf96d3105678",
+      "checkedAt": "2026-11-17T19:55:45.474924+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "28f5039355aeea8c6f12fcc7566acd35894bb540820993d69ca8a3fa81148cd1",
-      "checkedAt": "2026-11-17T11:14:47.658947+00:00"
+      "sha256": "2202304f224f7e0f1da6d86818f5576bb608f427283cb86d9814c27c669871ed",
+      "checkedAt": "2026-11-17T19:55:45.474924+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "d46a682ad3f850e9f7163bd3a83e9adef3240a3facb65b9ddd5051c39aabc298",
-      "checkedAt": "2026-11-17T11:14:47.658947+00:00"
+      "sha256": "b6ed6f168a87c486ca4c42855a22e2bd57da1b14fd0c0b7ddb1d7f63f5819045",
+      "checkedAt": "2026-11-17T19:55:45.474924+00:00"
     }
   },
   "table": [
@@ -3723,72 +3723,94 @@
   ],
   "today": [
     {
-      "id": "bf-e530e3462839",
+      "id": "bf-96bcff9548ec",
       "dateEvent": "2026-11-17",
       "strTime": "13:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Пловдив, 1/2 финали",
       "strHomeTeam": "Андора",
       "strAwayTeam": "България",
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-17T13:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС"
+      "intHomeScore": "1",
+      "intAwayScore": "4",
+      "halftime": "0:2",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Пловдив, 1/2 финали"
     },
     {
-      "id": "bf-deeac99b0b36",
+      "id": "bf-68f0bd9bc457",
       "dateEvent": "2026-11-17",
       "strTime": "13:00:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Пловдив, 1/2 финали",
       "strHomeTeam": "Сърбия",
       "strAwayTeam": "Португалия",
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-17T13:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС"
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:0",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Пловдив, 1/2 финали"
     },
     {
-      "id": "bf-3def59b99419",
+      "id": "bf-02dd6fa97e67",
       "dateEvent": "2026-11-17",
       "strTime": "14:30:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Пловдив, 1/2 финали",
       "strHomeTeam": "Гибралтар",
       "strAwayTeam": "Латвия",
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-17T14:30:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС"
+      "intHomeScore": "1",
+      "intAwayScore": "12",
+      "halftime": "0:5",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Пловдив, 1/2 финали"
     },
     {
-      "id": "bf-f6e2b66cbfef",
+      "id": "bf-accee8fe533d",
       "dateEvent": "2026-11-17",
       "strTime": "14:30:00",
       "intRound": "",
-      "roundLabel": "Деца: Купа на БФС",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Пловдив, 1/2 финали",
       "strHomeTeam": "Молдова",
       "strAwayTeam": "България",
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-17T14:30:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Деца: Купа на БФС"
+      "intHomeScore": "2",
+      "intAwayScore": "7",
+      "halftime": "1:4",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Пловдив, 1/2 финали"
+    },
+    {
+      "id": "bf-506740cf3108",
+      "dateEvent": "2026-11-17",
+      "strTime": "18:30:00",
+      "intRound": "",
+      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Пловдив, 1/2 финали",
+      "strHomeTeam": "СФК Раковски",
+      "strAwayTeam": "Спартак 1947",
+      "source": "bulgarian-football.com",
+      "timezone": "Europe/Sofia",
+      "timeConfirmed": true,
+      "status": "finished",
+      "kickoffAt": "2026-11-17T18:30:00+02:00",
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "",
+      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Пловдив, 1/2 финали"
     }
   ],
   "europe": {
