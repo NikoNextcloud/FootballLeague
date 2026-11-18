@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-11-18T10:40:27.473353+00:00",
-  "lastSuccessAt": "2026-11-18T10:40:27.473353+00:00",
+  "updatedAt": "2026-11-18T19:09:30.383228+00:00",
+  "lastSuccessAt": "2026-11-18T19:09:30.383228+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "87cf07fe590c99eea72eb68704738e9b67b0aa9539dbaa6c8e02a1eb18a56975",
-      "checkedAt": "2026-11-18T10:40:27.473353+00:00"
+      "sha256": "176f7ec7cf001f4c3d382012d34a579f9df5a65b6fdedd5b94ec1764c9f8793b",
+      "checkedAt": "2026-11-18T19:09:30.383228+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "18c825f8ab3816fed3766e93b87e7b2a7153bc3eb97382f4d20390f25f4d97fa",
-      "checkedAt": "2026-11-18T10:40:27.473353+00:00"
+      "sha256": "5cd493817f9f7c73d39d633bdc220f0b66c71e1c1ec1cdeef83f8c15dbb5023c",
+      "checkedAt": "2026-11-18T19:09:30.383228+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "ff57ec61d95bf898a0b6a014c7df5fa16e50daebefe470b7e2f789ea0a1c9add",
-      "checkedAt": "2026-11-18T10:40:27.473353+00:00"
+      "sha256": "6e3c3132800e0133a14e2b69d9de487eab44073a39173b762617aff271e7dec1",
+      "checkedAt": "2026-11-18T19:09:30.383228+00:00"
     }
   },
   "table": [
@@ -3750,10 +3750,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-18T14:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "2",
+      "halftime": "1:2",
       "competition": "Североизточна Трета лига"
     },
     {
@@ -3767,10 +3768,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-18T14:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Североизточна Трета лига"
     },
     {
@@ -3784,28 +3786,12 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-18T14:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Югозападна Трета лига"
-    },
-    {
-      "id": "bf-2f86459bab71",
-      "dateEvent": "2026-11-18",
-      "strTime": "14:00:00",
-      "intRound": "",
-      "roundLabel": "Купа на Аматьорската футболна лига (квалификации) - Област Хасково, Финал",
-      "strHomeTeam": "Димитровград 1947",
-      "strAwayTeam": "ОФК Хасково",
-      "source": "bulgarian-football.com",
-      "timezone": "Europe/Sofia",
-      "timeConfirmed": true,
-      "status": "scheduled",
-      "kickoffAt": "2026-11-18T14:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Хасково, Финал"
     },
     {
       "id": "bf-4d3d50009d65",
@@ -3818,10 +3804,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-18T14:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "2:1",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -3835,10 +3822,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-18T14:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "2",
+      "halftime": "0:1",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -3852,10 +3840,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-18T14:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Югозападна Трета лига"
     },
     {
@@ -3886,10 +3875,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-18T14:30:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "0",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Северозападна Трета лига"
     },
     {
@@ -3903,10 +3893,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-18T18:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "",
       "competition": "Купа на Аматьорската футболна лига (квалификации) - Област Пловдив, 1/2 финали"
     }
   ],
