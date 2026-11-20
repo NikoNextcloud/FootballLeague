@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-11-20T07:49:59.369038+00:00",
-  "lastSuccessAt": "2026-11-20T07:49:59.369038+00:00",
+  "updatedAt": "2026-11-20T16:29:56.790698+00:00",
+  "lastSuccessAt": "2026-11-20T16:29:56.790698+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "384dd07899dbb55383ded2e36ed80e0a27c3f1f15cb72b843d3e0032e014e7a0",
-      "checkedAt": "2026-11-20T07:49:59.369038+00:00"
+      "sha256": "c5c52c97bda2bcbeb2e3eff30e58d1ade53b45c3fa0abb8ad70f2d3cac3f6224",
+      "checkedAt": "2026-11-20T16:29:56.790698+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "4df80496f78996fc97d1455d3020429a1d02c7eecfc6a56d0cc832cac651ccba",
-      "checkedAt": "2026-11-20T07:49:59.369038+00:00"
+      "sha256": "4c58d3adc3852c5d630185a49106810c0a2226db5045307eecf2e9beb427088e",
+      "checkedAt": "2026-11-20T16:29:56.790698+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "678c835fdcbdac11d071baaf531fd16abc8d63b223362836c38cafbee606ac39",
-      "checkedAt": "2026-11-20T07:49:59.369038+00:00"
+      "sha256": "4b57998ed3cbf858c40182f526a4592878e1fd6c1300252639be8098c4efbf36",
+      "checkedAt": "2026-11-20T16:29:56.790698+00:00"
     }
   },
   "table": [
@@ -3733,10 +3733,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-20T12:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "0:0",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
@@ -3750,10 +3751,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-20T13:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "1",
+      "halftime": "1:0",
       "competition": "Първа професионална лига - Първа фаза"
     },
     {
