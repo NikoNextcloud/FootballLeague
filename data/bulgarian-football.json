@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-11-19T18:12:29.338337+00:00",
-  "lastSuccessAt": "2026-11-19T18:12:29.338337+00:00",
+  "updatedAt": "2026-11-20T00:42:56.446191+00:00",
+  "lastSuccessAt": "2026-11-20T00:42:56.446191+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "f8aef85f5537896e553a91199da7a3520cab7c5798305d50265bbe32eafce4ff",
-      "checkedAt": "2026-11-19T18:12:29.338337+00:00"
+      "sha256": "b9223b256fff20ea6e442e855efe766e558a968a1e592ba50b3d211c2d7c38c5",
+      "checkedAt": "2026-11-20T00:42:56.446191+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "62fc6109923072996e4ad86304ec059b9b5219df0366606cf13aeefe6da4ed43",
-      "checkedAt": "2026-11-19T18:12:29.338337+00:00"
+      "sha256": "8b6335b2eee4ca955b6261e388ae584a14e62fecb3004cfb243ddb0bc621f5c8",
+      "checkedAt": "2026-11-20T00:42:56.446191+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "3a1ac495f3a3004ea408c32928c1990be7a8daf4440b1d96fa455fa05e10ede8",
-      "checkedAt": "2026-11-19T18:12:29.338337+00:00"
+      "sha256": "4ebaf90e0c05ff6900041c02f828842ab9ab7a438f02b0e6f4ec303418d1135b",
+      "checkedAt": "2026-11-20T00:42:56.446191+00:00"
     }
   },
   "table": [
@@ -3723,73 +3723,55 @@
   ],
   "today": [
     {
-      "id": "bf-5ca73e0fa9b0",
-      "dateEvent": "2026-11-19",
+      "id": "bf-ba5648f44c80",
+      "dateEvent": "2026-11-20",
       "strTime": "12:00:00",
       "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Олимпия ФК (София)",
-      "strAwayTeam": "Локомотив София",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "Левски",
+      "strAwayTeam": "ЦСКА",
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
       "status": "scheduled",
-      "kickoffAt": "2026-11-19T12:00:00+02:00",
+      "kickoffAt": "2026-11-20T12:00:00+02:00",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Втора професионална лига"
+      "competition": "Първа професионална лига - Първа фаза"
     },
     {
-      "id": "bf-079ed16fe480",
-      "dateEvent": "2026-11-19",
-      "strTime": "14:30:00",
+      "id": "bf-e828a7cd8ce2",
+      "dateEvent": "2026-11-20",
+      "strTime": "13:00:00",
       "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Ситомир",
-      "strAwayTeam": "Спартак",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "ЦСКА 1948",
+      "strAwayTeam": "Академик",
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
       "status": "scheduled",
-      "kickoffAt": "2026-11-19T14:30:00+02:00",
+      "kickoffAt": "2026-11-20T13:00:00+02:00",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Втора професионална лига"
+      "competition": "Първа професионална лига - Първа фаза"
     },
     {
-      "id": "bf-f9bf0568d215",
-      "dateEvent": "2026-11-19",
-      "strTime": "15:00:00",
+      "id": "bf-e627ae8fa5e4",
+      "dateEvent": "2026-11-20",
+      "strTime": "18:00:00",
       "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Спартак 1924",
-      "strAwayTeam": "Озрен",
+      "roundLabel": "Първа професионална лига - Първа фаза",
+      "strHomeTeam": "Септември София",
+      "strAwayTeam": "Локомотив Пловдив",
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
       "status": "scheduled",
-      "kickoffAt": "2026-11-19T15:00:00+02:00",
+      "kickoffAt": "2026-11-20T18:00:00+02:00",
       "intHomeScore": null,
       "intAwayScore": null,
-      "competition": "Втора професионална лига"
-    },
-    {
-      "id": "bf-b6c3ef9dd2ef",
-      "dateEvent": "2026-11-19",
-      "strTime": "17:00:00",
-      "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "Добруджа 1919",
-      "strAwayTeam": "Фратрия",
-      "source": "bulgarian-football.com",
-      "timezone": "Europe/Sofia",
-      "timeConfirmed": true,
-      "status": "finished",
-      "kickoffAt": "2026-11-19T17:00:00+02:00",
-      "intHomeScore": "0",
-      "intAwayScore": "5",
-      "halftime": "0:4",
-      "competition": "Втора професионална лига"
+      "competition": "Първа професионална лига - Първа фаза"
     }
   ],
   "europe": {
