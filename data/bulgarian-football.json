@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-11-21T03:34:15.959298+00:00",
-  "lastSuccessAt": "2026-11-21T03:34:15.959298+00:00",
+  "updatedAt": "2026-11-21T11:44:47.223523+00:00",
+  "lastSuccessAt": "2026-11-21T11:44:47.223523+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "25d11d87a22e47c6e8fe704b4b5cd5e26c4ebef0da15394659215227341c4ed4",
-      "checkedAt": "2026-11-21T03:34:15.959298+00:00"
+      "sha256": "9d79fb91559e32c3d86eeb84ac37942614a0bfcd2eae52a38d5c6c5bf238d686",
+      "checkedAt": "2026-11-21T11:44:47.223523+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "e72b490823cbd17b26cf36d2e126b9e9033e07ac6446aaa116152b5b5171fbaa",
-      "checkedAt": "2026-11-21T03:34:15.959298+00:00"
+      "sha256": "791d40f2400ae1dd24c95f4bcadd7a92cc696ca69432ea4fd4985ade860788e5",
+      "checkedAt": "2026-11-21T11:44:47.223523+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "34a1f5194e841e9ee8cb6f622a4b24a9691ba06c622f02e6c1b8e2fbc99b3ce7",
-      "checkedAt": "2026-11-21T03:34:15.959298+00:00"
+      "sha256": "28bf74a1e2dc6b08a5c6a139546923ea276fc1336f6144c3979a0f8e9b8feebc",
+      "checkedAt": "2026-11-21T11:44:47.223523+00:00"
     }
   },
   "table": [
@@ -3887,10 +3887,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-21T10:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -4023,10 +4024,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-21T11:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "0",
+      "halftime": "",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -4057,10 +4059,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-21T11:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "2",
+      "halftime": "1:1",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -4074,10 +4077,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-21T11:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "10",
+      "intAwayScore": "0",
+      "halftime": "7:0",
       "competition": "Югоизточна Трета лига"
     },
     {
@@ -4108,10 +4112,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-21T11:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "4",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Югоизточна Трета лига"
     },
     {
