@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-11-23T08:09:38.584040+00:00",
-  "lastSuccessAt": "2026-11-23T08:09:38.584040+00:00",
+  "updatedAt": "2026-11-23T20:22:48.429886+00:00",
+  "lastSuccessAt": "2026-11-23T20:22:48.429886+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "281547d4104217b2a47e79049479abb1bb5a028a27f7dcca2596d229a13b8351",
-      "checkedAt": "2026-11-23T08:09:38.584040+00:00"
+      "sha256": "8c39660e25377e41d10d8ff5dd76c511571cd1c6c4ffca7438fb1cdfc320ebc7",
+      "checkedAt": "2026-11-23T20:22:48.429886+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "c1ec373a5aac806bf5daa0df72787bab136d276a5d5b358f98a6c9cef5823eec",
-      "checkedAt": "2026-11-23T08:09:38.584040+00:00"
+      "sha256": "5e401d44705d2b8d322553ed47d0801fcd0ff9baa392b1270f8b692822cfc286",
+      "checkedAt": "2026-11-23T20:22:48.429886+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "c594c5b7ffb75abf2b75e5c429c6406e2bd2ff43227573222b62e6bc6c5a0eb5",
-      "checkedAt": "2026-11-23T08:09:38.584040+00:00"
+      "sha256": "555c615538c8f233f59fa1a13747039ff1db20b2738a2528bda4ed83dc9ea419",
+      "checkedAt": "2026-11-23T20:22:48.429886+00:00"
     }
   },
   "table": [
@@ -51,6 +51,18 @@
     },
     {
       "intRank": 3,
+      "strTeam": "Лудогорец",
+      "intPlayed": 14,
+      "intWin": 10,
+      "intDraw": 3,
+      "intLoss": 1,
+      "intGoalsFor": 27,
+      "intGoalsAgainst": 11,
+      "intGoalDifference": 16,
+      "intPoints": 33
+    },
+    {
+      "intRank": 4,
       "strTeam": "ЦСКА 1948",
       "intPlayed": 15,
       "intWin": 9,
@@ -59,18 +71,6 @@
       "intGoalsFor": 34,
       "intGoalsAgainst": 17,
       "intGoalDifference": 17,
-      "intPoints": 30
-    },
-    {
-      "intRank": 4,
-      "strTeam": "Лудогорец",
-      "intPlayed": 13,
-      "intWin": 9,
-      "intDraw": 3,
-      "intLoss": 1,
-      "intGoalsFor": 26,
-      "intGoalsAgainst": 11,
-      "intGoalDifference": 15,
       "intPoints": 30
     },
     {
@@ -148,13 +148,13 @@
     {
       "intRank": 11,
       "strTeam": "Дунав Русе",
-      "intPlayed": 14,
+      "intPlayed": 15,
       "intWin": 3,
       "intDraw": 3,
-      "intLoss": 8,
+      "intLoss": 9,
       "intGoalsFor": 16,
-      "intGoalsAgainst": 23,
-      "intGoalDifference": -7,
+      "intGoalsAgainst": 24,
+      "intGoalDifference": -8,
       "intPoints": 12
     },
     {
@@ -1889,10 +1889,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-23T18:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0"
     },
     {
       "id": "bf-a848c0f7db3e",
@@ -3750,26 +3751,14 @@
       "player": "Евертон Бала",
       "team": "Левски",
       "goals": 1
+    },
+    {
+      "player": "Амир Хаджиахметович",
+      "team": "Лудогорец",
+      "goals": 1
     }
   ],
   "today": [
-    {
-      "id": "bf-2b3ee237ed58",
-      "dateEvent": "2026-11-23",
-      "strTime": "14:00:00",
-      "intRound": "",
-      "roundLabel": "Североизточна Трета лига",
-      "strHomeTeam": "Черно море",
-      "strAwayTeam": "Фратрия II",
-      "source": "bulgarian-football.com",
-      "timezone": "Europe/Sofia",
-      "timeConfirmed": true,
-      "status": "scheduled",
-      "kickoffAt": "2026-11-23T14:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "competition": "Североизточна Трета лига"
-    },
     {
       "id": "bf-60735cc301e8",
       "dateEvent": "2026-11-23",
@@ -3781,10 +3770,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-23T14:30:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "2",
+      "intAwayScore": "1",
+      "halftime": "0:0",
       "competition": "Северозападна Трета лига"
     },
     {
@@ -3798,10 +3788,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-23T14:30:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "2:0",
       "competition": "Втора професионална лига"
     },
     {
@@ -3815,10 +3806,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-23T18:00:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Първа професионална лига - Първа фаза"
     }
   ],
@@ -4323,7 +4315,7 @@
   "integrity": {
     "status": "mismatch",
     "checkedTeams": 14,
-    "completedMatches": 99,
+    "completedMatches": 100,
     "comparedFields": [
       "intPlayed",
       "intWin",
