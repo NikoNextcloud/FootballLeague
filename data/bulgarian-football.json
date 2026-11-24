@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-11-23T20:22:48.429886+00:00",
-  "lastSuccessAt": "2026-11-23T20:22:48.429886+00:00",
+  "updatedAt": "2026-11-24T04:57:22.235142+00:00",
+  "lastSuccessAt": "2026-11-24T04:57:22.235142+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "8c39660e25377e41d10d8ff5dd76c511571cd1c6c4ffca7438fb1cdfc320ebc7",
-      "checkedAt": "2026-11-23T20:22:48.429886+00:00"
+      "sha256": "a6859c354c9efb3069047e308d4a3e100d2cef5e3bdf2d8d15cd3855e9291e3b",
+      "checkedAt": "2026-11-24T04:57:22.235142+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "5e401d44705d2b8d322553ed47d0801fcd0ff9baa392b1270f8b692822cfc286",
-      "checkedAt": "2026-11-23T20:22:48.429886+00:00"
+      "sha256": "3622b8267d8a5bdd9944a5c32ffd7398d09d295831c77d345be7bd6a88194ccf",
+      "checkedAt": "2026-11-24T04:57:22.235142+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "555c615538c8f233f59fa1a13747039ff1db20b2738a2528bda4ed83dc9ea419",
-      "checkedAt": "2026-11-23T20:22:48.429886+00:00"
+      "sha256": "9c82edbf699b85dc26fc29d970216fadf3c041d48f3031b3eba09f3178535913",
+      "checkedAt": "2026-11-24T04:57:22.235142+00:00"
     }
   },
   "table": [
@@ -3760,58 +3760,38 @@
   ],
   "today": [
     {
-      "id": "bf-60735cc301e8",
-      "dateEvent": "2026-11-23",
-      "strTime": "14:30:00",
+      "id": "bf-0a88cffd036d",
+      "dateEvent": "2026-11-24",
+      "strTime": "13:00:00",
       "intRound": "",
-      "roundLabel": "Северозападна Трета лига",
-      "strHomeTeam": "ОФК Локомотив",
-      "strAwayTeam": "Етър ВТ II",
+      "roundLabel": "Североизточна Трета лига",
+      "strHomeTeam": "Черно море",
+      "strAwayTeam": "Фратрия II",
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "finished",
-      "kickoffAt": "2026-11-23T14:30:00+02:00",
-      "intHomeScore": "2",
-      "intAwayScore": "1",
-      "halftime": "0:0",
-      "competition": "Северозападна Трета лига"
+      "status": "scheduled",
+      "kickoffAt": "2026-11-24T13:00:00+02:00",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Североизточна Трета лига"
     },
     {
-      "id": "bf-292a6fcde9e9",
-      "dateEvent": "2026-11-23",
-      "strTime": "14:30:00",
-      "intRound": "",
-      "roundLabel": "Втора професионална лига",
-      "strHomeTeam": "ЦСКА II (София)",
-      "strAwayTeam": "Берое",
-      "source": "bulgarian-football.com",
-      "timezone": "Europe/Sofia",
-      "timeConfirmed": true,
-      "status": "finished",
-      "kickoffAt": "2026-11-23T14:30:00+02:00",
-      "intHomeScore": "3",
-      "intAwayScore": "0",
-      "halftime": "2:0",
-      "competition": "Втора професионална лига"
-    },
-    {
-      "id": "bf-8ba438f1229b",
-      "dateEvent": "2026-11-23",
+      "id": "bf-3174ec61e0dc",
+      "dateEvent": "2026-11-24",
       "strTime": "18:00:00",
       "intRound": "",
-      "roundLabel": "Първа професионална лига - Първа фаза",
-      "strHomeTeam": "Лудогорец",
-      "strAwayTeam": "Дунав Русе",
+      "roundLabel": "Втора професионална лига",
+      "strHomeTeam": "Фратрия",
+      "strAwayTeam": "Янтра 2019",
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "finished",
-      "kickoffAt": "2026-11-23T18:00:00+02:00",
-      "intHomeScore": "1",
-      "intAwayScore": "0",
-      "halftime": "1:0",
-      "competition": "Първа професионална лига - Първа фаза"
+      "status": "scheduled",
+      "kickoffAt": "2026-11-24T18:00:00+02:00",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "competition": "Втора професионална лига"
     }
   ],
   "europe": {
