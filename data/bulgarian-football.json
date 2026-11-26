@@ -4,24 +4,24 @@
   "sourceUrl": "https://bulgarian-football.com/parva-liga.html",
   "season": "2026-2027",
   "timezone": "Europe/Sofia",
-  "updatedAt": "2026-11-26T11:09:17.559295+00:00",
-  "lastSuccessAt": "2026-11-26T11:09:17.559295+00:00",
+  "updatedAt": "2026-11-26T20:18:49.266160+00:00",
+  "lastSuccessAt": "2026-11-26T20:18:49.266160+00:00",
   "standingsPolicy": "published-source-order",
   "pages": {
     "parva_liga": {
       "url": "https://bulgarian-football.com/parva-liga.html",
-      "sha256": "5325701e9e2117dc65bdc035736c79a20310d3f78b39d0092226b624eb502ed1",
-      "checkedAt": "2026-11-26T11:09:17.559295+00:00"
+      "sha256": "fa6bb69b138437dba353dae715f3db58ccb4fdd64aa8072d8e2cf81105a9e9bc",
+      "checkedAt": "2026-11-26T20:18:49.266160+00:00"
     },
     "europe": {
       "url": "https://bulgarian-football.com/evroturniri.html",
-      "sha256": "7ec9b6a6aba91acbb2f469ea268c051c4ba404903bb02443beb58e1c84ace754",
-      "checkedAt": "2026-11-26T11:09:17.559295+00:00"
+      "sha256": "2c8eec528f03813d3d002250980c750655de29ecca70946a4b871ffab6af3130",
+      "checkedAt": "2026-11-26T20:18:49.266160+00:00"
     },
     "today": {
       "url": "https://bulgarian-football.com/machovete-dnes.html",
-      "sha256": "9a7c7c6f439deea071523df6d5963e56cddac0abaa91236ae1c1154dea58a0ce",
-      "checkedAt": "2026-11-26T11:09:17.559295+00:00"
+      "sha256": "f3570d0b2c1296266eb1b295efa31d993510c2a0c18f370db596ccedc954d53f",
+      "checkedAt": "2026-11-26T20:18:49.266160+00:00"
     }
   },
   "table": [
@@ -3794,6 +3794,24 @@
       "competition": "Приятелски срещи: Лято-есен"
     },
     {
+      "id": "bf-c2aeccefbdd5",
+      "dateEvent": "2026-11-26",
+      "strTime": "13:45:00",
+      "intRound": "",
+      "roundLabel": "Приятелски срещи: Лято-есен",
+      "strHomeTeam": "Олимпик II",
+      "strAwayTeam": "Левски II (София)",
+      "source": "bulgarian-football.com",
+      "timezone": "Europe/Sofia",
+      "timeConfirmed": true,
+      "status": "finished",
+      "kickoffAt": "2026-11-26T13:45:00+02:00",
+      "intHomeScore": "3",
+      "intAwayScore": "0",
+      "halftime": "1:0",
+      "competition": "Приятелски срещи: Лято-есен"
+    },
+    {
       "id": "bf-f8c1a86fa1b1",
       "dateEvent": "2026-11-26",
       "strTime": "14:30:00",
@@ -4025,10 +4043,11 @@
       "source": "bulgarian-football.com",
       "timezone": "Europe/Sofia",
       "timeConfirmed": true,
-      "status": "scheduled",
+      "status": "finished",
       "kickoffAt": "2026-11-26T19:45:00+02:00",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": "1",
+      "intAwayScore": "0",
+      "halftime": "1:0",
       "competition": "Лига Европа - Шампионатна фаза"
     },
     {
@@ -4808,10 +4827,11 @@
         "source": "bulgarian-football.com",
         "timezone": "Europe/Sofia",
         "timeConfirmed": true,
-        "status": "scheduled",
+        "status": "finished",
         "kickoffAt": "2026-11-26T19:45:00+02:00",
-        "intHomeScore": null,
-        "intAwayScore": null,
+        "intHomeScore": "1",
+        "intAwayScore": "0",
+        "halftime": "1:0",
         "competition": "Лига Европа"
       },
       {
